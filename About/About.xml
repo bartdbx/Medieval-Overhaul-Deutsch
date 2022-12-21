@@ -10,7 +10,6 @@
 	<loadAfter>
 	  <li>DankPyon.Medieval.Overhaul</li>
 	</loadAfter>
-	<loadBefore>Krkr.RocketMan</loadBefore>
 	<modDependencies>
 	  <li>
 	    <packageId>DankPyon.Medieval.Overhaul</packageId>
