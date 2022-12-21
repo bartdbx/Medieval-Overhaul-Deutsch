@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--========== FLOUR ==========-->
+  <RecipeDef>
+	<defName>DankPyon_CraftFlour</defName>
+	<label>Weizen zu Mehl mahlen</label>
+	<description>Weizen zu Mehl mahlen.</description>
+	<jobString>Grinding wheat into flour.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<workAmount>100</workAmount>
+    <soundWorking>Recipe_CookMeal</soundWorking>          	
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>DankPyon_RawWheat</li>
+	      </thingDefs>
+	    </filter>
+	    <count>1</count>
+	  </li>
+
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>DankPyon_RawWheat</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <DankPyon_Flour>1</DankPyon_Flour>
+	  <Hay>1</Hay>
+	</products>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>DankPyon_Millstone</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+  <RecipeDef>
+	<defName>DankPyon_CraftFlourBulk</defName>
+	<label>Weizen zu Mehl mahlen x10</label>
+	<description>Weizen zu Mehl mahlen.</description>
+	<jobString>Grinding wheat into 12 flour.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+	<workAmount>800</workAmount>
+    <soundWorking>Recipe_CookMeal</soundWorking>          	
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>DankPyon_RawWheat</li>
+	      </thingDefs>
+	    </filter>
+	    <count>10</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>DankPyon_RawWheat</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+    <products>
+    	<DankPyon_Flour>10</DankPyon_Flour>
+		<Hay>10</Hay>      
+    </products>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>DankPyon_Millstone</li>
+    </recipeUsers>
+  </RecipeDef>
+
+<!--========== SUGAR ==========-->
+  <RecipeDef>
+	<defName>DankPyon_CraftSugar</defName>
+	<label>Zuckerrohr zu Zucker mahlen</label>
+	<description>Zuckerrohr zu Zucker mahlen.</description>
+	<jobString>Grinding sugarcane into sugar.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<workAmount>100</workAmount>
+    <soundWorking>Recipe_CookMeal</soundWorking>          	
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>DankPyon_Sugarcane</li>
+	      </thingDefs>
+	    </filter>
+	    <count>1</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>DankPyon_Sugarcane</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <DankPyon_Sugar>1</DankPyon_Sugar>
+	</products>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>DankPyon_Millstone</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+	<defName>DankPyon_CraftSugarBulk</defName>
+	<label>Zuckerrohr zu Zucker mahlen x10</label>
+	<description>Zuckerrohr zu 10 Zucker mahlen.</description>
+	<jobString>Grinding sugarcane into 10 sugar.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<workAmount>800</workAmount>
+    <soundWorking>Recipe_CookMeal</soundWorking>          	
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	  <li>
+	    <filter>
+	      <thingDefs>
+	        <li>DankPyon_Sugarcane</li>
+	      </thingDefs>
+	    </filter>
+	    <count>10</count>
+	  </li>
+	</ingredients>
+	<fixedIngredientFilter>
+	  <thingDefs>
+	    <li>DankPyon_Sugarcane</li>
+	  </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowRotten</li>
+      </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<products>
+	  <DankPyon_Sugar>10</DankPyon_Sugar>
+	</products>
+	<workSkill>Cooking</workSkill>
+	<recipeUsers>
+         <li>DankPyon_Millstone</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

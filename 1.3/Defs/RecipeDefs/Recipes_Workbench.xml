@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Ammuniation: Base Class --> 
+ <RecipeDef Name="DankPyon_MakeableAmmunitionBase" Abstract="True">
+	<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<workSkill>Crafting</workSkill>
+	<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	<effectWorking>Smith</effectWorking>
+	<allowMixingIngredients>false</allowMixingIngredients>	
+	<soundWorking>Recipe_Smith</soundWorking>
+		<recipeUsers>
+			<li>DankPyon_Workbench</li>
+		</recipeUsers>	
+</RecipeDef>	
+
+<!-- Ammuniation: Ballista Bolts --> 
+
+
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_BallistaBolt</defName>
+	<workAmount>200</workAmount>		
+	<label>Ballista-Bolzen herstellen x10</label>
+	<jobString>Ballista-Bolzen herstellen.</jobString>
+	<targetCountAdjustment>5</targetCountAdjustment>	
+  <researchPrerequisites>
+    <li>DankPyon_Ballista</li>
+  </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_IronIngot</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>DankPyon_IronIngot</li>
+			<li>WoodLog</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_BallistaBolt>10</DankPyon_BallistaBolt>
+	</products>		
+</RecipeDef>
+
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_BallistaBoltBulk</defName>
+	<workAmount>200</workAmount>		
+	<label>Ballista-Bolzen herstellen x50</label>
+	<jobString>50 mal Ballista-Bolzen herstellen.</jobString>
+	<targetCountAdjustment>50</targetCountAdjustment>	
+  <researchPrerequisites>
+    <li>DankPyon_Ballista</li>
+  </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_IronIngot</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>WoodLog</li>
+				</thingDefs>
+			</filter>
+			<count>25</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>DankPyon_IronIngot</li>
+			<li>WoodLog</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_BallistaBolt>50</DankPyon_BallistaBolt>
+	</products>		
+</RecipeDef>
+
+<!-- Ammuniation: Stone Boulder --> 
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_StoneBoulder</defName>
+	<workAmount>800</workAmount>		
+	<label>Steinbrocken in Steinblöcke schneiden</label>
+	<jobString>Steinbrocken in Steinblöcke schneiden.</jobString>
+	<targetCountAdjustment>5</targetCountAdjustment>	
+    <researchPrerequisites>
+        <li>DankPyon_Trebuchet</li>
+    </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+            <li>StoneChunks</li>
+        </categories>
+			</filter>
+			<count>1</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+        <li>StoneChunks</li>
+    </categories>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_StoneBoulder>1</DankPyon_StoneBoulder>
+	</products>		
+</RecipeDef>
+
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_StoneBoulderBulk</defName>
+	<workAmount>3200</workAmount>		
+	<label>Steinbrocken in Steinblöcke schneiden x5</label>
+	<jobString>Steinbrocken in 5 Steinblöcke schneiden.</jobString>
+	<targetCountAdjustment>50</targetCountAdjustment>	
+  <researchPrerequisites>
+    <li>DankPyon_Trebuchet</li>
+  </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+                    <li>StoneChunks</li>
+                </categories>
+			</filter>
+			<count>5</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+        <li>StoneChunks</li>
+    </categories>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_StoneBoulder>5</DankPyon_StoneBoulder>
+	</products>		
+</RecipeDef>
+
+<!-- Ammuniation: Stone Boulder --> 
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_StoneBoulderTarred</defName>
+	<workAmount>200</workAmount>		
+	<label>Teersteinbrocken</label>
+	<jobString>Felsbrocken mit Teer bedecken.</jobString>
+	<targetCountAdjustment>5</targetCountAdjustment>	
+    <researchPrerequisites>
+        <li>DankPyon_Tar</li>
+    </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+            <li>DankPyon_StoneBoulder</li>
+        </thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+    <li>
+			<filter>
+				<thingDefs>
+            <li>DankPyon_Tar</li>
+        </thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+			<thingDefs>
+          <li>DankPyon_StoneBoulder</li>
+      </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_StoneBoulderTarred>1</DankPyon_StoneBoulderTarred>
+	</products>		
+</RecipeDef>
+
+<RecipeDef ParentName="DankPyon_MakeableAmmunitionBase">
+	<defName>DankPyon_MakeBullet_StoneBoulderTarredBulk</defName>
+	<workAmount>1000</workAmount>		
+	<label>Teersteinbrocken x5</label>
+	<jobString>Bedecken von 5 Felsblöcken mit Teer.</jobString>
+	<targetCountAdjustment>5</targetCountAdjustment>	
+    <researchPrerequisites>
+        <li>DankPyon_Tar</li>
+    </researchPrerequisites>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+            <li>DankPyon_StoneBoulder</li>
+        </thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+     <li>
+			<filter>
+				<thingDefs>
+            <li>DankPyon_Tar</li>
+        </thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+			<thingDefs>
+          <li>DankPyon_StoneBoulder</li>
+      </thingDefs>
+	</fixedIngredientFilter>
+	<products>
+		<DankPyon_StoneBoulderTarred>5</DankPyon_StoneBoulderTarred>
+	</products>		
+</RecipeDef>
+ <!-- Make Component Basic  --> 
+ <RecipeDef>
+    <defName>DankPyon_Make_ComponentBasic</defName>
+    <label>Grundkomponente erstellen</label>
+    <description>Grundkomponente erstellen</description>
+    <jobString>Grundkomponente erstellen.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>2500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	<recipeUsers>
+		<li>DankPyon_Workbench</li>
+	</recipeUsers>
+  <researchPrerequisites>
+    <li>DankPyon_Engineering</li>
+  </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_IronIngot</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_IronIngot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DankPyon_ComponentBasic>1</DankPyon_ComponentBasic>
+    </products>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+  <!-- Make Component Basic Bulk --> 
+ <RecipeDef>
+    <defName>DankPyon_Make_ComponentBasicBulk</defName>
+    <label>(Bulk x4) Erstellen Sie mittelalterliche Komponenten</label>
+    <description>Erstellen Sie 4 mittelalterliche Komponenten.</description>
+    <jobString>Grundkomponente 4 erstellen.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>7500</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+	  <recipeUsers>
+		  <li>DankPyon_Workbench</li>
+	  </recipeUsers>
+    <researchPrerequisites>
+      <li>DankPyon_Engineering</li>
+    </researchPrerequisites>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_IronIngot</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_IronIngot</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <DankPyon_ComponentBasic>5</DankPyon_ComponentBasic>
+    </products>
+    <skillRequirements>
+      <Crafting>9</Crafting>
+    </skillRequirements>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+
+ <!--RecipeDef>
+  <defName>DankPyon_Make_Plate</defName>
+  <label>Holzteller erstellen</label>
+  <description>einen Holzteller erstellen</description>
+  <jobString>Holzteller erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>200</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_PlateClean>1</DankPyon_PlateClean>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>DankPyon_Make_PlateBulk</defName>
+  <label>(Bulk 4x) Holzteller erstellen</label>
+  <description>4 mal Holzteller erstellen.</description>
+  <jobString>Holzteller 4 mal erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>800</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_PlateClean>4</DankPyon_PlateClean>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>DankPyon_Make_Bowl</defName>
+  <label>Holzschale erstellen</label>
+  <description>Holzschale erstellen.</description>
+  <jobString>Holzschale erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>100</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_BowlClean>1</DankPyon_BowlClean>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef>
+
+<RecipeDef>
+  <defName>DankPyon_Make_BowlBulk</defName>
+  <label>(Bulk 4x) Holzschale erstellen</label>
+  <description>4 mal Holzschale erstellen.</description>
+  <jobString>Holzschale 4 mal erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>400</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>20</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_BowlClean>4</DankPyon_BowlClean>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef-->
+
+<!-- Make Paper  --> 
+<!--RecipeDef>
+  <defName>DankPyon_Make_Paper</defName>
+  <label>(20x) Papier erstellen</label>
+  <description>10 mal Papier erstellen.</description>
+  <jobString>Papier erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>500</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>5</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_Paper>20</DankPyon_Paper>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef-->
+
+<!-- Make Paper  --> 
+<!--RecipeDef>
+  <defName>DankPyon_Make_PaperBulk</defName>
+  <label>(100x) Papier erstellen</label>
+  <description>100 mal Papier erstellen.</description>
+  <jobString>Papier 100 mal erstellen.</jobString>
+  <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_Sculpt</soundWorking>
+  <workAmount>1000</workAmount>
+<recipeUsers>
+  <li>DankPyon_Workbench</li>
+</recipeUsers>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WoodLog</li>
+        </thingDefs>
+      </filter>
+      <count>25</count>
+    </li>
+  </ingredients>
+  <fixedIngredientFilter>
+    <thingDefs>
+      <li>WoodLog</li>
+    </thingDefs>
+  </fixedIngredientFilter>
+  <products>
+    <DankPyon_Paper>100</DankPyon_Paper>
+  </products>
+  <workSkill>Crafting</workSkill>
+</RecipeDef-->
+
+</Defs>

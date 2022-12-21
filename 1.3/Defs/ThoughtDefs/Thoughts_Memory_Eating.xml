@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ======= Griffon Berry thoughts ========= -->
+
+
+	<ThoughtDef>	
+		<defName>DankPyon_AteGriffonBerry</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.4</durationDays>
+		<stages>
+			<li>
+				<label>Greifenbeeren</label>
+				<description>PLACEHOLDER</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>	
+		
+	</ThoughtDef>
+
+	<!-- ======= Drinks based thoughts ========= -->
+
+	<ThoughtDef>	
+		<defName>DankPyon_DrankAle</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.4</durationDays>
+		<stages>
+			<li>
+				<label>Gutes, altes Bier</label>
+				<description>Nichts ist so gut wie Bier, um die Schrecken aus meinem Kopf zu verbannen.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>	
+	</ThoughtDef>
+	
+	<ThoughtDef>	
+		<defName>DankPyon_DrankWine</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.4</durationDays>
+		<stages>
+			<li>
+				<label>Ein Glas Wein</label>
+				<description>Ich fühle mich wie ein Adliger ... und vielleicht denke ich auch wie einer.</description>
+				<baseMoodEffect>8</baseMoodEffect>
+			</li>
+		</stages>	
+	</ThoughtDef>
+
+	<!-- ======= Food Quality Thoughts ========= -->
+	<!-- Hearty Stew -->
+	<ThoughtDef>
+		<defName>DankPyon_AteHeartyStew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>aß herzhaften Eintopf</label>
+				<description>Ich habe einen herzhaften Eintopf gegessen, eine köstliche Mahlzeit, die meinen Körper wärmt.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+  
+	<!-- Weak Stew -->
+	<ThoughtDef>
+		<defName>DankPyon_AteWeakStew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+			<li>
+				<label>aß faden Eintopf</label>
+				<description>Ich habe einen faden Eintopf gegessen, eine Mahlzeit, die meinen Körper wärmt, mehr aber auch nicht.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+  </ThoughtDef>
+  
+  <!-- Cheese -->  
+	<ThoughtDef>
+		<defName>DankPyon_AteCheese</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Käse</label>
+				<description>Käse! Oh, wie liebe ich dich...</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Rox Steak -->
+	<ThoughtDef>
+		<defName>DankPyon_AteRoxSteak</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Roxsteak</label>
+				<description>Ein Roxsteak! Sein fettes Fleisch zergeht im Mund, während einem die Sauce einen wunderbaren Kick gibt!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Griffon Berry Pie -->
+	<ThoughtDef>
+		<defName>DankPyon_AteGriffonBerryPie</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Greifbeerenpastete</label>
+				<description>Ein Kuchen wie für Greifen gebacken! Solch ein tiefes Aroma befriedigt die Zunge unglaublich!</description>
+				<baseMoodEffect>15</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Smoked Meat -->
+	<ThoughtDef>
+		<defName>DankPyon_AteSmokedMeat</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Dörrfleisch</label>
+				<description>Das geräucherte Fleisch hatte einen wirklich rustikalen Geschmack.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Bread Soup -->
+	<ThoughtDef>
+		<defName>DankPyon_AteBreadSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Brotsuppe</label>
+				<description>Ein Stück Brot, gefüllt mit herzhafter Suppe – ich bin nicht verliebt, aber meine Kraft fühlt sich verjüngt an.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Grilled Sausages -->
+	<ThoughtDef>
+		<defName>DankPyon_AteGrilledSausages</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Grillwürstchen</label>
+				<description>Diese Würste haben einen herzhaften und rauchigen Geschmack!</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Apple Pie -->
+	<ThoughtDef>
+		<defName>DankPyon_AteApplePie</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Apfelkuchen</label>
+				<description>Was für ein Leckerbissen! Wer hätte gedacht, dass man Äpfel noch süßer machen kann?</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Hunters Stew -->
+	<ThoughtDef>
+		<defName>DankPyon_AteHuntersStew</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Jägertopf</label>
+				<description>Der Eintopf war gespickt mit herzhaften Zutaten. Es hat meinen Körper genährt!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Mashed Potatoes -->
+	<ThoughtDef>
+		<defName>DankPyon_AteMashedPotatoes</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Kartoffelbrei</label>
+				<description>Diese Schüssel Kartoffelpüree hatte einen angenehmen cremigen Geschmack.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Grilled Cheese -->
+	<ThoughtDef>
+		<defName>DankPyon_AteGrilledCheese</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Grillkäse</label>
+				<description>Ich habe ein klebriges, leckeres, luxuriöses Stück gegrillten Käse gegessen.</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Quiche -->
+	<ThoughtDef>
+		<defName>DankPyon_AteQuiche</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Quiche</label>
+				<description>Ich aß eine herzhafte Pastete aus Ei und Fleisch. Lecker!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Sweet Pancakes -->
+	<ThoughtDef>
+		<defName>DankPyon_AteSweetPancakes</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Pfannkuchen</label>
+				<description>Ich aß einen Stapel süßer, dicker Pfannkuchen mit Sirup. Lecker!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Winter Lentil Soup -->
+	<ThoughtDef>
+		<defName>DankPyon_AteWinterLentilSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Winterlinsensuppe</label>
+				<description>Ich aß eine beruhigende Suppe aus Linsen und Gewürzen. Eine wohlige Wärme durchströmt meinen Körper.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Mushroom Soup -->
+	<ThoughtDef>
+		<defName>DankPyon_AteMushroomSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Pilzsuppe</label>
+				<description>Ich aß eine reichhaltige Suppe aus gehackten Pilzen. So erdig, so gut!</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Tomato Omelette -->
+	<ThoughtDef>
+		<defName>DankPyon_AteTomatoOmelette</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Tomatenomlett</label>
+				<description>Ich habe ein mit Tomaten gefülltes Omelett gegessen. Saftig und doch herzhaft!</description>
+				<baseMoodEffect>5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Vegetable Pot -->
+	<ThoughtDef>
+		<defName>DankPyon_AteVegetablePot</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Gemüsetopf</label>
+				<description>Ich habe einen herzhaften Eintopf mit Gemüse und Kräutern gegessen. Herzhaft und gesund.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Pumpkin Pie -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePumpkinPie</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Kürbiskuchen</label>
+				<description>Süß und doch leicht würzig. Was für ein leckerer Kuchen!</description>
+				<baseMoodEffect>6</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Pumpkin Fritters -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePumpkinFritters</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Kürbisfritten</label>
+				<description>Die richtige Süße an einer dicken und sättigenden Fritte. Hat jemand etwas Ale, mit dem man das runterspülen kann?</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Grilled Skewers -->
+	<ThoughtDef>
+		<defName>DankPyon_AteGrilledSkewers</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Grillspieße</label>
+				<description>Einfach zu essen und lecker. Was soll man sonst noch zu Fleisch am Stiel sagen? </description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Pumpkin Soup -->
+	<ThoughtDef>
+		<defName>DankPyon_AtePumpkinSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Kürbissuppe</label>
+				<description>Ich aß eine dicke Suppe aus Kürbis und Gewürzen. Eine herrliche Wärme durchströmt meinen Körper.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Steak with Wine -->
+	<ThoughtDef>
+		<defName>DankPyon_AteSteakWithWine</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Steak mit Wein</label>
+				<description>Das zarte Steak schmilzt mit jedem Bissen und die reichhaltige Weinsauce erhöht den Geschmack des Gerichts. Wenn ich was essen könnte, wäre es immer Steak mit Wein."</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Boiled Bean and Onion -->
+	<ThoughtDef>
+		<defName>DankPyon_AteBoiledBeansAndOnion</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Bohneneintopf mit Zwiebeln</label>
+				<description>Es ist eine Bohnen-Zwiebel-Suppe. Ich bin satt und fühle mich energiegeladen, der Geschmack ist einfach unvergesslich.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+<!-- Cheese Soup -->
+	<ThoughtDef>
+		<defName>DankPyon_AteCheeseSoup</defName>
+		<showBubble>true</showBubble>
+		<icon>Things/Mote/ThoughtSymbol/Food</icon>
+		<durationDays>0.5</durationDays>
+		<stackLimit>1</stackLimit>	
+		<stages>
+			<li>
+				<label>aß Käsesuppe</label>
+				<description>So wie der Käse in der Gewürzbrühe schmilzt, will ich tanzen! Das einzig Negative ist, dass die Leute zuschauen.</description>
+				<baseMoodEffect>12</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+</Defs>

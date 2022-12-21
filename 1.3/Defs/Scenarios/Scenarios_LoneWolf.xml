@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>DankPyon_LoneWolfStart</defName>
+    <label>Einsamer Wolf</label>
+    <description>Ein Jahr Dienst – das war der Deal. Der Lord, dem ich folgte, versuchte viele Male, mein Schwert an seiner Seite zu behalten, aber ein Geschäft ist ein Geschäft, und nach einem Jahr habe ich keine weiteren Eide mehr geschworen. Als ich die bewaldeten Hügel durchquere, frage ich mich oft, ob die Entscheidung richtig war.
+
+       Ich habe zwar Reichtum gehortet, aber Banditen streifen durch die Landschaft, und sollte mich mein Lagerfeuer nicht verraten, hungrige Bestien und Ungeheuer verstecken sich in der Dunkelheit, immer bereit mich als nächste Mahlzeit anzusehen. Ich frage mich oft, ob ich meinem Herrn hätte erlauben sollen, mich wieder als sein Schwert zu führen, aber ich weiß auch, dass ich damit auf meine Freiheit verzichtet hätte.
+      
+       Nachdem ich also mein Silber abgeholt habe, marschiere ich, soweit ich nur kann. Vielleicht habe ich das Glück, ein Gehöft zu finden, eine Halle zu bauen und meine eigenen Hauskrieger um mich zu sammeln. Aber das langfristige Ziel schien so weit weg, da ich mich momentan auf meine wichtigsten, naheliegenden Probleme konzentrieren muss.
+      
+       Zuerst muss ich überleben.</description>
+      
+    <scenario>
+      <summary>Einsamer Wolf - Einzelerfahrung</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>DankPyon_LoneWolf</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>1</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player pawns modifiers -->
+        <!--li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.5</chance>
+          <hediff>CryptosleepSickness</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~1</severityRange>
+        </li-->
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>500</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_DriedMeat</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_ComponentBasic</thingDef>
+          <count>10</count>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+        <!-- Scatter some things near player start -->
+
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>DankPyon_BrokenCart</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

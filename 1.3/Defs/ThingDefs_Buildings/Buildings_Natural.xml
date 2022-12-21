@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--================================ Coal Ore ======================================-->
+        
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableCoal</defName>
+    <label>Kohle Erze</label>
+    <description>Gestein mit Kohlebrocken.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,114,114)</color>
+            <colorTwo>(57,53,52)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Coal</mineableThing>
+            <mineableYield>40</mineableYield>
+            <mineableScatterCommonality>0.75</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="RockBase">
+    <defName>DankPyon_MineableSalt</defName>
+    <label>Salz Erze</label>
+    <description>Gestein mit Salzbrocken.</description>
+        <graphicData>
+        <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,114,114)</color>
+            <colorTwo>(248,177,133)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Salt</mineableThing>
+            <mineableYield>40</mineableYield>
+            <mineableScatterCommonality>0.75</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>15~20</mineableScatterLumpSizeRange>
+        </building>
+  </ThingDef>
+  
+  <!--============================ Resource rocks ===============================-->
+  
+  <ThingDef ParentName="RockBase">
+    <defName>DankPyon_MineableGold</defName>
+    <label>Gold Erze</label>
+    <description>Gestein mit Goldstücken.</description>
+    <graphicData>
+      <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <color>(89,83,68)</color>
+      <colorTwo>(187,173,25)</colorTwo>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1500</MaxHitPoints>
+    </statBases>
+    <building>
+      <isResourceRock>true</isResourceRock>
+      <mineableThing>DankPyon_GoldOre</mineableThing>
+      <mineableYield>40</mineableYield>
+      <mineableScatterCommonality>0.07</mineableScatterCommonality>
+      <mineableScatterLumpSizeRange>2~8</mineableScatterLumpSizeRange>
+		   </building>
+    </ThingDef>
+    
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableIron</defName>
+        <label>iron ore</label>
+        <description>Rock containing bits of iron.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(112,108,101)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>            <mineableThing>DankPyon_IronOre</mineableThing>
+            <mineableYield>40</mineableYield>
+            <mineableScatterCommonality>1</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>30~40</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+    <!--============================ Gemstone ===============================-->
+     <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableCitrine</defName>
+        <label>Citrin-Lagerstätte</label>
+        <description>Stein, der Citrinstücke enthält.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(206,140,80)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Citrine</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.2</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~6</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableAmber</defName>
+        <label>Bernsteindepot</label>
+        <description>Felsen mit Bernsteinstücken.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(206,140,80)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Amber</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.15</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~6</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableOnyx</defName>
+        <label>Onyxlagerstätte</label>
+        <description>Felsen mit Onyxstücken.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(43,43,43)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Onyx</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.9</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~4</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableEmerald</defName>
+        <label>Smaragdvorkommen</label>
+        <description>Felsen mit Smaragdstücken.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(117,153,94)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Emerald</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.7</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~4</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableSapphire</defName>
+        <label>Saphir-Lagerstätte</label>
+        <description>Felsen, die Saphirstücke enthalten.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(60,109,158)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Sapphire</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.5</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~4</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="RockBase">
+        <defName>DankPyon_MineableRuby</defName>
+        <label>Rubinlagerstätte</label>
+        <description>Stein, der Rubinstücke enthält.</description>
+        <graphicData>
+            <texPath>Things/Building/Linked/RockFlecked_Atlas</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <color>(114,92,83)</color>
+            <colorTwo>(170,49,49)</colorTwo>
+        </graphicData>
+
+        <statBases>
+            <MaxHitPoints>1500</MaxHitPoints>
+        </statBases>
+
+        <building>
+            <isResourceRock>true</isResourceRock>
+            <mineableThing>DankPyon_Ruby</mineableThing>
+            <mineableYield>10</mineableYield>
+            <mineableScatterCommonality>0.4</mineableScatterCommonality>
+            <mineableScatterLumpSizeRange>2~4</mineableScatterLumpSizeRange>
+        </building>
+    </ThingDef>
+
+    <!-- Buildings -->
+    <ThingDef ParentName="BuildingNaturalBase">
+    <defName>DankPyon_TarPit</defName>
+    <label>Teergrube</label>
+    <description>Eine natürliche Quelle für Teer. \n\nAufbauen, um Ressourcen zu ernten.</description>
+    <thingClass>Building</thingClass>
+    <graphicData>
+      <texPath>Natural/TarPit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+
+    <uiIconScale>0.5</uiIconScale>
+    <altitudeLayer>Floor</altitudeLayer>
+    <rotatable>false</rotatable>
+    <destroyable>true</destroyable>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(2,2)</size>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <blockPlants>true</blockPlants>
+    <building>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>true</deconstructible>
+
+    </building>
+
+    <costList>
+      <DankPyon_Tar>200</DankPyon_Tar>
+    </costList>
+  </ThingDef>
+
+</Defs> 

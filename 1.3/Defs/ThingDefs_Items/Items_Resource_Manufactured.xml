@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Component Medieval ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_ComponentBasic</defName>
+    <label>grundlegende Komponente</label>
+    <description>Verschiedene Zahnräder, Räder, Nägel. Erforderlich für den Zusammenbau komplexer Vorrichtungen.</description>
+    <graphicData>
+      <texPath>Resources/ComponentMedieval</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <MarketValue>15</MarketValue>
+      <Mass>0.6</Mass>
+      <Flammability>0.6</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!--=============== Papers please ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_Paper</defName>
+    <label>Papier</label>
+    <description>Ein leeres Blatt Papier. Nützlich zum Kritzeln oder Schreiben von Notizen.</description>
+    <graphicData>
+      <texPath>Resources/Paper</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Wood_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <statBases>
+      <MaxHitPoints>20</MaxHitPoints>
+      <MarketValue>2</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>1</Flammability>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+
+  <!--=============== Tannin Liquor ====================-->
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_TanningLiquor</defName>
+    <label>Gerbbranntwein</label>
+    <description>In dieser Brühe sind die aus verschiedenen natürlichen Quellen ausgelaugten Gerbstoffe konzentriert. Sie kann verwendet werden, um rohe Häute zu gegerbtem Leder zu verarbeiten.</description>
+    <graphicData>
+      <texPath>Resources/Tannin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+		<stackLimit>25</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<statBases>
+			<DeteriorationRate>1.0</DeteriorationRate>
+			<MarketValue>2.2</MarketValue>
+			<Mass>0.8</Mass>
+			<Flammability>0.05</Flammability>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+  </ThingDef>
+
+<!--=============== Tar ====================-->
+<ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_Tar</defName>
+    <label>Talg</label>
+    <description>Eine schwarze, viskose Flüssigkeit, die als Klebstoff oder brennbares Material für Belagerungszwecke verwendet wird.</description>
+    <graphicData>
+        <texPath>Resources/Tar</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <thingCategories>
+        <li>Manufactured</li>
+    </thingCategories>
+    <statBases>
+        <DeteriorationRate>1.0</DeteriorationRate>
+        <MarketValue>0.9</MarketValue>
+        <Mass>1</Mass>
+        <Flammability>2</Flammability>
+        <MaxHitPoints>60</MaxHitPoints>
+    </statBases>
+</ThingDef>
+
+<!--=============== Gunpowder ====================-->
+<ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_Gunpowder</defName>
+    <label>Schießpulver</label>
+    <description>Eine schwarze, pulverförmige Substanz, die hochexplosiv ist und normalerweise in Feuerwaffen verwendet wird.</description>
+    <graphicData>
+        <texPath>Resources/Gunpowder</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>25</stackLimit>
+    <thingCategories>
+        <li>Manufactured</li>
+    </thingCategories>
+    <statBases>
+        <DeteriorationRate>1.0</DeteriorationRate>
+        <MarketValue>0.9</MarketValue>
+        <Mass>1</Mass>
+        <Flammability>2</Flammability>
+        <MaxHitPoints>60</MaxHitPoints>
+    </statBases>
+
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>2.66</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+      </li>
+    </comps>
+</ThingDef>
+
+
+  <!--=============== Ballista Bolts ====================-->
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>DankPyon_BallistaBolt</defName>
+    <label>Ballistabolzen</label>
+    <description>Ein schwerer Bolzen, der von Ballistas verwendet wird.</description>
+    <graphicData>
+      <texPath>Resources/BallistaBolt</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <uiIconPath>Resources/BallistaBolt_Icon</uiIconPath>
+    <costList>
+      <DankPyon_IronIngot>1</DankPyon_IronIngot>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <thingCategories Inherit="False">
+			<li>Manufactured</li>
+		</thingCategories>
+    <recipeMaker>
+      <researchPrerequisite>DankPyon_Ballista</researchPrerequisite>
+    </recipeMaker>
+</ThingDef>
+
+<!--=============== Stone Boulder ====================-->
+<ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_StoneBoulder</defName>
+    <label>Steinbrocken</label>
+    <description>Ein schwerer Felsbrocken, robust und rund.</description>
+    
+    <graphicData>
+        <texPath>Resources/StoneBoulder</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+
+    <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <MarketValue>20</MarketValue>
+        <Mass>40</Mass>
+        <Flammability>0</Flammability>
+        <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <stackLimit>10</stackLimit>
+
+    <thingCategories>
+        <li>DankPyon_TrebuchetAmmo</li>
+    </thingCategories>
+
+    <techLevel>Medieval</techLevel>
+
+    <projectileWhenLoaded>DankPyon_Artillery_Boulder</projectileWhenLoaded>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+    <defName>DankPyon_Artillery_Boulder</defName>
+    <label>Steinbrocken</label>
+    <graphicData>
+        <texPath>Projectile/BoulderBullet</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+        <speed>33</speed>
+        <explosionRadius>2</explosionRadius>
+        <flyOverhead>true</flyOverhead>
+        <damageDef>DankPyon_Boulder</damageDef>
+        <damageAmountBase>80</damageAmountBase>
+        <stoppingPower>4</stoppingPower>
+        <preExplosionSpawnChance>0.4</preExplosionSpawnChance>
+        <preExplosionSpawnThingDef>Filth_RubbleRock</preExplosionSpawnThingDef>
+        <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+        <soundExplode>DankPyon_Explosion_Boulder</soundExplode>
+        <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+        <soundAmbient>MortarRound_Ambient</soundAmbient>    
+    </projectile>
+</ThingDef>
+
+<!--=============== Stone Boulder covered with Tar ====================-->
+<ThingDef ParentName="ResourceBase">
+    <defName>DankPyon_StoneBoulderTarred</defName>
+    <label>geteerter Steinbrocken</label>
+    <description>Ein schwerer Felsbrocken, robust und rund.\n\nMit Teer bedeckt, der angezündet werden kann, sobald er geworfen werden soll.</description>
+    
+    <graphicData>
+        <texPath>Resources/STarredStoneBoulder</texPath>
+        <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+
+    <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <MarketValue>20</MarketValue>
+        <Mass>40</Mass>
+        <Flammability>0</Flammability>
+        <DeteriorationRate>0</DeteriorationRate>
+    </statBases>
+    <stackLimit>10</stackLimit>
+
+    <thingCategories>
+        <li>DankPyon_TrebuchetAmmo</li>
+    </thingCategories>
+
+    <techLevel>Medieval</techLevel>
+
+    <projectileWhenLoaded>DankPyon_Artillery_BoulderTarred</projectileWhenLoaded>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+    <defName>DankPyon_Artillery_BoulderTarred</defName>
+    <label>geteerter Felsbrocken</label>
+    <graphicData>
+        <texPath>Projectile/BoulderFlamingBullet</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>TransparentPostLight</shaderType>
+        <drawSize>(2.5,2.5)</drawSize>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+        <speed>33</speed>
+        <explosionRadius>2</explosionRadius>
+        <flyOverhead>true</flyOverhead>
+        <damageDef>Flame</damageDef>
+        <damageAmountBase>80</damageAmountBase>
+        <stoppingPower>3</stoppingPower>
+        <preExplosionSpawnChance>0.4</preExplosionSpawnChance>
+        <preExplosionSpawnThingDef>DankPyon_Filth_Tar</preExplosionSpawnThingDef>
+        <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+        <soundExplode>DankPyon_Explosion_Boulder</soundExplode>
+        <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+        <soundAmbient>MortarRound_Ambient</soundAmbient>    
+        <ai_IsIncendiary>true</ai_IsIncendiary>
+    </projectile>
+</ThingDef>
+  <!--=============== Plates Clean ====================-->
+  <!--
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>DankPyon_PlateClean</defName>
+    <label>Sauberer Teller</label>
+    <description>Ein sauberer Teller, bereit für die Verwendung von Geschirr.</description>
+    <graphicData>
+      <texPath>Resources/PlateClean</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+  </ThingDef> -->
+
+  <!--=============== Plates Dirty ====================-->
+  <!--
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>DankPyon_PlateDirty</defName>
+    <label>Schmutziger Teller</label>
+    <description>Ein schmutziger Teller, der erst gewaschen werden muss, um brauchbar zu sein.</description>
+    <graphicData>
+      <texPath>Resources/PlateDirty</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+  </ThingDef> -->
+
+  <!--=============== Bowls Clean ====================-->
+  <!--
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>DankPyon_BowlClean</defName>
+    <label>Saubere Schüssel</label>
+    <description>Eine saubere Schüssel, die für die Mahlzeiten verwendet werden kann.</description>
+    <graphicData>
+      <texPath>Resources/BowlClean</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+  </ThingDef> -->
+
+  <!--=============== Bowls Dirty ====================-->
+  <!--
+  <ThingDef ParentName="MakeableShellBase">
+    <defName>DankPyon_BowlDirty</defName>
+    <label>Schmutzige Schüssel</label>
+    <description>Eine schmutzige Schüssel, die erst gewaschen werden muss, um benutzbar zu sein.</description>
+    <graphicData>
+      <texPath>Resources/BowlDirty</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <costList>
+      <WoodLog>5</WoodLog>
+    </costList>
+  </ThingDef> -->
+
+</Defs>

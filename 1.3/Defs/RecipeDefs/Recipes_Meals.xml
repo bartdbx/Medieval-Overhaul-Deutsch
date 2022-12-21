@@ -1,0 +1,4047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Defs>
+
+	<!--============== Ingredients ===============-->
+	<RecipeDef>
+		<defName>DankPyon_MakeTallow</defName>
+		<label>Talg erstellen</label>
+		<description>Fett auslassen, um Talf zu erstellen.</description>
+		<jobString>1 Talg herstellen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>100</workAmount> 
+		<recipeUsers>	  
+		<li>Campfire</li>
+		<li>FueledStove</li>
+		<li>ElectricStove</li>
+		<li>DankPyon_RusticCookingTable</li>	  	  
+		</recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Fat</li>
+					  </thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Salt</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+	
+		<products>
+			<DankPyon_Tallow>1</DankPyon_Tallow>
+		</products>
+	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_Tallow</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_MakeTallowBulk</defName>
+		<label>Talg herstellen x10</label>
+		<description>Fett auslassen, um Talg zu erstellen.</description>
+		<jobString>10 Talg herstellen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>100</workAmount> 
+			  <recipeUsers>	  
+				<li>Campfire</li>
+				<li>FueledStove</li>
+				<li>ElectricStove</li>
+				<li>DankPyon_RusticCookingTable</li>			  	  
+			  </recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Fat</li>
+					  </thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Salt</li>
+					  </thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+	
+		<products>
+			<DankPyon_Tallow>5</DankPyon_Tallow>
+		</products>
+	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_Tallow</li>
+				<li>DankPyon_Salt</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_MakeSpice</defName>
+		<label>Würze herstellen</label>
+		<description>Aus frischen Gewürzen Würze herstellen.</description>
+		<jobString>1 Würze herstellen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>100</workAmount> 
+			  <recipeUsers>	  
+				<li>DankPyon_RusticCookingTable</li>		  	  
+			  </recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawHerb</li>
+					  </thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+	
+		<products>
+			<DankPyon_Spices>1</DankPyon_Spices>
+		</products>
+	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>DankPyon_MakeSpiceBulk</defName>
+		<label>Würze herstellen x10</label>
+		<description>Aus frischen Gewürzen 10 mal Würze herstellen.</description>
+		<jobString>10 Würze herstellen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>1000</workAmount> 
+			  <recipeUsers>	  
+				<li>DankPyon_RusticCookingTable</li>		  	  
+			  </recipeUsers>	
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawHerb</li>
+					  </thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+	
+		<products>
+			<DankPyon_Spices>10</DankPyon_Spices>
+		</products>
+	
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawHerb</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisites>
+			<li>DankPyon_BasicCooking</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+<!--============== Tier 1 Meals ===============-->
+<!-- ======= Bone Soup ====== -->
+<!-- Bone Soup -->
+<RecipeDef>
+	<defName>DankPyon_CookMealBoneSoup</defName>
+	<label>Knochensuppe herstellen</label>
+	<description>Koche Knochensuppe.</description>
+	<jobString>Knochensuppe kochen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>300</workAmount> 
+  		<recipeUsers>	  
+			<li>DankPyon_StewPot</li>		  	  
+  		</recipeUsers>	
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Bone</li>
+	  			</thingDefs>
+			</filter>
+			<count>10</count>
+		</li>
+	</ingredients>
+
+	<products>
+		<DankPyon_MealBoneSoup>1</DankPyon_MealBoneSoup>
+	</products>
+
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>DankPyon_Bone</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+</RecipeDef>
+
+<!-- Bone Soup Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealBoneSoupBulk</defName>
+	<label>Knochensuppe x5 kochen</label>
+	<description>5 mal Knochensuppe kochen.</description>
+	<jobString>5 Knochensuppe kochen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<workAmount>1500</workAmount> 
+  		<recipeUsers>	  
+			<li>DankPyon_StewPot</li>		  	  
+  		</recipeUsers>	
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Bone</li>
+	  			</thingDefs>
+			</filter>
+			<count>50</count>
+		</li>
+	</ingredients>
+
+	<products>
+		<DankPyon_MealBoneSoup>5</DankPyon_MealBoneSoup>
+	</products>
+
+	<fixedIngredientFilter>
+		<thingDefs>
+			<li>DankPyon_Bone</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Bread ====== -->
+<!-- Bread -->
+<RecipeDef>
+	<defName>DankPyon_BakeBread</defName>
+	<label>(x2) Brot backen</label>
+	<description>Backe 2 brote aus Mehl.</description>
+	<jobString>Brot backen.</jobString>  
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	   <li>
+		  <filter>
+			 <thingDefs>
+				<li>DankPyon_Flour</li>
+			 </thingDefs>
+		  </filter>
+		  <count>0.50</count>
+	   </li>
+	</ingredients>
+	<products>
+	   <DankPyon_MealBread>2</DankPyon_MealBread>
+	</products>
+	<fixedIngredientFilter>
+	   <thingDefs>
+		  <li>DankPyon_Flour</li>
+	   </thingDefs>
+	<specialFiltersToDisallow>
+	  <li>AllowRotten</li>
+	</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<workAmount>350</workAmount>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workSkill>Cooking</workSkill>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+	<recipeUsers>
+	  <li>DankPyon_StoneOven</li>
+	</recipeUsers>
+	</RecipeDef>
+	
+<!-- Bread Bulk -->
+	<RecipeDef>
+	<defName>DankPyon_BakeBreadBulk</defName>
+	<label>(x10)Brot backen</label>
+	<description>Backe 10 mal Brot aus Mehl.</description>
+	<jobString>10 Brot backen.</jobString>  
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<ingredients>
+	   <li>
+		  <filter>
+			 <thingDefs>
+				<li>DankPyon_Flour</li>
+			 </thingDefs>
+		  </filter>
+		  <count>5.0</count>
+	   </li>
+	</ingredients>
+	<products>
+	   <DankPyon_MealBread>10</DankPyon_MealBread>
+	</products>
+	<fixedIngredientFilter>
+	   <thingDefs>
+		  <li>DankPyon_Flour</li>
+	   </thingDefs>
+	<specialFiltersToDisallow>
+	  <li>AllowRotten</li>
+	</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<workAmount>1750</workAmount>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workSkill>Cooking</workSkill>
+	<effectWorking>Cook</effectWorking>
+	  <soundWorking>Recipe_CookMeal</soundWorking>
+	  <researchPrerequisites>
+		  <li>DankPyon_BasicCooking</li>
+	  </researchPrerequisites>
+	<recipeUsers>
+	  <li>DankPyon_StoneOven</li>
+	</recipeUsers>
+	</RecipeDef>
+
+<!-- ======= Sausages ====== -->
+<!-- Sausages -->
+	<RecipeDef>
+	<defName>DankPyon_MakeSausages</defName>
+	<label>Würstchen herstellen</label>
+	<description>Erstelle Würstchen aus rohem Fleisch.</description>
+	<jobString>Würstchen herstellen.</jobString>  
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredients>
+	   <li>
+		  <filter>
+			 <categories>
+				<li>MeatRaw</li>
+			 </categories>
+		  </filter>
+		  <count>0.2</count>
+	   </li>
+	   <li>
+		<filter>
+		   <thingDefs>
+			  <li>DankPyon_Spices</li>
+		   </thingDefs>
+		</filter>
+		<count>0.6</count>
+	 </li>
+	</ingredients>
+	<products>
+	   <DankPyon_Sausages>1</DankPyon_Sausages>
+	</products>
+	<fixedIngredientFilter>
+	   <categories>
+		  <li>MeatRaw</li>
+	   </categories>
+	<specialFiltersToDisallow>
+	  <li>AllowRotten</li>
+	</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<workAmount>200</workAmount>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<workSkill>Cooking</workSkill>
+	<effectWorking>Cook</effectWorking>
+	  <soundWorking>Recipe_CookMeal</soundWorking>
+	  <researchPrerequisites>
+		  <li>DankPyon_BasicCooking</li>
+	  </researchPrerequisites>
+	<recipeUsers>
+	  <li>DankPyon_RusticCookingTable</li>
+	</recipeUsers>
+  </RecipeDef>
+
+<!-- Sausages Bulk-->
+<RecipeDef>
+  <defName>DankPyon_MakeSausagesBulk</defName>
+  <label>Würstchen x10 herstellen</label>
+  <description>Erstelle 10 mal Würstchen aus rohem Fleisch.</description>
+  <jobString>Mehr Würstchen herstellen.</jobString>  
+  <allowMixingIngredients>true</allowMixingIngredients>
+  <ingredients>
+	  <li>
+		  <filter>
+			 <categories>
+				<li>MeatRaw</li>
+			 </categories>
+		  </filter>
+		  <count>2</count>
+	  </li>
+	  <li>
+		<filter>
+		   <thingDefs>
+			  <li>DankPyon_Spices</li>
+		   </thingDefs>
+		</filter>
+		<count>6</count>
+	 </li>
+  </ingredients>
+  <products>
+	  <DankPyon_Sausages>10</DankPyon_Sausages>
+  </products>
+  <fixedIngredientFilter>
+	  <categories>
+		  <li>MeatRaw</li>
+	  </categories>
+  <specialFiltersToDisallow>
+	  <li>AllowRotten</li>
+  </specialFiltersToDisallow>
+  </fixedIngredientFilter>
+  <workAmount>2000</workAmount>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <workSkill>Cooking</workSkill>
+  <effectWorking>Cook</effectWorking>
+	 <soundWorking>Recipe_CookMeal</soundWorking>
+	  <researchPrerequisites>
+		  <li>DankPyon_BasicCooking</li>
+	  </researchPrerequisites>
+  <recipeUsers>
+	  <li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>
+</RecipeDef>
+
+<!-- ======= Grilled Sausages ====== -->
+<!-- Grilled Sausages -->
+<RecipeDef>
+    <defName>DankPyon_CookMealGrilledSausages</defName>
+    <label>Grillwürstchen erstellen</label>
+    <description>Koche eine einfache, gegrillte Mahlzeit aus Würstchen.</description>
+    <jobString>Grille Würstchen.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>150</workAmount>
+      <recipeUsers>
+        <li>DankPyon_Grill</li>				
+      </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Sausages</li>
+          </thingDefs>
+        </filter>
+        <count>0.2</count>
+      </li>
+    </ingredients>
+    <products>
+      <DankPyon_MealGrilledSausages>1</DankPyon_MealGrilledSausages>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_Sausages</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_Sausages</li>
+      </thingDefs>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li>Milk</li>				
+			</disallowedThingDefs>
+    </defaultIngredientFilter>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+<!-- Grilled Sausages Bulk -->
+  <RecipeDef>
+    <defName>DankPyon_CookMealGrilledSausagesBulk</defName>
+    <label>(Bulk x5) Grillwürstchen erstellen</label>
+    <description>Koche eine einfache, gegrillte Mahlzeit aus Würstchen, aber mehr davon.</description>
+    <jobString>Grille 5 Würstchen.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>750</workAmount>
+      <recipeUsers>
+        <li>DankPyon_Grill</li>			
+      </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DankPyon_Sausages</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <DankPyon_MealGrilledSausages>5</DankPyon_MealGrilledSausages>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_Sausages</li>
+      </thingDefs>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>DankPyon_Sausages</li>
+      </thingDefs>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li>Milk</li>				
+			</disallowedThingDefs>
+    </defaultIngredientFilter>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+<!-- ======= Weak Stew ====== -->
+<!-- Weak Stew -->
+<RecipeDef> 
+  <defName>DankPyon_CookMealWeakStew</defName>
+  <label>(x4)Eintopf, fade kochen</label>
+  <description>Koche 4 fade Eintöpfe aus wenigen Zutaten.</description>
+  <jobString>koche faden Eintopf.</jobString>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>true</allowMixingIngredients>
+  <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+  <workAmount>850</workAmount>  
+	<recipeUsers>
+	  <li>DankPyon_StewPot</li>	  			
+	</recipeUsers>	
+  <ingredients>
+
+	  <li>
+		  <filter>
+			<categories>
+			  <li>MeatRaw</li>
+			</categories>
+		  </filter>
+		  <count>0.8</count>
+	  </li>
+
+	  <li>
+		  <filter>
+			  <thingDefs>
+				  <li>DankPyon_RawCabbages</li>
+			  </thingDefs>
+		  </filter>
+		  <count>0.8</count>
+	  </li>
+
+	  <li>
+		  <filter>
+			  <thingDefs>
+				  <li>DankPyon_RawGarlic</li>
+			  </thingDefs>
+		  </filter>
+		  <count>0.4</count>
+		</li>
+
+  </ingredients>
+  <products>
+	<DankPyon_MealWeakStew>4</DankPyon_MealWeakStew>
+  </products>
+  <fixedIngredientFilter>
+	<categories>
+	  <li>FoodRaw</li>
+	</categories>
+	<specialFiltersToDisallow>
+	  <li>AllowPlantFood</li>
+	</specialFiltersToDisallow>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+	<categories>
+	  <li>FoodRaw</li>
+	</categories>
+	<disallowedCategories>
+	  <li>EggsFertilized</li>
+	</disallowedCategories>
+		  <disallowedThingDefs>
+			  <li>Meat_Human</li>
+			  <li>Meat_Megaspider</li>
+			  <li>InsectJelly</li>
+			  <li>Milk</li>				
+		  </disallowedThingDefs>
+  </defaultIngredientFilter>
+  <workSkill>Cooking</workSkill>
+  <researchPrerequisites>
+	  <li>DankPyon_BasicCooking</li>
+  </researchPrerequisites>
+</RecipeDef>
+
+
+<!-- Weak Stew Bulk -->
+<RecipeDef> 
+  <defName>DankPyon_CookMealWeakStewBulk</defName>
+  <label>(x8) Eintopf, fade kochen</label>
+  <description>Koche 4 fade Eintöpfe aus wenigen Zutaten.</description>
+  <jobString>koche mehr faden Eintopf.</jobString>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>true</allowMixingIngredients>
+  <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+  <workAmount>1700</workAmount>  
+	<recipeUsers>
+	  <li>DankPyon_StewPot</li>	  	  	  
+  </recipeUsers>	
+  <ingredients>
+
+	  <li>
+		  <filter>
+			<categories>
+			  <li>MeatRaw</li>
+			</categories>
+		  </filter>
+		  <count>1.6</count>
+	  </li>
+
+		<li>
+		  <filter>
+			  <thingDefs>
+				  <li>DankPyon_RawCabbages</li>
+			  </thingDefs>
+		  </filter>
+		  <count>1.6</count>
+		</li>
+
+	  <li>
+		  <filter>
+			  <thingDefs>
+				  <li>DankPyon_RawGarlic</li>
+			  </thingDefs>
+		  </filter>
+		  <count>0.8</count>
+		</li>
+
+  </ingredients>
+  <products>
+	  <DankPyon_MealWeakStew>8</DankPyon_MealWeakStew>
+  </products>
+  <fixedIngredientFilter>
+	  <categories>
+		  <li>FoodRaw</li>
+	  </categories>
+	  <specialFiltersToDisallow>
+		  <li>AllowPlantFood</li>
+	  </specialFiltersToDisallow>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+	<categories>
+	  <li>FoodRaw</li>
+	</categories>
+	<disallowedCategories>
+	  <li>EggsFertilized</li>
+	</disallowedCategories>
+		  <disallowedThingDefs>
+			  <li>Meat_Human</li>
+			  <li>Meat_Megaspider</li>
+			  <li>InsectJelly</li>
+			  <li>Milk</li>				
+		  </disallowedThingDefs>
+  </defaultIngredientFilter>
+  <workSkill>Cooking</workSkill>
+  <skillRequirements>
+	  <Cooking>3</Cooking>
+  </skillRequirements>
+  <researchPrerequisites>
+	  <li>DankPyon_BasicCooking</li>
+  </researchPrerequisites>	
+</RecipeDef>
+
+<!-- ======= Fried Eggs ====== -->
+<!-- Fried Eggs -->
+<RecipeDef>
+  <defName>DankPyon_CookMealFriedEggs</defName>
+  <label>Spiegeleier kochen</label>
+  <description>Kochen Sie eine einfache und schnelle Mahlzeit aus Eiern.</description>
+  <jobString>Frying eggs.</jobString>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>true</allowMixingIngredients>
+  <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+  <workAmount>100</workAmount>
+	<recipeUsers>
+	  <li>DankPyon_RusticCookingTable</li>
+	  	  			
+	</recipeUsers>
+  <ingredients>
+	<li>
+	  <filter>
+		<categories>
+		  <li>EggsUnfertilized</li>
+		</categories>
+	  </filter>
+	  <count>0.5</count>
+	</li>
+  </ingredients>
+  <products>
+	<DankPyon_MealFriedEggs>1</DankPyon_MealFriedEggs>
+  </products>
+  <workSkill>Cooking</workSkill>
+  <fixedIngredientFilter>
+	<categories>
+	  <li>EggsUnfertilized</li>
+	</categories>
+	<specialFiltersToDisallow>
+	  <li>AllowPlantFood</li>
+	</specialFiltersToDisallow>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+	<categories>
+	  <li>EggsUnfertilized</li>
+	</categories>
+	<disallowedCategories>
+	  <li>EggsFertilized</li>
+	</disallowedCategories>
+		  <disallowedThingDefs>
+			  <li>Meat_Human</li>
+			  <li>Meat_Megaspider</li>
+			  <li>InsectJelly</li>
+			  <li>Milk</li>				
+		  </disallowedThingDefs>
+  </defaultIngredientFilter>
+  <researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Fried Eggs Bulk-->
+<RecipeDef>
+  <defName>DankPyon_CookMealFriedEggsBulk</defName>
+  <label>(x5) Spiegeleier kochen</label>
+  <description>Kochen Sie eine einfache und schnelle Mahlzeit aus Eiern.</description>
+  <jobString>5 Spiegeleier kochen.</jobString>
+  <workSpeedStat>CookSpeed</workSpeedStat>
+  <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+  <effectWorking>Cook</effectWorking>
+  <soundWorking>Recipe_CookMeal</soundWorking>
+  <allowMixingIngredients>true</allowMixingIngredients>
+  <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+  <workAmount>500</workAmount>
+	<recipeUsers>
+	  <li>DankPyon_RusticCookingTable</li>
+	  	  			
+	</recipeUsers>
+  <ingredients>
+	<li>
+	  <filter>
+		<categories>
+		  <li>EggsUnfertilized</li>
+		</categories>
+	  </filter>
+	  <count>2.5</count>
+	</li>
+  </ingredients>
+  <products>
+	<DankPyon_MealFriedEggs>5</DankPyon_MealFriedEggs>
+  </products>
+  <workSkill>Cooking</workSkill>
+  <fixedIngredientFilter>
+	<categories>
+	  <li>EggsUnfertilized</li>
+	</categories>
+	<specialFiltersToDisallow>
+	  <li>AllowPlantFood</li>
+	</specialFiltersToDisallow>
+  </fixedIngredientFilter>
+  <defaultIngredientFilter>
+	<categories>
+	  <li>EggsUnfertilized</li>
+	</categories>
+	<disallowedCategories>
+	  <li>EggsFertilized</li>
+	</disallowedCategories>
+		  <disallowedThingDefs>
+			  <li>Meat_Human</li>
+			  <li>Meat_Megaspider</li>
+			  <li>InsectJelly</li>
+			  <li>Milk</li>				
+		  </disallowedThingDefs>
+  </defaultIngredientFilter>
+  <researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Mashed Potatoes ====== -->
+<!-- Mashed Potatoes -->
+<RecipeDef>
+	<defName>DankPyon_CookMealMashedPotatoes</defName>
+	<label>Kartoffelbrei kochen</label>
+	<description>Koche Kartoffelbrei.</description>
+	<jobString>koche Kartoffelbrei.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>300</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+			  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>RawPotatoes</li>
+	  </thingDefs>
+			</filter>
+			<count>0.45</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  </thingDefs>
+			</filter>
+			<count>0.05</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealMashedPotatoes>1</DankPyon_MealMashedPotatoes>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>2</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Mashed Potatoes Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealMashedPotatoesBulk</defName>
+	<label>(Bulk x5) Kartoffelbrei kochen</label>
+	<description>Koche 5 mal Kartoffelbrei.</description>
+	<jobString>Koche 5 mal Kartoffelbrei.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1000</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+			  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>RawPotatoes</li>
+	  </thingDefs>
+			</filter>
+			<count>2.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  </thingDefs>
+			</filter>
+			<count>0.25</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealMashedPotatoes>5</DankPyon_MealMashedPotatoes>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>4</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Winter Lentil Soup ====== -->
+<!-- Winter Lentil Soup -->
+<RecipeDef>
+	<defName>DankPyon_CookMealWinterLentilSoup</defName>
+	<label>Winterlinsensuppe kochen</label>
+	<description>Koche Winterlinsensuppe.</description>
+	<jobString>Winterlinsensuppe kochen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<workAmount>300</workAmount> 
+  	<recipeUsers>	  
+		<li>DankPyon_StewPot</li>		  	  
+  	</recipeUsers>	
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawLentils</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.5</count>
+		</li>
+	</ingredients>
+	<products>
+  	<DankPyon_MealWinterLentilSoup>1</DankPyon_MealWinterLentilSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Winter Lentil Soup Bulk-->
+<RecipeDef>
+	<defName>DankPyon_CookMealWinterLentilSoupBulk</defName>
+	<label>(5x) Winterlinsensuppe kochen</label>
+	<description>Koche 5 mal Winterlinsensuppe.</description>
+	<jobString>Koche 5 mal Winterlinsensuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1500</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawLentils</li>
+	  </thingDefs>
+			</filter>
+			<count>2.5</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealWinterLentilSoup>5</DankPyon_MealWinterLentilSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Mushroom Soup ====== -->
+<!-- Mushroom Soup -->
+<RecipeDef>
+	<defName>DankPyon_CookMealMushroomSoup</defName>
+	<label>Pilzsuppe kochen</label>
+	<description>Koche Pilzsuppe.</description>
+	<jobString>koche Pilzsuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>300</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>RawFungus</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.5</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealMushroomSoup>1</DankPyon_MealMushroomSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Mushroom Soup Bulk-->
+<RecipeDef>
+	<defName>DankPyon_CookMealMushroomSoupBulk</defName>
+	<label>(Bulk x5) Pilzsuppe kochen</label>
+	<description>Koche 5 mal Pilzsuppe.</description>
+	<jobString>koche 5 mal Pilzsuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1500</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>RawFungus</li>
+	  </thingDefs>
+			</filter>
+			<count>2.5</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealMushroomSoup>5</DankPyon_MealMushroomSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Vegetable Pot ====== -->
+<!-- Vegetable Pot  -->
+<RecipeDef>
+	<defName>DankPyon_CookMealVegetablePot</defName>
+	<label>Gemüsetopf kochen</label>
+	<description>Koche Gemüseeintopf.</description>
+	<jobString>Koche Gemüseeintopf.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>350</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>PlantFoodRaw</li>
+				</categories>
+			</filter>
+			<count>0.5</count>
+		</li>
+	</ingredients>
+	<products>
+		<DankPyon_MealVegetablePot>1</DankPyon_MealVegetablePot>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	<disallowedCategories>
+		<li>EggsFertilized</li>
+	</disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Vegetable Pot Bulk  -->
+<RecipeDef>
+	<defName>DankPyon_CookMealVegetablePotBulk</defName>
+	<label>(Bulk x5) Gemüsetopf kochen</label>
+	<description>Koche 5 mal Gemüseeintopf.</description>
+	<jobString>Koche 5 mal Gemüseeintopf.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1750</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+	<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>PlantFoodRaw</li>
+				</categories>
+			</filter>
+			<count>2.5</count>
+		</li>
+	</ingredients>
+	<products>
+		<DankPyon_MealVegetablePot>5</DankPyon_MealVegetablePot>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	<disallowedCategories>
+		<li>EggsFertilized</li>
+	</disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Pumpkin Fritters ====== -->
+<!-- Pumpkin Fritters -->
+  <RecipeDef>
+		<defName>DankPyon_CookMealPumpkinFritters</defName>
+		<label>(x3) Kürbisfritten herstellen</label>
+		<description>Mache 3 mal Kürbisfritten.</description>
+		<jobString>koche 3 mal Kürbisfritten.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>750</workAmount> 
+      <recipeUsers>	  
+        <li>DankPyon_RusticCookingTable</li>
+				  	  
+      </recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawPumpkins</li>
+          			</thingDefs>
+				</filter>
+				<count>0.9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>0.6</count>
+			</li>
+		</ingredients>
+		<products>
+      		<DankPyon_MealPumpkinFritters>3</DankPyon_MealPumpkinFritters>
+    	</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      		<specialFiltersToDisallow>
+        		<li>AllowPlantFood</li>
+      		</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      	<disallowedCategories>
+        	<li>EggsFertilized</li>
+      	</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<!--li>Milk</li-->
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <!-- Pumpkin Fritters Bulk -->
+  <RecipeDef>
+		<defName>DankPyon_CookMealPumpkinFrittersBulk</defName>
+		<label>(Bulk x6) Kürbisfritten erstellen</label>
+		<description>Mache 6 mal Kürbisfritten.</description>
+		<jobString>Mache 6 mal Kürbisfritten.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>1500</workAmount> 
+      <recipeUsers>	  
+        <li>DankPyon_RusticCookingTable</li>
+				  	  
+      </recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawPumpkins</li>
+          			</thingDefs>
+				</filter>
+				<count>1.8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          			</thingDefs>
+				</filter>
+				<count>1.2</count>
+			</li>
+		</ingredients>
+		<products>
+      		<DankPyon_MealPumpkinFritters>6</DankPyon_MealPumpkinFritters>
+    	</products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      		<specialFiltersToDisallow>
+        		<li>AllowPlantFood</li>
+      		</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      	<disallowedCategories>
+        	<li>EggsFertilized</li>
+      	</disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<!--li>Milk</li-->
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_BasicCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+  <!-- ======= Boiled Bean and Onion ====== -->
+<!-- Boiled Bean and Onion -->
+<RecipeDef>
+	<defName>DankPyon_CookMealBoiledBeansAndOnion</defName>
+	<label>Bohneneintopf mit Zwiebeln kochen</label>
+	<description>Koche Bohneneintopf mit Zwiebeln.</description>
+	<jobString>koche Bohneneintopf mit Zwiebeln.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>300</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawLentils</li>
+				  </thingDefs>
+			</filter>
+			<count>0.3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				  </thingDefs>
+			</filter>
+			<count>0.15</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawGarlic</li>
+				  </thingDefs>
+			</filter>
+			<count>0.6</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealBoiledBeansAndOnion>1</DankPyon_MealBoiledBeansAndOnion>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Boiled Bean and Onion Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealBoiledBeanAndOnionBulk</defName>
+	<label>(Bulk x5) Bohneneintopf mit Zwiebeln</label>
+	<description>Koche 5 mal Bohneneintopf mit Zwiebeln.</description>
+	<jobString>Koche 5 mal Bohneneintopf mit Zwiebeln.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1500</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawLentils</li>
+				  </thingDefs>
+			</filter>
+			<count>1.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				  </thingDefs>
+			</filter>
+			<count>0.75</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawGarlic</li>
+				  </thingDefs>
+			</filter>
+			<count>0.30</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealBoiledBeansAndOnion>5</DankPyon_MealBoiledBeansAndOnion>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Grilled Skewers ====== -->
+<!-- Grilled Skewers -->
+<RecipeDef>
+	<defName>DankPyon_CookMealGrilledSkewers</defName>
+	<label>Grillspieße erstellen</label>
+	<description>Grillspieße herstellen.</description>
+	<jobString>Grillspieße erstellen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>225</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_Grill</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+				  </categories>
+			</filter>
+			<count>0.45</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				  </thingDefs>
+			</filter>
+			<count>0.04</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealGrilledSkewers>1</DankPyon_MealGrilledSkewers>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Grilled Skewers Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealGrilledSkewersBulk</defName>
+	<label>(x5) Grillspieße erstellen</label>
+	<description>5 mal Grillspieße herstellen.</description>
+	<jobString>5 mal Grillspieße herstellen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1125</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_Grill</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+				  </categories>
+			</filter>
+			<count>2.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				  </thingDefs>
+			</filter>
+			<count>0.20</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealGrilledSkewers>5</DankPyon_MealGrilledSkewers>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_BasicCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!--============== Tier 2 Meals ===============-->
+<!-- ======= Hearty Stews ====== -->
+<!-- Hearty Stew -->
+<RecipeDef>
+	<defName>DankPyon_CookMealHeartyStew</defName>
+	<label>Eintopf, herzhaft kochen.</label>
+	<description>Kocht eine etwas komplexere Mahlzeit aus einer Kombination von rohem Fleisch und rohen Pflanzenzutaten.</description>
+	<jobString>Eintopf, herzhaft kochen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1800</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+				  </categories>
+			</filter>
+			<count>0.40</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				</thingDefs>
+			</filter>
+			<count>0.36</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawCabbages</li>
+				</thingDefs>
+			</filter>
+			<count>0.40</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawCarrots</li>
+				</thingDefs>
+			</filter>
+			<count>0.60</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				</thingDefs>
+			</filter>
+			<count>0.16</count>
+		</li>
+	</ingredients>
+	<products>
+		  <DankPyon_MealHeartyStew>4</DankPyon_MealHeartyStew>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>6</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+
+<!-- Hearty Stew Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealHeartyStewBulk</defName>
+	<label>(Bulk x8) Eintopf, herzhaft kochen</label>
+	<description>Koche 8 mal herzhaften Eintopf.</description>
+	<jobString>Koche 8 mal herzhaften Eintopf.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>3600</workAmount> 
+<recipeUsers>
+	<li>DankPyon_StewPot</li>	  		  	  
+</recipeUsers>	
+<ingredients>
+	<li>
+		<filter>
+			<categories>
+				<li>MeatRaw</li>
+			  </categories>
+		</filter>
+		<count>0.8</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawOnions</li>
+			</thingDefs>
+		</filter>
+		<count>0.72</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawCabbages</li>
+			</thingDefs>
+		</filter>
+		<count>0.8</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawCarrots</li>
+			</thingDefs>
+		</filter>
+		<count>1.2</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_Salt</li>
+			</thingDefs>
+		</filter>
+		<count>0.32</count>
+	</li>
+</ingredients>
+<products>
+	  <DankPyon_MealHeartyStew>8</DankPyon_MealHeartyStew>
+</products>
+<fixedIngredientFilter>
+	<categories>
+		<li>FoodRaw</li>
+	</categories>
+	<specialFiltersToDisallow>
+		<li>AllowPlantFood</li>
+	</specialFiltersToDisallow>
+</fixedIngredientFilter>
+<defaultIngredientFilter>
+	<categories>
+		<li>FoodRaw</li>
+	</categories>
+	<disallowedCategories>
+		<li>EggsFertilized</li>
+	</disallowedCategories>
+	<disallowedThingDefs>
+		<li>Meat_Human</li>
+		<li>Meat_Megaspider</li>
+		<li>InsectJelly</li>
+		<li>Milk</li>				
+	</disallowedThingDefs>
+</defaultIngredientFilter>
+<skillRequirements>
+	<Cooking>6</Cooking>
+</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Bread Soup ====== -->
+<!-- Bread Soup -->
+<RecipeDef> 
+<defName>DankPyon_CookMealBreadSoup</defName>
+<label>Brotsuppe kochen</label>
+<description>Kocht aus wenigen Zutaten eine einfache Suppe.</description>
+<jobString>Brotsuppe kochen.</jobString>
+<workSpeedStat>CookSpeed</workSpeedStat>
+<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>150</workAmount>  
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+			  	  
+  </recipeUsers>	
+  <ingredients>
+  <li>
+	<filter>
+	  <thingDefs>
+		<li>DankPyon_MealBread</li>
+	  </thingDefs>
+	</filter>
+	<count>0.4</count>
+  </li>
+  <li>
+	<filter>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+	</filter>
+	<count>0.1</count>
+  </li>
+</ingredients>
+<products>
+  <DankPyon_MealBreadSoup>1</DankPyon_MealBreadSoup>
+</products>
+<fixedIngredientFilter>
+  <categories>
+	<li>FoodRaw</li>
+  </categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+</fixedIngredientFilter>
+<defaultIngredientFilter>
+  <categories>
+	<li>FoodRaw</li>
+  </categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>				
+		</disallowedThingDefs>
+</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Bread Soup Bulk -->
+<RecipeDef> 
+<defName>DankPyon_CookMealBreadSoupBulk</defName>
+<label>(x5) Brotsuppe kochen</label>
+<description>Kocht aus wenigen Zutaten eine einfache Suppe.</description>
+<jobString>brotsuppe 5 mal kochen</jobString>
+<workSpeedStat>CookSpeed</workSpeedStat>
+<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>750</workAmount>
+  <recipeUsers>
+	<li>DankPyon_RusticCookingTable</li>
+		  			
+  </recipeUsers>	
+  <ingredients>
+  <li>
+	<filter>
+	  <thingDefs>
+		<li>DankPyon_MealBread</li>
+	  </thingDefs>
+	</filter>
+	<count>2.0</count>
+  </li>
+  <li>
+	<filter>
+	  <categories>
+		<li>PlantFoodRaw</li>
+	  </categories>
+	</filter>
+	<count>0.5</count>
+  </li>
+</ingredients>
+<products>
+  <DankPyon_MealBreadSoup>5</DankPyon_MealBreadSoup>
+</products>
+<fixedIngredientFilter>
+  <categories>
+	<li>FoodRaw</li>
+  </categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+</fixedIngredientFilter>
+<defaultIngredientFilter>
+  <categories>
+	<li>FoodRaw</li>
+  </categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>				
+		</disallowedThingDefs>
+</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Apple Pie ====== -->
+<!-- Apple Pie -->
+<RecipeDef>
+	<defName>DankPyon_CookMealApplePie</defName>
+	<label>Apfelkuchen backen</label>
+	<description>Backe einen leckeren Apfelkuchen.</description>
+	<jobString>Apfelkuchen backen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>415</workAmount> 
+  <recipeUsers>
+	<li>DankPyon_StoneOven</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+				  </thingDefs>
+			</filter>
+			<count>0.15</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Sugar</li>
+				  </thingDefs>
+			</filter>
+			<count>0.04</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawApples</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.32</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealApplePie>1</DankPyon_MealApplePie>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>6</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Apple Pie Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealApplePieBulk</defName>
+	<label>(Bulk x5) Apfelkuchen backen</label>
+	<description>Backe 5 leckere Apfelkuchen.</description>
+	<jobString>Apfelkuchen 5 mal backen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2575</workAmount>
+  <recipeUsers>	  
+	<li>DankPyon_StoneOven</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+	  </thingDefs>
+			</filter>
+			<count>0.75</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Sugar</li>
+	  </thingDefs>
+			</filter>
+			<count>0.2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawApples</li>
+	  </thingDefs>
+			</filter>
+			<count>1.6</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealApplePie>5</DankPyon_MealApplePie>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Hunters Stew ====== -->
+<!-- Hunters Stew -->
+<RecipeDef>
+	<defName>DankPyon_CookMealHuntersStew</defName>
+	<label>(x4) Jägertopf kochen</label>
+	<description>Koche 4 mal herzhaften Jägertopf.</description>
+	<jobString>Jägertopf 4 mal kochen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1600</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Sausages</li>
+	  </thingDefs>
+			</filter>
+			<count>0.8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawCabbages</li>
+	  </thingDefs>
+			</filter>
+			<count>0.4</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+	  </thingDefs>
+			</filter>
+			<count>0.36</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawGarlic</li>
+	  </thingDefs>
+			</filter>
+			<count>0.40</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealHuntersStew>4</DankPyon_MealHuntersStew>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>6</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Hunters Stew Bulk -->
+<RecipeDef>
+<defName>DankPyon_CookMealHuntersStewBulk</defName>
+<label>(x8) Jägertopf kochen</label>
+<description>Koche 8 mal herzhaften Jägertopf.</description>
+<jobString>Jägertopf 8 mal kochen.</jobString>
+<workSpeedStat>CookSpeed</workSpeedStat>
+<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>3200</workAmount> 
+<recipeUsers>	  
+<li>DankPyon_StewPot</li>		  	  
+</recipeUsers>	
+<ingredients>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_Sausages</li>
+  </thingDefs>
+		</filter>
+		<count>1.6</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawCabbages</li>
+  </thingDefs>
+		</filter>
+		<count>0.8</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawOnions</li>
+  </thingDefs>
+		</filter>
+		<count>0.72</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawGarlic</li>
+  </thingDefs>
+		</filter>
+		<count>0.80</count>
+	</li>
+</ingredients>
+<products>
+<DankPyon_MealHuntersStew>8</DankPyon_MealHuntersStew>
+</products>
+<fixedIngredientFilter>
+	<categories>
+		<li>FoodRaw</li>
+	</categories>
+<specialFiltersToDisallow>
+<li>AllowPlantFood</li>
+</specialFiltersToDisallow>
+</fixedIngredientFilter>
+<defaultIngredientFilter>
+	<categories>
+		<li>FoodRaw</li>
+	</categories>
+<disallowedCategories>
+<li>EggsFertilized</li>
+</disallowedCategories>
+	<disallowedThingDefs>
+		<li>Meat_Human</li>
+		<li>Meat_Megaspider</li>
+		<li>InsectJelly</li>
+		<li>Milk</li>
+	</disallowedThingDefs>
+</defaultIngredientFilter>
+<skillRequirements>
+		<Cooking>8</Cooking>
+</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Grilled Cheese ====== -->
+<!-- Grilled Cheese -->
+<RecipeDef>
+	<defName>DankPyon_CookMealGrilledCheese</defName>
+	<label>Grillkäse herstellen</label>
+	<description>Stelle Grillkäse her.</description>
+	<jobString>Grillkäse grillen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>200</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_Grill</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_MealCheese</li>
+	  </thingDefs>
+			</filter>
+			<count>0.4</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealGrilledCheese>1</DankPyon_MealGrilledCheese>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>3</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Grilled Cheese Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealGrilledCheeseBulk</defName>
+	<label>(Bulk x5) Grillkäse herstellen</label>
+	<description>Stelle 5 mal Grillkäse her.</description>
+	<jobString>Grillkäse 5 mal grillen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1000</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_Grill</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_MealCheese</li>
+	  </thingDefs>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealGrilledCheese>5</DankPyon_MealGrilledCheese>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>5</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Quiche ====== -->
+<!-- Quiche -->
+<RecipeDef>
+	<defName>DankPyon_CookMealQuiche</defName>
+	<label>Quiche backen</label>
+	<description>Stelle eine Quiche her.</description>
+	<jobString>Quiche backen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>450</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StoneOven</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>EggsUnfertilized</li>
+	  			</categories>
+			</filter>
+			<count>0.25</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+	  			</categories>
+			</filter>
+			<count>0.10</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.1</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealQuiche>1</DankPyon_MealQuiche>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>6</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Quiche Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealQuicheBulk</defName>
+	<label>(Bulk x5) Quiche backen</label>
+	<description>Stelle 5 Quiche her.</description>
+	<jobString>Backe 5 mal Quiche.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2250</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StoneOven</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>EggsUnfertilized</li>
+	  			</categories>
+			</filter>
+			<count>1.25</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+	  			</categories>
+			</filter>
+			<count>0.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  			</thingDefs>
+			</filter>
+			<count>2.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.5</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealQuiche>5</DankPyon_MealQuiche>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Sweet Pancakes ====== -->
+<!-- Sweet Pancakes -->
+<RecipeDef>
+	<defName>DankPyon_CookMealSweetPancakes</defName>
+	<label>Pfannkuchen herstellen</label>
+	<description>Schön süße Pfannkuchen herstellen.</description>
+	<jobString>stelle süße Pfannkuchen her.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>450</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+	<li>DankPyon_RusticHearth</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>EggsUnfertilized</li>
+	  </categories>
+			</filter>
+			<count>0.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Sugar</li>
+	  </thingDefs>
+			</filter>
+			<count>0.05</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  </thingDefs>
+			</filter>
+			<count>0.05</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+	  </thingDefs>
+			</filter>
+			<count>0.15</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealSweetPancakes>1</DankPyon_MealSweetPancakes>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>5</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Sweet Pancakes Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealSweetPancakesBulk</defName>
+	<label>(Bulk x5) Pfannkuchen herstellen</label>
+	<description>Stelle 5 lecker, süße Pfannkuchen her.</description>
+	<jobString>stelle 5 süße Pfannkuchen her.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2250</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>EggsUnfertilized</li>
+	  </categories>
+			</filter>
+			<count>1.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Sugar</li>
+	  </thingDefs>
+			</filter>
+			<count>0.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+	  </thingDefs>
+			</filter>
+			<count>0.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+	  </thingDefs>
+			</filter>
+			<count>0.75</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealSweetPancakes>5</DankPyon_MealSweetPancakes>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Tomato Omelette ====== -->
+<!-- Tomato Omelette -->
+<RecipeDef>
+	<defName>DankPyon_CookMealTomatoOmelette</defName>
+	<label>Tomatenomlette herstellen</label>
+	<description>Ein leckeres Tomatenomletten herstellen.</description>
+	<jobString>koche Tomatenomlette.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>500</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+	<li>DankPyon_RusticHearth</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+						<li>EggsUnfertilized</li>
+				  </categories>
+			</filter>
+			<count>0.25</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawTomatoes</li>
+				  </thingDefs>
+			</filter>
+			<count>0.15</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				  </thingDefs>
+			</filter>
+			<count>0.15</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealTomatoOmelette>1</DankPyon_MealTomatoOmelette>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Tomato Omelette Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealTomatoOmeletteBulk</defName>
+	<label>(Bulk x3) Tomatenomletten herstellen</label>
+	<description>Stelle 3 leckere Tomatenomletten her.</description>
+	<jobString>koche 3 Tomatenomlettes.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1500</workAmount> 
+  <recipeUsers>
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>
+<ingredients>
+	<li>
+		<filter>
+			<categories>
+				<li>EggsUnfertilized</li>
+			</categories>
+		</filter>
+		<count>0.75</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawTomatoes</li>
+			  </thingDefs>
+		</filter>
+		<count>0.45</count>
+	</li>
+	<li>
+		<filter>
+			<thingDefs>
+				<li>DankPyon_RawOnions</li>
+			  </thingDefs>
+		</filter>
+		<count>0.45</count>
+	</li>
+</ingredients>
+	<products>
+  <DankPyon_MealTomatoOmelette>3</DankPyon_MealTomatoOmelette>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Pumpkin Soup ====== -->
+<!-- Pumpkin Soup -->
+<RecipeDef>
+	<defName>DankPyon_CookMealPumpkinSoup</defName>
+	<label>(x3) Kürbissuppe kochen</label>
+	<description>Koche 3 mal Kürbissuppe.</description>
+	<jobString>Koche 3 mal Kürbissuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1100</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawPumpkins</li>
+				  </thingDefs>
+			</filter>
+			<count>0.9</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+				  </thingDefs>
+			</filter>
+			<count>0.6</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealPumpkinSoup>3</DankPyon_MealPumpkinSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Pumpkin Soup Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealPumpkinSoupBulk</defName>
+	<label>(x6) Kürbissuppe kochen</label>
+	<description>Koche 6 mal Kürbissuppe.</description>
+	<jobString>Koche 6 mal Kürbissuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2200</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StewPot</li>		  	  
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawPumpkins</li>
+				  </thingDefs>
+			</filter>
+			<count>1.8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+				  </thingDefs>
+			</filter>
+			<count>1.2</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealPumpkinSoup>6</DankPyon_MealPumpkinSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Pumpkin Pie ====== -->
+<!-- Pumpkin Pie -->
+<RecipeDef>
+	<defName>DankPyon_CookMealPumpkinPie</defName>
+	<label>(x3) Kürbiskuchen backen</label>
+	<description>Backe 3 Kürbiskuchen.</description>
+	<jobString>Backe 3 Kürbiskuchen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1200</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StoneOven</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawPumpkins</li>
+				  </thingDefs>
+			</filter>
+			<count>0.9</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+				  </thingDefs>
+			</filter>
+			<count>0.3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+				  </thingDefs>
+			</filter>
+			<count>0.3</count>
+		</li>
+	</ingredients>
+	<products>
+		  <DankPyon_MealPumpkinPie>3</DankPyon_MealPumpkinPie>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Pumpkin Pie Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealPumpkinPieBulk</defName>
+	<label>(Bulk x6) Kürbiskuchen backen</label>
+	<description>Backe 6 Kürbiskuchen.</description>
+	<jobString>Backe 6 Kürbiskuchen.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2400</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_StoneOven</li>		  	  
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawPumpkins</li>
+				  </thingDefs>
+			</filter>
+			<count>1.8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Flour</li>
+				  </thingDefs>
+			</filter>
+			<count>0.6</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Milk</li>
+				  </thingDefs>
+			</filter>
+			<count>0.6</count>
+		</li>
+	</ingredients>
+	<products>
+		  <DankPyon_MealPumpkinPie>6</DankPyon_MealPumpkinPie>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_IntermediateCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!--============== Tier 3 Meals ===============-->
+<!-- ======= Cheese Soup ====== -->
+<!-- Cheese Soup -->
+<RecipeDef>
+	<defName>DankPyon_CookMealCheeseSoup</defName>
+	<label>Käsesuppe kochen</label>
+	<description>Koche Käsesuppe.</description>
+	<jobString>Koche Käsesuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+	<soundWorking>Recipe_CookMeal</soundWorking>
+	<allowMixingIngredients>true</allowMixingIngredients>
+	<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+	<workAmount>650</workAmount> 
+  	<recipeUsers>	  
+		<li>DankPyon_RusticCookingTable</li>
+	<li>DankPyon_RusticHearth</li>
+  	</recipeUsers>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_MealCheese</li>
+				  </thingDefs>
+			</filter>
+			<count>0.4</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Ale</li>
+				  </thingDefs>
+			</filter>
+			<count>0.16</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawGarlic</li>
+				  </thingDefs>
+			</filter>
+			<count>0.8</count>
+		</li>
+	</ingredients>
+	<products>
+	  <DankPyon_MealCheeseSoup>1</DankPyon_MealCheeseSoup>
+	</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		<specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		</specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	<disallowedCategories>
+		<li>EggsFertilized</li>
+	</disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_AdvancedCooking</li>
+	</researchPrerequisites>
+</RecipeDef>
+
+<!-- Cheese Soup Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealCheeseSoupBulk</defName>
+	<label>(Bulk x3) Käsesuppe kochen</label>
+	<description>3 mal Käsesuppe kochen.</description>
+	<jobString>Koche 3 mal Käsesuppe.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1950</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_MealCheese</li>
+				  </thingDefs>
+			</filter>
+			<count>1.2</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Ale</li>
+				  </thingDefs>
+			</filter>
+			<count>0.48</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawGarlic</li>
+				  </thingDefs>
+			</filter>
+			<count>0.24</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealCheeseSoup>3</DankPyon_MealCheeseSoup>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_AdvancedCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- ======= Steak with Wine ====== -->
+<!-- Steak with Wine -->
+<RecipeDef>
+	<defName>DankPyon_CookMealSteakWithWine</defName>
+	<label>Steak mit Wein kochen</label>
+	<description>Koche leckeres Steak mit Weinsauce.</description>
+	<jobString>Steak mit Wein kochen</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>800</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+				  </categories>
+			</filter>
+			<count>0.3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				  </thingDefs>
+			</filter>
+			<count>0.12</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				  </thingDefs>
+			</filter>
+			<count>0.1</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Wine</li>
+				  </thingDefs>
+			</filter>
+			<count>0.08</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealSteakWithWine>1</DankPyon_MealSteakWithWine>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_AdvancedCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+<!-- Steak with Wine Bulk-->
+<RecipeDef>
+	<defName>DankPyon_CookMealSteakWithWineBulk</defName>
+	<label>(x3) Steak mit Wein kochen</label>
+	<description>Koche 3 mal leckeres Steak mit Weinsauce.</description>
+	<jobString>Koche 3 Steaks mit Wein.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2400</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>
+<ingredients>
+		<li>
+			<filter>
+				<categories>
+					<li>MeatRaw</li>
+				  </categories>
+			</filter>
+			<count>0.9</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_RawOnions</li>
+				  </thingDefs>
+			</filter>
+			<count>0.36</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				  </thingDefs>
+			</filter>
+			<count>0.3</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Wine</li>
+				  </thingDefs>
+			</filter>
+			<count>0.24</count>
+		</li>
+</ingredients>
+<products>
+	  <DankPyon_MealSteakWithWine>3</DankPyon_MealSteakWithWine>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+		  <specialFiltersToDisallow>
+			<li>AllowPlantFood</li>
+		  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+	  <disallowedCategories>
+		<li>EggsFertilized</li>
+	  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<!--li>Milk</li-->
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+<workSkill>Cooking</workSkill>
+<researchPrerequisites>
+	<li>DankPyon_AdvancedCooking</li>
+</researchPrerequisites>
+</RecipeDef>
+
+
+<!--============== Tier 4 Meals ===============-->
+<!-- ======= Rox Steak ====== -->
+<!-- Rox Steak -->
+<!-- TODO: Bulk recipe once specific meat def gets input -->
+<RecipeDef>
+	<defName>DankPyon_CookMealRoxSteak</defName>
+	<label>Roxsteak braten</label>
+	<description>Kocht ein extravagantes Steak aus einem Rox.</description>
+	<jobString>Roxsteak braten.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<researchPrerequisites>
+	<li>DankPyon_AdvancedCooking</li>
+</researchPrerequisites>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>1100</workAmount> 
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Meat_DankPyon_Rox</li> 
+	  			</thingDefs>
+			</filter>w
+			<count>0.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Ale</li>
+	  </thingDefs>
+			</filter>
+			<count>0.16</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+	  </thingDefs>
+			</filter>
+			<count>0.1</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealRoxSteak>1</DankPyon_MealRoxSteak>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>10</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<!-- Rox Steak Bulk -->
+<RecipeDef>
+	<defName>DankPyon_CookMealRoxSteakBulk</defName>
+	<label>(Bulk x2) Roxsteak braten</label>
+	<description>Kocht zwei extravagante Steak aus einem Rox.</description>
+	<jobString>2 mal Roxsteak braten.</jobString>
+	<workSpeedStat>CookSpeed</workSpeedStat>
+	<effectWorking>Cook</effectWorking>
+<soundWorking>Recipe_CookMeal</soundWorking>
+<researchPrerequisites>
+	<li>DankPyon_AdvancedCooking</li>
+</researchPrerequisites>
+<allowMixingIngredients>true</allowMixingIngredients>
+<ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+<workAmount>2200</workAmount>
+  <recipeUsers>	  
+	<li>DankPyon_RusticCookingTable</li>
+  </recipeUsers>	
+<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+						<li>Meat_DankPyon_Rox</li> 
+	  			</thingDefs>
+			</filter>
+			<count>2.5</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Ale</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.8</count>
+		</li>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+	  			</thingDefs>
+			</filter>
+			<count>0.5</count>
+		</li>
+	</ingredients>
+	<products>
+  <DankPyon_MealRoxSteak>5</DankPyon_MealRoxSteak>
+</products>
+	<fixedIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <specialFiltersToDisallow>
+	<li>AllowPlantFood</li>
+  </specialFiltersToDisallow>
+	</fixedIngredientFilter>
+	<defaultIngredientFilter>
+		<categories>
+			<li>FoodRaw</li>
+		</categories>
+  <disallowedCategories>
+	<li>EggsFertilized</li>
+  </disallowedCategories>
+		<disallowedThingDefs>
+			<li>Meat_Human</li>
+			<li>Meat_Megaspider</li>
+			<li>InsectJelly</li>
+			<li>Milk</li>
+		</disallowedThingDefs>
+	</defaultIngredientFilter>
+	<skillRequirements>
+			<Cooking>12</Cooking>
+	</skillRequirements>
+<workSkill>Cooking</workSkill>
+</RecipeDef>
+
+<!-- ======= Griffon Berry Pie ====== -->
+<!-- Griffon Berry Pie -->
+  <RecipeDef>
+		<defName>DankPyon_CookMealGriffonBerryPie</defName>
+		<label>Greifbeerenpastete backen</label>
+		<description>Backe eine extravagante Pastete aus Greifenbeeren.</description>
+		<jobString>Greifbeerenpastete backen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>950</workAmount>
+      <recipeUsers>	  
+        <li>DankPyon_StoneOven</li>		  	  
+      </recipeUsers>	
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_GriffonBerry</li>
+					</thingDefs>
+				</filter>
+				<count>0.35</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+					</thingDefs>
+				</filter>
+				<count>0.15</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Sugar</li>
+					</thingDefs>
+				</filter>
+				<count>0.1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+					</categories>
+				</filter>
+				<count>0.25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawLemons</li>
+					</thingDefs>
+				</filter>
+				<count>0.09</count>
+			</li>
+		</ingredients>
+		<products>
+      <DankPyon_MealGriffonBerryPie>1</DankPyon_MealGriffonBerryPie>
+    </products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li>Milk</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+				<Cooking>10</Cooking>
+		</skillRequirements>
+    <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_AdvancedCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+<!-- Griffon Berry Pie Bulk -->
+  <RecipeDef>
+		<defName>DankPyon_CookMealGriffonBerryPieBulk</defName>
+		<label>(Bulk x3) Greifbeerenpastete backen</label>
+		<description>Backe eine extravagante Pastete aus Greifenbeeren.</description>
+		<jobString>3 mal Greifbeerenpastete backen.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <workAmount>2850</workAmount>
+      <recipeUsers>	  
+        <li>DankPyon_StoneOven</li>		  	  
+	  </recipeUsers>
+    <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_GriffonBerry</li>
+          </thingDefs>
+				</filter>
+				<count>1.05</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Flour</li>
+          </thingDefs>
+				</filter>
+				<count>0.45</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_Sugar</li>
+          </thingDefs>
+				</filter>
+				<count>0.3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+          </categories>
+				</filter>
+				<count>0.75</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawLemons</li>
+          </thingDefs>
+				</filter>
+				<count>0.27</count>
+			</li>
+		</ingredients>
+		<products>
+      <DankPyon_MealGriffonBerryPie>3</DankPyon_MealGriffonBerryPie>
+    </products>
+		<fixedIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      <specialFiltersToDisallow>
+        <li>AllowPlantFood</li>
+      </specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>FoodRaw</li>
+			</categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+			<disallowedThingDefs>
+				<li>Meat_Human</li>
+				<li>Meat_Megaspider</li>
+				<li>InsectJelly</li>
+				<li>Milk</li>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<skillRequirements>
+				<Cooking>12</Cooking>
+		</skillRequirements>
+    <workSkill>Cooking</workSkill>
+	<researchPrerequisites>
+		<li>DankPyon_AdvancedCooking</li>
+	</researchPrerequisites>
+  </RecipeDef>
+
+ <!--=================================== Survival meal ==========================================-->
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>DankPyon_CookMealRations</defName>
+    <label>verpackte Rationen kochen</label>
+    <description>Bereiten Sie eine verpackte Ration aus einer Kombination von Fleisch und pflanzlichen Zutaten zu. Ein Großteil der Zutaten wird bei der Konservierung verschwendet.</description>
+    <jobString>verpackte Rationen kochen.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.30</count>
+      </li>
+      <li>
+        <filter>
+          <categories>
+            <li>PlantFoodRaw</li>
+          </categories>
+        </filter>
+        <count>0.30</count>
+      </li>
+	  	<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+    </ingredients>
+    <products>
+      <DankPyon_MealRations>1</DankPyon_MealRations>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>DankPyon_FoodPreservation</researchPrerequisite>
+
+	<recipeUsers>	  
+		<li>DankPyon_RusticCookingTable</li>
+  	</recipeUsers>
+  </RecipeDef>
+  
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>DankPyon_CookMealRationsBulk</defName>
+    <label>verpackte Rationen 5 mal kochen</label>
+    <description>Bereiten Sie 5 verpackte Rationen aus einer Kombination von Fleisch und pflanzlichen Zutaten zu. Ein Großteil der Zutaten wird bei der Konservierung verschwendet.</description>
+    <jobString>verpackte Rationen 5 mal kochen.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+		<li>
+			<filter>
+			<categories>
+				<li>MeatRaw</li>
+				<li>AnimalProductRaw</li>
+			</categories>
+			</filter>
+			<count>1.50</count>
+		</li>
+		<li>
+			<filter>
+			<categories>
+				<li>PlantFoodRaw</li>
+			</categories>
+			</filter>
+			<count>1.50</count>
+		</li>
+	  	<li>
+			<filter>
+				<thingDefs>
+					<li>DankPyon_Salt</li>
+				</thingDefs>
+			</filter>
+			<count>5</count>
+		</li>
+    </ingredients>
+    <products>
+      <DankPyon_MealRations>5</DankPyon_MealRations>
+    </products>
+    <skillRequirements>
+      <Cooking>10</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>DankPyon_FoodPreservation</researchPrerequisite>
+
+	<recipeUsers>	  
+		<li>DankPyon_RusticCookingTable</li>
+  	</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>DankPyon_CookMealRationsVegan</defName>
+    <label>vegetarisch verpackte Rationen kochen</label>
+    <description>Bereiten Sie eine verpackte vegetarische Ration aus einer Kombination von Fleisch und pflanzlichen Zutaten zu. Ein Großteil der Zutaten wird bei der Konservierung verschwendet.</description>
+    <jobString>Ration Kochen.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+      <filter>
+			 <thingDefs>
+				<li>DankPyon_RawMacci</li>
+			 </thingDefs>
+		  </filter>
+        <count>0.85</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <DankPyon_MealRationsVegetarian>1</DankPyon_MealRationsVegetarian>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>DankPyon_FoodPreservation</researchPrerequisite>
+
+	<recipeUsers>	  
+		<li>DankPyon_StoneOven</li>
+  	</recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef ParentName="CookMealBase">
+    <defName>DankPyon_CookMealRationsVeganBulk</defName>
+    <label>vegetarisch verpackte Rationen kochen</label>
+    <description>Bereiten Sie eine verpackte vegetarische Ration aus einer Kombination von Fleisch und pflanzlichen Zutaten zu. Ein Großteil der Zutaten wird bei der Konservierung verschwendet.</description>
+    <jobString>Koche Ration.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+       <filter>
+			 <thingDefs>
+				<li>DankPyon_RawMacci</li>
+			 </thingDefs>
+		  </filter>
+        <count>4.25</count>
+      </li>
+    </ingredients>
+	<fixedIngredientFilter>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <products>
+      <DankPyon_MealRationsVegetarian>5</DankPyon_MealRationsVegetarian>
+    </products>
+    <skillRequirements>
+      <Cooking>8</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>DankPyon_FoodPreservation</researchPrerequisite>
+
+	<recipeUsers>	  
+		<li>DankPyon_StoneOven</li>
+  	</recipeUsers>
+  </RecipeDef>
+</Defs>

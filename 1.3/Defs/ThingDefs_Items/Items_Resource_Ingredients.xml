@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<!-- ==================== Processed Resource ======================= -->  
+
+<!--=============== Fat ====================-->
+<ThingDef ParentName="OrganicProductBase">
+  <defName>DankPyon_Fat</defName>
+  <label>Fett</label>
+  <description>Fett ist ein reichlich vorhandener Stoff und erfüllt mehrere Zwecke. In der Nahrung verbessert zugesetztes Fett die Mahlzeiten und füllt den Darm eines Kolonisten länger, aber zu viel davon und der Kolonist wird eher krank. Im Überlebenskampf kann Fett den Flammen zugefügt werden, sei es in einer Fackel oder einem Lagerfeuer, um die Wärme länger zu erhalten. Und schließlich kann man aus ausgeschmolzenem Fett Kerzen, Seifen, Skulpturen und vieles mehr herstellen.</description>
+  <graphicData>
+    <texPath>Resources/Fat</texPath>
+    <graphicClass>Graphic_StackCount</graphicClass>
+  </graphicData>
+  <thingCategories>
+      <li>AnimalProductRaw</li>
+  </thingCategories>
+  <socialPropernessMatters>true</socialPropernessMatters>
+  <statBases>
+    <MaxHitPoints>30</MaxHitPoints>
+    <Flammability>1.0</Flammability>
+    <Beauty>-1</Beauty>
+    <MarketValue>1</MarketValue>
+    <Mass>0.02</Mass>
+    <Nutrition>0.01</Nutrition>
+  </statBases>
+  <comps>
+    <li Class="CompProperties_Forbiddable" />
+    <li Class="CompProperties_Ingredients" />
+    <li Class="CompProperties_FoodPoisonable" />
+    <li Class="CompProperties_Rottable">
+      <daysToRotStart>8</daysToRotStart>
+      <rotDestroys>true</rotDestroys>
+    </li>
+  </comps>
+  <ingestible>
+    <preferability>DesperateOnlyForHumanlikes</preferability>
+    <tasteThought>AteRawFood</tasteThought>
+    <foodType>Meal</foodType>
+  </ingestible>
+</ThingDef>
+
+<ThingDef ParentName="RoughPlantBase">
+  <defName>DankPyon_Tallow</defName>
+  <label>Talg</label>
+  <description>Talg ist eine ausgeschmolzene Form von Fett, die bei Zimmertemperatur fest ist und daher über längere Zeit gelagert werden kann. Kann zu Kerzen verarbeitet werden.</description>
+  <stackLimit>75</stackLimit>	
+  <graphicData>
+    <texPath>Resources/Tallow</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <drawSize>(1,1)</drawSize>
+  </graphicData>
+  <statBases>
+    <MarketValue>1.5</MarketValue>
+    <Nutrition>0.05</Nutrition>
+  </statBases>
+  <thingCategories>
+    <li>Foods</li>
+  </thingCategories>
+  <comps>
+    <li Class="CompProperties_Rottable">
+      <daysToRotStart>90</daysToRotStart>
+      <rotDestroys>true</rotDestroys>
+    </li>
+  </comps>
+  <ingestible>
+    <preferability>NeverForNutrition</preferability>
+  </ingestible>
+</ThingDef> 
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>DankPyon_Flour</defName>
+    <label>Mehl</label>
+    <description>Mehl wird für die Zubereitung vieler verschiedener Gerichte verwendet und ist sehr lange lagerfähig, kann aber nicht roh verzehrt werden. Aufgrund seiner Beschaffenheit kann es sehr effizient gelagert werden.</description>
+    <stackLimit>75</stackLimit>	
+    <graphicData>
+      <texPath>Resources/Flour</texPath>
+	    <graphicClass>Graphic_StackCount</graphicClass>
+	    <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.5</MarketValue>
+      <WorkToMake>100</WorkToMake>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>90</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>
+  </ThingDef>  
+  
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>DankPyon_Straw</defName>
+    <label>Stroh</label>
+    <description>Getrocknete Getreidestängel, die vor allem als Futtermittel verwendet werden, geerntet und für die Lagerung gepresst. Stroh ist ein gutes Tierfutter, aber für den Menschen ungenießbar.</description>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+      <texPath>Resources/Straw</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.7</MarketValue>
+	    <Mass>0.010</Mass>
+      <Flammability>1.8</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <optimalityOffsetFeedingAnimals>6</optimalityOffsetFeedingAnimals>
+    </ingestible>	
+  </ThingDef>  
+
+<ThingDef ParentName="RoughPlantBase">
+    <defName>DankPyon_Salt</defName>
+    <label>Salz</label>
+    <description>Salz ist ein häufig vorkommendes Mineral, das in natürlichen Gesteinsablagerungen und in großer Menge im Meer vorkommt. Es wird häufig zur Konservierung von Lebensmitteln und zum Würzen von Mahlzeiten verwendet.</description>
+    <stackLimit>200</stackLimit>
+    <graphicData>
+      <texPath>Resources/Salt</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1</MarketValue>	        
+	    <Mass>0.010</Mass>
+      <Flammability>1.8</Flammability>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <deepCommonality>1.25</deepCommonality>
+		<deepCountPerPortion>10</deepCountPerPortion>
+		<deepLumpSizeRange>2~5</deepLumpSizeRange>
+    <thingCategories>
+      <li>DankPyon_Condiments</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>NeverForNutrition</preferability>
+    </ingestible>	
+</ThingDef>  
+
+<ThingDef ParentName="RoughPlantBase">
+		<defName>DankPyon_Sugar</defName>
+		<label>Zucker</label>
+		<description>Eine süße, weiße, pulverförmige Substanz, die aus der Zuckerrohrpflanze gewonnen wird.</description>
+		<graphicData>
+			<texPath>Resources/Sugar</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.2</MarketValue>
+			<Nutrition>0.02</Nutrition>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>120</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>DankPyon_Condiments</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
+	</ThingDef>
+
+  <ThingDef ParentName="RoughPlantBase">
+		<defName>DankPyon_Spices</defName>
+		<label>Gewürze</label>
+		<description>Eine Mischung aus getrockneten und zerkleinerten Gewürzen, die ein wunderbares Aroma und einen angenehmen Geschmack bietet..</description>
+		<graphicData>
+			<texPath>Resources/Spices</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2.5</MarketValue>
+			<Nutrition>0.02</Nutrition>
+			<Flammability>1.3</Flammability>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>DankPyon_Condiments</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+		</ingestible>
+	</ThingDef>
+
+  <ThingDef ParentName="MealBase">
+    <defName>DankPyon_Sausages</defName>
+    <label>Rohwurst</label>
+    <description>Hackfleisch gemischt mit Kräutern und Gewürzen.</description>
+    <stackLimit>30</stackLimit>
+    <graphicData>
+      <texPath>Resources/Sausage</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.2</Nutrition>
+      <MarketValue>10</MarketValue>
+	    <Mass>0.010</Mass>
+      <Flammability>1.8</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <tasteThought>AteRawFood</tasteThought>
+      <preferability>NeverForNutrition</preferability>
+      <optimalityOffsetFeedingAnimals>6</optimalityOffsetFeedingAnimals>
+    </ingestible>	
+  </ThingDef>  
+
+  </Defs>

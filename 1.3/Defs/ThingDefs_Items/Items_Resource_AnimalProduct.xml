@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Large Cobra -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggLargeForestCobraFertilized</defName>
+    <label>großes Waldkobra-Ei (fert.)</label>
+    <description>Ein großes befruchtetes Waldkobra-Ei. Wenn alles gut geht, sollte daraus eine Babykobra schlüpfen. Sie kann roh gegessen werden, aber gekocht schmeckt sie viel besser.</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/LargeCobraEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_LargeCobraForest</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggLargeCobraCaveFertilized</defName>
+    <label>großes Höhlenschlangenei (fert.)</label>
+    <description>Ein großes befruchtetes Waldkobra-Ei. Wenn alles gut geht, sollte daraus eine Babykobra schlüpfen. Sie kann roh gegessen werden, aber gekocht schmeckt sie viel besser.</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/LargeCaveCobraEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>30.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>7.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_LargeCobraCave</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Giant Constrictor -->
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggConstrictorForestFertilized</defName>
+    <label>Riesenwaldschlangenei (fert.)</label>
+    <description>Ein großes befruchtetes Waldkobra-Ei. Wenn alles gut geht, sollte daraus eine Babykobra schlüpfen. Sie kann roh gegessen werden, aber gekocht schmeckt sie viel besser.</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/GiantEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>20.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_GiantConstrictorForest</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggConstrictorCaveFertilized</defName>
+    <label>Riesenhöhlenschlangenei (fert.)</label>
+    <description>Ein großes befruchtetes Waldkobra-Ei. Wenn alles gut geht, sollte daraus eine Babykobra schlüpfen. Sie kann roh gegessen werden, aber gekocht schmeckt sie viel besser.</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/GiantCaveEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1000.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>20.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_GiantConstrictorCave</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!-- Lindwurm -->
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggLindwurmForestFertilized</defName>
+    <label>riesiges Waldlindwurmei (fert.)</label>
+    <description>Ein großes befruchtetes Waldlindwurmei. Wenn alles gut geht, sollte daraus ein Baby-Lindwurm schlüpfen. Er kann roh gegessen werden, aber gekocht schmeckt er viel besser.</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/GiantEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>40.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_LindwurmForest</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>DankPyon_EggLindwurmCaveFertilized</defName>
+    <label>Riesenhöhlen-Lindwurmeier (fert.)</label>
+    <description>Ein großes befruchtetes Waldlindwurmei. Wenn alles gut geht, sollte daraus ein Baby-Lindwurm schlüpfen. Er kann roh gegessen werden, aber gekocht schmeckt er viel besser..</description>
+    <graphicData>
+      <texPath>AnimalProductRaw/GiantCaveEgg</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>1500.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>40.5</hatcherDaystoHatch>
+        <hatcherPawn>DankPyon_LindwurmCave</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

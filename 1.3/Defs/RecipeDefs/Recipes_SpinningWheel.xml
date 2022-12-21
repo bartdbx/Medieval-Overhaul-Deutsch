@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RecipeDef Abstract="True" Name="DankPyon_MakeClothBase">
+		<jobString>Spinning cotton.</jobString>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<workAmount>450</workAmount>
+		<workSkill>Crafting</workSkill>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<requiredGiverWorkType>Crafting</requiredGiverWorkType>
+		<workSkillLearnFactor>0.25</workSkillLearnFactor>
+		<targetCountAdjustment>10</targetCountAdjustment>
+		<products>
+			<Cloth>10</Cloth>
+		</products>
+		<recipeUsers>
+			<li>DankPyon_SpinningWheel</li>
+			<li>HandTailoringBench</li>
+			<li>ElectricTailoringBench</li>
+		</recipeUsers>
+	<researchPrerequisites>
+			<li>DankPyon_TextileSpinning</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_MakeCloth</defName>
+		<label>Baumwolle spinnen</label>
+		<description>Rohe Baumwolle zu Stoff verspinnen.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawCotton</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawCotton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_MakeClothBulk</defName>
+		<label>Baumwolle spinnen x50</label>
+		<description>Rohe Baumwolle zu 50 mal Stoff verspinnen.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawCotton</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawCotton</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>50</Cloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_MakeLinen</defName>
+		<jobString>Flachs spinnen.</jobString>
+		<label>Leinen spinnen</label>
+		<description>Rohflachs zu Leinengewebe spinnen.</description>
+		<products>
+			<DankPyon_Linen>10</DankPyon_Linen>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawFlax</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawFlax</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_MakeLinenBulk</defName>
+		<jobString>Flachs spinnen.</jobString>
+		<label>Leinen spinnen x50</label>
+		<description>Spinnen von Rohflachs zu 50 Leinenstoffen.</description>
+		<products>
+			<DankPyon_Linen>50</DankPyon_Linen>
+		</products>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DankPyon_RawFlax</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DankPyon_RawFlax</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_MakeClothFromWool</defName>
+		<label>Wolle spinnen</label>
+		<description>Spinnen von Rohwolle zu Stoffen.</description>
+		<jobString>Wolle spinnen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+					<li>Wools</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+			<li>Wools</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Cloth>10</Cloth>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="DankPyon_MakeClothBase">
+		<defName>DankPyon_Make50ClothFromWool</defName>
+		<label>Wolle spinnen 50x</label>
+		<description>Spinnen von Rohwolle zu Stoffen.</description>
+		<jobString>Wolle spinnen.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+					<li>Wools</li>
+					</categories>
+				</filter>
+				<count>50</count>
+			</li>
+		</ingredients>
+			<fixedIngredientFilter>
+				<categories>
+				<li>Wools</li>
+				</categories>
+			</fixedIngredientFilter>
+			<products>
+				<Cloth>50</Cloth>
+			</products>
+	</RecipeDef>
+</Defs>

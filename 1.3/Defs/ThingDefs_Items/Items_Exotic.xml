@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============== Rox horn ====================-->
+  
+  <ThingDef ParentName="ResourceVerbBase">
+    <defName>DankPyon_RoxHorn</defName>
+    <label>Rox Horn</label>
+    <description>Ein Rox-Horn. Es ist schwer, steinhart und auf den meisten Märkten unbezahlbar. Dies ist eine echte Trophäe, die von den besten Jägern gesucht wird.</description>
+			<graphicData>
+			<texPath>Special/RoxHorn</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>200</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.5</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<relicChance>2</relicChance>
+
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleeBlunt</li>
+		</weaponClasses>
+		<tools>
+		<li>
+			<label>ram</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>16.2</power>
+			<cooldownTime>2.7</cooldownTime>
+		</li>
+		<li>
+			<label>base</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<chanceFactor>0.5</chanceFactor>
+		</li>
+		</tools>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<!--=============== Daer Antler ====================-->
+
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>DankPyon_DaerAntler</defName>
+		<label>Daer Geweih</label>
+		<description>Das Geweih eines Hirsches. Es ist schwer, steinhart und auf den meisten Märkten unbezahlbar. Eine echte Trophäe, die jeden, der sie sieht, in Ehrfurcht erstarren lässt.</description>
+		<graphicData>
+			<texPath>Special/DaerAntler</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<statBases>
+			<MarketValue>1200</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<relicChance>3</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+		<li>
+			<label>point</label>
+			<capacities>
+			<li>Scratch</li>
+			<li>Stab</li>
+			</capacities>
+			<power>28</power>
+			<cooldownTime>2.8</cooldownTime>
+		</li>
+		<li>
+			<label>base</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+		</li>
+		</tools>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<!--=============== Dire Boar Tusk ====================-->
+	<ThingDef ParentName="ResourceVerbBase">
+		<defName>DankPyon_DireBoarTusk</defName>
+		<label>Wildschweinhauer</label>
+		<description>Der Stoßzahn eines grässlichen Ebers. Er ist sehr haltbar und wertvoll. Obwohl er als Nahkampfwaffe etwas unhandlich ist, kann er dennoch tödlich sein..</description>
+		<graphicData>
+			<texPath>Special/DireBoarTusk</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+
+		<statBases>
+			<MarketValue>80</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>1.8</Mass>
+			<Flammability>0.9</Flammability>
+			<DeteriorationRate>0.5</DeteriorationRate>
+		</statBases>
+
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<relicChance>2</relicChance>
+		<comps>
+			<li Class="CompProperties_Styleable"></li>
+		</comps>
+		<weaponClasses>
+			<li>Melee</li>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<tools>
+		<li>
+			<label>point</label>
+			<capacities>
+			<li>Scratch</li>
+			<li>Stab</li>
+			</capacities>
+			<power>16.2</power>
+			<cooldownTime>2.6</cooldownTime>
+		</li>
+		<li>
+			<label>base</label>
+			<capacities>
+			<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			<chanceFactor>0.5</chanceFactor>
+		</li>
+		</tools>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+	</ThingDef>
+
+	<!--============================== Alchemy Ingredients ===================================-->
+	<ThingDef ParentName="ResourceBase" Name="DankPyon_AlchemyIngredientsBase" Abstract="True">
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+
+		<thingCategories>
+			<li>DankPyon_AlchemyIngredients</li>
+		</thingCategories>
+		<tradeTags>
+			<li>DankPyon_AlchemyIngredients</li>
+		</tradeTags>
+	</ThingDef>
+	<!--=============== Schrat Drops ====================-->
+	<!--ThingDef ParentName="DankPyon_AlchemyIngredientsBase">
+		<defName>DankPyon_SchratHeart</defName>
+		<label>Herz des Waldes</label>
+		<description>Eine Kugel aus Lebensenergie, die noch immer einige sich windende Ranken nährt. Ihr Pulsschlag erhöht sich, wenn sie in der Hand gehalten wird, und entzieht dem Glied gierig Wärme. Eine wichtige Zutat in zahlreichen okkulten Ritualen, sicherlich ein wertvoller Besitz.</description>
+		<graphicData>
+			<texPath>Special/SchratHeart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_AlchemyIngredientsBase">
+		<defName>DankPyon_AncientWood</defName>
+		<label>Altholz</label>
+		<description>Ein dunkles Eichenholz, so alt wie die Zeit. Das Holz ist bekannt für seine Stärke und Haltbarkeit, um physischen Schlägen zu widerstehen. Ein perfektes Material um es für einen Schild zu verwenden.</description>
+		<graphicData>
+			<texPath>Special/AncientWood</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>110</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.3</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_AlchemyIngredientsBase">
+		<defName>DankPyon_GlowingResin</defName>
+		<label>leuchtendes Harz</label>
+		<description>Leuchtend und reich an Farbtönen. Ein glamouröses Juwel, das die tiefen Farben des Waldes ausstrahlt. Er dient als Zutat für Tränke und andere formelhafte Verfahren.</description>
+		<graphicData>
+			<texPath>Special/GlowingResin</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.4</Flammability>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+	</ThingDef-->
+	
+
+</Defs>

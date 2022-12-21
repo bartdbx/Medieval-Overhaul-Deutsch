@@ -1,0 +1,935 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_RusticFurniture</defName>
+    <label>Rustikale Möbel</label>
+    <description>Baue einfache rustikale Möbel wie Heubetten, Beistelltische, Kommoden und mehr.</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>DankPyon_MedievalStart</li>
+    </tags>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_RoyalRusticFurniture</defName>
+    <label>Kaiserliche Architektur</label>
+    <description>Konstruieren Sie elegante und luxuriöse Möbel, die mit Gold geschmückt sind, die für Adlige angemessen sind.</description>
+    <baseCost>900</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>0.4</researchViewY>    
+    <prerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_RusticStorage</defName>
+    <label>Rustikale Lagerung</label>
+    <description>Erstellen Sie Gebäude, in denen Sie Gegenstände effizienter lagern können, um Platz zu sparen.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>0.4</researchViewY>
+    <prerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_CarrierBirds</defName>
+    <label>Postvögel</label>
+    <description>Trainiere Vögel, um Nachrichten zu überbringen, die es dir ermöglichen, mit anderen Fraktionen zu kommunizieren.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>1.1</researchViewY>   
+    <prerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </prerequisites> 
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_LeatherTanning</defName>
+    <label>Ledergerbung</label>
+    <description>Lernen Sie, wie Sie rohe Tierfelle zu Leder verarbeiten.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>TribalStart</li>
+    </tags>
+		<researchViewX>1</researchViewX>
+		<researchViewY>0.7</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_TextileSpinning</defName>
+    <label>Textilspinnen</label>
+    <description>Lerne, wie man Baumwolle anpflanzt, erntet und verspinnt, um Kleidung zu schneidern.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>4</researchViewX>
+		<researchViewY>0</researchViewY>   
+    <prerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+  <defName>DankPyon_DesertLooming</defName>
+    <label>Wüstenweben</label>
+    <description>Erlernen Sie die Techniken des Textilhandwerks der Wüstenrandbewohner.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>5</researchViewX>
+		<researchViewY>0.4</researchViewY>   
+    <prerequisites>
+      <li>DankPyon_TextileSpinning</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Silk</defName>
+    <label>Seide</label>
+    <description>Ernten von feinem Fadenmaterial von Seidenraupen</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>6</researchViewX>
+		<researchViewY>0.4</researchViewY>  
+    <prerequisites>
+      <li>DankPyon_TextileSpinning</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_CandleMaking</defName>
+    <label>Kerzenerstellung</label>
+    <description>Machen Sie Kerzen, um Ihre Kolonie zu erhellen und schöne Kronleuchter zu bauen</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <tags>
+      <li>DankPyon_MedievalStart</li>
+    </tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0.7</researchViewY>       
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Presser</defName>
+    <label>Presser</label>
+    <description>Bauen Sie eine Pressmaschine, um die Säfte aus Früchten oder Molke aus Quark zu pressen.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>1.4</researchViewY>  
+  </ResearchProjectDef>
+
+	  <ResearchProjectDef>
+    <defName>DankPyon_Jewelry</defName>
+    <label>Schmuck</label>
+    <description>Wertvolle Juwelen zu tragbaren Accessoires veredeln.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>1.4</researchViewY>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <!--=========================== Engineering ==============================-->
+  <ResearchProjectDef>
+    <defName>DankPyon_Engineering</defName>
+    <label>Ingenieurwesen</label>
+    <description>Erforsche, wie man grundlegende Komponenten herstellt, um komplexe Apparate zu bauen</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>13</researchViewX>
+		<researchViewY>0</researchViewY> 
+    <hiddenPrerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </hiddenPrerequisites>    
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>DankPyon_Mining</defName>
+    <label>Bergbau</label>
+    <description>Lernen Sie Sicherheitsvorkehrungen und den richtigen Weg, um einen Minenschacht zu bauen, um Ressourcen und Steine abzubauen.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>14</researchViewX>
+		<researchViewY>0.4</researchViewY> 
+    <prerequisites>
+      <li>DankPyon_Engineering</li>
+    </prerequisites>
+    <requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>   
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+   <defName>DankPyon_Windmill</defName>
+    <label>Windmühle</label>
+    <description>Nutzen Sie die Kraft des Windes, um das Mahlen von weizenähnlichen Produkten zu automatisieren.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>15</researchViewX>
+		<researchViewY>0.4</researchViewY> 
+    <prerequisites>
+      <li>DankPyon_Engineering</li>
+    </prerequisites>
+    <requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>   
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Crossbow</defName>
+    <label>Armbrust</label>
+    <description>Einen mechanisch kompakten Bogen herstellen. Erfordert weniger Geschick, aber langes Nachladen.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>14</researchViewX>
+		<researchViewY>1.10</researchViewY>
+    <prerequisites>
+      <li>DankPyon_Engineering</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_HeavyCrossbow</defName>
+    <label>Arbalest</label>
+    <description>Stelle eine schwerere Version der Armbrust her, um deine Feinde zu dezimieren.</description>
+    <baseCost>700</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>15</researchViewX>
+		<researchViewY>1.10</researchViewY>
+    <prerequisites>
+      <li>DankPyon_Crossbow</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Ballista</defName>
+    <label>Ballista</label>
+    <description>Erforsche, wie man eine riesige Ballista baut. Feuert riesige Ballista-Bolzen mit mittlerer Feuerrate ab.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>16</researchViewX>
+		<researchViewY>1.10</researchViewY>
+    <prerequisites>
+      <li>DankPyon_HeavyCrossbow</li>
+    </prerequisites>
+    <requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>     
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Trebuchet</defName>
+    <label>Trebuchet</label>
+    <description>Erforsche, wie man ein riesiges Trebuchet (Katapult) baut. Mächtig und tödlich, aber das Nachladen dauert lange.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>17</researchViewX>
+		<researchViewY>1.10</researchViewY>
+    <prerequisites>
+      <li>DankPyon_HeavyCrossbow</li>
+    </prerequisites>
+    <requiredResearchBuilding>DankPyon_AdvancedResearchBench</requiredResearchBuilding>     
+  </ResearchProjectDef>
+
+  <!--=========================== Alchemy ==============================-->
+  <ResearchProjectDef>
+    <defName>DankPyon_Alchemy</defName>
+    <label>Alchemy</label>
+    <description>WIP. Forschung, um einen erweiterten Forschungstisch zu erhalten</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>13</researchViewX>
+		<researchViewY>2.1</researchViewY>
+    <hiddenPrerequisites>
+      <li>DankPyon_RusticFurniture</li>
+    </hiddenPrerequisites>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Steel</defName>
+    <label>Stahl</label>
+    <description>Entdecken Sie die Grundlagen der Metallurgie und stellen Sie Stahl her</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>14</researchViewX>
+		<researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_Alchemy</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+ <ResearchProjectDef>
+    <defName>DankPyon_Tar</defName>
+    <label>Teer</label>
+    <description>Entdecke wie man Teer herstellt</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>15</researchViewX>
+		<researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_Alchemy</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Gunpowder</defName>
+    <label>Schießpulver</label>
+    <description>Entdecken Sie die perfekte Formel für die Verwendung von Schießpulver in der Waffentechnik</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>16</researchViewX>
+		<researchViewY>2.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_Alchemy</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+  <!--=========================== Alcoholics ==============================-->
+  <!--ResearchProjectDef>
+    <defName>DankPyon_Brewing</defName>
+    <label>Rustikales Brauen</label>
+    <description>Erforsche die Grundlagen des Brauens und lerne, wie man einfache Alkoholika oder Gebräue herstellt.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+		<researchViewX>13</researchViewX>
+		<researchViewY>4.2</researchViewY>  
+  </ResearchProjectDef-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BrewingCider</defName>
+    <label>Apfelwein</label>
+    <description>Fermentierter Apfelsaft, fruhitg und frisch.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>14</researchViewX>
+		<researchViewY>4.6</researchViewY>  
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BrewingAle</defName>
+    <label>Bier</label>
+    <description>Bier wird aus fermentierten gemälzten Körnern hergestellt. Verleiht einen fruchtigen und reichen Geschmack.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>15</researchViewX>
+		<researchViewY>4.6</researchViewY>  
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BrewingWine</defName>
+    <label>Wein</label>
+    <description>Wein wird aus vergorenen gepressten Trauben hergestellt. Ein Getränk, das Adel symbolisiert.</description>
+    <baseCost>500</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>16</researchViewX>
+		<researchViewY>4.6</researchViewY>  
+    <prerequisites>
+      <li>Brewing</li>
+    </prerequisites>  
+  </ResearchProjectDef>
+
+  <!--=========================== Apparel ==============================-->
+  <ResearchProjectDef>
+    <defName>DankPyon_Tailoring</defName>
+    <label>Schneiderei</label>
+    <description>Erfahren Sie, wie Sie Alltagskleidung nähen, die für die Zivilbevölkerung geeignet ist.</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>0</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_ProtectiveClothing</defName>
+    <label>Schutzkleidung</label>
+    <description>Erfahren Sie, wie Sie gepolsterte Kleidung nähen, um einen besseren Schutz vor physischen Bedrohungen zu gewährleisten.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>0</researchViewY> 
+    <prerequisites>
+      <li>DankPyon_Tailoring</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_ChainArmor</defName>
+    <label>Kettenrüstung</label>
+    <description>Erlernen Sie die Techniken, kleine Kettenstücke zu verbinden, um beeindruckende Kettenhemd-Rüstungen zu schmieden.</description>
+    <baseCost>1500</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>0</researchViewY>
+    <prerequisites>
+      <li>DankPyon_ProtectiveClothing</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <!--=========================== Ranged Weapons ==============================-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_HuntingBow</defName>
+    <label>Jagdbogen</label>
+    <description>Bauen Sie Jagdbögen, einen starken Bogen, der zur besseren Jagd von Wild verwendet wird.</description>
+    <baseCost>500</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>0.7</researchViewY>  
+    <prerequisites>
+      <li>RecurveBow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_WarBow</defName>
+    <label>Kriegsbogen</label>
+    <description>Stelle den ultimativen Langbogen her, der besonders auf große Distanz gefährlich ist</description>
+    <baseCost>700</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>11</researchViewX>
+		<researchViewY>0.7</researchViewY>  
+    <prerequisites>
+      <li>Greatbow</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+
+  <!--=========================== Melee Weapons ==============================-->
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicSpears</defName>
+    <label>Einfache Speere</label>
+    <description>Lerne, wie man einfache Speere herstellt.</description>
+    <baseCost>200</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>1.4</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitarySpears</defName>
+    <label>Militärische Speere</label>
+    <description>Lerne, wie man Speere für den Kampf herstellt.</description>
+    <baseCost>500</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicSpears</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>1.4</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_NobleSpears</defName>
+    <label>Noble Speere</label>
+    <description>Lernen Sie, stärkere und bessere Speere herzustellen, die auch für einen Adligen geeignet sind.</description>
+    <baseCost>900</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitarySpears</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>1.4</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicPolearms</defName>
+    <label>Einfache Stangenwaffen</label>
+    <description>Lerne, wie man einfache Stangenwaffen herstellt.</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>2.1</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitaryPolearms</defName>
+    <label>Militärische Stangenwaffen</label>
+    <description>Lerne, wie man militärische Stangenwaffen herstellt.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicPolearms</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>2.1</researchViewY>  
+  </ResearchProjectDef>
+  
+  <ResearchProjectDef>
+    <defName>DankPyon_NoblePolearms</defName>
+    <label>Noble Stangenwaffen</label>
+    <description>WIP. Lerne, wie man edle Stangenwaffen herstellt.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitaryPolearms</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>2.1</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicMaces</defName>
+    <label>Einfache Streitkolben</label>
+    <description>Lerne, wie man einfache Streitkolben herstellt</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>2.8</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitaryMaces</defName>
+    <label>Militärische Streitkolben</label>
+    <description>Lerne, wie man Streitkolben herstellt, die für den Kampf entwickelt wurden</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicMaces</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>2.8</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_NobleMaces</defName>
+    <label>Noble Streitkolben</label>
+    <description>Erfahren Sie, wie Sie stärkere und bessere Streitkolben herstellen, die auch für einen Adligen geeignet sind.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitaryMaces</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>2.8</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicHammers</defName>
+    <label>Einfache Hammer</label>
+    <description>Lerne, wie man einfache Hämmer herstellt</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>3.5</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitaryHammers</defName>
+    <label>Militärische Hämmer</label>
+    <description>Erfahren Sie, wie man Militärhämmer schmiedet</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicHammers</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>3.5</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_NobleHammers</defName>
+    <label>Noble Hämmer</label>
+    <description>Lerne wie man bessere Hämmer herstellt, die auch für Adelige geeignet sind.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitaryHammers</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>3.5</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicAxes</defName>
+    <label>Einfache Äxte</label>
+    <description>Lerne, wie man einfache Äxte herstellt.</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>4.2</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitaryAxes</defName>
+    <label>Militärische Äxte</label>
+    <description>Lerne, wie man Äxte für den Kampf herstellt.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicAxes</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>4.2</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_NobleAxes</defName>
+    <label>Noble Äxte</label>
+    <description>Lernen Sie, stärkere und bessere Äxte herzustellen, die für einen Adligen geeignet sind.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitaryAxes</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>4.2</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicCleavers</defName>
+    <label>Einfache Faustkeile</label>
+    <description>WIP. Lerne, wie man grundlegende Faustkeile herstellt.</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>4.9</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitaryCleavers</defName>
+    <label>Militärische Faustkeile</label>
+    <description>WIP. Lerne, wie man militärische Faustkeile herstellt.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicCleavers</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>4.9</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_NobleCleavers</defName>
+    <label>Noble Faustkeile</label>
+    <description>WIP. Lerne, wie man bessere Faustkeile herstellt.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitaryCleavers</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>4.9</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicSwords</defName>
+    <label>Einfache Schwerter</label>
+    <description>Lerne, wie man grundlegende Schwerter herstellt</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites> 
+    <techLevel>Medieval</techLevel>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5.6</researchViewY>  
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_MilitarySwords</defName>
+    <label>Militärische Schwerter</label>
+    <description>Lerne, wie man Schwerter für den Kampf herstellt</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_BasicSwords</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>5.6</researchViewY>  
+  </ResearchProjectDef>
+
+  <!--ResearchProjectDef>
+    <defName>DankPyon_NobleSwords</defName>
+    <label>Noble Schwerter</label>
+    <description>Lernen Sie, stärkere und bessere Schwerter herzustellen, die für einen Adligen geeignet sind.</description>
+    <baseCost>1000</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>DankPyon_MilitarySwords</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>10</researchViewX>
+		<researchViewY>5.6</researchViewY>  
+  </ResearchProjectDef-->
+  
+  <!--=========================== Agriculture ==============================-->
+  <ResearchProjectDef>
+    <defName>DankPyon_FruitTreeSowing</defName>
+    <label>Aussaat von Obstbäumen</label>
+    <description>Erforsche, wie man Obstbäume sät</description>
+    <baseCost>500</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>    
+  </ResearchProjectDef>
+
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicAgriculture</defName>
+    <label>Grundlegende Landwirtschaft</label>
+    <description>Erforsche, wie man einfache Pflanzen sät</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2.1</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_IntermediateAgriculture</defName>
+    <label>Verbesserte Landwirtschaft</label>
+    <description>Erforsche, wie man bessere Pflanzen sät</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>DankPyon_BasicAgriculture</li>
+    </prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.1</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_AdvancedAgriculture</defName>
+    <label>Fortschrittliche Landwirtschaft</label>
+    <description>Erforsche, wie man fortschrittliche Pflanzen sät</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>DankPyon_IntermediateAgriculture</li>
+    </prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2.1</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_TreeGriffonBerry</defName>
+    <label>Greifenbeeren</label>
+    <description>Eine seltene üppige Frucht, die auf kleinen Bäumen wächst. Die rote Frucht ist laut ihrem Vornamen eine Delikatesse für Greifen und wird normalerweise von ihnen bewacht.</description>
+    <baseCost>900</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>DankPyon_AdvancedAgriculture</li>
+    </prerequisites>
+		<researchViewX>3</researchViewX>
+		<researchViewY>2.1</researchViewY>    
+  </ResearchProjectDef>
+
+  <!--=========================== Cooking ==============================-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_BasicCooking</defName>
+    <label>Einfaches Kochen</label>
+    <description>Lernen Sie Grundrezepte von Gerichten zu kochen.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+    <tags>
+      <li>DankPyon_MedievalStart</li>
+    </tags>
+		<researchViewX>0</researchViewX>
+		<researchViewY>2.8</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_IntermediateCooking</defName>
+    <label>Besseres Kochen</label>
+    <description>Lerne bessere Gerichte zu kochen.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>DankPyon_BasicCooking</li>
+    </prerequisites>
+		<researchViewX>1</researchViewX>
+		<researchViewY>2.8</researchViewY>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_AdvancedCooking</defName>
+    <label>Fortschrittliches Kochen</label>
+    <description>Lerne fortschrittliche Gerichte zu meistern.</description>
+    <baseCost>800</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>DankPyon_IntermediateCooking</li>
+    </prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>2.8</researchViewY>    
+  </ResearchProjectDef>
+
+  <!--=========================== Food Preservation ==============================-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_FoodPreservation</defName>
+    <label>Lebensmittelkonservierung</label>
+    <description>Bauen Sie Trockengestelle oder salzen Sie Fleisch ein, um die Feuchtigkeit des Fleisches zu entfernen und seine Haltbarkeit zu verlängern.</description>
+    <baseCost>400</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4.2</researchViewY> 
+    <prerequisites>
+      <li>DankPyon_BasicCooking</li>
+    </prerequisites>   
+  </ResearchProjectDef>
+  
+  <!--ResearchProjectDef>
+    <defName>DankPyon_CheeseMaking</defName>
+    <label>Käseerstellung</label>
+    <description>Erfahren Sie, wie Sie eine Käsepresse herstellen, um Käse aus Milch herzustellen.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Neolithic</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4.6</researchViewY> 
+    <prerequisites>
+      <li>DankPyon_FoodPreservation</li>
+    </prerequisites>   
+  </ResearchProjectDef-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Smoker</defName>
+    <label>Räucherei</label>
+    <description>Erfahren Sie, wie Sie frisches Fleisch in getrocknete Dörrfleischscheiben räuchern, um die Haltbarkeit zu verlängern und den Mahlzeiten rustikale Aromen zu verleihen.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>4.2</researchViewY>
+    <prerequisites>
+      <li>DankPyon_FoodPreservation</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <!--=========================== Food Production Tables ==============================-->
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Grill</defName>
+    <label>Grill</label>
+    <description>Erfahren Sie, wie Sie Fleisch auf offener Flamme grillen, wie z. B. gegrillte Würstchen und gegrilltes Fleisch.</description>
+    <baseCost>200</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>3.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_BasicCooking</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_StewPot</defName>
+    <label>Aufläufe</label>
+    <description>Erfahren Sie, wie Sie herzhafte und nahrhafte Eintöpfe wie Kürbis- und Linsensuppen zubereiten</description>
+    <baseCost>300</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>2</researchViewX>
+		<researchViewY>3.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_BasicCooking</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>DankPyon_Oven</defName>
+    <label>Backen</label>
+    <description>Lernen Sie, wie Sie Mahlzeiten wie Brot oder sogar luxuriöse Desserts wie Apfelkuchen backen.</description>
+    <baseCost>600</baseCost>
+    <tab>DankPyon_MedievalResearchTab</tab>
+    <techLevel>Medieval</techLevel>
+		<researchViewX>3</researchViewX>
+		<researchViewY>3.5</researchViewY>
+    <prerequisites>
+      <li>DankPyon_BasicCooking</li>
+    </prerequisites>    
+  </ResearchProjectDef>
+  
+</Defs>

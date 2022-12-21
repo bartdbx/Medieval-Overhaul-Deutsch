@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+	<HediffDef ParentName="ChronicDiseaseBase">
+		<defName>DankPyon_Intoxication</defName>
+		<initialSeverity>0.01</initialSeverity>
+		<label>Intoxication</label>
+		<description>Der regelmäßige Konsum von Drogen, Alkoholikern, Kräutern und Medikamenten steigert Ihren Rausch. Ein hoher Rauschzustand kann unerwünschte Auswirkungen auf Ihre Bauern haben.</description>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.01</severityPerDay>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>Unerheblich (kein Effekt)</label>
+				<becomeVisible>true</becomeVisible>
+			</li>
+			
+			<li>
+				<label>Gering</label>
+				<minSeverity>0.25</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.10</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+
+			<li>
+				<label>Bedeutend</label>
+				<minSeverity>0.5</minSeverity>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<mtbDays>200</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.15</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.30</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>Extrem</label>
+				<minSeverity>0.8</minSeverity>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>HeartAttack</hediff>
+						<allowOnLodgers>false</allowOnLodgers>
+						<mtbDays>100</mtbDays>
+						<partsToAffect>
+							<li>Heart</li>
+						</partsToAffect>
+					</li>
+				</hediffGivers>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.30</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>-0.50</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

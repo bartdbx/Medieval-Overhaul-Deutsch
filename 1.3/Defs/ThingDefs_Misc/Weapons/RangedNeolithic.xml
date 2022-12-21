@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ======================================================== -->
+
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>DankPyon_Bow_Hunting</defName>
+    <label>Jagdbogen</label>
+    <description>Als einfache und kurze Waffe vermischt der Jagdbogen dichtes Holz für den Bauch und federndes Holz für die Vorderseite. Dadurch kann sich das dichte Holz biegen, aber das Bauchholz kämpft immer darum, zur Geraden zurückzukehren, und verdrängt so Pfeile, die mit großer Kraft am Strang gezogen werden. Kleiner als der Kriegsbogen, was zu geringerer Reichweite und Durchschlagskraft führt, aber in den Händen eines erfahrenen Bogenschützen oder Jägers mehr als tödlich.</description>
+    <graphicData>
+      <texPath>WeaponRanged/BowHunting</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Bow_Recurve</soundInteract>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2.2</Mass>
+      <AccuracyTouch>0.69</AccuracyTouch>
+      <AccuracyShort>0.81</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>DankPyon_BrigandMarksman</li>
+	  <li>DankPyon_HuntingBow</li> 
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedLight</li>
+    </weaponClasses>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DankPyon_Workbench</li>
+      </recipeUsers>
+      <researchPrerequisite>DankPyon_HuntingBow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DankPyon_Arrow_Hunting</defaultProjectile>
+        <warmupTime>1.75</warmupTime>
+        <range>27.9</range>
+        <soundCast>Bow_Recurve</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DankPyon_Arrow_Hunting</defName>
+    <label>hunting bow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>59</speed>
+    </projectile>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponNeolithic">
+    <defName>Bow_War</defName>
+    <label>Kriegsbogen</label>
+    <description>Ein langer Bogen aus schöner Eibe mit gedämpften Spitzen, um eine leichte Biegung zu ermöglichen, und lackiert, um zu verhindern, dass der Bogen unter Belastung zerbricht – und der Bogen erfährt tatsächlich Stress, da der lange Körper es dem Hanfstrang ermöglicht, weiter und mit mehr Spannung zu ziehen. Dies hilft Pfeilen, weiter zu fliegen und Oberflächen besser zu durchdringen, was den Kriegsbogen zu einer gefürchteten, tödlichen Waffe im Kampf macht.</description>
+    <graphicData>
+      <texPath>WeaponRanged/BowWar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.25,1.25)</drawSize>
+    </graphicData>
+    <comps>
+      <li><compClass>CompOversizedWeapon.CompOversizedWeapon</compClass></li>
+    </comps>
+    <soundInteract>Bow_Large</soundInteract>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+    <thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+    <statBases>
+      <WorkToMake>11500</WorkToMake>
+      <Mass>3.5</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.89</AccuracyShort>
+      <AccuracyMedium>0.79</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.45</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>DankPyon_Warbow</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>DankPyon_Arrow_War</defaultProjectile>
+        <warmupTime>2.2</warmupTime>
+        <range>31</range>
+        <soundCast>Bow_Large</soundCast>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>limb</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DankPyon_Workbench</li>
+      </recipeUsers>
+      <researchPrerequisite>DankPyon_WarBow</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>DankPyon_Arrow_War</defName>
+    <label>war bow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>21</damageAmountBase>
+      <stoppingPower>1.8</stoppingPower>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>62</speed>
+    </projectile>
+  </ThingDef>
+  
+</Defs>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TreeBase">
+		<defName>DankPyon_TreeLylses</defName>
+		<label>Lylse</label>
+		<description>Die in alten Biomen heimische Lylse ist höher als die Vanilleeiche (oder kann der Höhe gleichkommen). Seine lange, robuste Rinde und Äste halten hellgrüne Blätter, die im Sonnenlicht gedeihen. Gefällt ergibt sich Elfenholz, das haltbarer, aber auch leichter ist als Eiche, was Lylses-Stämme für den Bau und die Holzbearbeitung wünschenswert macht.</description>
+		<graphicData>
+			<texPath>Plants/TreeLylses</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.55, 0.2, 0.2)</volume>
+				<offset>(0,0,-0.25)</offset>
+			</shadowData>
+		</graphicData>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<statBases>
+			<Beauty>25</Beauty>
+			<MaxHitPoints>600</MaxHitPoints>
+			<Flammability>0.60</Flammability>
+		</statBases>
+		<blockLight>true</blockLight>
+		<plant>
+			<dieIfLeafless>False</dieIfLeafless> 
+			<fertilityMin>0.9</fertilityMin>
+			<harvestedThingDef>DankPyon_ElvenWoodLog</harvestedThingDef>
+			<fertilitySensitivity>0.9</fertilitySensitivity>
+			<leaflessGraphicPath>Plants_Leafless/GreatOak_Leafless</leaflessGraphicPath>
+			<growDays>400</growDays>
+			<harvestWork>3000</harvestWork>
+			<harvestYield>150</harvestYield>
+			<wildClusterWeight>3</wildClusterWeight>
+			<wildClusterRadius>10</wildClusterRadius>
+			<visualSizeRange>8~12</visualSizeRange>
+		</plant>
+		<modExtensions>
+			<li Class="DankPyon.PlantExtension">
+				<transparencyWhenPawnOrItemIsBehind>true</transparencyWhenPawnOrItemIsBehind>
+				<firstAreaOffset>(-1, 0)</firstAreaOffset>
+				<firstArea>(3, 7)</firstArea>
+				<secondArea>(10, 4)</secondArea>
+				<secondAreaOffset>(-4, 7)</secondAreaOffset>
+				<ignoredThings>
+					<li>ChunkMarble</li>
+					<li>ChunkGranite</li>
+					<li>ChunkSandstone</li>
+				</ignoredThings>
+			</li>
+			<li Class="VanillaPlantsExpanded.DualCropExtension">
+				<secondaryOutput>DankPyon_Amber</secondaryOutput>
+				<outPutAmount>20</outPutAmount>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<ThingDef ParentName="TreeBase">
+		<defName>DankPyon_TreeScara</defName>
+		<label>Scara</label>
+		<description>Scara-Bäume sind zwar oft viermal so groß wie andere Bäume, stellen jedoch ihre Schwestergattung, die Lylse, in den Schatten. Sein breiter Stamm trägt eine Vielzahl von herbstgefärbten Blättern und Blättern, die in großen Gruppen schnell den Boden beschatten. Das aus Skaras geerntete Elfenholz ist haltbarer und leichter als Vanilleholz und damit in Folge teurer und stärker.</description>
+		<graphicData>
+			<texPath>Plants/TreeScara</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<statBases>
+			<Beauty>15</Beauty>
+			<MaxHitPoints>250</MaxHitPoints>
+			<Flammability>0.60</Flammability>
+		</statBases>
+		<plant>
+			<dieIfLeafless>False</dieIfLeafless> 
+			<fertilityMin>0.4</fertilityMin>
+			<growDays>18</growDays>
+			<harvestWork>1500</harvestWork>
+			<harvestYield>100</harvestYield>
+			<wildClusterWeight>32</wildClusterWeight>
+			<wildClusterRadius>5</wildClusterRadius>
+			<visualSizeRange>3~5</visualSizeRange>
+		</plant>
+		<modExtensions>
+			<li Class="DankPyon.PlantExtension">
+				<transparencyWhenPawnOrItemIsBehind>true</transparencyWhenPawnOrItemIsBehind>
+				<firstArea>(1, 2)</firstArea>
+				<secondArea>(5, 3)</secondArea>
+				<secondAreaOffset>(-2, 2)</secondAreaOffset>
+				<ignoredThings>
+					<li>ChunkMarble</li>
+					<li>ChunkGranite</li>
+					<li>ChunkSandstone</li>
+				</ignoredThings>
+			</li>
+		<li Class="VanillaPlantsExpanded.DualCropExtension">
+				<secondaryOutput>DankPyon_Amber</secondaryOutput>
+				<outPutAmount>5</outPutAmount>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+</Defs>

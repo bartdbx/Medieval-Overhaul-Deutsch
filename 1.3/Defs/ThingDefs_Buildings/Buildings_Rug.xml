@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Base ==============================-->
+  <ThingDef Name="DankPyon_FurnitureBaseRug" ParentName="BuildingBase" Abstract="True">
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+    </thingCategories>
+	<building>
+      	<isEdifice>false</isEdifice>
+    </building>
+	<rotatable>true</rotatable>
+	<altitudeLayer>FloorCoverings</altitudeLayer>
+	<useHitPoints>False</useHitPoints>
+	<researchPrerequisites>
+		<li>DankPyon_LeatherTanning</li>
+	</researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef Name="DankPyon_FurnitureWithQualityBaseRug" ParentName="DankPyon_FurnitureBaseRug" Abstract="True">
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <!--============================== Rugs ==============================-->
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugPatched1x1c</defName>
+		<label>Flickenteppich (1x1)</label>
+		<description>Ein grob genähter Teppich aus einzelnen Lederstücken.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugPatched1x1</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+  
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Beauty>3</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<stuffCategories>
+      		<li>Leathery</li>
+    	</stuffCategories>
+    	<costStuffCount>25</costStuffCount>
+
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugPatched2x2c</defName>
+		<label>Flickenteppich (2x2)</label>
+		<description>Ein grob genähter Teppich aus einzelnen Lederstücken.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugPatched2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+  
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Beauty>4</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<stuffCategories>
+      		<li>Leathery</li>
+    	</stuffCategories>
+    	<costStuffCount>50</costStuffCount>
+		<size>(2,2)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugPatched3x3c</defName>
+		<label>Flickenteppich (3x3)</label>
+		<description>Ein grob genähter Teppich aus einzelnen Lederstücken.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugPatched3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>5</Beauty>
+			<Mass>12</Mass>
+		</statBases>
+    
+		<stuffCategories>
+      		<li>Leathery</li>
+    	</stuffCategories>
+    	<costStuffCount>100</costStuffCount>
+
+		<size>(3,3)</size>
+	
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugHyena2x2c</defName>
+		<label>Hyänenteppich (2x2)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Hyänenteppiche sind klein, aber die aufwendigen Muster, von Streifen bis zu Punkten, machen das Stück zu einer schönen Dekorationsergänzung.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugHyena2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+   
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>10</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Hyena>1</DankPyon_Hide_Hyena>
+		</costList>
+
+		<size>(2,2)</size>
+	
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugWolfTimber2x2c</defName>
+		<label>Timberwolfteppich (2x2)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Das graubraune Fell des Timberwolfs kann eine wertvolle Decke sein, ist aber mit hohen Kosten verbunden, da der Jäger wahrscheinlich dem Tier in einem Rudel gegenübersteht.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugWolfTimber2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+      
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>10</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_WolfTimber>1</DankPyon_Hide_WolfTimber>
+		</costList>
+
+		<size>(2,2)</size>
+	
+ </ThingDef>
+
+ <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+	<defName>DankPyon_RugWolfArctic2x2c</defName>
+	<label>Polarwolfteppich (2x2)</label>
+	<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Eine Variante des Wolfs, Polarwolfsteppiche erzählen die Geschichte eines Jägers, der gefährlichen Temperaturen trotzte und hungernde Raubtiere besiegte, die biologisch zum Überleben bestimmt waren.</description>
+	<thingClass>Building</thingClass>
+	<graphicData>
+		<texPath>Furniture/RugWolfArctic2x2</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(2,2)</drawSize>
+	</graphicData>
+	
+
+	<statBases>
+		<WorkToMake>7000</WorkToMake>
+		<Beauty>10</Beauty>
+		<Mass>9</Mass>
+	</statBases>
+
+	<costList>
+		<DankPyon_Hide_WolfArctic>1</DankPyon_Hide_WolfArctic>
+		<DankPyon_TanningLiquor>6</DankPyon_TanningLiquor>
+	</costList>
+
+	<size>(2,2)</size>
+
+</ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugCougar2x2c</defName>
+		<label>Pumateppich (2x2)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Pumas werden für ihre luxuriösen Felle geschätzt, was wiederum eine wertvolle Alternative zu einfachen Teppichen darstellt.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugCougar2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+    
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>10</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Cougar>1</DankPyon_Hide_Cougar>
+			<DankPyon_TanningLiquor>6</DankPyon_TanningLiquor>
+		</costList>
+
+		<size>(2,2)</size>
+	
+	</ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugPanther2x2c</defName>
+		<label>Pantherteppich (2x2)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Pantherteppiche fallen, ähnlich wie die Tiere selbst, Nachts im Schatten auf, dank der marmorierten Augen, welche in der Dunkelheit leuchten.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugPanther2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+   
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>10</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Panther>1</DankPyon_Hide_Panther>
+			<DankPyon_TanningLiquor>6</DankPyon_TanningLiquor>
+		</costList>
+
+		<size>(2,2)</size>
+
+	</ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugGrizzlyBear3x3c</defName>
+		<label>Grizzlybärteppich (3x3)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Der tolle Mantel des Bären ist eines der begehrtesten Materialien für Tierfelle, was den Grizzlybären-Teppich zu einer würdigen Wahl für den wagemutigen Kolonisten macht, der mutig genug ist, sich der Jagd zu stellen.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugBearGrizzly3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+   
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Beauty>15</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+
+		<costList>
+			<DankPyon_Hide_BearGrizzly>1</DankPyon_Hide_BearGrizzly>
+			<DankPyon_TanningLiquor>12</DankPyon_TanningLiquor>
+		</costList>
+
+		<size>(3,3)</size>
+		
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+	<defName>DankPyon_RugPolarBear3x3c</defName>
+	<label>Eisbärteppich (3x3)</label>
+	<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Die Eisbären, die in gefrorenen Klimazonen vorkommen, beherbergen großartiges weißes Fell, das für kältebeständige Teppiche sorgt. Besonders wertvoll für Gehöfte bei kalten Temperaturen.</description>
+	<thingClass>Building</thingClass>
+	<graphicData>
+		<texPath>Furniture/RugBearPolar3x3</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>12000</WorkToMake>
+		<Beauty>15</Beauty>
+		<Mass>9</Mass>
+	</statBases>
+
+	<costList>
+		<DankPyon_Hide_BearPolar>1</DankPyon_Hide_BearPolar>
+		<DankPyon_TanningLiquor>12</DankPyon_TanningLiquor>
+	</costList>
+	<size>(3,3)</size>
+  </ThingDef>
+
+	 <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+	<defName>DankPyon_RugRox3x3c</defName>
+	<label>Roxteppich (3x3)</label>
+	<description>Als Trophäen für erfahrene Jäger werden Tierteppiche aus gefärbten und ausgestopften Tierhäuten hergestellt, die mit Filz und Polstern zu Teppichen vernäht werden. Die Eisbären, die in eisigen Klimazonen leben, haben ein tolles weißes Fell, das sich für kältebeständige Teppiche eignet. Besonders wertvoll für Gehöfte in kalten Gegenden.</description>
+	<thingClass>Building</thingClass>
+	<graphicData>
+		<texPath>Furniture/RugRox3x3</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>(3,3)</drawSize>
+	</graphicData>
+
+	<statBases>
+		<WorkToMake>12000</WorkToMake>
+		<Beauty>15</Beauty>
+		<Mass>9</Mass>
+	</statBases>
+
+	<costList>
+		<DankPyon_Hide_Rox>1</DankPyon_Hide_Rox>
+		<DankPyon_TanningLiquor>12</DankPyon_TanningLiquor>
+	</costList>
+	<size>(3,3)</size>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugThrumbo3x3c</defName>
+		<label>Trumboteppich (3x3)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Nur wenige Jäger können eine Trophäe mit einem raffinierteren und widerstandsfähigeren Fell herstellen als das des Trumboteppichs. Sein langes Fell kann jedem Kolonisten ins Auge fallen, aber das starke Fell erfordert viel Arbeit, um es zu schneidern. Vorsicht vor dem Horn.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugThrumbo3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+    
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<Beauty>30</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Thrumbo>1</DankPyon_Hide_Thrumbo>
+		</costList>
+		<size>(3,3)</size>				
+	</ThingDef>
+	
+	<ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugDaer4x4c</defName>
+		<label>Daerteppich (4x4)</label>
+		<description>Als Trophäen für den versierten Jäger werden Tierteppiche aus gebeizten und ausgestopften Tierhäuten hergestellt, die mit Filz und Polsterung zu Teppichen vernäht werden. Nur wenige Jäger können eine Trophäe mit einem edleren und widerstandsfähigeren Fell herstellen als den Thrumbo-Teppich. Sein langes Fell zieht die Blicke aller Kolonisten auf sich, aber das starke Fell erfordert viel Arbeit beim Schneidern. Hüte dich beim Gehen vor dem Horn.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugDaer4x4</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+    
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<Beauty>30</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Daer>1</DankPyon_Hide_Daer>
+		</costList>
+		<size>(4,4)</size>
+	</ThingDef>
+	
+   	<ThingDef ParentName="DankPyon_FurnitureWithQualityBaseRug">
+		<defName>DankPyon_RugHuman1x2c</defName>
+		<label>Menschenteppich (1x2)</label>
+		<description>Trophäen für den versierten Jäger, Tierteppiche werden aus gebeizten und ausgestopften Tierhäuten geformt, die auf Filz genäht und zu Teppichen gepolstert werden. Menschliche Teppiche sind geschätzte Trophäen, die von einigen bewundert und von anderen verabscheut werden, aber gleichgesinnte Kannibalen werden in ihrem Dekor Trost finden.</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Furniture/RugHuman1x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+    
+		<statBases>
+			<WorkToMake>7000</WorkToMake>
+			<Beauty>10</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+    
+		<costList>
+			<DankPyon_Hide_Human>1</DankPyon_Hide_Human>
+		</costList>
+		<size>(1,2)</size>
+	</ThingDef>
+	
+  
+</Defs>

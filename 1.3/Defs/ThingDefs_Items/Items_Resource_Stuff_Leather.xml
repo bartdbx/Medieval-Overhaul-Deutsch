@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--ThingDef ParentName="LeatherBase">
+    <defName>DankPyon_Leather_Rox</defName>
+    <label>Rox-Leder</label>
+    <description>Das sagenumwobene Leder eines Rochus, das aus dem Häuten eines der mächtigen Tiere gewonnen wird. Obwohl es in seiner rohen Form etwas rau ist, kann niemand seine unglaublichen Isolierfähigkeiten aufgrund der schieren Dichte der Roxhaare leugnen. Dieselbe Dichte sowie die angeborene Beschaffenheit machen es erstaunlich schwer entflammbar und verhindern, dass Sauerstoff die schwelende Glut auf dem Fell erreicht. Allerdings ist es ein schweres Material, mit dem man arbeiten muss.</description>
+    <graphicData>
+      <texPath>Resources/LeatherRox</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>14.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(80,75,72)</color>
+      <commonality>0.0025</commonality>
+      <statFactors>
+        <MaxHitPoints>2.0</MaxHitPoints>
+        <Beauty>6</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef-->
+
+  <!--ThingDef ParentName="LeatherBase">
+    <defName>DankPyon_Leather_Direwolf</defName>
+    <label>Wolfshaut</label>
+    <description>Ein starkes Pelzfell, das von einem bösartigen Schattenwolf gewonnen wurde. Härter als normales Wolfsfell und isoliert gut gegen Kälte.</description>
+    <graphicData>
+      <texPath>Resources/LeatherDirewolf</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.4</MarketValue>
+      <StuffPower_Armor_Sharp>1.12</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Cold>24</StuffPower_Insulation_Cold>
+    </statBases>
+    <stuffProps>
+      <color>(69,63,58)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <Beauty>1.80</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef-->
+
+  <!--ThingDef ParentName="LeatherBase">
+    <defName>DankPyon_Leather_Hyena</defName>
+    <label>Hyänenfell</label>
+    <description>Ein weicher, pelziger Pelz, der von einer Hyäne gewonnen wird. Es ist schwer zu durchstechen und isoliert gut gegen Hitze.</description>
+    <graphicData>
+      <texPath>Resources/LeatherHyena</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>3.0</MarketValue>
+      <StuffPower_Armor_Sharp>0.93</StuffPower_Armor_Sharp>
+      <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(205,171,122)</color>
+      <commonality>0.075</commonality>
+      <statFactors>
+        <Beauty>1.70</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef-->
+
+  <!--========== Super leathers ============-->
+  <ThingDef ParentName="LeatherBase">
+    <defName>DankPyon_Leather_Daer</defName>
+    <label>Daer Leder</label>
+    <description>Das sagenumwobene Leder eines Daers, das aus der Häutung einer der mächtigen Bestien gewonnen wird. Obwohl es in seiner rohen Form etwas rau ist, kann niemand seine unglaublichen Isolierfähigkeiten aufgrund der schieren Dichte der Daer-Haare leugnen. Dieselbe Dichte sowie die angeborene Beschaffenheit machen es erstaunlich schwer entflammbar und verhindern, dass Sauerstoff die schwelende Glut auf dem Fell erreicht. Allerdings ist es ein schweres Material, mit dem man arbeiten muss..</description>
+    <graphicData>
+      <texPath>Resources/HeavyFurHuge</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(80,75,72)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>17.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>34</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>22</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(80,75,72)</color>
+      <commonality>0.0005</commonality>
+      <statFactors>
+        <MaxHitPoints>2.15</MaxHitPoints>
+        <Beauty>6</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <ThingDef ParentName="LeatherBase">
+    <defName>DankPyon_Leather_Lindwurm</defName>
+    <label>Lindwurmschuppen</label>
+    <description>Eine breite grüne Schale in Größe einer Hand, Färbung von Smaragd. Material sowohl langlebig und elegant, zieht neidische Blicke an.</description>
+    <graphicData>
+      <texPath>Resources/LindwurmScales</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>20.0</MarketValue>
+      <StuffPower_Armor_Sharp>2.20</StuffPower_Armor_Sharp>
+      <StuffPower_Armor_Blunt>0.40</StuffPower_Armor_Blunt>
+      <StuffPower_Insulation_Cold>9</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>34</StuffPower_Insulation_Heat>
+    </statBases>
+    <stuffProps>
+      <color>(126,145,65)</color>
+      <commonality>0.0005</commonality>
+      <statFactors>
+        <MaxHitPoints>2.5</MaxHitPoints>
+        <Beauty>8</Beauty>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+
+  <!--========== Wool ============-->
+  <ThingDef ParentName="WoolBase">
+    <defName>DankPyon_WoolRox</defName>
+    <label>Roxwolle</label>
+    <description>Sie ist dick, grob und bietet eine sehr gute Isolierung. Rox Wollkleidung kann den Körper auch bei sehr kalten Bedingungen warm halten.</description>
+    <statBases>
+      <StuffPower_Insulation_Cold>30</StuffPower_Insulation_Cold>
+      <StuffPower_Insulation_Heat>12</StuffPower_Insulation_Heat>
+    </statBases>
+    <graphicData>
+      <color>(80,75,72)</color>
+    </graphicData>
+    <stuffProps>
+      <color>(80,75,72)</color>
+    </stuffProps>
+  </ThingDef>
+
+</Defs>

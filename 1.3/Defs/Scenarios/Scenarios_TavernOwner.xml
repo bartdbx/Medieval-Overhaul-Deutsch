@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ScenarioDef>
+    <defName>DankPyon_TavernOwnerStart</defName>
+    <label>Tavernenbesitzer</label>
+    <description>Die Mauern einer Stadt waren nie beruhigend. Ebensowenig die Hektik des städtischen Lebens, die einem mit der Zeit die Seele aussaugen konnte. Die Möglichkeiten, die sich ihnen stellten, waren aus so vielen, vielen Gründen für Sie ungeeignet: zum einen aus mangelnder Fitness, zum anderen aus mangelnder Herzlosigkeit.
+
+      Es war diese Umgebung, die Sie zwang zu gehen, nur mit Rohstoffen und einfachen Werkzeugen bepackt, um zu hoffen, Ihren Traum zu verwirklichen. Für Sie, die nach einem Zuhause in der Wildnis strebten, einem Herd, der viele müde und erschöpfte Reisende aufnehmen könnte, Schurke oder Held, es würde sie alle beschützen.
+      
+      Mit jeder Hoffnung geht ein Risiko einher, und das war eines, das Sie nicht ignorieren konnten. Berichte aus der örtlichen Garnison deuteten auf eine erhöhte Banditenpräsenz hin, und die Kriminalität nahm zu. Selbst mit den sorgfältigsten Vorbereitungen würde ein Krimineller höchstwahrscheinlich Ihrer Spur folgen.
+      
+      Aber du hast den Vertrauensvorschuss gewagt und bist über die Schwelle der Stadt getreten. Mit der Wildnis vor dir und dem Verrat hinter dir marschierst du davon.
+      
+      Optimismus und Sorgen trüben deine Stirn.</description>
+      
+    <scenario>
+      <summary>Drei optimistische Siedler - RPG-Handelserfahrung</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>DankPyon_PlayerKingdom</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Player pawns modifiers -->
+        <!--li Class="ScenPart_ForcedHediff">
+          <def>ForcedHediff</def>
+          <visible>false</visible>
+          <context>PlayerStarter</context>
+          <chance>0.5</chance>
+          <hediff>CryptosleepSickness</hediff>
+          <hideOffMap>true</hideOffMap>
+          <severityRange>1~1</severityRange>
+        </li-->
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>500</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_DriedMeat</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_Coal</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_ComponentBasic</thingDef>
+          <count>30</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Bow_Short</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>DankPyon_MeleeWeapon_Hatchet</thingDef>
+          <stuff>DankPyon_IronIngot</stuff>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>DankPyon_IronIngot</stuff>
+        </li>
+        <li Class="ScenPart_StartingAnimal">
+          <def>StartingAnimal</def>
+          <count>1</count>
+          <bondToRandomPlayerPawnChance>1.0</bondToRandomPlayerPawnChance>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>DankPyon_IronIngot</thingDef>
+          <count>450</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>300</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>DankPyon_BrokenCart</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

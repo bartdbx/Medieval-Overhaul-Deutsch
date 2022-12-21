@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Stone Chunks Base Class --> 
+<RecipeDef Name="DankPyon_MineShaftBase" Abstract="True">
+												  
+	<description>Tief unter der Erde abbauen, um Gesteinsbrocken zu gewinnen.</description>
+								 
+									 
+											   
+	<workSpeedStat>MiningSpeed</workSpeedStat>
+	<workSkill>Mining</workSkill>
+	<workSkillLearnFactor>0.25</workSkillLearnFactor>
+	<effectWorking>CutStone</effectWorking>
+	<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+													 
+		<recipeUsers>
+			<li>DankPyon_MineShaft</li>	  
+		</recipeUsers>	
+			
+									
+			  
+</RecipeDef>
+
+<!-- Coal Chunks -->
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Coal</defName>
+	<description>Bergbau tief unter der Erde zur Gewinnung von Kohlebrocken.</description>		
+	<workAmount>2000</workAmount>		
+	<label>Kohlebrocken abbauen x25</label>
+	<jobString>Abbau von 25 Kohlebrocken.</jobString>
+	<targetCountAdjustment>25</targetCountAdjustment>		
+													 
+	<recipeUsers>
+		<li>DankPyon_MineShaft</li>	  
+	</recipeUsers>		  
+	<products>
+		<DankPyon_Coal>25</DankPyon_Coal>
+	</products>	
+</RecipeDef>
+  
+  
+<!-- Stone Chunks: Sandstone --> 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Sandstone</defName>
+	<workAmount>2250</workAmount>		
+	<label>Sandsteinbrocken sammeln</label>
+	<jobString>Abbau von 1 Sandsteinbrocken.</jobString>
+	<products>
+		<ChunkSandstone>1</ChunkSandstone>
+	</products>		
+</RecipeDef> 
+
+ <!-- Stone Chunks: Granite --> 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Granite</defName>
+	<workAmount>2975</workAmount>		
+	<label>Granitbrocken sammeln</label>
+	<jobString>Abbau von 1 Granitbrocken.</jobString>
+	<products>
+		<ChunkGranite>1</ChunkGranite>
+	</products>		
+</RecipeDef> 
+
+<!-- Stone Chunks: Limestone --> 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Limestone</defName>
+	<workAmount>2700</workAmount>		
+	<label>Kalksteinbrocken sammeln</label>
+	<jobString>Abbau von 1 Kalksteinbrocken.</jobString>
+	<products>
+		<ChunkLimestone>1</ChunkLimestone>
+	</products>		
+</RecipeDef> 
+
+<!-- Stone Chunks: Slate --> 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Slate</defName>
+	<workAmount>2275</workAmount>		
+	<label>Schieferbrocken sammeln</label>
+	<jobString>Abbau von 1 Schieferbrocken.</jobString>
+	<products>
+		<ChunkSlate>1</ChunkSlate>
+	</products>		
+</RecipeDef>   
+
+<!-- Stone Chunks: Marble --> 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeStoneChunks_Marble</defName>
+	<workAmount>2100</workAmount>		
+	<label>Marmorbrocken sammeln</label>
+	<jobString>Abbau von 1 Marmorbrocken.</jobString>
+	<products>
+		<ChunkMarble>1</ChunkMarble>
+	</products>		
+</RecipeDef>  
+
+<!-- ========== Salt ==========-->
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeSalt</defName>
+	<description>Bergwerk tief unter der Erde zur Salzgewinnung</description>
+	<workAmount>200</workAmount>		
+	<label>sammle Salz</label>
+	<jobString>Salz abbauen</jobString>
+
+	<products>
+		<DankPyon_Salt>1</DankPyon_Salt>
+	</products>		
+</RecipeDef>  
+
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeSaltBulk</defName>
+	<description>Bergwerk tief unter der Erde zur Salzgewinnung</description>
+	<workAmount>2000</workAmount>		
+	<label>sammle Salz x10</label>
+	<jobString>baue 10 Salz ab</jobString>
+    <products>
+      	<DankPyon_Salt>10</DankPyon_Salt>
+    </products>		
+</RecipeDef>  
+
+<!-- ========== Tar ==========-->
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeTar</defName>
+	<description>Tief unter der Erde abbauen, um Teer zu gewinnen</description>
+	<workAmount>700</workAmount>		
+	<label>sammle Teer</label>
+	<jobString>baue Teer ab</jobString>
+
+	<products>
+		<DankPyon_Tar>1</DankPyon_Tar>
+	</products>		
+	<researchPrerequisites>
+		<li>DankPyon_Tar</li>
+	</researchPrerequisites>
+</RecipeDef>  
+
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeTarBulk</defName>
+	<description>Tief unter der Erde abbauen, um Teer zu gewinnen</description>
+	<workAmount>3500</workAmount>		
+	<label>sammle Teer x5</label>
+	<jobString>baue 5 Teer ab</jobString>
+    <products>
+      	<DankPyon_Tar>5</DankPyon_Tar>
+    </products>
+	<researchPrerequisites>
+		<li>DankPyon_Tar</li>
+	</researchPrerequisites>		
+</RecipeDef>  
+
+<!-- ========== Gunpowder ==========-->
+				 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeGunpowder</defName>
+	<description>Tief unter der Erde abbauen, um Schießpulver zu gewinnen</description>
+	<workAmount>700</workAmount>		
+	<label>Schießpulver sammeln</label>
+	<jobString>baue Schießpulver ab</jobString>
+
+	<products>
+		<DankPyon_Gunpowder>1</DankPyon_Gunpowder>
+	</products>
+	<researchPrerequisites>
+		<li>DankPyon_Gunpowder</li>
+	</researchPrerequisites>		
+</RecipeDef>  
+
+					 
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeGunpowderBulk</defName>
+	<description>Tief unter der Erde abbauen, um Schießpulver zu gewinnen</description>
+	<workAmount>3500</workAmount>		
+	<label>sammle Schießpulver x5</label>
+	<jobString>baue 5 Schießpulver ab</jobString>
+    <products>
+      	<DankPyon_Gunpowder>5</DankPyon_Gunpowder>
+    </products>		
+	<researchPrerequisites>
+		<li>DankPyon_Gunpowder</li>
+	</researchPrerequisites>
+</RecipeDef>
+
+<!-- ========== Ores ==========-->
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeOre_IronOre</defName>
+	<description>Tief unter der Erde abbauen, um Eisenerz zu gewinnen</description>
+	<workAmount>900</workAmount>		
+	<label>ein Eisenerz abbauen</label>
+	<jobString>baue 1 Eisenerz ab.</jobString>
+	<products>
+  		<DankPyon_IronOre>1</DankPyon_IronOre>
+	</products>		
+</RecipeDef> 
+
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeOre_IronOreBulk</defName>
+	<description>Tief unter der Erde abbauen, um Eisenerz zu gewinnen</description>
+	<workAmount>4500</workAmount>		
+	<label>baue Eisenerz ab x5</label>
+	<jobString>baue 5 Eisenerz ab.</jobString>
+	<products>
+  		<DankPyon_IronOre>5</DankPyon_IronOre>
+	</products>		
+</RecipeDef> 
+
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeOre_SilverOre</defName>
+	<description>Tief unter der Erde abbauen, um Silbererze zu gewinnen</description>
+	<workAmount>600</workAmount>		
+	<label>baue Silbererz ab</label>
+	<jobString>baue 1 Silbererz ab.</jobString>
+	<products>
+  		<DankPyon_SilverOre>1</DankPyon_SilverOre>
+	</products>		
+</RecipeDef> 
+
+<RecipeDef ParentName="DankPyon_MineShaftBase">
+	<defName>DankPyon_MakeOre_SilverOreBulk</defName>
+	<description>Tief unter der Erde abbauen, um Silbererze zu gewinnen</description>
+	<workAmount>3000</workAmount>		
+	<label>baue Silbererz ab x5</label>
+	<jobString>baue 5 Silbererz ab.</jobString>
+	<products>
+  		<DankPyon_SilverOre>5</DankPyon_SilverOre>
+	</products>		
+</RecipeDef> 
+
+</Defs>

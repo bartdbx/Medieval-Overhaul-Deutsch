@@ -1,0 +1,718 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- ===== Dish ===== -->
+	<HediffDef>
+		<defName>DankPyon_AteRoxSteak</defName>
+		<label>aß rox Steak</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Ein meisterhaft zubereitetes Gericht mit intensiven aromatischen Aromen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<ImmunityGainSpeedFactor>0.40</ImmunityGainSpeedFactor>
+					<HungerRateMultiplier>-0.4</HungerRateMultiplier>	
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.08</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteGriffonBerryPie</defName>
+		<label>aß Greifbeerenpie</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Ein meisterhaft zubereitetes Gericht mit intensiven aromatischen Aromen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.2</WorkSpeedGlobal>
+					<ImmunityGainSpeedFactor>0.40</ImmunityGainSpeedFactor>
+					<HungerRateMultiplier>-0.4</HungerRateMultiplier>	
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.35</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.08</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteSteakWithWine</defName>
+		<label>aß Steak mit Wein</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß Steak mit Wein, welches den Körper mit neuer Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.25</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.15</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteTomatoOmelette</defName>
+		<label>aß Tomatenomlett</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Tomatenomelettes sind eine sättigende Mahlzeit, die effektiv den Hunger stillt.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<HungerRateMultiplier>-0.15</HungerRateMultiplier>	
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.06</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.03</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteSweetPancakes</defName>
+		<label>aß süße Pfannkuchen</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Süße Pfannkuchen werden mit einem dicken, zuckerhaltigen Sirup serviert, der den Körper mit Energie versorgt und insgesamt mehr Bewegungsgeschwindigkeit verleiht.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.15</WorkSpeedGlobal>				
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.060</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.03</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteFriedEggs</defName>
+		<label>aß Spiegeleier</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß Spiegeleier, die den Körper mit Energie versorgen. Erhöht leicht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteMashedPotatoes</defName>
+		<label>aß Kartoffelbrei</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß Kartoffelpüree, um den Körper mit Energie zu versorgen. Erhöht leicht die Arbeitsgeschwindigkeit und reduziert die Hungerrate.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<HungerRateMultiplier>-0.05</HungerRateMultiplier>					
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AtePumpkinFritters</defName>
+		<label>aß Kürbissfritten</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß Kürbissfritten, die den Körper energetisieren. Erhöht leicht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<!-- ===== Tiers ===== -->
+	<HediffDef>
+		<defName>DankPyon_AteBake</defName>
+		<label>aß gebackenes</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine gebackene Mahlzeit, die den Körper mit Energie versorgt. Leicht erhöhte Arbeitsgeschwindigkeit und reduzierte Hungerrate.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<HungerRateMultiplier>-0.05</HungerRateMultiplier>					
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteBakeFine</defName>
+		<label>aß feines Gebäck</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine feine gebackene Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit und reduziert die Hungerrate.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<HungerRateMultiplier>-0.1</HungerRateMultiplier>					
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteBakeLavish</defName>
+		<label>aß wunderbar Gebackenes</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine üppige gebackene Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und reduziert die Hungerrate.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<HungerRateMultiplier>-0.2</HungerRateMultiplier>					
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.04</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+
+	<HediffDef>
+		<defName>DankPyon_AteGrill</defName>
+		<label>aß Gegrilltes</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine gegrillte Mahlzeit, die den Körper mit Energie versorgt. Leicht erhöhte Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.05</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteGrillFine</defName>
+		<label>aß feines Gegrilltes</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine gegrillte Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.10</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteGrillLavish</defName>
+		<label>aß wunderbar Gegrilltes</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine üppige Grillmahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-2</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<WorkSpeedGlobal>0.20</WorkSpeedGlobal>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.075</offset>
+					</li>
+					<li>
+						<capacity>Moving</capacity>
+						<offset>0.075</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>0.04</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteSoup</defName>
+		<label>aß Suppe</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine Suppe, die Wärme und Nährstoffe spendet. Stärkt leicht das Immunsystem und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.025</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.01</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteSoupFine</defName>
+		<label>aß feine Suppen</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine feine Suppe voller Wärme und Nährstoffe. Stärkt das Immunsystem und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<ImmunityGainSpeedFactor>0.10</ImmunityGainSpeedFactor>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.02</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<HediffDef>
+		<defName>DankPyon_AteSoupLavish</defName>
+		<label>aß wunderbare Suppe</label>
+		<makesSickThought>false</makesSickThought>
+		<description>Aß eine üppige Suppe voller Wärme und Nährstoffe. Stärkt das Immunsystem enorm und bringt das Blut zum Pumpen.</description>
+		<tendable>false</tendable>
+		<isBad>false</isBad>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<hediffClass>HediffWithComps</hediffClass>
+		<initialSeverity>1.0</initialSeverity>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			  </li>
+		</comps>
+		<stages>
+			<li>  
+				<statOffsets>
+					<ImmunityGainSpeedFactor>0.20</ImmunityGainSpeedFactor>
+				</statOffsets> 
+				<capMods>
+					<li>
+						<capacity>BloodFiltration</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>BloodPumping</capacity>
+						<offset>0.1</offset>
+					</li>
+					<li>
+						<capacity>Metabolism</capacity>
+						<offset>0.04</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

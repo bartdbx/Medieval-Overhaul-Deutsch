@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<!-- =========================== Neutral ============================-->
+  
+	<IncidentDef>
+		<defName>DankPyon_DaerPasses</defName>
+		<label>Seltene Daers</label>
+		<letterLabel>{0} kommen an</letterLabel>	<!-- {0} corresponds to the pawn kind label -->
+		<letterText>Eine Herde von {1} kommt in diese Gegend, und wird nach einer Weile wieder gehen. Sei gewarnt {1} sind extrem gefährlich, aber wegen ihres robusten Fells und ihrer majestätischen Hörner sehr begehrt.</letterText>	<!-- {0} is the number, {1} is the pawn kind label  -->
+		<letterDef>PositiveEvent</letterDef> <!-- also ThreatSmall, ThreatBig, NeutralEvent, PositiveEvent -->
+		<category>Misc</category>
+		<targetTags>
+		  <li>Map_PlayerHome</li>
+		</targetTags>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>30</minRefireDays>
+		
+		<workerClass>GenericWandersIn.IncidentWorker_GenericWandersIn</workerClass>	<!-- don't change this -->
+		<modExtensions>
+			<!-- needs this -->
+			<li Class="GenericWandersIn.IncidentProperties">
+				<kindDef>DankPyon_Daer</kindDef>	<!-- the kind to spawn -->
+				<max>1~2</max>	<!-- the maximum number that can spawn -->
+				<leaveMapAfterTime>true</leaveMapAfterTime>	<!-- whether they leave the map after a random amount of time -->
+            </li>
+		</modExtensions>
+		
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>DankPyon_LindwurmPasses</defName>
+		<label>Seltene Lindwürmer</label>
+		<letterLabel>{0} kommen an</letterLabel>	<!-- {0} corresponds to the pawn kind label -->
+		<letterText>Eine Herde von {1} kommt in diese Gegend, und wird nach einer Weile wieder gehen. Sei gewarnt {1} sind extrem gefährlich, aber wegen ihres robusten Fells und ihrer majestätischen Hörner sehr begehrt.</letterText>	<!-- {0} is the number, {1} is the pawn kind label  -->
+		<letterDef>PositiveEvent</letterDef> <!-- also ThreatSmall, ThreatBig, NeutralEvent, PositiveEvent -->
+		<category>Misc</category>
+		<targetTags>
+		  <li>Map_PlayerHome</li>
+		</targetTags>
+		<baseChance>0.7</baseChance>
+		<minRefireDays>30</minRefireDays>
+		
+		<workerClass>GenericWandersIn.IncidentWorker_GenericWandersIn</workerClass>	<!-- don't change this -->
+		<modExtensions>
+			<!-- needs this -->
+			<li Class="GenericWandersIn.IncidentProperties">
+				<kindDef>DankPyon_LindwurmForest</kindDef>	<!-- the kind to spawn -->
+				<max>1~2</max>	<!-- the maximum number that can spawn -->
+				<leaveMapAfterTime>true</leaveMapAfterTime>	<!-- whether they leave the map after a random amount of time -->
+            </li>
+		</modExtensions>
+		
+	</IncidentDef>
+</Defs>

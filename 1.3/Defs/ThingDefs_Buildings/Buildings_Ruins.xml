@@ -1,0 +1,984 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <ThingDef Abstract="True" ParentName="BuildingBase" Name="DankPyon_RuinedBuildingBase">
+    <!--designationCategory>DankPyon_RuinFurniture</designationCategory-->
+     <building>
+		<isInert>true</isInert>
+		<ai_chillDestination>false</ai_chillDestination>
+		<claimable>false</claimable>
+		<!--alwaysDeconstructible>true</alwaysDeconstructible-->
+    </building>
+	<drawerType>MapMeshAndRealTime</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+  </ThingDef>
+
+  	<!--==================== Doors and Structures ====================-->
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedRusticDoor</defName>
+		<label>blockierte Tür</label>
+		<description>Eine Tür, die durch die Anbringung von Holzbrettern zwischen den Türen dauerhaft verschlossen wurde. Muss zerstört werden, um hindurch zu gelangen</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedRusticDoor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<pathCost>30</pathCost>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedSlabDoor</defName>
+		<label>zerstörte Steintür</label>
+		<description>Zu einem Steinhaufen zerbröckelt. Das Durchqueren ist unmöglich. Muss zerstört werden, um hindurch zu gelangen.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedSlabDoor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>320</MaxHitPoints>
+			<WorkToBuild>100</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>55</costStuffCount>
+		<pathCost>30</pathCost>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedGate</defName>
+		<label>verschlossenes Tor</label>
+		<description>Ein verschlossenes Metalltor, der einzige Weg hinein ist das Aufbrechen der Tür.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/LockedGate</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>250</MaxHitPoints>
+			<WorkToBuild>1500</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>35</costStuffCount>
+		<pathCost>30</pathCost>
+		<passability>Impassable</passability>
+		<fillPercent>1</fillPercent>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedColumn</defName>
+		<label>zerstörte Säule</label>
+		<description>Ein einfaches Podest, auf dem man sitzen kann. Nicht sehr bequem, aber besser als gar nichts, wie man sie häufig in Tavernen und Gasthöfen findet. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden..</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedColumn</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawRotated>false</drawRotated>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<drawSize>(1,1.25)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>105</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_SculptureBase">
+    <defName>DankPyon_Ruined_AncientColumn</defName>
+    <label>alte Säule</label>
+    <description>Eine hohe Säule mit verschnörkeltem Design.</description>
+    <graphicData>
+        <texPath>Buildings/Ruin/RuinedAncientColumn1x1</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <drawSize>(5,5)</drawSize>
+        <damageData>
+          <cornerTL>Damage/Corner</cornerTL>
+          <cornerTR>Damage/Corner</cornerTR>
+          <cornerBL>Damage/Corner</cornerBL>
+          <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <uiIconScale>0.5</uiIconScale>
+    <castEdgeShadows>true</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <altitudeLayer>Pawn</altitudeLayer>
+
+    <stuffCategories>
+        <li>Metallic</li>
+        <li>Woody</li>
+        <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
+
+    <statBases>
+        <MaxHitPoints>400</MaxHitPoints>
+        <Mass>7</Mass>
+        <Beauty>50</Beauty>
+        <WorkToMake>30000</WorkToMake>
+        <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">20</StyleDominance>
+    </statBases>
+    
+    <holdsRoof>false</holdsRoof>
+    <size>(1,1)</size>
+    <recipeMaker>
+      <recipeUsers Inherit="False"/>
+    </recipeMaker>
+</ThingDef>
+
+	<!--==================== Wooden Ruins ====================-->
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedStool</defName>
+		<label>ruinierter runder Hocker</label>
+		<description>Ein einfaches Podest, auf dem man sitzen kann. Nicht sehr bequem, aber besser als gar nichts, wie man sie häufig in Tavernen und Gasthöfen findet. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden..</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedStool</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawRotated>false</drawRotated>
+			<damageData>
+				<rectN>(0.125,0.296875,0.734375,0.421875)</rectN>
+				<rectS>(0.125,0.296875,0.734375,0.421875)</rectS>
+				<rectE>(0.234375,0.296875,0.5,0.546875)</rectE>
+				<rectW>(0.234375,0.296875,0.5,0.546875)</rectW>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			<shadowData>
+				<volume>(0.18, 0.23, 0.18)</volume>
+			</shadowData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>35</MaxHitPoints>
+			<WorkToBuild>200</WorkToBuild>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>0.20</fillPercent>
+		<uiIconOffset>(0, -0.05)</uiIconOffset>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedBedWicker</defName>
+		<label>Weidenbett</label>
+		<description>Ein einfaches und schnell zu machendes Weidenbett.</description>
+		<graphicData>
+		<texPath>Buildings/Ruin/RuinedBedWicker</texPath>
+		<graphicClass>Graphic_Multi</graphicClass>
+		<drawSize>(2,2)</drawSize>
+		<damageData>
+			<rect>(0,0.05,1,1.95)</rect>
+		</damageData>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>1</Beauty>
+			<WorkToBuild>550</WorkToBuild>
+			<Mass>20</Mass>
+		</statBases>
+
+		<size>(1,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>45</costStuffCount>
+
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<uiIconScale>0.90</uiIconScale>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedBedWickerDouble</defName>
+		<label>ruiniertes Doppelweidenbett</label>
+		<description>Ein ruiniertes, aber einfach und schnell zu machendes Weidenbett.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedBedWickerDouble</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.05,2.05)</drawSize>
+			<damageData>
+				<rect>(0,0.05,1,1.95)</rect>
+			</damageData>
+		</graphicData>
+
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<WorkToBuild>1000</WorkToBuild>
+			<Mass>40</Mass>
+		</statBases>
+
+		<size>(2,2)</size>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>85</costStuffCount>
+
+		<fillPercent>0.4</fillPercent>
+		<pathCost>42</pathCost>
+		<staticSunShadowHeight>0.17</staticSunShadowHeight>
+		<castEdgeShadows>True</castEdgeShadows>
+		<uiIconScale>0.90</uiIconScale>
+	</ThingDef>	
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_WoodenDebris</defName>
+		<label>Trümmer</label>
+		<description>Ein Haufen zerstörter Möbel, die scheinbar absichtlich aufeinander gestapelt wurden.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/WoodenDebris</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>4</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<uiIconScale>0.8</uiIconScale>
+		<size>(2,2)</size>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+			<Mass>40</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<passability>Impassable</passability>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedCloset</defName>
+		<label>verfallener Kleiderschrank</label>
+		<description>Ein zerstörter Kleiderschrank.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedCloset</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<thingClass>Building</thingClass>
+		<uiIconScale>0.65</uiIconScale>
+		<size>(1,1)</size>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
+	
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedBookshelf</defName>
+		<label>zerstörtes Bücherregal</label>
+		<description>Ein zerstörtes Bücherregal.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedBookshelf</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>3</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<thingClass>Building</thingClass>
+		<uiIconScale>0.65</uiIconScale>
+		<size>(1,1)</size>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<canOverlapZones>false</canOverlapZones>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>600</WorkToBuild>
+			<Mass>10</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_EmptyBucket</defName>
+        <label>leerer Eimer</label>
+        <description>Ein leerer Holzeimer. Könnte einige Reste enthalten.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/EmptyBucket</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+	    </graphicData>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MaxHitPoints>25</MaxHitPoints>
+            <WorkToBuild>100</WorkToBuild>
+            <Mass>3</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>10</costStuffCount>
+        <pathCost>30</pathCost>
+	    <passability>PassThroughOnly</passability>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedCrate1x1c</defName>
+        <label>ruinierte Kiste</label>
+        <description>Eine zerbrochene Kiste. Könnte einige Reste enthalten.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/RuinedCrate1x1</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+	    </graphicData>
+        <rotatable>false</rotatable>
+
+        <statBases>
+            <MaxHitPoints>25</MaxHitPoints>
+            <WorkToBuild>100</WorkToBuild>
+            <Mass>3</Mass>
+            <Flammability>1.0</Flammability>
+        </statBases>
+
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>10</costStuffCount>
+        <pathCost>30</pathCost>
+
+	    <passability>PassThroughOnly</passability>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedTable1x2c</defName>
+		<label>ruinierter Tisch (1x2)</label>
+		<graphicData>
+			<texPath>Buildings/Ruin/Ruined1x2Table</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<uiIconScale>0.8</uiIconScale>
+
+		<statBases>
+			<MaxHitPoints>25</MaxHitPoints>
+			<WorkToBuild>750</WorkToBuild>
+			<Mass>5</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(1,2)</size>
+
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>28</costStuffCount>
+	</ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedTable2x4c</defName>
+		<label>ruinierter Tisch (2x4)</label>
+		<graphicData>
+			<texPath>Buildings/Ruin/Ruined2x4Table</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,6)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Mass>20</Mass>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<size>(2,4)</size>
+
+		<stuffCategories>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>95</costStuffCount>
+		<building>
+			<buildingSizeCategory>Medium</buildingSizeCategory>
+		</building>
+	</ThingDef>
+	
+
+	<!--==================== Bones ====================-->
+  	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedRugGrizzlyBear3x3c</defName>
+		<label>ruinierter Grizzlybär-Teppich (3x3)</label>
+		<description>Als Trophäen für den erfolgreichen Jäger werden Tierteppiche aus gebeizten und ausgestopften Tierhäuten hergestellt, die mit Filz und Polstern zu Teppichen vernäht werden. Das tolle Fell des Bären ist eines der begehrtesten Materialien für Teppiche aus Tierfell, was den Grizzlybärteppich zu einer würdigen Wahl für den mutigen Kolonisten macht, der sich der Jagd stellt..</description>
+		<thingClass>Building</thingClass>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedBearRug3x3</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+    
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Beauty>5</Beauty>
+			<Mass>9</Mass>
+		</statBases>
+
+		<costList>
+			<DankPyon_Hide_BearGrizzly>1</DankPyon_Hide_BearGrizzly>
+		</costList>
+		<size>(3,3)</size>
+		<building>
+			<isEdifice>false</isEdifice>
+		</building>
+		<rotatable>true</rotatable>
+		<altitudeLayer>FloorCoverings</altitudeLayer>
+		<useHitPoints>False</useHitPoints>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedBonePile1x1c</defName>
+		<label>Überbleibsel</label>
+		<description>Alte Knochen, die grob an einem Ort gestapelt sind.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinBonePile1x1</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+
+		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
+
+		<defaultPlacingRot>South</defaultPlacingRot>
+
+		<costList>
+			<DankPyon_Bone>10</DankPyon_Bone>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Mass>5</Mass>
+			<WorkToBuild>100</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(1,1)</size>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<castEdgeShadows>false</castEdgeShadows>
+		<surfaceType>Item</surfaceType>
+  	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedBonePile1x2c</defName>
+		<thingClass>MedievalOverhaul.Building_Lootable</thingClass>
+		<label>große Überreste</label>
+		<tickerType>Normal</tickerType>
+		<description>Alte Knochen, die grob an einem Ort gestapelt sind.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinBonePile1x2</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawSize>(2,1)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+
+		<fillPercent>0.2</fillPercent>
+		<pathCost>42</pathCost>
+		<defaultPlacingRot>South</defaultPlacingRot>
+
+		<costList>
+			<DankPyon_Bone>20</DankPyon_Bone>
+		</costList>
+
+		<statBases>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>10</Mass>
+			<WorkToBuild>200</WorkToBuild>
+			<Flammability>0.2</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<staticSunShadowHeight>0</staticSunShadowHeight>
+		<castEdgeShadows>false</castEdgeShadows>
+		<surfaceType>Item</surfaceType>
+
+		<modExtensions>
+			<li Class="MedievalOverhaul.BuildingLootableExtension">
+				<enemysToSpawn>
+					<li>Rat</li>
+				</enemysToSpawn>
+				<enemySpawnChance>0.15</enemySpawnChance>
+				<hostileEnemy>true</hostileEnemy>
+				<emptyGraphicData>
+                    <texPath>Buildings/Ruin/RuinBonePile1x1</texPath>
+					<graphicClass>Graphic_Random</graphicClass>
+					<drawSize>(1,1)</drawSize>
+					<color>(199,181,129)</color>
+                </emptyGraphicData>
+				<searchSound>BuildingDestroyed_Wood_Medium</searchSound>
+				<searchEffect>DustPuff</searchEffect>
+				<effectSize>2.5</effectSize>
+				<lootCount>2~25</lootCount>
+				<lootChance>0.33</lootChance>
+				<isRandom>true</isRandom>
+				<randomItems>
+					<li>Gold</li>
+					<li>Gold</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Silver</li>
+					<li>Jade</li>
+					<li>DankPyon_RoxHorn</li>
+					<li>DankPyon_DaerAntler</li>
+					<li>DankPyon_DireBoarTusk</li>
+					<li>DankPyon_IronOre</li>
+					<li>DankPyon_IronIngot</li>
+					<li>DankPyon_GoldOre</li>
+					<li>DankPyon_Linen</li>
+					<li>DankPyon_Bone</li>
+					<li>DankPyon_Bone</li>
+				</randomItems>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedBonePile2x2c</defName>
+        <label>massive Überreste</label>
+        <description>Alte Knochen, grob an einem zufälligen Ort deponiert.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/RuinBonePile2x2</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+
+        <fillPercent>0.2</fillPercent>
+        <pathCost>42</pathCost>
+
+        <costList>
+            <DankPyon_Bone>40</DankPyon_Bone>
+        </costList>
+
+        <statBases>
+            <MaxHitPoints>60</MaxHitPoints>
+            <Mass>10</Mass>
+            <WorkToBuild>200</WorkToBuild>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <size>(2,2)</size>
+        <staticSunShadowHeight>0</staticSunShadowHeight>
+        <castEdgeShadows>false</castEdgeShadows>
+        <surfaceType>Item</surfaceType>
+    </ThingDef>
+
+	<!--==================== Furniture ====================-->
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedBust</defName>
+        <label>ruinierte Büste</label>
+        <description>Ein zerbrochener Avatar einer einst prominenten Person.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/RuinedBust</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+
+        <fillPercent>0.35</fillPercent>
+        <rotatable>false</rotatable>
+        <pathCost>50</pathCost>
+
+        <statBases>
+        <MaxHitPoints>50</MaxHitPoints>
+        <Mass>3</Mass>
+        <WorkToMake>18000</WorkToMake>
+        </statBases>
+
+        <stuffCategories>
+            <li>Metallic</li>
+            <li>Woody</li>
+            <li>Stony</li>
+        </stuffCategories>
+        <costStuffCount>50</costStuffCount>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedCandles</defName>
+        <label>zerstörte Kerzen</label>
+        <description>Alte und verstaubte Kerzen, unbrauchbar für den Gebrauch.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/RuinedCandles</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawRotated>false</drawRotated>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <uiIconPath>Buildings/Ruin/MenuIcon_RuinedCandles</uiIconPath>
+
+        <rotatable>false</rotatable>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <constructEffect>ConstructWood</constructEffect>
+        <fillPercent>0.15</fillPercent>
+
+        <statBases>
+            <Beauty>5</Beauty>
+            <MaxHitPoints>20</MaxHitPoints>
+            <WorkToBuild>250</WorkToBuild>
+            <Flammability>0</Flammability>
+            <Mass>0.2</Mass>
+        </statBases>
+
+        <costList>
+            <DankPyon_Tallow>5</DankPyon_Tallow>
+        </costList>
+
+        <building>
+            <isEdifice>false</isEdifice>
+        </building>
+    </ThingDef>
+
+    <ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedCandleStand</defName>
+        <label>ruinierter Kerzenständer</label>
+        <description>Ein Kerzenständer, der verhindert, dass die Dunkelheit in Ihr Zimmer eindringt. Kann mit Talg nachgefüllt werden.</description>
+        <graphicData>
+        <texPath>Buildings/Ruin/RuinedCandleStand</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawRotated>false</drawRotated>
+        <damageData>
+            <rect>(0.35,0.35,0.3,0.3)</rect>
+        </damageData>
+        <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <uiIconScale>0.5</uiIconScale>
+
+        <rotatable>false</rotatable>
+        <altitudeLayer>BuildingOnTop</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>4</pathCost>
+        <fillPercent>0.15</fillPercent>
+
+        <statBases>
+            <Beauty>10</Beauty>
+            <MaxHitPoints>60</MaxHitPoints>
+            <WorkToBuild>600</WorkToBuild>
+            <Mass>0.2</Mass>
+        </statBases>
+
+        <costList>
+            <DankPyon_Tallow>5</DankPyon_Tallow>
+        </costList>
+        <stuffCategories>
+            <li>Woody</li>
+            <li>Metallic</li>
+            <li>Stony</li>
+            </stuffCategories>
+        <costStuffCount>25</costStuffCount>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedStewPot</defName>
+        <label>Ruinierter Schmortopf</label>
+        <description>Ein alter, verrosteter Kessel, gefüllt mit den Überresten unerkennbarer Kreaturen.</description>
+        <graphicData>
+        <texPath>Buildings/Ruin/RuinStewPot</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2,2)</drawSize>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+        </graphicData>
+        <size>(2,1)</size>
+
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
+
+        <fillPercent>0.5</fillPercent>
+        <statBases>
+            <WorkToBuild>2000</WorkToBuild>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+        </statBases>
+
+        <pathCost>40</pathCost>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedAnvil</defName>
+        <label>zerstörter Amboss</label>
+        <description>Gebrochen und verbogen, dieser Amboss hat schon bessere Tage gesehen.</description>
+        <graphicData>
+            <texPath>Buildings/Ruin/RuinedAnvil</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1.1,1.1)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+
+        <stuffCategories>
+            <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>50</costStuffCount>
+
+        <altitudeLayer>Building</altitudeLayer>
+        <fillPercent>0.5</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <statBases>
+            <WorkToBuild>2000</WorkToBuild>
+            <MaxHitPoints>180</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Mass>30</Mass>
+        </statBases>
+        <size>(1,1)</size>
+        
+        <pathCost>50</pathCost>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_RuinedHearth</defName>
+		<label>zerstörter Herd</label>
+		<thingClass>Building</thingClass>
+		<description>Eine zerstörte Feuerstelle aus Stein.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/RuinedHearth</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+			</graphicData>
+		<staticSunShadowHeight>0.3</staticSunShadowHeight>
+
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<fillPercent>0.5</fillPercent>
+
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>120</MaxHitPoints>
+			<Flammability>0</Flammability>
+		</statBases>
+		<size>(2,1)</size>
+		<passability>Impassable</passability>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_RuinedMineShaft</defName>
+        <label>ruinierter Minenschacht</label>
+        <description>Ein stillgelegtes Bergwerk, das nicht gewartet wurde, was zum Einsturz seiner Lager führte, wodurch das Bergwerk insgesamt unbrauchbar wurde.</description>
+        <graphicData>
+        <texPath>Buildings/Ruin/RuinedMineShaft</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(3.8,3.8)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+
+        <costList>
+            <DankPyon_IronIngot>60</DankPyon_IronIngot>
+            <DankPyon_ComponentBasic>10</DankPyon_ComponentBasic>
+        </costList>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>200</costStuffCount>
+
+        <statBases>
+            <WorkToBuild>6000</WorkToBuild>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <Cleanliness>-15</Cleanliness>
+        </statBases>
+
+        <rotatable>false</rotatable>
+        <size>(3,3)</size>
+
+        <passability>Impassable</passability>
+    </ThingDef>
+
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+        <defName>DankPyon_StoneDebris</defName>
+        <label>Steinschüttung</label>
+        <description>Ein eingestürzter Steinbrocken, der an alte Ruinen und Verliese erinnert. Er enthält noch nützliche Ressourcen, die du durch Zerlegen erwerben kannst..</description>
+        <category>Building</category>
+        <graphicData>
+            <texPath>Buildings/Ruin/StoneDebris</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <rect>(0.1,0.1,1.8,1.8)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(1.39,0.5,1.25)</volume>
+            </shadowData>
+        </graphicData>
+        <pathCost>42</pathCost>
+        <blockWind>true</blockWind>
+        
+        <size>(2,2)</size>
+        <statBases>
+            <MaxHitPoints>320</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <Beauty>-20</Beauty>
+            <WorkToBuild>12000</WorkToBuild>
+        </statBases>
+
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>
+        <costStuffCount>200</costStuffCount>
+        
+        <fillPercent>1</fillPercent>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<passability>Impassable</passability>
+    </ThingDef>
+
+	<ThingDef ParentName="DankPyon_RuinedBuildingBase">
+		<defName>DankPyon_StoneDebrisSmall</defName>
+		<label>Steintrümmer klein</label>
+		<description>Ein eingestürzter Steinbrocken, der an alte Ruinen und Verliese erinnert. Er enthält noch nützliche Ressourcen, die du durch Zerlegen erwerben kannst.</description>
+		<graphicData>
+			<texPath>Buildings/Ruin/SmallStoneDebris</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<drawRotated>false</drawRotated>
+			<drawSize>(1,1)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToBuild>3000</WorkToBuild>
+			<Beauty>-20</Beauty>
+			<Mass>10</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>20</costStuffCount>
+		<pathCost>30</pathCost>
+		<fillPercent>1</fillPercent>
+		<passability>Impassable</passability>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+	</ThingDef>
+
+
+	
+  
+
+</Defs> 

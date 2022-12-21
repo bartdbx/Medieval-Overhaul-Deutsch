@@ -1,0 +1,3035 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+ <Defs>
+
+  <!-- ==================== Maces ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_Bludgeon</defName>
+    <label>Knüppel</label>
+    <description>Die erste Version des Schlägers, die auch im Kampf praktischer ist. Der Metallkopf ermöglicht eine größere Rüstungsdurchdringung und kann leicht die Knochen von ungepanzerten Feinden brechen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/Bludgeon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.10</Mass>
+    </statBases>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Bludgeon</li>
+	    <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15.7</power>
+        <armorPenetration>0.20</armorPenetration>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_NomadMace</defName>
+    <label>Nomadenstreitkolben</label>
+    <description>Der Nomadenstreitkolben ist bei umherziehenden Stämmen beliebt und verfügt über einen breiten und schweren Metallkopf. Der zugefügte Schaden ist ähnlich wie bei anderen Streitkolben, der Umfang des Kopfes verursacht jedoch höheren Rüstungsschaden.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/NomadMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>1.3</Mass>
+    </statBases>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_NomadMace</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16.5</power>
+        <cooldownTime>2.05</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_MorningStar</defName>
+    <label>Morgenstern</label>
+    <description>Ein wilder und tödlicher Streitkolben, der von Plünderern und Banditen wegen seines stumpfen Schadens, sowie wegen seines Stichschadens dank der um den Kopf angebrachten Stacheln geliebt ist.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/MorningStar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>1.3</Mass>
+    </statBases>
+
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags> 
+      <li>DankPyon_MorningStar</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17.5</power>
+        <cooldownTime>2.16</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_WingedMace</defName>
+    <label>Streitkolben, geflügelt</label>
+    <description>Der geflügelte Streitkolben ähnelt einem Pfeil mit Federn und weist hervorstehende Rippen um den Metallkopf auf, der noch zusätzliche Rüstungsdurchdringung vorweist. Am besten gegen Feinde eingesetzt, die sich hinter schwerer Plattenpanzerung bewegen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/WingedMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_WingedMace</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>19</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ==================== Two-Handed Maces ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_Goedendag</defName>
+    <label>Goedendag</label>
+    <description>Eine einfache, aber geniale Waffe, die die Nützlichkeit eines Speers mit der rohen Kraft einer Keule vereint. Mit seinem gewichteten, stacheligen Kopf kann er sowohl tödliche Stöße als auch rippenzerschmetternde Schläge ausführen, der gefährlichste Feind aller Ritter des Mittelalters.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/Goedendag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>11000</WorkToMake>
+      <Mass>2.25</Mass>
+    </statBases>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Goedendag</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>22</power>
+        <cooldownTime>2.67</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_TwoHandedMace</defName>
+    <label>Zweihandstreitkolben</label>
+    <description>Die zweihändige Version des Morgensterns, Krieger können ihre Schilde gegen weiteres Offensivpotenzial eintauschen. Die längere Reichweite des Griffs ermöglicht ein leichteres Schlagen auf Reittieren und eine bessere Durchdringung der Panzerung.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/TwoHandedMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_TwoHandedMace</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.85</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_TwoHandedFlangedMace</defName>
+    <label>Kranzstreitkolben, zweihändig</label>
+    <description>Bei der zweihändigen Version des geflügelten Streitkolbens ermöglicht der lange Griff nicht nur höheren Schaden, sondern auch eine größere Rüstungsdurchdringung. Die hervorstehenden Kränze dezimieren sowohl Schilde als auch Metallplatten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Maces/TwoHandedFlangedMace</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>4</Mass>
+    </statBases>
+
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+
+    <weaponTags>
+      <li>DankPyon_TwoHandedFlangedMace</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3</cooldownTime>
+        <armorPenetration>0.20</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NobleMaces</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- ==================== Spears ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_MilitiaSpear</defName>
+    <label>Milizspeer</label>
+    <description>Seit der Antike stellten die Herren ihren Fyrd, den Bauern, die während des Krieges zu den Waffen greifen, Milizspeere zur Verfügung. Ihre Argumentation war einfach: Anstatt den Bogen oder das Schwert zu üben, ist jemand mit geringer Nahkampffähigkeit effektiver, versteckt hinter einem Schild und sticht mit einem langen, spitzen Stock zu. Geringer Schaden, aber anständige Rüstungsdurchdringung und einfach zu bedienen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Spears/MilitiaSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_MilitiaSpear</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16.2</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicSpears</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_BoarSpear</defName>
+    <label>Eberspeer</label>
+    <description>Die beiden Flügel an der Basis des Speersockels dienen als Barrieren, um entgegenkommende Angriffe aufzuhalten. Sie verhindern auch, dass der Speer zu weit vordringt und dadurch stecken bleibt, wodurch der Eberspeer sowohl für die Jagd als auch für schnelle Stöße im Kampf effektiv ist.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Spears/BoarSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>10000</WorkToMake>
+      <Mass>2.25</Mass>
+    </statBases>
+
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>  
+      <li>DankPyon_BoarSpear</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17.2</power>
+        <cooldownTime>2.1</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitarySpears</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_FightingSpear</defName>
+    <label>Kampfspeer</label>
+    <description>Der Kampfspeer ist ein sehr effektiver Speer für den Kampf. Er ist lang und robust, um die Frontlinien bei der Aufrechterhaltung ihrer Speerwand zu unterstützen. In Anlehnung an das Flügeldesign des Eberspeers verfügt der Kampfspeer auch über zwei hervorstehende Punkte, die helfen können, feindliche Schwünge zu stoppen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Spears/FightingSpear</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_FightingSpear</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>18.8</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NobleSpears</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ==================== Two-Handed Spears ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Warfork</defName>
+    <label>Kriegsgabel</label>
+    <description>Als Adaption der landwirtschaftlichen Heugabel ist die Kriegsgabel für eine einfache Handhabung wie der Speer konzipiert, jedoch mit der Reichweite einer Pike. Solider Schaden und einfach zu bedienen, ideal für Anfängerkrieger.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Spears/Warfork</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>45</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Warfork</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+    <li Class="DankPyon.Tool_Melee">
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+	 <meleeReachRange>3</meleeReachRange>
+      </li>
+    <li Class="DankPyon.Tool_Melee">
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.57</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+		   <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicSpears</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Spetum</defName>
+    <label>Spetum</label>
+    <description>Eine Stangenwaffe mit einer Speerspitze an der Spitze und Seitenklingen, die mehrere Durchschlagspunkte ermöglichen. Ein Stoß des Spetums kann mehrere Bereiche gleichzeitig beschädigen und gleichzeitig zusätzliche Verteidigung gegen die von der Pike inspirierten Seitenklingen bieten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Spears/Spetum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>14000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Spetum</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    <li Class="DankPyon.Tool_Melee">
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>23.5</power>
+        <cooldownTime>2.72</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+	    <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitarySpears</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- ==================== Polearms ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Pitchfork</defName>
+    <label>Heugabel</label>
+    <description>Als landwirtschaftliches Werkzeug bietet die Heugabel minimalen Schaden und Rüstungsdurchdringung. Die Länge und die spitzen Enden ermöglichen es jedoch, als improvisierte Waffe nützlich zu sein, indem sie Schwerter und Speere übertreffen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/Pitchfork</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Pitchfork</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+     <li Class="DankPyon.Tool_Melee">
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+		  <meleeReachRange>3</meleeReachRange>
+      </li>
+    <li Class="DankPyon.Tool_Melee">
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>17.75</power>
+        <cooldownTime>2.45</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+		 <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicPolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_HookedBlade</defName>
+    <label>Hakenklinge</label>
+    <description>Wenn Schlagen nicht ausreicht, können tapfere Krieger mit dem gebogenen Kopf der Hakenklinge angreifen. Die scharfe Spitze kann sowohl Fleisch als auch Metall durchbohren und sorgt so für einen festen Griff, um Feinde zu sich zu ziehen. Verursacht beeindruckenden Schaden für ein landwirtschaftliches Werkzeug, glänzt dank seiner Nützlichkeit.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/HookedBlade</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.25</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>2.25</Mass>
+    </statBases>
+
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>45</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_HookedBlade</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+    <li Class="DankPyon.Tool_Melee">
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+	  <meleeReachRange>3</meleeReachRange>
+      </li>
+       <li Class="DankPyon.Tool_Melee">
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.9</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+	  <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicPolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Billhook</defName>
+    <label>Hippe</label>
+    <description>Eine vielseitige Pike mit drei tödlichen Enden – einer Klinge für Schläge, einem Haken zum Greifen und einer speerartigen Spitze zum Durchstechen von Kettenhemden und Metallplatten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/Billhook</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>50</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Billhook</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+       <li Class="DankPyon.Tool_Melee">
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25</power>
+        <cooldownTime>2.9</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+	   <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryPolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="DankPyon_PikeBase">
+    <defName>DankPyon_MeleeWeapon_Pike</defName>
+    <label>Pike</label>
+    <description>Im Gegensatz zum Speer müssen Piken mit beiden Händen geführt werden, um effektiv zu sein. Dies ermöglicht es Pikenbenutzern, Feinde aus der Ferne aufzuspießen, was Pikeniere sogar aus der hinteren Linie zu gefürchteten Kriegern macht.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/Pike</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>55</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Pike</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+     <li Class="DankPyon.Tool_Melee">
+        <label>Point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>25.45</power>
+        <cooldownTime>2.95</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryPolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+	 <ThingDef ParentName="DankPyon_PikeBase">
+    <defName>DankPyon_MeleeWeapon_PikeAmboise</defName>
+    <label>Pike (Amboise)</label>
+    <description>Anders als der Speer muss die Pike mit beiden Händen geführt werden, um effektiv zu sein. Dadurch können Hechtkämpfer ihre Feinde aus der Ferne aufspießen, was sie zu gefürchteten Kriegern macht, selbst in der hintersten Reihe. \n\n Diese Pike trägt die Farben des Hauses Amboise.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/StandardAmboise</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>55</WoodLog>
+      <Cloth>50</Cloth>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>DankPyon_PikeAmboise</li>
+    </weaponTags>
+	  <recipeMaker>
+      <recipeUsers Inherit="False"/>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_PikeBase">
+    <defName>DankPyon_MeleeWeapon_PikeSoren</defName>
+    <label>Pike (Soren)</label>
+    <description>Anders als der Speer muss die Pike mit beiden Händen geführt werden, um effektiv zu sein. Dadurch können Hechtkämpfer ihre Feinde aus der Ferne aufspießen, was sie zu gefürchteten Kriegern macht, selbst in der hintersten Reihe. \n\n Diese Pike trägt die Farben des Hauses Soren.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/StandardSoren</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>55</WoodLog>
+      <Cloth>50</Cloth>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>DankPyon_PikeSoren</li>
+    </weaponTags>
+	  <recipeMaker>
+      <recipeUsers Inherit="False"/>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_PikeBase">
+    <defName>DankPyon_MeleeWeapon_PikeOswin</defName>
+    <label>Pike (Oswin)</label>
+    <description>Anders als der Speer muss die Pike mit beiden Händen geführt werden, um effektiv zu sein. Dadurch können Hechtkämpfer ihre Feinde aus der Ferne aufspießen, was sie zu gefürchteten Kriegern macht, selbst in der hintersten Reihe. \n\n Diese Pike trägt die Farben des Hauses Oswin.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/StandardOswin</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>55</WoodLog>
+      <Cloth>50</Cloth>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>DankPyon_PikeOswin</li>
+    </weaponTags>
+	  <recipeMaker>
+      <recipeUsers Inherit="False"/>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="DankPyon_PikeBase">
+    <defName>DankPyon_MeleeWeapon_PikeHesse</defName>
+    <label>Pike (Hesse)</label>
+    <description>Anders als der Speer muss die Pike mit beiden Händen geführt werden, um effektiv zu sein. Dadurch können Hechtkämpfer ihre Feinde aus der Ferne aufspießen, was sie zu gefürchteten Kriegern macht, selbst in der hintersten Reihe. \n\n Diese Pike trägt die Farben des Hauses Hessen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/StandardHesse</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>55</WoodLog>
+      <Cloth>50</Cloth>
+    </costList>
+    <weaponTags Inherit="False">
+      <li>DankPyon_PikeHesse</li>
+    </weaponTags>
+	  <recipeMaker>
+      <recipeUsers Inherit="False"/>
+    </recipeMaker>
+  </ThingDef>
+  
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Swordlance</defName>
+    <label>Schwertlanze</label>
+    <description>Variation der Pike, die gebogene Klinge ermöglicht einen heftigen Hieb aus der Ferne . Dies tauscht Rüstungsdurchdringung gegen rohen Schaden ein, was die Schwertlanze in erfahrenen Händen tödlich macht.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/Swordlance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li><compClass>CompOversizedWeapon.CompOversizedWeapon</compClass></li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>15000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>45</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Swordlance</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+   <li Class="DankPyon.Tool_Melee">
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>25.45</power>
+        <cooldownTime>2.95</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+	    <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryPolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+	 <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Halberd</defName>
+    <label>Hellebarde</label>
+    <description>Ein vielseitiger Hecht mit drei tödlichen Enden - einer Klinge für Schläge, einem Haken zum Festhalten und einer speerartigen Spitze zum Durchstechen von Kettenhemden und Metallplatten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/Halberd</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+
+    <weaponTags>
+      <li>DankPyon_Halberd</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li Class="DankPyon.Tool_Melee">
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27</power>
+        <cooldownTime>2.9</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+        <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NoblePolearms</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- ==================== Hammers ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_Pickaxe</defName>
+    <label>Spitzhacke</label>
+    <description>Ein Bergbauwerkzeug zum Schlagen von Steinen und Barren; obwohl die Spitzhacke hauptsächlich zum Sammeln von wirtschaftlichen Ressourcen verwendet wird, verfügt sie an beiden Enden über tödliche Spitzen, die in der Lage sind, Rüstungen ebenso effektiv zu durchdringen, wie sie Erz abbauen.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/Pickaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>2</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>0.25</MiningSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>20</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Pickaxe</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15.5</power>
+        <cooldownTime>2</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_MilitaryPick</defName>
+    <label>Militärhacke</label>
+    <description>Inspiriert von der Spitzhacke des Bergmanns besteht die militärische Spitzhacke aus einem langen Schaft mit einem spitzen Dorn, der die Rüstung effektiver durchbohrt als das Werkzeug, das zu seinem Design inspiriert hat.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/MilitaryPick</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <uiIconScale>1.15</uiIconScale>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>2.1</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <MiningSpeed>0.25</MiningSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>25</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_MilitaryPick</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16.9</power>
+        <cooldownTime>2.1</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_Warhammer</defName>
+    <label>kriegshammer</label>
+    <description>Während sich Metallplatten als schwer zu durchbohren erweisen, entscheiden sich viele Krieger stattdessen dafür, die Rüstung mit einem Kriegshammer zu beschädigen. Kurz und daher mit einem Schild tragbar, ist der Kriegshammer weiterhin eine solide Wahl für den Kampf gegen reiche Adlige und schwer gepanzerte Ritter.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/Warhammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>2.2</Mass>
+    </statBases>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>30</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Warhammer</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>17.9</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NobleHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ==================== Two-Handed Hammers ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_TwoHandedMallet</defName>
+    <label>Zweihandhammer</label>
+    <description>Der Zweihandhammer ist eine grundlegende Waffe, die aus einem einzigen leicht zugänglichen Material wie Holz besteht und feindliche Formationen zerstören kann, unabhängig davon, ob die Feinde gepanzert sind oder nicht.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/TwoHandedMallet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>9500</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <ConstructionSpeed>0.10</ConstructionSpeed>
+      <ConstructSuccessChance>0.15</ConstructSuccessChance>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Woody</li>
+    </stuffCategories>
+
+    <weaponTags>
+      <li>DankPyon_TwoHandedMallet</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>23</power>
+        <cooldownTime>2.87</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_TwoHandedHammer</defName>
+    <label>Zweihandhammer, metallisch</label>
+    <description>Als Upgrade des Zweihandhammers besitzt der metallische Zweihandhammer einen schweren Metallkopf, um die auf die Ziele ausgeübte Kraft zu vervielfachen. Die schiere Kraft von Hammerschlägen kann feste Platten knacken und starke Schilde spalten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/TwoHandedHammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>90</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+
+    <weaponTags>
+      <li>DankPyon_TwoHandedHammer</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>26.75</power>
+        <cooldownTime>3.15</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+    <defName>DankPyon_MeleeWeapon_Polehammer</defName>
+    <label>Stangenhammer</label>
+    <description>Eine weitere Variante des Zweihandhammers mit zwei Spitzen am Kopf. Dieses Design bietet zusätzliche Möglichkeiten, gepanzerte Feinde zu durchdringen und weniger gepanzerte Feinde mit Leichtigkeit zu durchbohren.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Hammers/Polehammer</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Polehammer</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>2.92</cooldownTime>
+        <armorPenetration>0.25</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryHammers</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <!-- ==================== Axes ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Hatchet</defName>
+    <label>Beil</label>
+    <description>Das Beil ist ein primitives Werkzeug, das von Holzfällerlehrlingen verwendet wird und sowohl für Holzbearbeitungs- als auch für Hackangriffe nützlich ist. Eine großartige und zugängliche Alternative zu Schwertern, sollte sich der Feind hinter einer Schildmauer verstecken.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/Hatchet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>6000</WorkToMake>
+      <Mass>1.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantHarvestYield>0.15</PlantHarvestYield>
+      <PlantWorkSpeed>0.15</PlantWorkSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>20</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Hatchet</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>16.75</power>
+        <cooldownTime>2.16</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+   <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Handaxe</defName>
+    <label>Handaxt</label>
+    <description>Als längere Version des Beils ermöglicht der lange Schaft der Handaxt stärkere Schwünge aus der Ferne. Aufgrund ihrer einfachen Handhabung und Praktikabilität ist diese Axt ein Favorit gegen abgeschirmte Feinde.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/Handaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>1.75</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantHarvestYield>0.15</PlantHarvestYield>
+      <PlantWorkSpeed>0.25</PlantWorkSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>35</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Handaxe</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>18.25</power>
+        <cooldownTime>2.2</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_FightingAxe</defName>
+    <label>Kampfaxt</label>
+    <description>Eine ausschließlich für die Kriegsführung geschmiedete Variante der Axt mit einem robusten Metallkopf zum Spalten von Schilden und scharfen Spitzen zum Durchstechen von Platten. Starker Schaden, aber kurze Reichweite.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/FightingAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>9000</WorkToMake>
+      <Mass>2.25</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+
+    <weaponTags>
+      <li>DankPyon_FightingAxe</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.35</cooldownTime>
+        <armorPenetration>0.3</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NobleAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+
+    <modExtensions>
+      <li Class="VFECore.ThingDefExtension">
+        <usableWithShields>true</usableWithShields>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <!-- ==================== Two-Handed Axes ==================== -->
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_WoodcuttersAxe</defName>
+    <label>Holzfälleraxt</label>
+    <description>Eine lange Axt, die aufgrund ihres langen Schafts und ihres schweren scharfen Kopfes von erfahrenen Holzfällern und Räubern gleichermaßen verwendet wird. Das Design macht die Zweihandaxt ideal zum Fällen von Bäumen sowie zum Fällen eines Feindes.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/WoodcuttersAxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>7500</WorkToMake>
+      <Mass>2.5</Mass>
+    </statBases>
+    <equippedStatOffsets>
+      <PlantHarvestYield>0.20</PlantHarvestYield>
+      <PlantWorkSpeed>0.30</PlantWorkSpeed>
+    </equippedStatOffsets>
+
+    <costStuffCount>30</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>60</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_WoodcuttersAxe</li>
+
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>23.5</power>
+        <cooldownTime>2.9</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_BasicAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>2</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Bardiche</defName>
+    <label>Berdysch</label>
+    <description>Die Berdysch ist eine von Piken inspirierte Axt und verfügt über einen Axtkopf, der wie ein Pikenkopf verlängert ist. Das Design macht diese Zweihandwaffe an viele Situationen anpassbar, da sie ungepanzerte Feinde genauso leicht spalten kann, wie einen Schild.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/Bardiche</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>70</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Bardiche</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>28</power>
+        <cooldownTime>3.1</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Greataxe</defName>
+    <label>Großaxt</label>
+    <description>Als schwerere Version der Zweihandaxt ermöglicht das Gewicht der Großaxt einen hohen Rohschaden sowie eine solide Haltbarkeit. Eine großartige Option, um Schilde oder ungepanzerte Feinde zu teilen. Erfordert große Kraft, um effektiv zu wirken.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/Greataxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+      <WorkToMake>17500</WorkToMake>
+      <Mass>3</Mass>
+    </statBases>
+
+    <costStuffCount>80</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>80</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Greataxe</li>
+
+      <li>MedievalMeleeAdvanced</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>31</power>
+        <cooldownTime>3.2</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_NobleAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+    <defName>DankPyon_MeleeWeapon_Longaxe</defName>
+    <label>Langaxt</label>
+    <description>Eine weit verbreitete Zweihandwaffe, die aufgrund ihrer einfachen Handhabung und ihres hohen Schadens oft von Plünderern verwendet wird. Hoher Schaden, aber der lange Schaft erfordert, dass ein Krieger auf einen Schild verzichtet, daher sollte die Langaxt nur von sehr selbstbewussten Kämpfern verwendet werden.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Axes/Longaxe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	    <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>2.75</Mass>
+    </statBases>
+
+    <costStuffCount>70</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <WoodLog>80</WoodLog>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_Longaxe</li>
+
+      <li>MedievalMeleeDecent</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>13</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>27.5</power>
+        <cooldownTime>2.96</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+	  <recipeMaker>
+      <researchPrerequisite>DankPyon_MilitaryAxes</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+  </ThingDef>
+
+<!-- ==================== Sword ==================== -->
+<!--ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_Shortsword</defName>
+  <label>Kurzschwert</label>
+  <description>Eine lange Axt, die aufgrund ihres langen Schafts und ihres schweren scharfen Kopfes von erfahrenen Holzfällern und Räubern gleichermaßen verwendet wird. Das Design macht die Zweihandaxt ideal zum Fällen von Bäumen sowie zum Fällen eines Feindes.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Hammers/WoodcuttersAxe</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-65</equippedAngleOffset>
+
+  <statBases>
+    <WorkToMake>7500</WorkToMake>
+    <Mass>2.5</Mass>
+  </statBases>
+
+  <costStuffCount>30</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+  <costList>
+    <WoodLog>60</WoodLog>
+  </costList>
+
+  <weaponTags>
+    <li>DankPyon_BasicAxe</li>
+  </weaponTags>
+
+  <tools>
+     <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>23.5</power>
+      <cooldownTime>2.9</cooldownTime>
+      <armorPenetration>0.4</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>DankPyon_BasicAxes</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+</ThingDef-->
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_Falchion</defName>
+  <label>Falchion</label>
+  <description>Ein stämmige, breitblättrige Hiebwaffe, die aufgrund seiner einfachen Herstellung und Verwendung oft in den Händen von Milizsoldaten und Bauern gefunden wurde. Am besten zum Aufschlitzen geeignet, kann aber zur Not noch stoßen.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/Falchion</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-65</equippedAngleOffset>
+
+  <statBases>
+    <WorkToMake>13000</WorkToMake>
+    <Mass>1</Mass>
+  </statBases>
+
+  <costStuffCount>55</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_Falchion</li>
+
+    <li>MedievalMeleeBasic</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>18</power>
+      <cooldownTime>2.1</cooldownTime>
+      <armorPenetration>0.2</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>DankPyon_BasicSwords</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>4</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+
+  <modExtensions>
+    <li Class="VFECore.ThingDefExtension">
+      <usableWithShields>true</usableWithShields>
+    </li>
+  </modExtensions>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_ArmingSword</defName>
+  <label>Rüstungsschwert</label>
+  <description>Viele Krieger sehen ihre Waffen als Werkzeuge an, und daher sind die gebräuchlichsten Schwerter die praktischsten. Bewaffnungsschwerter, die für ihr geringes Gewicht, ihre gekerbte Klinge und ihre effiziente Handwerkskunst gelobt werden, erweisen sich sowohl für Anfänger als auch für Veteranen als nützlich. Schwerter können Kriegern Reichtum bringen. Wenn man also das Werkzeug für die Kriegsführung wählt, kann man glücklich sein, ein solches hier zu führen.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/Armingsword1</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-65</equippedAngleOffset>
+
+  <statBases>
+    <WorkToMake>14500</WorkToMake>
+    <Mass>1.25</Mass>
+  </statBases>
+
+  <costStuffCount>60</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_ArmingSword</li>
+  
+    <li>MedievalMeleeDecent</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>19.25</power>
+      <cooldownTime>2.15</cooldownTime>
+      <armorPenetration>0.2</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>DankPyon_MilitarySwords</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+
+  <modExtensions>
+    <li Class="VFECore.ThingDefExtension">
+      <usableWithShields>true</usableWithShields>
+    </li>
+  </modExtensions>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_FencingSword</defName>
+  <label>Degen</label>
+  <description>Das Fechtschwert (oder Degen) ist eine elegante, leichte und tödliche Waffe und erfordert viel Geschick, um es effektiv einzusetzen. Die Beherrschung einer solchen Waffe kann Duellanten jedoch auch gegen Panzer zu vielen Siegen führen, da präzise Schläge Schwachstellen durchdringen können.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/FencingSword</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-65</equippedAngleOffset>
+
+  <statBases>
+    <WorkToMake>20000</WorkToMake>
+    <Mass>0.85</Mass>
+  </statBases>
+
+  <costStuffCount>60</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_FencingSword</li>
+
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>point</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Stab</li>
+      </capacities>
+      <power>18.25</power>
+      <cooldownTime>2.05</cooldownTime>
+      <armorPenetration>0.2</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+
+  <modExtensions>
+    <li Class="VFECore.ThingDefExtension">
+      <usableWithShields>true</usableWithShields>
+    </li>
+  </modExtensions>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_NobleSword</defName>
+  <label>Adelsschwert</label>
+  <description>Ein gut geschmiedetes und meisterhaft ausbalanciertes Bewaffnungsschwert, kunstvoll verziert und fein verarbeitet. Sowohl eine feine Waffe als auch ein Kunstwerk.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/NobleSword</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-65</equippedAngleOffset>
+
+  <statBases>
+    <WorkToMake>25000</WorkToMake>
+    <Mass>1.5</Mass>
+  </statBases>
+
+  <costStuffCount>75</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_NobleSword</li>
+
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>21.15</power>
+      <cooldownTime>2.21</cooldownTime>
+      <armorPenetration>0.2</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+
+  <modExtensions>
+    <li Class="VFECore.ThingDefExtension">
+      <usableWithShields>true</usableWithShields>
+    </li>
+  </modExtensions>
+</ThingDef>
+
+<!-- ==================== Two-Handed Sword ==================== -->
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_Longsword</defName>
+  <label>Langschwert</label>
+  <description>Wo kürzere und leichtere Klingen in Schildwänden am nützlichsten sind, glänzt das Langschwert in Scharmützeln und Duellen. Indem er die Reichweite erhöht und folglich ohne Schild geführt wird, kann ein Krieger durch Schwünge und sogar Stöße hohen Schaden zuzufügen. Gehen Sie nicht davon aus, dass die größere Größe mehr Gewicht mit sich bringt, da ein plötzlicher, schneller Schlag mit einem Langschwert schon viele Feinde überrascht hat.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/Longsword</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>1.25</drawSize>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-60</equippedAngleOffset> 
+  <comps>
+    <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      <verticalFlipNorth>true</verticalFlipNorth>
+      <northOffset>(0.30,0.0,0.40)</northOffset>
+      <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+      <eastOffset>(0.30,0.20,0.40)</eastOffset>
+      <angleAdjustmentEast></angleAdjustmentEast>
+      <westOffset>(-0.30,0.20,0.40)</westOffset>
+      <angleAdjustmentWest></angleAdjustmentWest>
+      <southOffset>(0.30,0.20,0.40)</southOffset>
+      <angleAdjustmentSouth></angleAdjustmentSouth>
+    </li>
+  </comps>
+
+  <statBases>
+    <WorkToMake>18000</WorkToMake>
+    <Mass>2</Mass>
+  </statBases>
+
+  <costStuffCount>100</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_Longsword</li>
+
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>26</power>
+      <cooldownTime>2.79</cooldownTime>
+      <armorPenetration>0.25</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>DankPyon_MilitarySwords</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+  <defName>DankPyon_MeleeWeapon_Greatsword</defName>
+  <label>Großschwert</label>
+  <description>Ein riesiges Zweihandschwert mit langer Klinge, das Feinde mit heftigen Schlägen spalten kann. Anständig auch bei langen Stößen.</description>
+  <graphicData>
+    <texPath>WeaponMelee/Swords/Greatsword</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+    <shaderType>CutoutComplex</shaderType>
+    <drawSize>1.25</drawSize>
+  </graphicData>
+  <techLevel>Medieval</techLevel>
+  <equippedAngleOffset>-60</equippedAngleOffset> 
+  <comps>
+    <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+      <verticalFlipNorth>true</verticalFlipNorth>
+      <northOffset>(0.30,0.0,0.40)</northOffset>
+      <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+      <eastOffset>(0.30,0.20,0.40)</eastOffset>
+      <angleAdjustmentEast></angleAdjustmentEast>
+      <westOffset>(-0.30,0.20,0.40)</westOffset>
+      <angleAdjustmentWest></angleAdjustmentWest>
+      <southOffset>(0.30,0.20,0.40)</southOffset>
+      <angleAdjustmentSouth></angleAdjustmentSouth>
+    </li>
+  </comps>
+
+  <statBases>
+    <WorkToMake>24000</WorkToMake>
+    <Mass>3</Mass>
+  </statBases>
+
+  <costStuffCount>150</costStuffCount>
+  <stuffCategories>
+    <li>Metallic</li>
+  </stuffCategories>
+
+  <weaponTags>
+    <li>DankPyon_Greatsword</li>
+
+    <li>MedievalMeleeAdvanced</li>
+  </weaponTags>
+
+  <tools>
+    <li>
+      <label>handle</label>
+      <capacities>
+        <li>Poke</li>
+      </capacities>
+      <power>9</power>
+      <cooldownTime>2</cooldownTime>
+    </li>
+    <li>
+      <label>edge</label>
+      <labelUsedInLogging>false</labelUsedInLogging>
+      <capacities>
+        <li>Cut</li>
+      </capacities>
+      <power>31.25</power>
+      <cooldownTime>3.15</cooldownTime>
+      <armorPenetration>0.25</armorPenetration>
+    </li>
+  </tools>
+  <recipeMaker>
+    <researchPrerequisite>LongBlades</researchPrerequisite>
+    <skillRequirements>
+      <Crafting>6</Crafting>
+    </skillRequirements>
+  </recipeMaker>
+</ThingDef>
+
+<!--==================== Named Weapons ====================-->
+<ThingDef ParentName="BaseMeleeWeapon_Sharp" Name="DankPyon_NamedWeaponSharp" Abstract="True">
+    <recipeMaker Inherit="False"/>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+        <DeteriorationRate>0</DeteriorationRate>
+        <Flammability>0</Flammability>
+        <Beauty>65</Beauty>
+    </statBases>
+    <comps>
+        <li Class="DankPyon.CompProperties_RandomName">
+            <nameMakers>
+                <li>DankPyon_Namer_WeaponsSlash</li>
+            </nameMakers>
+        </li>
+    </comps>
+
+    <thingCategories>
+		    <li>DankPyon_WeaponsMeleeNamed</li>
+		</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Sharp" Name="DankPyon_NamedWeaponPierce" Abstract="True">
+    <recipeMaker Inherit="False"/>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+        <DeteriorationRate>0</DeteriorationRate>
+        <Flammability>0</Flammability>
+        <Beauty>65</Beauty>
+    </statBases>
+    <comps>
+        <li Class="DankPyon.CompProperties_RandomName">
+            <nameMakers>
+                <li>DankPyon_Namer_WeaponsPierce</li>
+            </nameMakers>
+        </li>
+    </comps>
+
+    <thingCategories>
+        <li>DankPyon_WeaponsMeleeNamed</li>
+    </thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="BaseMeleeWeapon_Blunt" Name="DankPyon_NamedWeaponBlunt" Abstract="True">
+    <recipeMaker Inherit="False"/>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+        <DeteriorationRate>0</DeteriorationRate>
+        <Flammability>0</Flammability>
+        <Beauty>65</Beauty>
+    </statBases>
+    <comps>
+        <li Class="DankPyon.CompProperties_RandomName">
+            <nameMakers>
+                <li>DankPyon_Namer_WeaponsBlunt</li>
+            </nameMakers>
+        </li>
+    </comps>
+
+    <thingCategories>
+        <li>DankPyon_WeaponsMeleeNamed</li>
+    </thingCategories>
+</ThingDef>
+
+
+<ThingDef ParentName="DankPyon_NamedWeaponSharp" Name="DankPyon_NamedGreatsword">
+    <defName>DankPyon_MeleeWeapon_NamedGreatsword</defName>
+    <label>namhaftes Großschwert</label>
+    <description>Ein riesiges, zweihändiges Schwert mit langer Klinge, das Feinde mit heftigen Schwüngen und Hieben zerteilen kann. Es eignet sich auch für lange Stöße. \n\nEin uraltes Relikt aus den längst vergessenen Unterreichen. Eine meisterhaft gefertigte Klinge, die mit ihrer unverwüstlichen Schneide Stahlplatten durchtrennen kann.</description>
+    <graphicData>
+        <texPath>WeaponMelee/Swords/NamedGreatsword/NamedGreatsword1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.25</drawSize>
+    </graphicData>
+    <equippedAngleOffset>-60</equippedAngleOffset> 
+    <comps>
+        <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <northOffset>(0.30,0.0,0.40)</northOffset>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <eastOffset>(0.30,0.20,0.40)</eastOffset>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <westOffset>(-0.30,0.20,0.40)</westOffset>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <southOffset>(0.30,0.20,0.40)</southOffset>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+        </li>
+    </comps>
+
+    <statBases>
+        <MaxHitPoints>280</MaxHitPoints>
+        <MarketValue>6810</MarketValue>
+        <WorkToMake>48000</WorkToMake>
+        <Mass>3</Mass>
+    </statBases>
+
+    <costList>
+        <Plasteel>150</Plasteel>
+        <Gold>50</Gold>
+    </costList>
+
+    <weaponTags>
+        <li>DankPyon_NamedGreatsword</li>
+    </weaponTags>
+
+    <tools>
+        <li>
+        <label>handle</label>
+        <capacities>
+            <li>Poke</li>
+        </capacities>
+        <power>13.4</power>
+        <cooldownTime>1.6</cooldownTime>
+        </li>
+        <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+            <li>Cut</li>
+        </capacities>
+        <power>56.75</power>
+        <cooldownTime>2.52</cooldownTime>
+        <armorPenetration>0.41</armorPenetration>
+        </li>
+    </tools>
+</ThingDef>
+
+<!-- REMOVE ONCE NEW OVERSIZED COMP IS COMPATIBLE WITH GRAPHIC_RANDOM-->
+<ThingDef ParentName="DankPyon_NamedGreatsword">
+    <defName>DankPyon_MeleeWeapon_NamedGreatsword1c</defName>
+    <graphicData>
+        <texPath>WeaponMelee/Swords/NamedGreatsword/NamedGreatsword2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.25</drawSize>
+    </graphicData>
+</ThingDef>
+
+<ThingDef ParentName="DankPyon_NamedGreatsword">
+    <defName>DankPyon_MeleeWeapon_NamedGreatsword2c</defName>
+    <graphicData>
+        <texPath>WeaponMelee/Swords/NamedGreatsword/NamedGreatsword3</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.25</drawSize>
+    </graphicData>
+</ThingDef>
+
+<!--Two handed flanged mace-->
+<ThingDef ParentName="DankPyon_NamedWeaponBlunt">
+    <defName>DankPyon_MeleeWeapon_NamedTwoHandedFlangedMace</defName>
+    <label>namhafter zweihändiger Streitkolben mit Flansch</label>
+    <description>Die zweihändige Version des geflügelten Streitkolbens. Der lange Griff ermöglicht nicht nur einen höheren Schaden, sondern auch eine bessere Durchdringung der Rüstung. Die hervorstehenden Flansche dezimieren sowohl Schilde als auch Metallplatten.</description>
+    <graphicData>
+        <texPath>WeaponMelee/Maces/NamedTwoHandedFlangedMace/NamedTwoHandedFlangedMace1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <uiIconScale>1.2</uiIconScale>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <WorkToMake>36000</WorkToMake>
+        <Mass>4</Mass>
+        <MarketValue>6067</MarketValue>
+    </statBases>
+
+    <costList>
+        <Plasteel>100</Plasteel>
+        <Gold>30</Gold>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_NamedTwoHandedFlangedMace</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>19.3</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.29</armorPenetration>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>41.6</power>
+        <cooldownTime>2.4</cooldownTime>
+        <armorPenetration>0.33</armorPenetration>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- Greataxe -->
+<ThingDef ParentName="DankPyon_NamedWeaponSharp">
+    <defName>DankPyon_MeleeWeapon_NamedGreataxe</defName>
+    <label>namhafte Großaxt</label>
+    <description>Als schwerere Version der zweihändigen Axt sorgt das Gewicht der Großaxt für einen hohen Rohschaden und eine solide Haltbarkeit. Eine gute Option, um Schilde oder ungepanzerte Gegner zu spalten. Erfordert große Kraft, um sie effektiv zu führen.</description>
+    <graphicData>
+        <texPath>WeaponMelee/Axes/NamedGreataxe/NamedGreataxe1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <equippedAngleOffset>-45</equippedAngleOffset>
+
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <MarketValue>6532</MarketValue>
+        <WorkToMake>35000</WorkToMake>
+        <Mass>3</Mass>
+    </statBases>
+
+    <costList>
+        <Plasteel>140</Plasteel>
+        <Gold>40</Gold>
+    </costList>
+
+    <weaponTags>
+        <li>DankPyon_NamedGreataxe</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>19.3</power>
+        <cooldownTime>1.6</cooldownTime>
+      </li>
+      <li>
+        <label>edge</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>56.3</power>
+        <cooldownTime>2.56</cooldownTime>
+        <armorPenetration>0.4</armorPenetration>
+      </li>
+    </tools>
+</ThingDef>
+
+ <!--Two handed hammer-->
+<ThingDef ParentName="DankPyon_NamedWeaponBlunt" Name="DankPyon_NamedTwoHandedHammer">
+    <defName>DankPyon_MeleeWeapon_NamedTwoHandedHammer</defName>
+    <label>namhafter Zweihandhammer</label>
+    <description>Der beidhändige Hammer ist eine Weiterentwicklung des Schlegels und verfügt über einen schweren Metallkopf, der die auf das Ziel einwirkende Kraft vervielfacht. Die schiere Kraft der Hammerschläge kann solide Platten zerbrechen und starke Schilde spalten.</description>
+    <graphicData>
+        <texPath>WeaponMelee/Hammers/NamedTwoHandedHammer/NamedTwoHandedHammer1</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+
+    <statBases>
+        <MaxHitPoints>300</MaxHitPoints>
+        <WorkToMake>36000</WorkToMake>
+        <MarketValue>6567</MarketValue>
+        <Mass>4</Mass>
+    </statBases>
+
+    <costList>
+        <Plasteel>100</Plasteel>
+        <Gold>30</Gold>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_NamedTwoHandedHammer</li>
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>19.3</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.29</armorPenetration>
+      </li>
+      <li>
+        <label>head</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>39.7</power>
+        <cooldownTime>2.52</cooldownTime>
+        <armorPenetration>0.41</armorPenetration>
+      </li>
+    </tools>
+</ThingDef>
+
+<!-- REMOVE ONCE NEW OVERSIZED COMP IS COMPATIBLE WITH GRAPHIC_RANDOM-->
+<ThingDef ParentName="DankPyon_NamedTwoHandedHammer">
+    <defName>DankPyon_MeleeWeapon_NamedTwoHandedHammer1c</defName>
+    <graphicData>
+        <texPath>WeaponMelee/Hammers/NamedTwoHandedHammer/NamedTwoHandedHammer2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+</ThingDef>
+
+<!-- Halberd -->
+<ThingDef ParentName="DankPyon_NamedWeaponSharp" Name="DankPyon_NamedHalberd">
+    <defName>DankPyon_MeleeWeapon_NamedHalberd</defName>
+    <label>namhafte Hellebarde</label>
+    <description>Ein vielseitiger Hecht mit drei tödlichen Enden - einer Klinge für Schläge, einem Haken zum Festhalten und einer speerartigen Spitze zum Durchstechen von Kettenhemden und Metallplatten.</description>
+    <graphicData>
+      <texPath>WeaponMelee/Polearms/NamedHalberd/NamedHalberd1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <equippedAngleOffset>-100</equippedAngleOffset>
+    <comps>
+      <li Class="CompOversizedWeapon.CompProperties_OversizedWeapon">
+        <verticalFlipNorth>true</verticalFlipNorth>
+        <angleAdjustmentNorth>-180</angleAdjustmentNorth>
+        <angleAdjustmentEast></angleAdjustmentEast>
+        <angleAdjustmentWest></angleAdjustmentWest>
+        <angleAdjustmentSouth></angleAdjustmentSouth>
+
+        <northOffset>(0.34,0,0.70)</northOffset>
+        <southOffset>(-0.34,0,0.70)</southOffset>
+        <westOffset>(0.34,0,0.70)</westOffset>
+        <eastOffset>(-0.34,0,0.70)</eastOffset>
+      </li>
+    </comps>
+
+    <statBases>
+        <MarketValue>6037</MarketValue>
+        <MaxHitPoints>280</MaxHitPoints>
+        <WorkToMake>32000</WorkToMake>
+        <Mass>2.75</Mass>
+    </statBases>
+
+    <costList>
+        <Plasteel>100</Plasteel>
+        <Gold>30</Gold>
+    </costList>
+
+    <weaponTags>
+      <li>DankPyon_NamedHalberd</li>
+
+    </weaponTags>
+
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>19.3</power>
+        <cooldownTime>1.6</cooldownTime>
+        <armorPenetration>0.29</armorPenetration>
+      </li>
+      <li Class="DankPyon.Tool_Melee">
+        <label>blade</label>
+        <labelUsedInLogging>false</labelUsedInLogging>
+        <capacities>
+          <li>Cut</li>
+        </capacities>
+        <power>49.0</power>
+        <cooldownTime>2.32</cooldownTime>
+        <armorPenetration>0.50</armorPenetration>
+        <meleeReachRange>3</meleeReachRange>
+      </li>
+    </tools>
+</ThingDef>
+
+<!-- REMOVE ONCE NEW OVERSIZED COMP IS COMPATIBLE WITH GRAPHIC_RANDOM-->
+<ThingDef ParentName="DankPyon_NamedHalberd">
+    <defName>DankPyon_MeleeWeapon_NamedHalberd1c</defName>
+    <graphicData>
+        <texPath>WeaponMelee/Polearms/NamedHalberd/NamedHalberd2</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawSize>1.5</drawSize>
+    </graphicData>
+</ThingDef>
+
+  
+</Defs>
