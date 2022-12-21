@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Medieval Overhaul Deutsch</identifier>
+    <version>0.1.0.1</version>
+    <dependencies>
+        <li>DankPyon.Medieval.Overhaul</li>
+       </dependencies>
+    <incompatibleWith>
+        <li></li>
+    </incompatibleWith>
+    <loadBefore>
+        <li></li>
+    </loadBefore>
+    <loadAfter>
+        <li>DankPyon.Medieval.Overhaul</li>
+    </loadAfter>
+    <suggests>
+    </suggests>
+    <showCrossPromotions>false</showCrossPromotions>
+    <manifestUri>https://rawgit.com/bartdbx/Medieval-Overhaul-Deutsch/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest</downloadUri>
+</Manifest>
