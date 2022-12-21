@@ -10,5 +10,5 @@
     </loadAfter>
     <showCrossPromotions>false</showCrossPromotions>
     <manifestUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest</downloadUri>
+    <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest/</downloadUri>
 </Manifest>
