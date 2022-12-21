@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_PlayerKingdom.label>Neues Königreich</DankPyon_PlayerKingdom.label>
+  <DankPyon_PlayerKingdom.description>Ein kleines Königreich.</DankPyon_PlayerKingdom.description>
+  <DankPyon_PlayerKingdom.pawnSingular>Siedler</DankPyon_PlayerKingdom.pawnSingular>
+  <DankPyon_PlayerKingdom.pawnsPlural>Siedler</DankPyon_PlayerKingdom.pawnsPlural>
+  <DankPyon_LoneWolf.label>Neues Königreich</DankPyon_LoneWolf.label>
+  <DankPyon_LoneWolf.description>Ein kleines Königreich.</DankPyon_LoneWolf.description>
+  <DankPyon_LoneWolf.pawnSingular>Siedler</DankPyon_LoneWolf.pawnSingular>
+  <DankPyon_LoneWolf.pawnsPlural>Siedler</DankPyon_LoneWolf.pawnsPlural>
+  <DankPyon_MercenaryCompany.label>Neue Söldnerkompanie</DankPyon_MercenaryCompany.label>
+  <DankPyon_MercenaryCompany.description>Eine kleine Söldnerkompanie.</DankPyon_MercenaryCompany.description>
+  <DankPyon_MercenaryCompany.pawnSingular>Söldner</DankPyon_MercenaryCompany.pawnSingular>
+  <DankPyon_MercenaryCompany.pawnsPlural>Söldner</DankPyon_MercenaryCompany.pawnsPlural>
+</LanguageData>

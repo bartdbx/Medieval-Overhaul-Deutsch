@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_UnfinishedHide.label>Unfertige Haut</DankPyon_UnfinishedHide.label>
+  <DankPyon_UnfinishedHide.description>Ein unvollendetes Stück einer Haut.</DankPyon_UnfinishedHide.description>
+  <DankPyon_UnfinishedHideArmor.label>Unfertige Hautrüstung</DankPyon_UnfinishedHideArmor.label>
+  <DankPyon_UnfinishedHideArmor.description>Ein unvollendetes Stück Hautrüstung.</DankPyon_UnfinishedHideArmor.description>
+  <DankPyon_UnfinishedLivingShield.label>Unfertiges Schild</DankPyon_UnfinishedLivingShield.label>
+  <DankPyon_UnfinishedLivingShield.description>Ein unvollendetes Schild.</DankPyon_UnfinishedLivingShield.description>
+
+</LanguageData>

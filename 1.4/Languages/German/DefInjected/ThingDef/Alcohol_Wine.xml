@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_Wine.label>Wein</DankPyon_Wine.label>
+  <DankPyon_Wine.description>Schnaps mit vielen Gesichtern. Alte Jahrgänge sind köstliche Getränke für Kenner und eher wählerische Zungen - Pflichtpositionen bei königlichen Partys, Festen und Maskeraden. Jüngere werden oft in Gasthäusern am Straßenrand an Bauern verkauft, mit Wasser verdünnt, so viel es das Gewissen des Gastwirts zulässt.</DankPyon_Wine.description>
+
+  <!--================== Mulberry Wine ==================-->
+  <DankPyon_Wine_Mulberry.label>Maulbeerwein</DankPyon_Wine_Mulberry.label>
+  <DankPyon_Wine_Mulberry.description>Wein aus Maulbeeren hergestellt.</DankPyon_Wine_Mulberry.description>
+  <DankPyon_MustWine_Mulberry.label>Maulbeermost</DankPyon_MustWine_Mulberry.label>
+
+</LanguageData>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!--
+  <DankPyon_Leather_Rox.label>Rox-Leder</DankPyon_Leather_Rox.label>
+  <DankPyon_Leather_Rox.description>Das sagenumwobene Leder eines Rochus, das aus dem Häuten eines der mächtigen Tiere gewonnen wird. Obwohl es in seiner rohen Form etwas rau ist, kann niemand seine unglaublichen Isolierfähigkeiten aufgrund der schieren Dichte der Roxhaare leugnen. Dieselbe Dichte sowie die angeborene Beschaffenheit machen es erstaunlich schwer entflammbar und verhindern, dass Sauerstoff die schwelende Glut auf dem Fell erreicht. Allerdings ist es ein schweres Material, mit dem man arbeiten muss.</DankPyon_Leather_Rox.description>
+  <DankPyon_Leather_Direwolf.label>Wolfshaut</DankPyon_Leather_Direwolf.label>
+  <DankPyon_Leather_Direwolf.description>Ein starkes Pelzfell, das von einem bösartigen Schattenwolf gewonnen wurde. Härter als normales Wolfsfell und isoliert gut gegen Kälte.</DankPyon_Leather_Direwolf.description>
+  <DankPyon_Leather_Hyena.label>Hyänenfell</DankPyon_Leather_Hyena.label>
+  <DankPyon_Leather_Hyena.description>Ein weicher, pelziger Pelz, der von einer Hyäne gewonnen wird. Es ist schwer zu durchstechen und isoliert gut gegen Hitze.</DankPyon_Leather_Hyena.description>
+  -->
+
+  <!--========== Super leathers ============-->
+  <DankPyon_Leather_Daer.label>Daer Leder</DankPyon_Leather_Daer.label>
+  <DankPyon_Leather_Daer.description>Das sagenumwobene Leder eines Daers, das aus der Häutung einer der mächtigen Bestien gewonnen wird. Obwohl es in seiner rohen Form etwas rau ist, kann niemand seine unglaublichen Isolierfähigkeiten aufgrund der schieren Dichte der Daer-Haare leugnen. Dieselbe Dichte sowie die angeborene Beschaffenheit machen es erstaunlich schwer entflammbar und verhindern, dass Sauerstoff die schwelende Glut auf dem Fell erreicht. Allerdings ist es ein schweres Material, mit dem man arbeiten muss..</DankPyon_Leather_Daer.description>
+  <DankPyon_Leather_Lindwurm.label>Lindwurmschuppen</DankPyon_Leather_Lindwurm.label>
+  <DankPyon_Leather_Lindwurm.description>Eine breite grüne Schale in Größe einer Hand, Färbung von Smaragd. Material sowohl langlebig und elegant, zieht neidische Blicke an.</DankPyon_Leather_Lindwurm.description>
+  
+  <!--========== Wool ============-->
+  <DankPyon_WoolRox.label>Roxwolle</DankPyon_WoolRox.label>
+  <DankPyon_WoolRox.description>Sie ist dick, grob und bietet eine sehr gute Isolierung. Rox Wollkleidung kann den Körper auch bei sehr kalten Bedingungen warm halten.</DankPyon_WoolRox.description>
+
+</LanguageData>

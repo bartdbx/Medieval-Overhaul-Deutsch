@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- ===== Dish ===== -->
+
+  <DankPyon_AteRoxSteak.label>aß rox Steak</DankPyon_AteRoxSteak.label>
+  <DankPyon_AteRoxSteak.description>Ein meisterhaft zubereitetes Gericht mit intensiven aromatischen Aromen.</DankPyon_AteRoxSteak.description>
+  <DankPyon_AteGriffonBerryPie.label>aß Greifbeerenpie</DankPyon_AteGriffonBerryPie.label>
+  <DankPyon_AteGriffonBerryPie.description>Ein meisterhaft zubereitetes Gericht mit intensiven aromatischen Aromen.</DankPyon_AteGriffonBerryPie.description>
+  <DankPyon_AteSteakWithWine.label>aß Steak mit Wein</DankPyon_AteSteakWithWine.label>
+  <DankPyon_AteSteakWithWine.description>Aß Steak mit Wein, welches den Körper mit neuer Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und bringt das Blut zum Pumpen.</DankPyon_AteSteakWithWine.description>
+  <DankPyon_AteTomatoOmelette.label>aß Tomatenomlett</DankPyon_AteTomatoOmelette.label>
+  <DankPyon_AteTomatoOmelette.description>Tomatenomelettes sind eine sättigende Mahlzeit, die effektiv den Hunger stillt.</DankPyon_AteTomatoOmelette.description>
+  <DankPyon_AteSweetPancakes.label>aß süße Pfannkuchen</DankPyon_AteSweetPancakes.label>
+  <DankPyon_AteSweetPancakes.description>Süße Pfannkuchen werden mit einem dicken, zuckerhaltigen Sirup serviert, der den Körper mit Energie versorgt und insgesamt mehr Bewegungsgeschwindigkeit verleiht.</DankPyon_AteSweetPancakes.description>
+  <DankPyon_AteFriedEggs.label>aß Spiegeleier</DankPyon_AteFriedEggs.label>
+  <DankPyon_AteFriedEggs.description>Aß Spiegeleier, die den Körper mit Energie versorgen. Erhöht leicht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</DankPyon_AteFriedEggs.description>
+  <DankPyon_AteMashedPotatoes.label>aß Kartoffelbrei</DankPyon_AteMashedPotatoes.label>
+  <DankPyon_AteMashedPotatoes.description>Aß Kartoffelpüree, um den Körper mit Energie zu versorgen. Erhöht leicht die Arbeitsgeschwindigkeit und reduziert die Hungerrate.</DankPyon_AteMashedPotatoes.description>
+  <DankPyon_AtePumpkinFritters.label>aß Kürbissfritten</DankPyon_AtePumpkinFritters.label>
+  <DankPyon_AtePumpkinFritters.description>Aß Kürbissfritten, die den Körper energetisieren. Erhöht leicht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</DankPyon_AtePumpkinFritters.description>
+  
+  <!-- ===== Tiers ===== -->
+  <DankPyon_AteBake.label>aß gebackenes</DankPyon_AteBake.label>
+  <DankPyon_AteBake.description>Aß eine gebackene Mahlzeit, die den Körper mit Energie versorgt. Leicht erhöhte Arbeitsgeschwindigkeit und reduzierte Hungerrate.</DankPyon_AteBake.description>
+  <DankPyon_AteBakeFine.label>aß feines Gebäck</DankPyon_AteBakeFine.label>
+  <DankPyon_AteBakeFine.description>Aß eine feine gebackene Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit und reduziert die Hungerrate.</DankPyon_AteBakeFine.description>
+  <DankPyon_AteBakeLavish.label>aß wunderbar Gebackenes</DankPyon_AteBakeLavish.label>
+  <DankPyon_AteBakeLavish.description>Aß eine üppige gebackene Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und reduziert die Hungerrate.</DankPyon_AteBakeLavish.description>
+  <DankPyon_AteGrill.label>aß Gegrilltes</DankPyon_AteGrill.label>
+  <DankPyon_AteGrill.description>Aß eine gegrillte Mahlzeit, die den Körper mit Energie versorgt. Leicht erhöhte Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</DankPyon_AteGrill.description>
+  <DankPyon_AteGrillFine.label>aß feines Gegrilltes</DankPyon_AteGrillFine.label>
+  <DankPyon_AteGrillFine.description>Aß eine gegrillte Mahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit und bringt das Blut zum Pumpen.</DankPyon_AteGrillFine.description>
+  <DankPyon_AteGrillLavish.label>aß wunderbar Gegrilltes</DankPyon_AteGrillLavish.label>
+  <DankPyon_AteGrillLavish.description>Aß eine üppige Grillmahlzeit, die den Körper mit Energie versorgt. Erhöht die Arbeitsgeschwindigkeit erheblich und bringt das Blut zum Pumpen.</DankPyon_AteGrillLavish.description>
+  <DankPyon_AteSoup.label>aß Suppe</DankPyon_AteSoup.label>
+  <DankPyon_AteSoup.description>Aß eine Suppe, die Wärme und Nährstoffe spendet. Stärkt leicht das Immunsystem und bringt das Blut zum Pumpen.</DankPyon_AteSoup.description>
+  <DankPyon_AteSoupFine.label>aß feine Suppen</DankPyon_AteSoupFine.label>
+  <DankPyon_AteSoupFine.description>Aß eine feine Suppe voller Wärme und Nährstoffe. Stärkt das Immunsystem und bringt das Blut zum Pumpen.</DankPyon_AteSoupFine.description>
+  <DankPyon_AteSoupLavish.label>aß wunderbare Suppe</DankPyon_AteSoupLavish.label>
+  <DankPyon_AteSoupLavish.description>Aß eine üppige Suppe voller Wärme und Nährstoffe. Stärkt das Immunsystem enorm und bringt das Blut zum Pumpen.</DankPyon_AteSoupLavish.description>
+
+</LanguageData>

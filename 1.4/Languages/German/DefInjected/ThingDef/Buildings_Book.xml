@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--================================ Lecturn ================================-->
+  <DankPyon_Lecturn.label>Lesepult</DankPyon_Lecturn.label>
+  <DankPyon_Lecturn.description>Ein einfacher Lesepult um Bücher oder Rezepte einfach Lesen zu können oder zu Lagern.</DankPyon_Lecturn.description>
+  
+  <!-- books -->
+  <DankPyon_Book_MilitaryBlades.label>Bauplan Armeeklingen</DankPyon_Book_MilitaryBlades.label>
+  <DankPyon_Book_NobleBlades.label>Bauplan Noble Klingen</DankPyon_Book_NobleBlades.label>
+  <DankPyon_Book_MilitaryMaces.label>Bauplan Armeekeulen</DankPyon_Book_MilitaryMaces.label>
+  <DankPyon_Book_NobleMaces.label>Bauplan Noble Keulen</DankPyon_Book_NobleMaces.label>
+  <DankPyon_Book_MilitaryPolearms.label>Bauplan Armeespeere</DankPyon_Book_MilitaryPolearms.label>
+  <DankPyon_Book_NoblePolearms.label>Bauplan Nobel Speere</DankPyon_Book_NoblePolearms.label>
+  <DankPyon_Book_Crossbow.label>Bauplan Armbrüste</DankPyon_Book_Crossbow.label>
+  <DankPyon_Book_HeavyCrossbow.label>Bauplan Arbalest Armbrust</DankPyon_Book_HeavyCrossbow.label>
+  <DankPyon_Book_Steel.label>Bauplan Metallverarbeitung</DankPyon_Book_Steel.label>
+  <DankPyon_Book_Gunpowder.label>Bauplan Schießpulver</DankPyon_Book_Gunpowder.label>
+  <DankPyon_Book_Tar.label>Bauplan Teer</DankPyon_Book_Tar.label>
+  <DankPyon_Book_GreatBow.label>Bauplan Großbogen</DankPyon_Book_GreatBow.label>
+  <DankPyon_Book_WarBow.label>Bauplan Kriegsbogen</DankPyon_Book_WarBow.label>
+  <DankPyon_Book_IntermediateCooking.label>Mittelschwere Kochrezepte</DankPyon_Book_IntermediateCooking.label>
+  <DankPyon_Book_AdvancedCooking.label>Fortschrittliche Kochrezepte</DankPyon_Book_AdvancedCooking.label>
+  <DankPyon_Book_BallistaRepeater.label>Bauplan Ballista</DankPyon_Book_BallistaRepeater.label>
+</LanguageData>

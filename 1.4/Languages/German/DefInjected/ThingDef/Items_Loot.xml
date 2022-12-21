@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--==================== Scrap ====================-->
+  <DankPyon_BrokenWeapons.label>Kaputte Waffen</DankPyon_BrokenWeapons.label>
+  <DankPyon_BrokenWeapons.description>Unbrauchbarer Waffenschrott. Kann eingeschmolzen werden zu Rohstoffen.</DankPyon_BrokenWeapons.description>
+  
+  <!--==================== Books ====================-->
+  <DankPyon_Book.label>Buch</DankPyon_Book.label>
+  <DankPyon_Book.description>Ein Buch mit Informationen zu einem bestimmten Thema. Kann an interessierte Händler verkauft werden.</DankPyon_Book.description>
+  <DankPyon_Book_TheBeginning.label>der Anfang</DankPyon_Book_TheBeginning.label>
+  <DankPyon_Book_TheBeginning.description>Der Anfang \n Ein Überlebensführer in der Wildnis \n\n1.Häute und Leder \nUm brauchbares Leder zu erhalten, müssen die Häute in einem Gerbgestell mit Gerbstoff behandelt werden. Nach einer ausreichenden Wartezeit ist das behandelte Leder gebrauchsfertig.
+            
+            \n\n2.Wo ist mein Essen \nFrisches Fleisch verdirbt schnell, also handeln Sie lieber schnell! Fleisch kann konserviert werden, indem man es in Trockengestellen aufbewahrt, um die erwartete Haltbarkeit zu verlängern. Später kann man abgepackte Rationen oder die vegetarische Alternative, Macci, zubereiten, um jedes Problem des Verderbens zu beseitigen.
+             
+             \n\n3.Metallurgie \nGute Schwerter brauchen gutes Eisen, die Raffination von Roherzen ist notwendig, um Waffen herzustellen. 
+             Rohe Erze können am Ofen geschmolzen werden, um Barren zu produzieren, die für Handwerk und Schmiedekunst verwendet werden können.
+             
+             \n\n4.Wo ist Stahl? \nWarum gibt es auf der Karte nur Eisen? Um Stahl herstellen zu können, müssen Sie zunächst Alchemie erforschen, und zwar ganz rechts auf der Registerkarte Forschung. Danach können Sie Eisenstücke in Stahl umwandeln.</DankPyon_Book_TheBeginning.description>
+  <DankPyon_Book_IntoTheRuins.label>In die Ruinen</DankPyon_Book_IntoTheRuins.label>
+  <DankPyon_Book_IntoTheRuins.description>In die Ruinen.
+            \nEin Leitfaden für das Ruinentauchen.
+            \n\n1. Was vor uns liegt \nTief im Inneren der Verliese verbergen sich Schätze und Beute, die so alt sind wie die großen Unterreiche. Die goldene Ära des ungebändigten Zeitalters der Produktivität und vor allem des Reichtums. \n\n2.Kreaturen der Finsternis \nBei der Erkundung der Verliese kann man auf Monster von unverhältnismäßiger Größe stoßen. 
+             Schlangen, Trolle und Drachen bewohnen die Ruinen, um Nester für ihre Nachkommen zu bauen. Auch gemeine Banditen halten sich in den Ruinen auf und plündern und überfallen die umliegenden Städte..</DankPyon_Book_IntoTheRuins.description>
+  <DankPyon_Book_AncientCodex.label>Antiker Kodex</DankPyon_Book_AncientCodex.label>
+  <DankPyon_Book_AncientCodex.description>Ein altertümlicher Foliant, kunstvoll gefertigt und mit goldener Oberfläche. Enthält Schriften mit den historischen Berichten über die Unterreiche. /n/nKann für einen hübschen Penny an interessierte Sammler und dergleichen verkauft werden..</DankPyon_Book_AncientCodex.description>
+  
+  <!--==================== Notes ====================-->
+  <DankPyon_TornNote_Song1c.label>Vermächtnis des Künstlers</DankPyon_TornNote_Song1c.label>
+  <DankPyon_TornNote_Song1c.description>Volume 1
+            \n\nEr war eine Krabbe, sie war eine Krabbe \nKönnten sie noch vergesslicher sein \nEr war eine Drohne, sie war eine Königin \nSie wollten nur eine Szene machen \nEr wollte sie, sie wollte Eier \nInsgeheim bewunderte sie seine Beine \nAber alle Krabben mussten ihm einen Antrag machen \nSie mochten seine Krabbenzehen nicht
+
+            \Er hatte eine größere Klaue, sie hatte einen Hummerschwanz. Er wurde für sie gebuttert. Sie war nicht sehr sanftmütig und konnte sich zweimal pro Woche mausern. Sie hatte den dicksten Panzer.
+
+            \In ein paar Monaten ist sie ganz allein und füttert die Eier mit ihrem Bioschaum. Sie wartet den ganzen Tag, um zu sehen, was ihre Drohne sagen würde. Sie hat die ganze Zeit gelächelt und eine Rüstung für mich gemacht.
+
+            \n\nEr hatte eine größere Klaue, sie hatte einen Hummerschwanz \nEr wurde für sie gebuttert \nJetzt trägt er eine dicke Rüstung \neinige Rimworlder zu töten \nSollte es jetzt besser sein \nIch sehe wirklich nicht, wie \ndie beste Rasse sind die Brachyura.</DankPyon_TornNote_Song1c.description>
+
+  <!--==================== Chalice ====================-->
+  <DankPyon_ChaliceSilver.label>silberner Kelch</DankPyon_ChaliceSilver.label>
+  <DankPyon_ChaliceSilver.description>Ein Kelch, der meist zum Trinken von Wein verwendet wird. Dieser Kelch mit Fuß ist aus Silber gefertigt und bietet eine erschwingliche Möglichkeit, die Ästhetik eines Saals zu verbessern..</DankPyon_ChaliceSilver.description>
+  <DankPyon_ChaliceGold.label>alter goldener Kelch</DankPyon_ChaliceGold.label>
+  <DankPyon_ChaliceGold.description>Ein Kelch, der meist zum Trinken von Wein verwendet wird; dieser Kelch mit Fuß ist aus Gold gefertigt und erhöht die Ästhetik eines Saals, um seinen Reichtum zur Schau zu stellen.</DankPyon_ChaliceGold.description>
+  
+  <!--==================== Bowls ====================-->
+  <DankPyon_BowlSilver.label>Silberschale</DankPyon_BowlSilver.label>
+  <DankPyon_BowlSilver.description>Eine kunstvolle Schale aus Silber.</DankPyon_BowlSilver.description>
+  <DankPyon_BowlGold.label>goldene Schale</DankPyon_BowlGold.label>
+  <DankPyon_BowlGold.description>Eine kunstvolle Schale aus Gold.</DankPyon_BowlGold.description>
+  
+  <!--==================== Skulls ====================-->
+  <DankPyon_SkullGold.label>goldener Schädel</DankPyon_SkullGold.label>
+  <DankPyon_SkullGold.description>Der goldene Schädel, der in den Tiefen der Ruinen gefunden wurde, zeugt von einem kunstvollen Schatz, der von denjenigen gehütet wird, die als Untote wandeln..</DankPyon_SkullGold.description>
+  <DankPyon_SkullEmerald.label>Smaragdschädel</DankPyon_SkullEmerald.label>
+  <DankPyon_SkullEmerald.description>Ein Schädel, geformt aus dem Material eines seltenen und wertvollen Edelsteins. Obwohl er sehr wertvoll ist, sollten Ruinenkundige vorsichtig sein, denn ein so reicher Schatz würde nicht ungeschützt bleiben.</DankPyon_SkullEmerald.description>
+  <DankPyon_SkullSapphire.label>Saphirschädel</DankPyon_SkullSapphire.label>
+  <DankPyon_SkullSapphire.description>Der blau schimmernde Schädel aus Saphir strahlt bei jeder Wölbung seines Kopfes. Ein Schatz wie dieser würde sicherlich viel Reichtum einbringen oder wäre gut geeignet, in einer großen Halle ausgestellt zu werden.</DankPyon_SkullSapphire.description>
+  <DankPyon_SkullRuby.label>Rubinschädel</DankPyon_SkullRuby.label>
+  <DankPyon_SkullRuby.description>Der Rubinschädel ist ein wertvoller Edelstein, der die Aufmerksamkeit jedes Fürsten, Kriegers, Entdeckers und Händlers auf sich zieht. Ein wertvoller Besitz für Sammler.</DankPyon_SkullRuby.description>
+  
+  <!--==================== Dice ====================-->
+  <DankPyon_DiceGold.label>goldene Würfel</DankPyon_DiceGold.label>
+  <DankPyon_DiceGold.description>Eine Reihe von Würfeln mit unterschiedlich wertvollen Edelsteinen; obwohl klein, ist jeder Würfel mehr wert als eine hübsche Münze.</DankPyon_DiceGold.description>
+  <DankPyon_DiceEmerald.label>Smaragdwürfel</DankPyon_DiceEmerald.label>
+  <DankPyon_DiceSapphire.label>Saphirwürfel</DankPyon_DiceSapphire.label>
+  <DankPyon_DiceRuby.label>Rubinwürfel</DankPyon_DiceRuby.label>
+  
+  <!--==================== Skill Books ====================-->
+  <DankPyon_Treatise_Shooting.label>Abhandlung (Schießen)</DankPyon_Treatise_Shooting.label>
+  <DankPyon_Treatise_Melee.label>Abhandlung (Nahkampf)</DankPyon_Treatise_Melee.label>
+  <DankPyon_Treatise_Construction.label>Abhandlung (Bauen)</DankPyon_Treatise_Construction.label>
+  <DankPyon_Treatise_Mining.label>Abhandlung (Bergbau)</DankPyon_Treatise_Mining.label>
+  <DankPyon_Treatise_Cooking.label>Abhandlung (Kochen)</DankPyon_Treatise_Cooking.label>
+  <DankPyon_Treatise_Plants.label>Abhandlung (Pflanzen)</DankPyon_Treatise_Plants.label>
+  <DankPyon_Treatise_Animals.label>Abhandlung (Tiere)</DankPyon_Treatise_Animals.label>
+  <DankPyon_Treatise_Crafting.label>Abhandlung (Herstellung)</DankPyon_Treatise_Crafting.label>
+  <DankPyon_Treatise_Artistic.label>Abhandlung (künstlerisch)</DankPyon_Treatise_Artistic.label>
+  <DankPyon_Treatise_Medicine.label>Abhandlung (Medizin)</DankPyon_Treatise_Medicine.label>
+  <DankPyon_Treatise_Social.label>Abhandlung (Sozial)</DankPyon_Treatise_Social.label>
+  <DankPyon_Treatise_Intellectual.label>Abhandlung (intellektuell)</DankPyon_Treatise_Intellectual.label>
+</LanguageData>

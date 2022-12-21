@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_SnakeCave_Faction.label>Höhlenschlangen</DankPyon_SnakeCave_Faction.label>
+  <DankPyon_SnakeCave_Faction.description>Diese riesigen Reptilienwesen leben unter der Erde und graben sich zum Angriff raus, wenn sie von Lärm oder Pheromonsignalen angezogen werden.</DankPyon_SnakeCave_Faction.description>
+  <DankPyon_SnakeCave_Faction.pawnSingular>Höhlenschlange</DankPyon_SnakeCave_Faction.pawnSingular>
+  <DankPyon_SnakeCave_Faction.pawnsPlural>Höhlenschlangen</DankPyon_SnakeCave_Faction.pawnsPlural>
+
+</LanguageData>

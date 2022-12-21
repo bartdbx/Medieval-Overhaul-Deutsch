@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- ===== Leather Gloves ===== -->
+  <DankPyon_Handwear_GlovesLeather.label>Handschuhe</DankPyon_Handwear_GlovesLeather.label>
+  <DankPyon_Handwear_GlovesLeather.description>Gegerbtes Leder, genäht, um sich der Hand anzupassen. Bietet minimalen Schutz. Das Tragen von Lederhandschuhen erhöht die Arbeitsgeschwindigkeit und die Schussgenauigkeit.</DankPyon_Handwear_GlovesLeather.description>
+  
+  <!-- ===== Splinted Gloves ===== -->
+  <DankPyon_Handwear_GlovesSplinted.label>Handschuhe, verstärkt</DankPyon_Handwear_GlovesSplinted.label>
+  <DankPyon_Handwear_GlovesSplinted.description>Das Innenfutter besteht aus sich überlappenden Plättchen, die die Handbewegung leicht einschränken können. Das Tragen von verstärkten Handschuhen verringert die Arbeitsgeschwindigkeit und die Schussgenauigkeit.</DankPyon_Handwear_GlovesSplinted.description>
+  
+  <!-- ===== Plate Gloves ===== -->
+  <DankPyon_Handwear_GlovesPlate.label>Plattenhandschuhe</DankPyon_Handwear_GlovesPlate.label>
+  <DankPyon_Handwear_GlovesPlate.description>Ein Paar sorgfältig gefertigte Plattenhandschuhe. Bietet Schutz, der so groß ist wie sein Preis. Das Tragen von Plattenhandschuhen verringert die Arbeitsgeschwindigkeit und die Schussgenauigkeit des Trägers.</DankPyon_Handwear_GlovesPlate.description>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_Bow_Hunting.label>Jagdbogen</DankPyon_Bow_Hunting.label>
+  <DankPyon_Bow_Hunting.description>Als einfache und kurze Waffe vermischt der Jagdbogen dichtes Holz für den Bauch und federndes Holz für die Vorderseite. Dadurch kann sich das dichte Holz biegen, aber das Bauchholz kämpft immer darum, zur Geraden zurückzukehren, und verdrängt so Pfeile, die mit großer Kraft am Strang gezogen werden. Kleiner als der Kriegsbogen, was zu geringerer Reichweite und Durchschlagskraft führt, aber in den Händen eines erfahrenen Bogenschützen oder Jägers mehr als tödlich.</DankPyon_Bow_Hunting.description>
+  <DankPyon_Arrow_Hunting.label>Jagdbogenpfeil</DankPyon_Arrow_Hunting.label>
+  <Bow_War.label>Kriegsbogen</Bow_War.label>
+  <Bow_War.description>Ein langer Bogen aus schöner Eibe mit gedämpften Spitzen, um eine leichte Biegung zu ermöglichen, und lackiert, um zu verhindern, dass der Bogen unter Belastung zerbricht – und der Bogen erfährt tatsächlich Stress, da der lange Körper es dem Hanfstrang ermöglicht, weiter und mit mehr Spannung zu ziehen. Dies hilft Pfeilen, weiter zu fliegen und Oberflächen besser zu durchdringen, was den Kriegsbogen zu einer gefürchteten, tödlichen Waffe im Kampf macht.</Bow_War.description>
+  <DankPyon_Arrow_War.label>Kriegsbogenpfeil</DankPyon_Arrow_War.label>
+</LanguageData>

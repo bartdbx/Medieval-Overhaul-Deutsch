@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LanguageData>
+  <DankPyon_DoBillsRusticCookingTable.label>kocht Mahlzeit</DankPyon_DoBillsRusticCookingTable.label>
+  <DankPyon_DoBillsRusticCookingTable.verb>Kochen</DankPyon_DoBillsRusticCookingTable.verb>
+  <DankPyon_DoBillsRusticCookingTable.gerund>kocht am</DankPyon_DoBillsRusticCookingTable.gerund>
+  <DankPyon_DoBillsStewPot.label>kocht Suppe</DankPyon_DoBillsStewPot.label>
+  <DankPyon_DoBillsStewPot.verb>Kochen</DankPyon_DoBillsStewPot.verb>
+  <DankPyon_DoBillsStewPot.gerund>kocht am</DankPyon_DoBillsStewPot.gerund>
+  <DankPyon_DoBillsStoneOven.label>backt Gebäck</DankPyon_DoBillsStoneOven.label>
+  <DankPyon_DoBillsStoneOven.verb>Backen</DankPyon_DoBillsStoneOven.verb>
+  <DankPyon_DoBillsStoneOven.gerund>backt am</DankPyon_DoBillsStoneOven.gerund>
+  <DankPyon_DoBillsSpinningWheel.label>spinnt Baumwolle</DankPyon_DoBillsSpinningWheel.label>
+  <DankPyon_DoBillsSpinningWheel.verb>Spinnen</DankPyon_DoBillsSpinningWheel.verb>
+  <DankPyon_DoBillsSpinningWheel.gerund>spinnt am</DankPyon_DoBillsSpinningWheel.gerund>
+  <DankPyon_DoBillsMillstone.label>mahlt Getreide</DankPyon_DoBillsMillstone.label>
+  <DankPyon_DoBillsMillstone.verb>Mahlen</DankPyon_DoBillsMillstone.verb>
+  <DankPyon_DoBillsMillstone.gerund>mahlt am</DankPyon_DoBillsMillstone.gerund>
+  <DankPyon_DoBillsGrill.label>grillt</DankPyon_DoBillsGrill.label>
+  <DankPyon_DoBillsGrill.verb>Grillen</DankPyon_DoBillsGrill.verb>
+  <DankPyon_DoBillsGrill.gerund>grillt am</DankPyon_DoBillsGrill.gerund>
+  <DankPyon_DoBillsMineshaft.label>baut Steine ab</DankPyon_DoBillsMineshaft.label>
+  <DankPyon_DoBillsMineshaft.verb>Bauen</DankPyon_DoBillsMineshaft.verb>
+  <DankPyon_DoBillsMineshaft.gerund>abbauen in</DankPyon_DoBillsMineshaft.gerund>
+  <DankPyon_DoBillsWorkbench.label>stellt etwas her</DankPyon_DoBillsWorkbench.label>
+  <DankPyon_DoBillsWorkbench.verb>Herstellen</DankPyon_DoBillsWorkbench.verb>
+  <DankPyon_DoBillsWorkbench.gerund>stellt her am</DankPyon_DoBillsWorkbench.gerund>
+  <DankPyon_DoBillsFurnace.label>schmilzt Erze</DankPyon_DoBillsFurnace.label>
+  <DankPyon_DoBillsFurnace.verb>Schmelzen</DankPyon_DoBillsFurnace.verb>
+  <DankPyon_DoBillsFurnace.gerund>schmilzt am</DankPyon_DoBillsFurnace.gerund>
+  <DankPyon_DoBillsTanningRack.label>bearbeitet Leder</DankPyon_DoBillsTanningRack.label>
+  <DankPyon_DoBillsTanningRack.verb>Bearbeiten</DankPyon_DoBillsTanningRack.verb>
+  <DankPyon_DoBillsTanningRack.gerund>bearbeitet Leder am</DankPyon_DoBillsTanningRack.gerund>
+  <DankPyon_DoBillsButcherFlesh.label>schlachtet</DankPyon_DoBillsButcherFlesh.label>
+  <DankPyon_DoBillsButcherFlesh.verb>Schlachten</DankPyon_DoBillsButcherFlesh.verb>
+  <DankPyon_DoBillsButcherFlesh.gerund>schlachtet am</DankPyon_DoBillsButcherFlesh.gerund>
+  <DankPyon_DoBillsMakeApparel.label>näht Kleidung</DankPyon_DoBillsMakeApparel.label>
+  <DankPyon_DoBillsMakeApparel.verb>Nähen</DankPyon_DoBillsMakeApparel.verb>
+  <DankPyon_DoBillsMakeApparel.gerund>näht am</DankPyon_DoBillsMakeApparel.gerund>
+  <DankPyon_DoBillsStonecut.label>schneidet Steinblöcke</DankPyon_DoBillsStonecut.label>
+  <DankPyon_DoBillsStonecut.verb>Schneiden</DankPyon_DoBillsStonecut.verb>
+  <DankPyon_DoBillsStonecut.gerund>schneidet blöcke am</DankPyon_DoBillsStonecut.gerund>
+  <DankPyon_DoBillsMining.label>Baut Steinblöcke ab</DankPyon_DoBillsMining.label>
+  <DankPyon_DoBillsMining.verb>Abbau</DankPyon_DoBillsMining.verb>
+  <DankPyon_DoBillsMining.gerund>baut Steinblöcke ab in</DankPyon_DoBillsMining.gerund>
+  <DankPyon_DoBillsMakeWeapons.label>schmiedet Waffen</DankPyon_DoBillsMakeWeapons.label>
+  <DankPyon_DoBillsMakeWeapons.verb>Schmieden</DankPyon_DoBillsMakeWeapons.verb>
+  <DankPyon_DoBillsMakeWeapons.gerund>Schmiedet am</DankPyon_DoBillsMakeWeapons.gerund>
+  <DankPyon_DoBillsCleaningBench.label>reinigt Dinge</DankPyon_DoBillsCleaningBench.label>
+  <DankPyon_DoBillsCleaningBench.verb>Reinigen</DankPyon_DoBillsCleaningBench.verb>
+  <DankPyon_DoBillsCleaningBench.gerund>reinigt am</DankPyon_DoBillsCleaningBench.gerund>
+  <DankPyon_DoBillsMakeJewelry.label>erstellt Schmuck</DankPyon_DoBillsMakeJewelry.label>
+  <DankPyon_DoBillsMakeJewelry.verb>Erstellen</DankPyon_DoBillsMakeJewelry.verb>
+  <DankPyon_DoBillsMakeJewelry.gerund>erstellt am</DankPyon_DoBillsMakeJewelry.gerund>
+  <DankPyon_DoBillsMakeTimber.label>sägt Bretter</DankPyon_DoBillsMakeTimber.label>
+  <DankPyon_DoBillsMakeTimber.verb>Sägen</DankPyon_DoBillsMakeTimber.verb>
+  <DankPyon_DoBillsMakeTimber.gerund>sägt am</DankPyon_DoBillsMakeTimber.gerund>
+  <DankPyon_DoBillsWorkAlchemy.label>übt Alchemie aus</DankPyon_DoBillsWorkAlchemy.label>
+  <DankPyon_DoBillsWorkAlchemy.verb>Ausüben</DankPyon_DoBillsWorkAlchemy.verb>
+  <DankPyon_DoBillsWorkAlchemy.gerund>Übt am</DankPyon_DoBillsWorkAlchemy.gerund>
+</LanguageData>

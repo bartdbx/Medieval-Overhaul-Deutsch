@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Dankpyon_CupAndDice.label>Würfelspiel</Dankpyon_CupAndDice.label>
+  <Dankpyon_CupAndDice.description>Ein mittelalterliches Glücksspiel. Gespielt mit einem Lederbecher und einigen Würfeln.</Dankpyon_CupAndDice.description>
+  
+  <DankPyon_Tarocco.label>Tarocco Tisch</DankPyon_Tarocco.label>
+  <DankPyon_Tarocco.description>Ein Tisch der für Spiele wie Tarocco gemacht wurde. Eine gute art deine Strategischen Fähigkeiten zu verbessern mit ein wenig Glück.\n\nDieser Tisch benötigt Sitzgelegenheiten um es zu Benutzen.</DankPyon_Tarocco.description>
+  
+  <DankPyon_RimWar.label>Rim of war</DankPyon_RimWar.label>
+  <DankPyon_RimWar.description>Ein Tisch mit einer weichen auflage um Kriegsspiele zu Simulieren. Eine gute art deine Strategischen Fähigkeiten zu testen mit ein wenig Glück.</DankPyon_RimWar.description>
+
+</LanguageData>

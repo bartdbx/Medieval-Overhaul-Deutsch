@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <!-- Abstract -->
+  <DankPyon_RuinedBatteringRam.label>Alter kaputter Rammbock</DankPyon_RuinedBatteringRam.label>
+  <DankPyon_RuinedBatteringRam.description>Die Überreste eines alten Rammbocks. Wurden oft benutzt um Burgtore zu zerstören, um eine Festung zu Stürmen. Kann zerstört werden um Ressourcen zu extrahieren.</DankPyon_RuinedBatteringRam.description>
+  <DankPyon_RuinedSiegeTower.label>Belagerungsturm</DankPyon_RuinedSiegeTower.label>
+  <DankPyon_RuinedSiegeTower.description>Die Überreste eines alten Belagerungsturm. Hoch und Robust, wurden benutzt um Burgmauern anzugreifen und eine Festung zu Stürmen. Kann zerstört werden um Ressourcen zu extrahieren.</DankPyon_RuinedSiegeTower.description>
+  
+  <!-- Bodies -->
+  <DankPyon_AncientFootman.label>Söldnerleiche</DankPyon_AncientFootman.label>
+  <DankPyon_AncientFootman.description>Die Überreste eines Soldats. Kann abgebaut werden für Ressourcen.</DankPyon_AncientFootman.description>
+  <DankPyon_RustedHauberk.label>Rostiges Kettenhemd</DankPyon_RustedHauberk.label>
+  <DankPyon_RustedHauberk.description>Ein altes rostiges Stück Kettenhemd. Kann abgebaut werden für Ressourcen.</DankPyon_RustedHauberk.description>
+  <DankPyon_RustedHelmet.label>Rostiger Helm</DankPyon_RustedHelmet.label>
+  <DankPyon_RustedHelmet.description>Überreste vom Schlachtfeld. Voll von Rüstungen und Waffen. Kann abgebaut werden für Ressourcen.</DankPyon_RustedHelmet.description>
+  <DankPyon_RustedSwords.label>Rostiges Schwert</DankPyon_RustedSwords.label>
+  <DankPyon_RustedSwords.description>Überreste vom Schlachtfeld. Voll von Rüstungen und Waffen. Kann abgebaut werden für Ressourcen.</DankPyon_RustedSwords.description>
+  <DankPyon_AncientRuinedBanner.label>Altes kaputtes Wappen</DankPyon_AncientRuinedBanner.label>
+  <DankPyon_AncientRuinedBanner.description>Überreste vom Schlachtfeld. Ein altes Wappen eines vergessenen Königreichs. Kann abgebaut werden für Ressourcen.</DankPyon_AncientRuinedBanner.description>
+  <DankPyon_AncientRuinedCart.label>Alter kaputter Karren</DankPyon_AncientRuinedCart.label>
+  <DankPyon_AncientRuinedCart.description>Ein zerschlagener Transport. Es könnten sich immer noch Vorräte darin befinden. Kann abgebaut werden für Ressourcen.</DankPyon_AncientRuinedCart.description>
+  <DankPyon_AncientRuinedCrate.label>Alte kaputte Kiste</DankPyon_AncientRuinedCrate.label>
+  <DankPyon_AncientRuinedCrate.description>Eine alte zerfallene Kiste. Kann abgebaut werden für Ressourcen.</DankPyon_AncientRuinedCrate.description>
+  <DankPyon_AncientRuinedBarrel.label>Altes kaputtes Fass</DankPyon_AncientRuinedBarrel.label>
+  <DankPyon_AncientRuinedBarrel.description>Ein altes zerfallenes Fass. Kann abgebaut werden für Ressourcen.</DankPyon_AncientRuinedBarrel.description>
+
+</LanguageData> 

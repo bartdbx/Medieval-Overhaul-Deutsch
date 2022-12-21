@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Griffon Berry thoughts -->
+  <DankPyon_AteGriffonBerry.stages.0.label>Greifenbeeren</DankPyon_AteGriffonBerry.stages.0.label>
+  <DankPyon_AteGriffonBerry.stages.0.description>PLATZHALTER</DankPyon_AteGriffonBerry.stages.0.description>
+
+  <!-- Drinks based thoughts -->
+  <DankPyon_DrankAle.stages.0.label>Gutes, altes Bier</DankPyon_DrankAle.stages.0.label>
+  <DankPyon_DrankAle.stages.0.description>Nichts ist so gut wie Bier, um die Schrecken aus meinem Kopf zu verbannen.</DankPyon_DrankAle.stages.0.description>
+  <DankPyon_DrankMead.stages.0.label>Gutes, altes Met</DankPyon_DrankMead.stages.0.label>
+  <DankPyon_DrankMead.stages.0.description>Nichts ist so gut wie Met, um die Schrecken aus meinem Kopf zu verbannen.</DankPyon_DrankMead.stages.0.description>
+  <DankPyon_DrankWine.stages.0.label>Ein Glas Wein</DankPyon_DrankWine.stages.0.label>
+  <DankPyon_DrankWine.stages.0.description>Ich fühle mich wie ein Adliger ... und vielleicht denke ich auch wie einer.</DankPyon_DrankWine.stages.0.description>
+
+  <!-- Hearty Stew -->
+  <DankPyon_AteHeartyStew.stages.0.label>aß herzhaften Eintopf</DankPyon_AteHeartyStew.stages.0.label>
+  <DankPyon_AteHeartyStew.stages.0.description>Ich habe einen herzhaften Eintopf gegessen, eine köstliche Mahlzeit, die meinen Körper wärmt.</DankPyon_AteHeartyStew.stages.0.description>
+  
+  <!-- Weak Stew -->
+  <DankPyon_AteWeakStew.stages.0.label>aß faden Eintopf</DankPyon_AteWeakStew.stages.0.label>
+  <DankPyon_AteWeakStew.stages.0.description>Ich habe einen faden Eintopf gegessen, eine Mahlzeit, die meinen Körper wärmt, mehr aber auch nicht.</DankPyon_AteWeakStew.stages.0.description>
+
+  <!-- Cheese -->
+  <DankPyon_AteCheese.stages.0.label>aß Käse</DankPyon_AteCheese.stages.0.label>
+  <DankPyon_AteCheese.stages.0.description>Käse! Oh, wie liebe ich dich.</DankPyon_AteCheese.stages.0.description>
+
+  <!-- Rox Steak -->
+  <DankPyon_AteRoxSteak.stages.0.label>aß Roxsteak</DankPyon_AteRoxSteak.stages.0.label>
+  <DankPyon_AteRoxSteak.stages.0.description>Ein Roxsteak! Sein fettes Fleisch zergeht im Mund, während einem die Sauce einen wunderbaren Kick gibt!</DankPyon_AteRoxSteak.stages.0.description>
+
+  <!-- Griffon Berry Pie -->
+  <DankPyon_AteGriffonBerryPie.stages.0.label>aß Greifbeerenpastete</DankPyon_AteGriffonBerryPie.stages.0.label>
+  <DankPyon_AteGriffonBerryPie.stages.0.description>Ein Kuchen wie für Greifen gebacken! Solch ein tiefes Aroma befriedigt die Zunge unglaublich!</DankPyon_AteGriffonBerryPie.stages.0.description>
+
+  <!-- Smoked Meat -->
+  <DankPyon_AteSmokedMeat.stages.0.label>aß Dörrfleisch</DankPyon_AteSmokedMeat.stages.0.label>
+  <DankPyon_AteSmokedMeat.stages.0.description>Das geräucherte Fleisch hatte einen wirklich rustikalen Geschmack.</DankPyon_AteSmokedMeat.stages.0.description>
+
+  <!-- Bread Soup -->
+  <DankPyon_AteBreadSoup.stages.0.label>aß Brotsuppe</DankPyon_AteBreadSoup.stages.0.label>
+  <DankPyon_AteBreadSoup.stages.0.description>Ein Stück Brot, gefüllt mit herzhafter Suppe – ich bin nicht verliebt, aber meine Kraft fühlt sich verjüngt an.</DankPyon_AteBreadSoup.stages.0.description>
+
+  <!-- Grilled Sausages -->
+  <DankPyon_AteGrilledSausages.stages.0.label>aß Grillwürstchen</DankPyon_AteGrilledSausages.stages.0.label>
+  <DankPyon_AteGrilledSausages.stages.0.description>Diese Würste haben einen herzhaften und rauchigen Geschmack!</DankPyon_AteGrilledSausages.stages.0.description>
+
+  <!-- Apple Pie -->
+  <DankPyon_AteApplePie.stages.0.label>aß Apfelkuchen</DankPyon_AteApplePie.stages.0.label>
+  <DankPyon_AteApplePie.stages.0.description>Was für ein Leckerbissen! Wer hätte gedacht, dass man Äpfel noch süßer machen kann?</DankPyon_AteApplePie.stages.0.description>
+
+  <!-- Hunters Stew -->
+  <DankPyon_AteHuntersStew.stages.0.label>aß Jägertopf</DankPyon_AteHuntersStew.stages.0.label>
+  <DankPyon_AteHuntersStew.stages.0.description>Der Eintopf war gespickt mit herzhaften Zutaten. Es hat meinen Körper genährt!</DankPyon_AteHuntersStew.stages.0.description>
+
+  <!-- Mashed Potatoes -->
+  <DankPyon_AteMashedPotatoes.stages.0.label>aß Kartoffelbrei</DankPyon_AteMashedPotatoes.stages.0.label>
+  <DankPyon_AteMashedPotatoes.stages.0.description>Diese Schüssel Kartoffelpüree hatte einen angenehmen cremigen Geschmack.</DankPyon_AteMashedPotatoes.stages.0.description>
+
+  <!-- Grilled Cheese -->
+  <DankPyon_AteGrilledCheese.stages.0.label>aß Grillkäse</DankPyon_AteGrilledCheese.stages.0.label>
+  <DankPyon_AteGrilledCheese.stages.0.description>Ich habe ein klebriges, leckeres, luxuriöses Stück gegrillten Käse gegessen.</DankPyon_AteGrilledCheese.stages.0.description>
+
+  <!-- Quiche -->
+  <DankPyon_AteQuiche.stages.0.label>aß Quiche</DankPyon_AteQuiche.stages.0.label>
+  <DankPyon_AteQuiche.stages.0.description>Ich aß eine herzhafte Pastete aus Ei und Fleisch. Lecker!</DankPyon_AteQuiche.stages.0.description>
+
+  <!-- Sweet Pancakes -->
+  <DankPyon_AteSweetPancakes.stages.0.label>aß Pfannkuchen</DankPyon_AteSweetPancakes.stages.0.label>
+  <DankPyon_AteSweetPancakes.stages.0.description>Ich aß einen Stapel süßer, dicker Pfannkuchen mit Sirup. Lecker!</DankPyon_AteSweetPancakes.stages.0.description>
+
+  <!-- Winter Lentil Soup -->
+  <DankPyon_AteWinterLentilSoup.stages.0.label>aß Winterlinsensuppe</DankPyon_AteWinterLentilSoup.stages.0.label>
+  <DankPyon_AteWinterLentilSoup.stages.0.description>Ich aß eine beruhigende Suppe aus Linsen und Gewürzen. Eine wohlige Wärme durchströmt meinen Körper.</DankPyon_AteWinterLentilSoup.stages.0.description>
+
+  <!-- Mushroom Soup -->
+  <DankPyon_AteMushroomSoup.stages.0.label>aß Pilzsuppe</DankPyon_AteMushroomSoup.stages.0.label>
+  <DankPyon_AteMushroomSoup.stages.0.description>Ich aß eine reichhaltige Suppe aus gehackten Pilzen. So erdig, so gut!</DankPyon_AteMushroomSoup.stages.0.description>
+
+  <!-- Tomato Omelette -->
+  <DankPyon_AteTomatoOmelette.stages.0.label>aß Tomatenomlett</DankPyon_AteTomatoOmelette.stages.0.label>
+  <DankPyon_AteTomatoOmelette.stages.0.description>Ich habe ein mit Tomaten gefülltes Omelett gegessen. Saftig und doch herzhaft!</DankPyon_AteTomatoOmelette.stages.0.description>
+
+  <!-- Vegetable Pot -->
+  <DankPyon_AteVegetablePot.stages.0.label>aß Gemüsetopf</DankPyon_AteVegetablePot.stages.0.label>
+  <DankPyon_AteVegetablePot.stages.0.description>Ich habe einen herzhaften Eintopf mit Gemüse und Kräutern gegessen. Herzhaft und gesund.</DankPyon_AteVegetablePot.stages.0.description>
+
+  <!-- Pumpkin Pie -->
+  <DankPyon_AtePumpkinPie.stages.0.label>aß Kürbiskuchen</DankPyon_AtePumpkinPie.stages.0.label>
+  <DankPyon_AtePumpkinPie.stages.0.description>Süß und doch leicht würzig. Was für ein leckerer Kuchen!</DankPyon_AtePumpkinPie.stages.0.description>
+
+  <!-- Pumpkin Fritters -->
+  <DankPyon_AtePumpkinFritters.stages.0.label>aß Kürbisfritten</DankPyon_AtePumpkinFritters.stages.0.label>
+  <DankPyon_AtePumpkinFritters.stages.0.description>Die richtige Süße an einer dicken und sättigenden Fritte. Hat jemand etwas Ale, mit dem man das runterspülen kann?</DankPyon_AtePumpkinFritters.stages.0.description>
+
+  <!-- Grilled Skewers -->
+  <DankPyon_AteGrilledSkewers.stages.0.label>aß Grillspieße</DankPyon_AteGrilledSkewers.stages.0.label>
+  <DankPyon_AteGrilledSkewers.stages.0.description>Einfach zu essen und lecker. Was soll man sonst noch zu Fleisch am Stiel sagen?</DankPyon_AteGrilledSkewers.stages.0.description>
+
+  <!-- Pumpkin Soup -->
+  <DankPyon_AtePumpkinSoup.stages.0.label>aß Kürbissuppe</DankPyon_AtePumpkinSoup.stages.0.label>
+  <DankPyon_AtePumpkinSoup.stages.0.description>Ich aß eine dicke Suppe aus Kürbis und Gewürzen. Eine herrliche Wärme durchströmt meinen Körper.</DankPyon_AtePumpkinSoup.stages.0.description>
+
+  <!-- Steak with Wine -->
+  <DankPyon_AteSteakWithWine.stages.0.label>aß Steak mit Wein</DankPyon_AteSteakWithWine.stages.0.label>
+  <DankPyon_AteSteakWithWine.stages.0.description>Das zarte Steak schmilzt mit jedem Bissen und die reichhaltige Weinsauce erhöht den Geschmack des Gerichts. Wenn ich was essen könnte, wäre es immer Steak mit Wein.</DankPyon_AteSteakWithWine.stages.0.description>
+
+  <!-- Boiled Bean and Onion -->
+  <DankPyon_AteBoiledBeansAndOnion.stages.0.label>aß Bohneneintopf mit Zwiebeln</DankPyon_AteBoiledBeansAndOnion.stages.0.label>
+  <DankPyon_AteBoiledBeansAndOnion.stages.0.description>Es ist eine Bohnen-Zwiebel-Suppe. Ich bin satt und fühle mich energiegeladen, der Geschmack ist einfach unvergesslich.</DankPyon_AteBoiledBeansAndOnion.stages.0.description>
+
+  <!-- Cheese Soup -->
+  <DankPyon_AteCheeseSoup.stages.0.label>aß Käsesuppe</DankPyon_AteCheeseSoup.stages.0.label>
+  <DankPyon_AteCheeseSoup.stages.0.description>So wie der Käse in der Gewürzbrühe schmilzt, will ich tanzen! Das einzig Negative ist, dass die Leute zuschauen.</DankPyon_AteCheeseSoup.stages.0.description>
+</LanguageData>

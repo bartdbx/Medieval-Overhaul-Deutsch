@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <DankPyon_Small_Ruin.label>Kleine Ruine</DankPyon_Small_Ruin.label>
+    <DankPyon_Small_Ruin.description>Eine kleine Ruine.</DankPyon_Small_Ruin.description>
+    <DankPyon_Medium_Ruin.label>Große Ruine</DankPyon_Medium_Ruin.label>
+    <DankPyon_Medium_Ruin.description>Eine große Ruine.</DankPyon_Medium_Ruin.description>
+    <DankPyon_Big_Snake_Ruin.label>Schlangenbesetzte Ruine</DankPyon_Big_Snake_Ruin.label>
+    <DankPyon_Big_Snake_Ruin.description>Eine Ruine die durch Schlangen Bewohnt wird.</DankPyon_Big_Snake_Ruin.description>
+</LanguageData>

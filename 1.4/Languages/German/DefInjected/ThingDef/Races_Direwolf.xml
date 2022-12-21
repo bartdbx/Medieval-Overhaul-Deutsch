@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- ========================== Direwolf ================================= -->
+  <DankPyon_Direwolf.label>Schattenwolf</DankPyon_Direwolf.label>
+  <DankPyon_Direwolf.description>Eine Unterart des großen Wolfs, die durch den unerbittlichen Frost des Nordens abgehärtet wurde. Aggressiv und entschlossen jagen sie in gut koordinierten Rudeln. In früheren Zeiten bevorzugten Schattenwölfe kalte Gebiete. Der Mangel an Beute in extrem feindlichen Wintern zwang sie, in wärmere Regionen abzuwandern, wo sie auf Karawanen und kleine Siedlungen stießen.</DankPyon_Direwolf.description>
+
+  <DankPyon_Direwolf.tools.0.label>linke Kralle</DankPyon_Direwolf.tools.0.label>
+  <DankPyon_Direwolf.tools.1.label>rechte Kralle</DankPyon_Direwolf.tools.1.label>
+  <DankPyon_Direwolf.tools.2.label>Reißzähne</DankPyon_Direwolf.tools.2.label>
+  <DankPyon_Direwolf.tools.3.label>Kopf</DankPyon_Direwolf.tools.3.label>
+</LanguageData>

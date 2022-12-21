@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Timber -->
+  <DankPyon_MakeTimberBase.jobString>Stellt Bretter aus Baumstämme her.</DankPyon_MakeTimberBase.jobString>
+  <DankPyon_Make_TimberAny.label>Gemischte Bretter</DankPyon_Make_TimberAny.label>
+  <DankPyon_Make_TimberAny.description>Stellt wahllos Bretter aus Baumstämme her.</DankPyon_Make_TimberAny.description>
+  <DankPyon_Make_TimberAny.jobString>Stellt Bretter aus Baumstämme her.</DankPyon_Make_TimberAny.jobString>
+  <DankPyon_Make_Timber.label>Bretter x2 sägen</DankPyon_Make_Timber.label>
+  <DankPyon_Make_Timber.description>Sägt Bretter aus Rohholz.</DankPyon_Make_Timber.description>
+  <DankPyon_Make_TimberBulk.label>Bretter x40 sägen</DankPyon_Make_TimberBulk.label>
+  <DankPyon_Make_TimberBulk.description>Sägt Bretter aus Rohholz.</DankPyon_Make_TimberBulk.description>
+  <DankPyon_Make_TimberBulkExtra.label>Bretter x200 sägen</DankPyon_Make_TimberBulkExtra.label>
+  <DankPyon_Make_TimberBulkExtra.description>Sägt Bretter aus Rohholz.</DankPyon_Make_TimberBulkExtra.description>
+  <!-- Timber Dark-->
+  <DankPyon_Make_TimberDark.label>Dunkle Bretter x2 sägen</DankPyon_Make_TimberDark.label>
+  <DankPyon_Make_TimberDark.description>Sägt dunkle Bretter aus Rohholz.</DankPyon_Make_TimberDark.description>
+  <DankPyon_Make_TimberDarkBulk.label>Dunkle Bretter x40 sägen</DankPyon_Make_TimberDarkBulk.label>
+  <DankPyon_Make_TimberDarkBulk.description>Sägt dunkle Bretter aus Rohholz.</DankPyon_Make_TimberDarkBulk.description>
+  <DankPyon_Make_TimberDarkBulkExtra.label>Dunkle Bretter x200 sägen</DankPyon_Make_TimberDarkBulkExtra.label>
+  <DankPyon_Make_TimberDarkBulkExtra.description>Sägt dunkle Bretter aus Rohholz.</DankPyon_Make_TimberDarkBulkExtra.description>
+  <!-- Timber Tribal -->
+  <DankPyon_Make_Timber_Tribal.label>Brett sägen</DankPyon_Make_Timber_Tribal.label>
+  <DankPyon_Make_Timber_Tribal.description>Sägt 1 Brett aus Rohholz.</DankPyon_Make_Timber_Tribal.description>
+  <DankPyon_Make_TimberBulk_Tribal.label>Bretter x20 sägen</DankPyon_Make_TimberBulk_Tribal.label>
+  <DankPyon_Make_TimberBulk_Tribal.description>Sägt Bretter aus Rohholz.</DankPyon_Make_TimberBulk_Tribal.description>
+  <DankPyon_Make_TimberBulkExtra_Tribal.label>Bretter x100 sägen</DankPyon_Make_TimberBulkExtra_Tribal.label>
+  <DankPyon_Make_TimberBulkExtra_Tribal.description>Sägt Bretter aus Rohholz.</DankPyon_Make_TimberBulkExtra_Tribal.description>
+  <!-- Timber Tribal Dark-->
+  <DankPyon_Make_TimberDark_Tribal.label>Dunkles Brett sägen</DankPyon_Make_TimberDark_Tribal.label>
+  <DankPyon_Make_TimberDark_Tribal.description>Sägt 1 dunkles Brett aus Rohholz.</DankPyon_Make_TimberDark_Tribal.description>
+  <DankPyon_Make_TimberDarkBulk_Tribal.label>Dunkle Bretter x20 sägen</DankPyon_Make_TimberDarkBulk_Tribal.label>
+  <DankPyon_Make_TimberDarkBulk_Tribal.description>Sägt dunkle Bretter aus Rohholz.</DankPyon_Make_TimberDarkBulk_Tribal.description>
+  <DankPyon_Make_TimberDarkBulkExtra_Tribal.label>Dunkle Bretter x100 sägen</DankPyon_Make_TimberDarkBulkExtra_Tribal.label>
+  <DankPyon_Make_TimberDarkBulkExtra_Tribal.description>Sägt dunkle Bretter aus Rohholz.</DankPyon_Make_TimberDarkBulkExtra_Tribal.description>
+</LanguageData>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--==================== Doors and Structures ====================-->
+  <DankPyon_RuinedRusticDoor.label>blockierte Tür</DankPyon_RuinedRusticDoor.label>
+  <DankPyon_RuinedRusticDoor.description>Eine Tür, die durch die Anbringung von Holzbrettern zwischen den Türen dauerhaft verschlossen wurde. Muss zerstört werden, um hindurch zu gelangen</DankPyon_RuinedRusticDoor.description>
+  <DankPyon_RuinedSlabDoor.label>zerstörte Steintür</DankPyon_RuinedSlabDoor.label>
+  <DankPyon_RuinedSlabDoor.description>Zu einem Steinhaufen zerbröckelt. Das Durchqueren ist unmöglich. Muss zerstört werden, um hindurch zu gelangen.</DankPyon_RuinedSlabDoor.description>
+  <DankPyon_RuinedGate.label>verschlossenes Tor</DankPyon_RuinedGate.label>
+  <DankPyon_RuinedGate.description>Ein verschlossenes Metalltor, der einzige Weg hinein ist das Aufbrechen der Tür.</DankPyon_RuinedGate.description>
+  <DankPyon_RuinedColumn.label>zerstörte Säule</DankPyon_RuinedColumn.label>
+  <DankPyon_RuinedColumn.description>Ein einfaches Podest, auf dem man sitzen kann. Nicht sehr bequem, aber besser als gar nichts, wie man sie häufig in Tavernen und Gasthöfen findet. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden..</DankPyon_RuinedColumn.description>
+  <DankPyon_Ruined_AncientColumn.label>alte Säule</DankPyon_Ruined_AncientColumn.label>
+  <DankPyon_Ruined_AncientColumn.description>Eine hohe Säule mit verschnörkeltem Design.</DankPyon_Ruined_AncientColumn.description>
+  
+  <!--==================== Wooden Ruins ====================-->
+  <DankPyon_RuinedStool.label>ruinierter runder Hocker</DankPyon_RuinedStool.label>
+  <DankPyon_RuinedStool.description>Ein einfaches Podest, auf dem man sitzen kann. Nicht sehr bequem, aber besser als gar nichts, wie man sie häufig in Tavernen und Gasthöfen findet. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden..</DankPyon_RuinedStool.description>
+  <DankPyon_RuinedBedWicker.label>Weidenbett</DankPyon_RuinedBedWicker.label>
+  <DankPyon_RuinedBedWicker.description>Ein einfaches und schnell zu machendes Weidenbett.</DankPyon_RuinedBedWicker.description>
+  <DankPyon_RuinedBedWickerDouble.label>ruiniertes Doppelweidenbett</DankPyon_RuinedBedWickerDouble.label>
+  <DankPyon_RuinedBedWickerDouble.description>Ein ruiniertes, aber einfach und schnell zu machendes Weidenbett.</DankPyon_RuinedBedWickerDouble.description>
+  <DankPyon_WoodenDebris.label>Trümmer</DankPyon_WoodenDebris.label>
+  <DankPyon_WoodenDebris.description>Ein Haufen zerstörter Möbel, die scheinbar absichtlich aufeinander gestapelt wurden.</DankPyon_WoodenDebris.description>
+  <DankPyon_RuinedCloset.label>verfallener Kleiderschrank</DankPyon_RuinedCloset.label>
+  <DankPyon_RuinedCloset.description>Ein zerstörter Kleiderschrank.</DankPyon_RuinedCloset.description>
+  <DankPyon_RuinedBookshelf.label>zerstörtes Bücherregal</DankPyon_RuinedBookshelf.label>
+  <DankPyon_RuinedBookshelf.description>Ein zerstörtes Bücherregal.</DankPyon_RuinedBookshelf.description>
+  <DankPyon_EmptyBucket.label>leerer Eimer</DankPyon_EmptyBucket.label>
+  <DankPyon_EmptyBucket.description>Ein leerer Holzeimer. Könnte einige Reste enthalten.</DankPyon_EmptyBucket.description>
+  <DankPyon_RuinedCrate1x1c.label>ruinierte Kiste</DankPyon_RuinedCrate1x1c.label>
+  <DankPyon_RuinedCrate1x1c.description>Eine zerbrochene Kiste. Könnte einige Reste enthalten.</DankPyon_RuinedCrate1x1c.description>
+  <DankPyon_RuinedTable1x2c.label>ruinierter Tisch (1x2)</DankPyon_RuinedTable1x2c.label>
+  <DankPyon_RuinedTable2x4c.label>ruinierter Tisch (2x4)</DankPyon_RuinedTable2x4c.label>
+  
+  <!--==================== Bones ====================-->
+  <DankPyon_RuinedRugGrizzlyBear3x3c.label>ruinierter Grizzlybär-Teppich (3x3)</DankPyon_RuinedRugGrizzlyBear3x3c.label>
+  <DankPyon_RuinedRugGrizzlyBear3x3c.description>Als Trophäen für den erfolgreichen Jäger werden Tierteppiche aus gebeizten und ausgestopften Tierhäuten hergestellt, die mit Filz und Polstern zu Teppichen vernäht werden. Das tolle Fell des Bären ist eines der begehrtesten Materialien für Teppiche aus Tierfell, was den Grizzlybärteppich zu einer würdigen Wahl für den mutigen Kolonisten macht, der sich der Jagd stellt..</DankPyon_RuinedRugGrizzlyBear3x3c.description>
+  <DankPyon_RuinedBonePile1x1c.label>Überbleibsel</DankPyon_RuinedBonePile1x1c.label>
+  <DankPyon_RuinedBonePile1x1c.description>Alte Knochen, die grob an einem Ort gestapelt sind.</DankPyon_RuinedBonePile1x1c.description>
+  <DankPyon_RuinedBonePile1x2c.label>große Überreste</DankPyon_RuinedBonePile1x2c.label>
+  <DankPyon_RuinedBonePile1x2c.description>Alte Knochen, die grob an einem Ort gestapelt sind.</DankPyon_RuinedBonePile1x2c.description>
+  <DankPyon_RuinedBonePile2x2c.label>massive Überreste</DankPyon_RuinedBonePile2x2c.label>
+  <DankPyon_RuinedBonePile2x2c.description>Alte Knochen, grob an einem zufälligen Ort deponiert.</DankPyon_RuinedBonePile2x2c.description>
+  
+  <!--==================== Furniture ====================-->
+  <DankPyon_RuinedBust.label>ruinierte Büste</DankPyon_RuinedBust.label>
+  <DankPyon_RuinedBust.description>Ein zerbrochener Avatar einer einst prominenten Person.</DankPyon_RuinedBust.description>
+  <DankPyon_RuinedCandles.label>zerstörte Kerzen</DankPyon_RuinedCandles.label>
+  <DankPyon_RuinedCandles.description>Alte und verstaubte Kerzen, unbrauchbar für den Gebrauch.</DankPyon_RuinedCandles.description>
+  <DankPyon_RuinedCandleStand.label>ruinierter Kerzenständer</DankPyon_RuinedCandleStand.label>
+  <DankPyon_RuinedCandleStand.description>Ein Kerzenständer, der verhindert, dass die Dunkelheit in Ihr Zimmer eindringt. Kann mit Talg nachgefüllt werden.</DankPyon_RuinedCandleStand.description>
+  <DankPyon_RuinedStewPot.label>Ruinierter Schmortopf</DankPyon_RuinedStewPot.label>
+  <DankPyon_RuinedStewPot.description>Ein alter, verrosteter Kessel, gefüllt mit den Überresten unerkennbarer Kreaturen.</DankPyon_RuinedStewPot.description>
+  <DankPyon_RuinedAnvil.label>zerstörter Amboss</DankPyon_RuinedAnvil.label>
+  <DankPyon_RuinedAnvil.description>Gebrochen und verbogen, dieser Amboss hat schon bessere Tage gesehen.</DankPyon_RuinedAnvil.description>
+  <DankPyon_RuinedHearth.label>zerstörter Herd</DankPyon_RuinedHearth.label>
+  <DankPyon_RuinedHearth.description>Eine zerstörte Feuerstelle aus Stein.</DankPyon_RuinedHearth.description>
+  <DankPyon_RuinedMineShaft.label>ruinierter Minenschacht</DankPyon_RuinedMineShaft.label>
+  <DankPyon_RuinedMineShaft.description>Ein stillgelegtes Bergwerk, das nicht gewartet wurde, was zum Einsturz seiner Lager führte, wodurch das Bergwerk insgesamt unbrauchbar wurde.</DankPyon_RuinedMineShaft.description>
+  <DankPyon_StoneDebris.label>Steinschüttung</DankPyon_StoneDebris.label>
+  <DankPyon_StoneDebris.description>Ein eingestürzter Steinbrocken, der an alte Ruinen und Verliese erinnert. Er enthält noch nützliche Ressourcen, die du durch Zerlegen erwerben kannst..</DankPyon_StoneDebris.description>
+  <DankPyon_StoneDebrisSmall.label>Steintrümmer klein</DankPyon_StoneDebrisSmall.label>
+  <DankPyon_StoneDebrisSmall.description>Ein eingestürzter Steinbrocken, der an alte Ruinen und Verliese erinnert. Er enthält noch nützliche Ressourcen, die du durch Zerlegen erwerben kannst.</DankPyon_StoneDebrisSmall.description>
+  
+</LanguageData> 

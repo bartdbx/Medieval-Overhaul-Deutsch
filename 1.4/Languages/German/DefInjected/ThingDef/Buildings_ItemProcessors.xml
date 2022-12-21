@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- ==================== Rack ======================= -->
+  <DankPyon_DryingRack.label>Trocknergestell</DankPyon_DryingRack.label>
+  <DankPyon_DryingRack.description>Ein Holzregal zum Trocknen von Waren unter der Sonne, zur Konservierung und zur Haltbarmachung.</DankPyon_DryingRack.description>
+  
+  <!-- Hay Rack -->
+  <DankPyon_HayRack.label>Heuraufe</DankPyon_HayRack.label>
+  <DankPyon_HayRack.description>Ein Gestell um Heu in der Sonne zu trocknen. Durch das entfeuchten wird es Haltbarer und vielseitig nurzbarer.</DankPyon_HayRack.description>
+  
+  <!-- ===== Smoker ===== -->
+  <DankPyon_Smoker.label>Räucherei</DankPyon_Smoker.label>
+  <DankPyon_Smoker.description>Rauch, der vom verbrannten Holz am Boden des Räucherofens erzeugt wird, umhüllt das Fleisch und sorgt für indirekte Hitze und einen reichen Rauchgeschmack. Dadurch entsteht eine Schutzschicht und das Räucherfleisch hält länger.</DankPyon_Smoker.description>
+  
+  <!-- ===== Presser ===== -->
+  <DankPyon_Presser.label>Presse</DankPyon_Presser.label>
+  <DankPyon_Presser.description>Eine hölzerne Vorrichtung zum pressen ausgewählter Gegenstände. Entweder um den Saft herauszuholen oder Molke aus Quark.</DankPyon_Presser.description>
+
+</LanguageData>

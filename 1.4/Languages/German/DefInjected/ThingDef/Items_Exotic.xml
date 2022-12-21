@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rox horn -->
+  <DankPyon_RoxHorn.label>Rox Horn</DankPyon_RoxHorn.label>
+  <DankPyon_RoxHorn.description>Ein Rox-Horn. Es ist schwer, steinhart und auf den meisten Märkten unbezahlbar. Dies ist eine echte Trophäe, die von den besten Jägern gesucht wird.</DankPyon_RoxHorn.description>
+  
+  <!-- Daer Antler -->
+  <DankPyon_DaerAntler.label>Daer Geweih</DankPyon_DaerAntler.label>
+  <DankPyon_DaerAntler.description>Das Geweih eines Hirsches. Es ist schwer, steinhart und auf den meisten Märkten unbezahlbar. Eine echte Trophäe, die jeden, der sie sieht, in Ehrfurcht erstarren lässt.</DankPyon_DaerAntler.description>
+  
+  <!-- Dire Boar Tusk -->
+  <DankPyon_DireBoarTusk.label>Wildschweinhauer</DankPyon_DireBoarTusk.label>
+  <DankPyon_DireBoarTusk.description>Der Stoßzahn eines grässlichen Ebers. Er ist sehr haltbar und wertvoll. Obwohl er als Nahkampfwaffe etwas unhandlich ist, kann er dennoch tödlich sein..</DankPyon_DireBoarTusk.description>
+  
+  <!-- Schrat Drops -->
+  <DankPyon_SchratHeart.label>Herz des Waldes</DankPyon_SchratHeart.label>
+  <DankPyon_SchratHeart.description>Eine Kugel aus Lebensenergie, die noch immer einige sich windende Ranken nährt. Ihr Pulsschlag erhöht sich, wenn sie in der Hand gehalten wird, und entzieht dem Glied gierig Wärme. Eine wichtige Zutat in zahlreichen okkulten Ritualen, sicherlich ein wertvoller Besitz.</DankPyon_SchratHeart.description>
+  <DankPyon_AncientWood.label>Altholz</DankPyon_AncientWood.label>
+  <DankPyon_AncientWood.description>Ein dunkles Eichenholz, so alt wie die Zeit. Das Holz ist bekannt für seine Stärke und Haltbarkeit, um physischen Schlägen zu widerstehen. Ein perfektes Material um es für einen Schild zu verwenden.</DankPyon_AncientWood.description>
+  <DankPyon_GlowingResin.label>leuchtendes Harz</DankPyon_GlowingResin.label>
+  <DankPyon_GlowingResin.description>Leuchtend und reich an Farbtönen. Ein glamouröses Juwel, das die tiefen Farben des Waldes ausstrahlt. Er dient als Zutat für Tränke und andere formelhafte Verfahren.</DankPyon_GlowingResin.description>
+  
+  <!-- Unhold Drops -->
+  <DankPyon_UnholdBones.label>Herz des Waldes</DankPyon_UnholdBones.label>
+  <DankPyon_UnholdBones.description>Eine Kugel aus Lebensenergie, die noch immer einige sich windende Ranken nährt. Ihr Pulsschlag erhöht sich, wenn sie in der Hand gehalten wird, und entzieht dem Glied gierig Wärme. Eine wichtige Zutat in zahlreichen okkulten Ritualen, sicherlich ein wertvoller Besitz.</DankPyon_UnholdBones.description>
+  <DankPyon_UnholdFur.label>Unhold Pelz</DankPyon_UnholdFur.label>
+  <DankPyon_UnholdFur.description>Der Pelz eines Unholdes.</DankPyon_UnholdFur.description>
+</LanguageData>

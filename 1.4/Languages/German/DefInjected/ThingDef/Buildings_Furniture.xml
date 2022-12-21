@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--=========================== Actual Furniture  =================================-->
+  <DankPyon_RusticTorchLamp.label>Rustikale Wandfakkel</DankPyon_RusticTorchLamp.label>
+  <DankPyon_RusticTorchLamp.description>Eine rustikale Wandlampe um die Umgebung zu Erhellen. Menschen brauchen Licht um sich zu Bewegen und normal Arbeiten zu können. Kann automatisch aufgefüllt werden mit Holz. Produziert ein wenig Wärme.</DankPyon_RusticTorchLamp.description>
+  <DankPyon_WallTorch.label>Wandfakkel</DankPyon_WallTorch.label>
+  <DankPyon_WallTorch.description>Eine Wandfakkel um die Umgebung zu Erhellen. Menschen brauchen Licht um sich zu Bewegen und normal Arbeiten zu können. Kann automatisch aufgefüllt werden mit Holz. Produziert ein wenig Wärme.</DankPyon_WallTorch.description>
+  <DankPyon_WallLamp.label>Wandlampe</DankPyon_WallLamp.label>
+  <DankPyon_WallLamp.description>Eine Wandlampe aus Metall um die Umgebung zu Erhellen. Menschen brauchen Licht um sich zu Bewegen und normal Arbeiten zu können. Kann automatisch aufgefüllt werden mit Holz. Produziert ein wenig Wärme.</DankPyon_WallLamp.description>
+  <DankPyon_LampPost.label>Laterne</DankPyon_LampPost.label>
+  <DankPyon_LampPost.description>Eine Straßenlaterne um die Umgebung zu Erhellen. Menschen brauchen Licht um sich zu Bewegen und normal Arbeiten zu können. Kann automatisch aufgefüllt werden mit Holz. Produziert ein wenig Wärme.</DankPyon_LampPost.description>
+  
+  <!-- Tribal Furniture -->
+  <DankPyon_LogTable1x2c.label>Rohholztisch (S)</DankPyon_LogTable1x2c.label>
+  <DankPyon_LogTable1x2c.description>Ein einfacher Rohholztisch Grösse (S)mall (1x2). Schnell und einfach zu Bauen aus Rohholz.</DankPyon_LogTable1x2c.description>
+  <DankPyon_LogTable1x3c.label>Rohholztisch (M)</DankPyon_LogTable1x3c.label>
+  <DankPyon_LogTable1x3c.description>Ein einfacher Rohholztisch Grösse (M)edium (1x3). Schnell und einfach zu Bauen aus Rohholz.</DankPyon_LogTable1x3c.description>
+  <DankPyon_LogTable1x4c.label>Rohholztisch (L)</DankPyon_LogTable1x4c.label>
+  <DankPyon_LogTable1x4c.description>Ein einfacher Rohholztisch Grösse (L)arge (1x4). Schnell und einfach zu Bauen aus Rohholz.</DankPyon_LogTable1x4c.description>
+  <DankPyon_LogTable2x4c.label>Rohholztisch (XL)</DankPyon_LogTable2x4c.label>
+  <DankPyon_LogTable2x4c.description>Ein einfacher Rohholztisch Grösse (XL) (2x4). Schnell und einfach zu Bauen aus Rohholz.</DankPyon_LogTable2x4c.description>
+  <DankPyon_LogChair.label>Rohholzstuhl</DankPyon_LogChair.label>
+  <DankPyon_LogChair.description>Ein komfortabler, hübscher Stuhl. Kann verwendet werden an Tische, Arbeitsstationen, und sonstwo.</DankPyon_LogChair.description>
+  <DankPyon_LogBench1x2c.label>Rohholzbank (S)</DankPyon_LogBench1x2c.label>
+  <DankPyon_LogBench1x2c.description>Eine komfortable sitzbank Grösse (S)mall (1x2). Kann verwendet werden an Tische, Arbeitsstationen, und sonstwo.</DankPyon_LogBench1x2c.description>
+  <DankPyon_LogBench1x3c.label>Rohholzbank (M)</DankPyon_LogBench1x3c.label>
+  <DankPyon_LogBench1x3c.description>Ein komfortable sitzbank Grösse (M)edium (1x3). Kann verwendet werden an Tische, Arbeitsstationen, und sonstwo.</DankPyon_LogBench1x3c.description>
+  <DankPyon_LogBench1x4c.label>Rohholzbank (L)</DankPyon_LogBench1x4c.label>
+  <DankPyon_LogBench1x4c.description>Ein komfortable sitzbank Grösse (L)arge (1x4). Kann verwendet werden an Tische, Arbeitsstationen, und sonstwo.</DankPyon_LogBench1x4c.description>
+
+  <!-- Basic domestic furniture -->
+  <DankPyon_RusticStool.label>Rustikaler Hocker</DankPyon_RusticStool.label>
+  <DankPyon_RusticStool.description>Eine einfache Plattform zum Sitzen. Nicht sehr komfortabel, aber viel besser als nichts. Häufig in Tavernen und Gasthäusern zu sehen. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden.</DankPyon_RusticStool.description>
+  <DankPyon_RusticChair.label>Rustikaler Stuhl</DankPyon_RusticChair.label>
+  <DankPyon_RusticChair.description>Ein bequemer und attraktiver Stuhl. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden.</DankPyon_RusticChair.description>
+  <DankPyon_RusticNobleChair.label>Rustikaler Edelstuhl</DankPyon_RusticNobleChair.label>
+  <DankPyon_RusticNobleChair.description>Ein bequemer und attraktiver Stuhl. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden.</DankPyon_RusticNobleChair.description>
+  <DankPyon_RusticEndTable.label>Nachttisch</DankPyon_RusticEndTable.label>
+  <DankPyon_RusticEndTable.description>Ein kleiner Nachttisch, der nahegelegene Betten etwas bequemer macht. Muss direkt neben dem Kopfende des Bettes platziert werden. Das Aufstellen von mehr als einem Beistelltisch in der Nähe desselben Bettes hat keine Auswirkung.</DankPyon_RusticEndTable.description>
+  <DankPyon_RusticTable1x1c.label>Rustikaler Tisch (S)</DankPyon_RusticTable1x1c.label>
+  <DankPyon_RusticTable1x1c.description>Ein Rustikaler Tisch Grösse (S)mall (1x1)</DankPyon_RusticTable1x1c.description>
+  <DankPyon_RusticTable1x2c.label>Rustikaler Tisch (M)</DankPyon_RusticTable1x2c.label>
+  <DankPyon_RusticTable1x2c.description>Ein Rustikaler Tisch Grösse (M)edium (1x2)</DankPyon_RusticTable1x2c.description>
+  <DankPyon_RusticTable2x2c.label>Rustikaler Tisch (L)</DankPyon_RusticTable2x2c.label>
+  <DankPyon_RusticTable2x2c.description>Ein Rustikaler Tisch Grösse (L)arge (2x2)</DankPyon_RusticTable2x2c.description>
+  <DankPyon_ReinforcedRusticTable1x1c.label>Verstärkter Tisch (S)</DankPyon_ReinforcedRusticTable1x1c.label>
+  <DankPyon_ReinforcedRusticTable1x1c.description>Ein verstärkter rustikaler Tisch Grösse (S)mall (1x1)</DankPyon_ReinforcedRusticTable1x1c.description>
+  <DankPyon_ReinforcedRusticTable1x2c.label>Verstärkter Tisch (M)</DankPyon_ReinforcedRusticTable1x2c.label>
+  <DankPyon_ReinforcedRusticTable1x2c.description>Ein verstärkter rustikaler Tisch Grösse (M)edium (1x2)</DankPyon_ReinforcedRusticTable1x2c.description>
+  <DankPyon_ReinforcedRusticTable2x2c.label>Verstärkter Tisch (L)</DankPyon_ReinforcedRusticTable2x2c.label> 
+  <DankPyon_ReinforcedRusticTable2x2c.description>Ein verstärkter rustikaler Tisch Grösse (L)arge (2x2)</DankPyon_ReinforcedRusticTable2x2c.description>
+  <DankPyon_RusticRoundTable2x2c.label>Rustikaler Tisch (M)</DankPyon_RusticRoundTable2x2c.label>
+  <DankPyon_RusticRoundTable2x2c.description>Ein Rustikaler runder Tisch Grösse (M)edium (2x2)</DankPyon_RusticRoundTable2x2c.description>
+  <DankPyon_Table2x4c.label>Tisch (XL)</DankPyon_Table2x4c.label>
+  <DankPyon_Table2x4c.description>Ein extra großer Tisch Grösse (XL) (2x4)</DankPyon_Table2x4c.description>
+  <DankPyon_ReinforcedTable2x4c.label>Verstärkter Tisch (XL)</DankPyon_ReinforcedTable2x4c.label>
+  <DankPyon_ReinforcedTable2x4c.description>Ein extra großer verstärkter Tisch Grösse (XL) (2x4)</DankPyon_ReinforcedTable2x4c.description>
+  <DankPyon_RusticCounter1x3c.label>Theke</DankPyon_RusticCounter1x3c.label>
+  <DankPyon_RusticCounter1x3c.description>Eine Theke</DankPyon_RusticCounter1x3c.description>
+
+  <!-- Lighting -->
+  <DankPyon_Candles.label>Kerzen</DankPyon_Candles.label>
+  <DankPyon_Candles.description>Eine Kerze, um das unkontrollierte Eindringen von Dunkelheit in Ihr Zimmer zu verhindern. Kann mit Tiertalg betankt werden.</DankPyon_Candles.description>
+  <DankPyon_CandleStand.label>Kerzenhalter</DankPyon_CandleStand.label>
+  <DankPyon_CandleStand.description>Ein Kerzenhalter, um das unkontrollierte Eindringen von Dunkelheit in Ihr Zimmer zu verhindern. Kann mit Talg betankt werden.</DankPyon_CandleStand.description>
+  <DankPyon_CandleStand_Beeswax.label>Kerzenhalter (Wachs)</DankPyon_CandleStand_Beeswax.label>
+  <DankPyon_CandleStand_Beeswax.description>Kerzenhalter (Wachs)</DankPyon_CandleStand_Beeswax.description>
+  <DankPyon_RusticLamp.label>Lampe</DankPyon_RusticLamp.label>
+  <DankPyon_RusticLamp.description>Eine Kerze, um zu verhindern, dass die Dunkelheit in Ihr Zimmer sickert.</DankPyon_RusticLamp.description>
+  
+  <!-- Storage (Chest) -->
+  <DankPyon_RusticChest.label>Truhe</DankPyon_RusticChest.label>
+  <DankPyon_RusticChest.description>Eine vertrauenswürdige Holzkiste zum Aufbewahren Ihrer persönlichen Gegenstände. Gegenstände, die darin aufbewahrt werden, beeinträchtigen nicht die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind. Mehrere Truhen geben keinen Komfortboni.</DankPyon_RusticChest.description>
+  <DankPyon_MetalStrongbox.label>Metalltresor</DankPyon_MetalStrongbox.label>
+  <DankPyon_MetalStrongbox.description>Ein zuverlässiger Metalltresor zur Aufbewahrung Ihrer persönlichen Gegenstände. Gegenstände, die darin aufbewahrt werden, wirken sich nicht auf die Schönheit des Raumes aus und sie werden sich nicht verschlechtern, selbst wenn sie draußen sind. Mehrere Truhen geben keinen zusätzlichen Komfortboni.</DankPyon_MetalStrongbox.description>
+  <DankPyon_RoyalChest.label>Adelstruhe</DankPyon_RoyalChest.label>
+  <DankPyon_RoyalChest.description>Eine kunstvolle Truhe der Adligen. Gegenstände, die darin aufbewahrt werden, beeinträchtigen nicht die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind. Mehrere Truhen geben keine Komfortboni.</DankPyon_RoyalChest.description>
+  
+  <!-- Misc -->
+  <DankPyon_BarrelWater.label>Wasserfass</DankPyon_BarrelWater.label>
+  <DankPyon_BarrelWater.description>Ein mit Wasser gefülltes Holzfass um sich selber zu Waschen oder die Umgebung zu Reinigen.</DankPyon_BarrelWater.description>
+	
+  <!-- Dressers -->
+  <DankPyon_RusticDresser.label>Kommode</DankPyon_RusticDresser.label>
+  <DankPyon_RusticDresser.description>Eine Kommode. Verleiht allen Betten in der Nähe einen kleinen Komfortbonus. Das Aufstellen von mehr als einer Kommode neben dem gleichen Bett hat keine Auswirkung.</DankPyon_RusticDresser.description>
+  
+  <!-- Closet -->
+  <DankPyon_RusticCloset.label>Wandschrank</DankPyon_RusticCloset.label>
+  <DankPyon_RusticCloset.description>Ein Schrank, um Kleidung effizient und schön aufzubewahren. Platziere ihn in der Nähe von Betten für einen leichten Komfortbonus</DankPyon_RusticCloset.description>
+  
+  <!-- Bookshelf -->
+  <DankPyon_RusticBookshelf.label>Bücherregal</DankPyon_RusticBookshelf.label>
+  <DankPyon_RusticBookshelf.description>Erhöht die Forschungsgeschwindigkeit, wenn er in der Nähe des Forschungstisches platziert wird. Jede Forschungsbank kann zwei Bücherregale verwenden.</DankPyon_RusticBookshelf.description>
+  
+  <!-- Beds -->
+  <DankPyon_BedLog.label>Rohholzbett</DankPyon_BedLog.label>
+  <DankPyon_BedLog.description>Ein einfaches Bett aus rohem Holz, schnell und einfach gebaut.</DankPyon_BedLog.description>
+  <DankPyon_BedWicker.label>Korbbett</DankPyon_BedWicker.label>
+  <DankPyon_BedWicker.description>Ein einfach und schnell zu machendes Korbbett.</DankPyon_BedWicker.description>
+  <DankPyon_BedWickerDouble.label>Doppel Korbbett</DankPyon_BedWickerDouble.label>
+  <DankPyon_BedWickerDouble.description>Ein einfach und schnell zu machendes Korbbett, für zwei.</DankPyon_BedWickerDouble.description>
+  <DankPyon_StrawBed.label>Strohbett</DankPyon_StrawBed.label>
+  <DankPyon_StrawBed.description>Ein einfach und schnell zu machendes Korbbett, mit Stroh gepolstert für zusätzlichen Komfort.</DankPyon_StrawBed.description>
+  <DankPyon_StrawBedDouble.label>Doppel Strohbett</DankPyon_StrawBedDouble.label>
+  <DankPyon_StrawBedDouble.description>Ein einfach und schnell zu machendes Korbbett, mit Stroh gepolstert für zusätzlichen Komfort und für zwei.</DankPyon_StrawBedDouble.description>
+  <DankPyon_BedFur.label>Fellbett</DankPyon_BedFur.label>
+  <DankPyon_BedFur.description>Ein kuscheliges Bett aus weichen und bequemen Fellstücken.</DankPyon_BedFur.description>
+  <DankPyon_BedFurDouble.label>Doppel Fellbett</DankPyon_BedFurDouble.label>
+  <DankPyon_BedFurDouble.description>Ein kuscheliges Bett aus weichen und bequemen Fellstücken, für zwei.</DankPyon_BedFurDouble.description>
+  <DankPyon_WoodBurningStove.label>Holzofen</DankPyon_WoodBurningStove.label>
+  <DankPyon_WoodBurningStove.description>Ein kleiner Holzofen zum Beheizen eines kleinen Raumes.</DankPyon_WoodBurningStove.description>
+  <DankPyon_RusticHearth.label>Feuerstelle</DankPyon_RusticHearth.label>
+  <DankPyon_RusticHearth.description>Eine steinerne Feuerstelle für Wärme und eine heimelige Atmosphäre.</DankPyon_RusticHearth.description>
+  	<!--============================== Animal Beds ==============================-->
+	<!--ThingDef ParentName="FurnitureWithQualityBase">
+		<Dank_StrawBedAnimal.label>Tierstrohbett</Dank_StrawBedAnimal.label>
+		<Dank_StrawBedAnimal.description>Ein kleines Strohbett für Haustiere, wie Hühner, Katzen oder kleine Hunde.</Dank_StrawBedAnimal.description>
+	</ThingDef-->
+  <!--======================================== Signs ========================================-->
+  <DankPyon_Sign_Tavern.label>Tavernen Schild</DankPyon_Sign_Tavern.label>
+  <DankPyon_Sign_Tavern.description>Tavernen Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Tavern.description>
+  <DankPyon_Sign_Bread.label>Bäckerei Schild</DankPyon_Sign_Bread.label>
+  <DankPyon_Sign_Bread.description>Bäckerei Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Bread.description>
+  <DankPyon_Sign_Butcher.label>Metzgerei Schild</DankPyon_Sign_Butcher.label>
+  <DankPyon_Sign_Butcher.description>Metzgerei Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Butcher.description>
+  <DankPyon_Sign_Smith.label>Schmied Schild</DankPyon_Sign_Smith.label>
+  <DankPyon_Sign_Smith.description>Schmied Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Smith.description>
+  <DankPyon_Sign_Apothecary.label>Apotheker Schild</DankPyon_Sign_Apothecary.label>
+  <DankPyon_Sign_Apothecary.description>Apotheker Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Apothecary.description>
+  <DankPyon_Sign_Jewelry.label>Juwelier Schild</DankPyon_Sign_Jewelry.label>
+  <DankPyon_Sign_Jewelry.description>Juwelier Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Jewelry.description>
+  <DankPyon_Sign_Library.label>Bibliothek Schild</DankPyon_Sign_Library.label>
+  <DankPyon_Sign_Library.description>Bibliothek Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Library.description>
+  <DankPyon_Sign_Tailor.label>Näherei Schild</DankPyon_Sign_Tailor.label>
+  <DankPyon_Sign_Tailor.description>Näherei Schild. Ein hängeschild das den Zweck des Raumes erklärt.</DankPyon_Sign_Tailor.description>
+  
+</LanguageData>

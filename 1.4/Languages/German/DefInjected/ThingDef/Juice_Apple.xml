@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_JuiceApple.label>Apfelsaft</DankPyon_JuiceApple.label>
+  <DankPyon_JuiceApple.description>Frisch gepresster Apfelsaft, ein süßes und erfrischendes Getränk. Einige Tage bei Zieltemperatur fermentieren, um Apfelwein zu machen.</DankPyon_JuiceApple.description>
+  <DankPyon_JuiceAppleUnfermented.label>Apfelsaft unferm.</DankPyon_JuiceAppleUnfermented.label>
+  <DankPyon_JuiceAppleUnfermented.description>Apfelsaft, der gärt. Bei Raumtemperatur aufbewahren, um den Fermentationsprozess zu beenden.</DankPyon_JuiceAppleUnfermented.description>
+  <DankPyon_MincedApple.label>Apfelhäcksel</DankPyon_MincedApple.label>
+  <DankPyon_MincedApple.description>Äpfel in Scheiben geschnitten und in kleinere Stücke gewürfelt. Muss gepresst werden, um Saft zu werden.</DankPyon_MincedApple.description>
+</LanguageData>

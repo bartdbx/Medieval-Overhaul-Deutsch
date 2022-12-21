@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_Hyena.label>Hyäne</DankPyon_Hyena.label>
+  <DankPyon_Hyena.description>Ein listiges Raubtier, das Eigenschaften von Katzen und Caniden besitzt. Eine leicht unterschätzte Kreatur von denen, die ihr eigentümliches glucksendes Gurgeln als spielerisches Zeichen der Harmlosigkeit betrachten. Während ein Rudel Hyänen zögern könnte, eine Gruppe von Menschen im Freien anzugreifen, werden sie einem einsamen Vagabunden keine Gnade zeigen. Lebendig gefressen zu werden, begleitet von zufriedenem Kichern, muss ein schreckliches Ende sein.</DankPyon_Hyena.description>
+  
+  <DankPyon_Hyena.tools.0.label>linke Kralle</DankPyon_Hyena.tools.0.label>
+  <DankPyon_Hyena.tools.1.label>rechte Kralle</DankPyon_Hyena.tools.1.label>
+  <DankPyon_Hyena.tools.3.label>Kopf</DankPyon_Hyena.tools.3.label>
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Extract honey -->
+  <DankPyon_Extract_Honey.label>Honig schleudern</DankPyon_Extract_Honey.label>
+  <DankPyon_Extract_Honey.description>Schleudere den süßen Nektar aus Honigwaben. Honig kann verarbeitet werden zu Met, aber ist auch Roh konsumiert sehr nahrhaft.</DankPyon_Extract_Honey.description>
+  <DankPyon_Extract_Honey.jobString>Schleudert Honig.</DankPyon_Extract_Honey.jobString>
+  <DankPyon_Extract_HoneyBulk.label>Honig x5 schleudern</DankPyon_Extract_HoneyBulk.label>
+  <DankPyon_Extract_HoneyBulk.description>Schleudere den süßen Nektar aus Honigwaben. Honig kann verarbeitet werden zu Met, aber ist auch Roh konsumiert sehr nahrhaft.</DankPyon_Extract_HoneyBulk.description>
+  <DankPyon_Extract_HoneyBulk.jobString>Schleudert Honig (x5).</DankPyon_Extract_HoneyBulk.jobString>
+</LanguageData>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <DankPyon_RawWood.label>Rohholz</DankPyon_RawWood.label>
+  <DankPyon_RawWood.description>Rohholz aus Bäume. Nutzbar für den Bau von Waffen und Strukturen. Es ist auch nutzbar als Brennmaterial für Feuer und Generatoren. Kann zu Flüssigen Brennstoff verarbeitet werden. Kurz gesagt, ein stück Holz könnte eine Waffe oder ein Beinersatz sein.</DankPyon_RawWood.description>
+  <DankPyon_RawDarkWood.label>Dunkles Holz</DankPyon_RawDarkWood.label>
+  <DankPyon_RawDarkWood.description>Eine alte Art dunkles hartholz das die Zeiten überdauert hat. Nutzbar für den Bau von Waffen und Strukturen. Es ist auch nutzbar als Brennmaterial für Lagerfeuer.</DankPyon_RawDarkWood.description>
+  
+  <!--============================== Processed Wood ==============================-->
+  <!-- Dark Wood -->
+  <DankPyon_DarkWoodLog.label>Dunkelholz</DankPyon_DarkWoodLog.label>
+  <DankPyon_DarkWoodLog.description>Eine dunkle, harte und alte Holzart, die den Test der Zeit überstanden hat. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_DarkWoodLog.description>
+  
+  <!-- Elven Wood -->
+  <DankPyon_ElvenWoodLog.label>Elfenholz</DankPyon_ElvenWoodLog.label>
+  <DankPyon_ElvenWoodLog.description>Flink, aber widerstandsfähig, sehr begehrt wegen seiner Schönheit und Stärke. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_ElvenWoodLog.description>
+  
+  <!-- Dryad Wood -->
+  <DankPyon_DryadWoodLog.label>Dryadenholz</DankPyon_DryadWoodLog.label>
+  <DankPyon_DryadWoodLog.description>Flink, aber widerstandsfähig, sehr begehrt wegen seiner Schönheit und Stärke. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_DryadWoodLog.description>
+  
+  <!-- Ancient Wood -->
+  <DankPyon_AncientWoodLog.label>Altholz</DankPyon_AncientWoodLog.label>
+  <DankPyon_AncientWoodLog.description>PLATZHALTER. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_AncientWoodLog.description>
+  <DankPyon_Coal.label>Kohle-Brocken</DankPyon_Coal.label>
+  <DankPyon_Coal.description>Kohle ist ein schwarzer, brennbarer Gesteinsbrocken, der hauptsächlich aus Kohlenstoff besteht. Eine gute Brennstoffquelle für Öfen und Schornsteine.</DankPyon_Coal.description>
+  
+  <!--============================== Ice ==============================-->
+  <!-- Ice_Resource_IceBlocks.label>Eis</Ice_Resource_IceBlocks.label -->
+  <!-- Ice_Resource_IceBlocks.description>Gefrorenes Wasser in Blockform. Schmilzt über 0 Grad Celsius.</Ice_Resource_IceBlocks.description -->
+  
+  <!--============================== Beekeeping ==============================-->
+  <DankPyon_Wax.label>Wachs</DankPyon_Wax.label>
+  <DankPyon_Wax.description>Ein organisches Material, fest bei Raumtemperatur, wodurch es sehr lange Lagerfähig ist. Kann zu Kerzen verarbeitet werden.</DankPyon_Wax.description>
+  <DankPyon_QueenBee.label>Oswin Königin</DankPyon_QueenBee.label>
+  <DankPyon_QueenBee.description>Die Herrscherin eines aus dem Hause Oswin stammenden Bienenvolkes. Sie sind Aasfresser und machen daraus Honig.</DankPyon_QueenBee.description>
+  <DankPyon_Honey.label>Honig</DankPyon_Honey.label>
+  <DankPyon_Honey.description>Eine süße zähflüssige Substanz die zur Konservierung geeignet ist oder Fermentiert werden kann zu einem Alkoholischem Getränk.</DankPyon_Honey.description>
+  <DankPyon_Honeycomb.label>Honigwabe</DankPyon_Honeycomb.label>
+  <DankPyon_Honeycomb.description>Eine Wabe wo Bienen ihren Honig ablagern.</DankPyon_Honeycomb.description>
+  
+  <!--============================== Metals ==============================-->
+  <!--=============== Iron ====================-->
+  <DankPyon_IronOre.label>Eisenerze</DankPyon_IronOre.label>
+  <DankPyon_IronOre.description>Roheisenerz, das in einer Schmelze zu Blöcken verarbeitet werden muss, um verwendbar zu sein.</DankPyon_IronOre.description>
+  <DankPyon_IronIngot.label>Eisenbarren</DankPyon_IronIngot.label>
+  <DankPyon_IronIngot.description>Ein Eisenbarren. Bereit für die Verwendung in Handwerk und Konstruktion.</DankPyon_IronIngot.description>
+  
+  <!--=============== Silver ====================-->
+  <DankPyon_SilverOre.label>Silbererz</DankPyon_SilverOre.label>
+  <DankPyon_SilverOre.description>Ein rohes Silbererz, das in einer Schmelze zu Barren verarbeitet werden muss, um verwendbar zu sein.</DankPyon_SilverOre.description>
+  <!-- DankPyon_SilverIngot.label>Silberbarren</DankPyon_SilverIngot.label -->
+  <!-- DankPyon_SilverIngot.description>Ein Barren aus Silber. Eine kompaktere Form von Silber. Kann zu Silbermünzen geprägt werden.</DankPyon_SilverIngot.description -->
+
+  
+  <!--=============== Gold Ore ====================-->
+  <DankPyon_GoldOre.label>Golderz</DankPyon_GoldOre.label>
+  <DankPyon_GoldOre.description>Ein rohes Golderz, das in einer Schmelze zu Barren verarbeitet werden muss, um verwendbar zu sein.</DankPyon_GoldOre.description>
+  
+  <!--============================== Misc ==============================-->
+  <!--=============== Bone ====================-->
+  <DankPyon_Bone.label>Knochen</DankPyon_Bone.label>
+  <DankPyon_Bone.description>Knochen von Tieren, einschließlich Menschen, können als allgemeines Material verwendet werden. Waffen und Rüstungen aus Knochen bieten eine geringe Haltbarkeit, aber einen zugänglichen Schutz. Gebäude und Kunstwerke mit Knocheneinlagen sind eine Zierde für ansonsten schlechte oder stumpfe Materialien. Obwohl sie leicht zu beschaffen sind, ist bei der Verwendung von Knochen für ganze Strukturen, wie etwa eine Wand oder eine Tür, Vorsicht geboten. Die beste Verwendung von Knochen, ob für Rüstungen oder Kunst, sollte darin bestehen, andere Materialien aufzuwerten.</DankPyon_Bone.description>
+  
+  <!--============================== Fabric ==============================-->
+  <DankPyon_Linen.label>Leinen</DankPyon_Linen.label>
+  <DankPyon_Linen.description>Ein elastischer Stoff aus getrockneten Flachsfasern.</DankPyon_Linen.description>
+  <DankPyon_Silk.label>Seide</DankPyon_Silk.label>
+  <DankPyon_Silk.description>Ein weiches und Luxuriöses Gewebe das meist nur für Noble Gewändert benutzt wird.</DankPyon_Silk.description>
+  
+  <!--============================== Gemstones ==============================-->
+  <!--=============== Citrine ====================-->
+  <DankPyon_Citrine.label>Citrin</DankPyon_Citrine.label>
+  <DankPyon_Citrine.description>Der blassgelbe Quarz, auch Citrin genannt, gehört zu den Kristallen mit dem niedrigsten Wert. Die Verzierung von Schmuck mit diesem Edelstein erhöht den Wohlstand, wenn auch in geringerem Maße als bei wertvolleren Edelsteinen.</DankPyon_Citrine.description>
+  
+  <!--=============== Amber ====================-->
+  <DankPyon_Amber.label>Bernstein</DankPyon_Amber.label>
+  <DankPyon_Amber.description>Ein gehärteter Edelstein aus versteinertem Baumharz. Es wird wegen seines natürlichen gelb-orangen Farbtons bewundert und oft für Ornamente und Dekorationen verwendet. Allerdings ist es zu weich, um für Waffen verwendet zu werden..</DankPyon_Amber.description>
+  
+  <!--=============== Onyx ====================-->
+  <DankPyon_Onyx.label>Onyx</DankPyon_Onyx.label>
+  <DankPyon_Onyx.description>Dieses schwarz-weiße Mineral wechselt seine Farben in parallelen Bändern ab, manchmal in Harmonie und manchmal in Unordnung. Die chaotischen Farben werten diesen Edelstein jedoch nicht ab, sondern erhöhen seinen Reichtum, vor allem bei Schnitzereien und Schmuckstücken.</DankPyon_Onyx.description>
+  
+  <!--=============== Emerald ====================-->
+  <DankPyon_Emerald.label>Emerald</DankPyon_Emerald.label>
+  <DankPyon_Emerald.description>Ein widerstandsfähiger Edelstein mit überwiegend grünem Farbton. Der Wert, den dieser Kristall mit sich bringt, wertet jedes Ornament auf, sei es ein Edelstein auf einem Schwertgriff oder eine Verzierung in einem Ring.</DankPyon_Emerald.description>
+  
+  <!--=============== Sapphire ====================-->
+  <DankPyon_Sapphire.label>Saphir</DankPyon_Sapphire.label>
+  <DankPyon_Sapphire.description>Einer der wertvollsten und begehrtesten Edelsteine aufgrund seiner kristallinen Facetten. Sein blauer Farbton und sein Schimmer machen ihn zu einem ästhetischen Schmuckstück, aber er ist auch wertvoll genug, um die Aufmerksamkeit von gefährlichen Landstreichern auf sich zu ziehen.</DankPyon_Sapphire.description>
+  
+  <!--=============== Ruby ====================-->
+  <DankPyon_Ruby.label>Rubin</DankPyon_Ruby.label>
+  <DankPyon_Ruby.description>Der begehrteste Edelstein mit einer Farbe, die so blutig ist wie die Opfer, die Menschen bringen, um ihn zu erhalten. Kulturen in allen Ländern fühlen sich von dem ästhetisch reichen Edelstein angezogen, der für den Handel, die Schmuckherstellung und sogar für Ausstellungen verwendet wird.</DankPyon_Ruby.description>
+
+</LanguageData>

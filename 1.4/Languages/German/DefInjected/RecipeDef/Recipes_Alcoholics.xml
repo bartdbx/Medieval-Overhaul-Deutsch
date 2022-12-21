@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_Make_MincedApple.label>Apfelhack machen</DankPyon_Make_MincedApple.label>
+  <DankPyon_Make_MincedApple.description>Apfelhack erstellen.</DankPyon_Make_MincedApple.description>
+  <DankPyon_Make_MincedApple.jobString>macht Apfelhack.</DankPyon_Make_MincedApple.jobString>
+  <DankPyon_Make_JuiceAppleUnfermented.label>Apfelsaft fermentieren</DankPyon_Make_JuiceAppleUnfermented.label>
+  <DankPyon_Make_JuiceAppleUnfermented.description>Apfelsaft fermentieren.</DankPyon_Make_JuiceAppleUnfermented.description>
+  <DankPyon_Make_JuiceAppleUnfermented.jobString>Fermentiert Apfelsaft.</DankPyon_Make_JuiceAppleUnfermented.jobString>
+  <DankPyon_Make_WortAle.label>Bierwürze machen</DankPyon_Make_WortAle.label>
+  <DankPyon_Make_WortAle.description>Machen Sie Bierwürze, indem Sie Hopfen kochen.</DankPyon_Make_WortAle.description>
+  <DankPyon_Make_WortAle.jobString>macht Bierwürze.</DankPyon_Make_WortAle.jobString>
+  <DankPyon_MakeMustWine.label>Traubenmost machen</DankPyon_MakeMustWine.label>
+  <DankPyon_MakeMustWine.description>Traubenmost herstellen, indem man Trauben zerdrückt. Muss fermentiert werden, um Wein zu werden.</DankPyon_MakeMustWine.description>
+  <DankPyon_MakeMustWine.jobString>macht Traubenmost.</DankPyon_MakeMustWine.jobString>
+</LanguageData>

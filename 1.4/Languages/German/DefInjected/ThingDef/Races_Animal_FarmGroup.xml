@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!--========== Pigs ==========-->
+  <DankPyon_Hampshire.label>Hampshire</DankPyon_Hampshire.label>
+  <DankPyon_Hampshire.description>Hampshires sind eine robuste Schweinerasse und werden in der Regel wegen ihres mageren Fleisches und ihres Geschmacks gezüchtet. Sie sind eine effiziente Fleischquelle und leicht zu füttern, da sie fast alles fressen.</DankPyon_Hampshire.description>
+  <DankPyon_Hampshire.tools.1.label>Kopf</DankPyon_Hampshire.tools.1.label>
+  <DankPyon_Gloucestershire.label>Gloucestershire</DankPyon_Gloucestershire.label>
+  <DankPyon_Gloucestershire.description>Gloucestershires gedeihen auf Weiden, sie sind ausgezeichnete Futtersucher und Weidegänger, was sie für ihre Fleischqualität bekannt macht. Sie sind eine effiziente Fleischquelle und leicht zu füttern, da sie fast alles fressen.</DankPyon_Gloucestershire.description>
+  <DankPyon_Gloucestershire.tools.1.label>Kopf</DankPyon_Gloucestershire.tools.1.label>
+  <DankPyon_NorthernBoar.label>Nordschwein</DankPyon_NorthernBoar.label>
+  <DankPyon_NorthernBoar.description>Dieser haarige Allesfresser stammt von entlaufenen Schweinen ab und hat sich für das Leben in den nördlichen Wäldern entwickelt. Seine Hauer machen ihn zu einem besseren Kämpfer als seine Vettern, die Hausschweine. Leider ist es zu widerspenstig, um für die komplexesten Aufgaben ausgebildet zu werden.</DankPyon_NorthernBoar.description>
+  <DankPyon_NorthernBoar.tools.0.label>Stoßzahn</DankPyon_NorthernBoar.tools.0.label>
+  <DankPyon_NorthernBoar.tools.2.label>Kopf</DankPyon_NorthernBoar.tools.2.label>
+  
+  <!--========== Cows ==========-->
+  <DankPyon_Ravelder.label>Ravelder</DankPyon_Ravelder.label>
+  <DankPyon_Ravelder.description>Kühe sind große domestizierte Huftiere, die seit Jahrtausenden gezüchtet werden, um große Mengen an Milch, Fleisch und Leder zu produzieren. Sie sind außergewöhnlich sanftmütige Geschöpfe und werden sich niemals rächen, egal wie oft sie verletzt werden. Die meisten Kühe sind so sehr an das Leben auf dem Bauernhof angepasst, dass sie in freier Wildbahn nicht überleben können.</DankPyon_Ravelder.description>
+  <DankPyon_Ravelder.tools.1.label>Kopf</DankPyon_Ravelder.tools.1.label>
+  <DankPyon_Angus.label>Angus</DankPyon_Angus.label>
+  <DankPyon_Angus.description>Angus sind große, domestizierte Huftiere, die besser marmoriert sind als eine typische Kuh und gezüchtet werden, um große Mengen an Milch, Fleisch und Leder zu produzieren. Sie sind außerordentlich sanftmütige Tiere und werden sich niemals rächen, egal wie oft sie verletzt werden. Die meisten von ihnen sind so sehr an das Leben in der Landwirtschaft angepasst, dass sie in freier Wildbahn nicht überleben können.</DankPyon_Angus.description>
+  <DankPyon_Angus.tools.1.label>Kopf</DankPyon_Angus.tools.1.label>
+  <DankPyon_Angus.tools.2.label>linke Hufe</DankPyon_Angus.tools.2.label>
+  <DankPyon_Angus.tools.3.label>rechte Hufe</DankPyon_Angus.tools.3.label>
+
+</LanguageData>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!--===== Hide =====-->
+  <!--===== Market Value = 2 =====-->
+  <DankPyon_Hide_HideTiny.label>winzige Haut</DankPyon_Hide_HideTiny.label>
+  <DankPyon_Hide_HideSmall.label>kleine Haut</DankPyon_Hide_HideSmall.label>
+  <DankPyon_Hide_HideMedium.label>medium Haut</DankPyon_Hide_HideMedium.label>
+  <DankPyon_Hide_HideLarge.label>große Haut</DankPyon_Hide_HideLarge.label>
+  <DankPyon_Hide_HideHuge.label>riesige Haut</DankPyon_Hide_HideHuge.label>
+  
+  <!--===== Thick Hide =====-->
+  <!--===== Market Value = 3 =====-->
+  <DankPyon_Hide_ThickHideTiny.label>winziges Leder</DankPyon_Hide_ThickHideTiny.label>
+  <DankPyon_Hide_ThickHideSmall.label>kleines Leder</DankPyon_Hide_ThickHideSmall.label>
+  <DankPyon_Hide_ThickHideMedium.label>medium Leder</DankPyon_Hide_ThickHideMedium.label>
+  <DankPyon_Hide_ThickHideLarge.label>großes Leder</DankPyon_Hide_ThickHideLarge.label>
+  <DankPyon_Hide_ThickHideHuge.label>riesiges Leder</DankPyon_Hide_ThickHideHuge.label>
+  
+  <!--===== Pelt =====-->
+  <!--===== Market Value = 2.75 =====-->
+  <DankPyon_Hide_SoftPeltTiny.label>winziges Fell</DankPyon_Hide_SoftPeltTiny.label>
+  <DankPyon_Hide_SoftPeltSmall.label>kleines Fell</DankPyon_Hide_SoftPeltSmall.label>
+  <DankPyon_Hide_SoftPeltMedium.label>medium Fell</DankPyon_Hide_SoftPeltMedium.label>
+  <DankPyon_Hide_SoftPeltLarge.label>großes Fell</DankPyon_Hide_SoftPeltLarge.label>
+  <DankPyon_Hide_SoftPeltHuge.label>riesiges Fell</DankPyon_Hide_SoftPeltHuge.label>
+  
+  <!--===== Heavy Pelt =====-->
+  <!--===== Market Value = 2.3 =====-->
+  <DankPyon_Hide_HeavyPeltTiny.label>winziger Pelz</DankPyon_Hide_HeavyPeltTiny.label>
+  <DankPyon_Hide_HeavyPeltSmall.label>kleiner Pelz</DankPyon_Hide_HeavyPeltSmall.label>
+  <DankPyon_Hide_HeavyPeltMedium.label>medium Pelz</DankPyon_Hide_HeavyPeltMedium.label>
+  <DankPyon_Hide_HeavyPeltLarge.label>großer Pelz</DankPyon_Hide_HeavyPeltLarge.label>
+  <DankPyon_Hide_HeavyPeltHuge.label>riesiger Pelz</DankPyon_Hide_HeavyPeltHuge.label>
+  
+  <!--===== Scale =====-->
+  <!--===== Market Value = 2.5 =====-->
+  <DankPyon_Hide_ScaleTiny.label>winzige Schuppenhaut</DankPyon_Hide_ScaleTiny.label>
+  <DankPyon_Hide_ScaleSmall.label>kleine Schuppenhaut</DankPyon_Hide_ScaleSmall.label>
+  <DankPyon_Hide_ScaleMedium.label>medium Schuppenhaut</DankPyon_Hide_ScaleMedium.label>
+  <DankPyon_Hide_ScaleLarge.label>große Schuppenhaut</DankPyon_Hide_ScaleLarge.label>
+  <DankPyon_Hide_ScaleHuge.label>riesige Schuppenhaut</DankPyon_Hide_ScaleHuge.label>
+  
+  <!--===== Thick Scale =====-->
+  <!--===== Market Value = 3 =====-->
+  <DankPyon_Hide_ThickScaleTiny.label>winziges Schuppenleder</DankPyon_Hide_ThickScaleTiny.label>
+  <DankPyon_Hide_ThickScaleSmall.label>kleines Schuppenleder</DankPyon_Hide_ThickScaleSmall.label>
+  <DankPyon_Hide_ThickScaleMedium.label>medium Schuppenleder</DankPyon_Hide_ThickScaleMedium.label>
+  <DankPyon_Hide_ThickScaleLarge.label>großes Schuppenleder</DankPyon_Hide_ThickScaleLarge.label>
+  <DankPyon_Hide_ThickScaleHuge.label>riesiges Schuppenleder</DankPyon_Hide_ThickScaleHuge.label>
+  
+  <!--===== Bird =====-->
+  <!--===== Market Value = 2 =====-->
+  <DankPyon_Hide_BirdTiny.label>winzige Vogelhaut</DankPyon_Hide_BirdTiny.label>
+  <DankPyon_Hide_BirdSmall.label>kleine Vogelhaut</DankPyon_Hide_BirdSmall.label>
+  <DankPyon_Hide_BirdMedium.label>medium Vogelhaut</DankPyon_Hide_BirdMedium.label>
+  <DankPyon_Hide_BirdLarge.label>große Vogelhaut</DankPyon_Hide_BirdLarge.label>
+  <DankPyon_Hide_BirdHuge.label>riesige Vogelhaut</DankPyon_Hide_BirdHuge.label>
+  
+  <!--===== Unique =====-->
+  <DankPyon_Hide_Hyena.label>großes Hyänenfell</DankPyon_Hide_Hyena.label>
+  <DankPyon_Hide_WolfDirewolf.label>riesiges Schattenwolffell</DankPyon_Hide_WolfDirewolf.label>
+  <DankPyon_Hide_WolfTimber.label>großes Timberwolffell</DankPyon_Hide_WolfTimber.label>
+  <DankPyon_Hide_WolfArctic.label>großes Polarwolffell</DankPyon_Hide_WolfArctic.label>
+  <DankPyon_Hide_Cougar.label>großes Pumarfell</DankPyon_Hide_Cougar.label>
+  <DankPyon_Hide_Panther.label>großes Pantherfell</DankPyon_Hide_Panther.label>
+  <DankPyon_Hide_Muffalo.label>riesiges Muffalofell</DankPyon_Hide_Muffalo.label>
+  <DankPyon_Hide_Bison.label>riesiges Bisonfell</DankPyon_Hide_Bison.label>
+  <DankPyon_Hide_DireBoar.label>riesiges Wildschweinfell</DankPyon_Hide_DireBoar.label>
+  <DankPyon_Hide_BearGrizzly.label>riesiges Grizzlybärfell</DankPyon_Hide_BearGrizzly.label>
+  <DankPyon_Hide_BearPolar.label>riesiges Eisbärfell</DankPyon_Hide_BearPolar.label>
+  <DankPyon_Hide_Rhinoceros.label>riesige Nashornhaut</DankPyon_Hide_Rhinoceros.label>
+  <DankPyon_Hide_Megasloth.label>riesiges Megafaultierfell</DankPyon_Hide_Megasloth.label>
+  <DankPyon_Hide_Elephant.label>riesige Elefantenhaut</DankPyon_Hide_Elephant.label>
+  <DankPyon_Hide_Rox.label>riesiges Roxfell</DankPyon_Hide_Rox.label>
+  <DankPyon_Hide_GiantConstrictor.label>riesige Boahaut</DankPyon_Hide_GiantConstrictor.label>
+  <DankPyon_Hide_Daer.label>riesiger Daerpelz</DankPyon_Hide_Daer.label>
+  <DankPyon_Hide_Lindwurm.label>riesige Lindwurmschuppe</DankPyon_Hide_Lindwurm.label>
+  <DankPyon_Hide_Thrumbo.label>riesiges Trumbofell</DankPyon_Hide_Thrumbo.label>
+  <DankPyon_Hide_Human.label>Menschenhaut</DankPyon_Hide_Human.label>
+  <DankPyon_Leather_Rawhide.label>Patchleder</DankPyon_Leather_Rawhide.label>
+  <DankPyon_Leather_Rawhide.description>Ein schwaches Textil, das durch Zerschneiden und Zusammennähen verschiedener Lederarten entsteht. Unabhängig von der verwendeten Lederart ist Patchleder durch seine unregelmäßigen Nähte weniger widerstandsfähig und weniger isolierend als jedes intakte Leder.</DankPyon_Leather_Rawhide.description>
+
+</LanguageData>

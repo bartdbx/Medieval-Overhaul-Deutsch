@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_Lumber.label>Bretter</DankPyon_Lumber.label>
+  <DankPyon_Lumber.description>Verarbeite Holz zu Bretter um schönere Gebäude zu Errichten.</DankPyon_Lumber.description>
+  <DankPyon_RusticFurniture.label>Rustikale Möbel</DankPyon_RusticFurniture.label>
+  <DankPyon_RusticFurniture.description>Baue einfache rustikale Möbel wie Heubetten, Beistelltische, Kommoden und mehr.</DankPyon_RusticFurniture.description>
+  <DankPyon_RoyalRusticFurniture.label>Kaiserliche Architektur</DankPyon_RoyalRusticFurniture.label>
+  <DankPyon_RoyalRusticFurniture.description>Konstruieren Sie elegante und luxuriöse Möbel, die mit Gold geschmückt sind, die für Adlige angemessen sind.</DankPyon_RoyalRusticFurniture.description>
+  <DankPyon_RusticStorage.label>Rustikale Lagerung</DankPyon_RusticStorage.label>
+  <DankPyon_RusticStorage.description>Erstellen Sie Gebäude, in denen Sie Gegenstände effizienter lagern können, um Platz zu sparen.</DankPyon_RusticStorage.description>
+  <DankPyon_CarrierBirds.label>Postvögel</DankPyon_CarrierBirds.label>
+  <DankPyon_CarrierBirds.description>Trainiere Vögel, um Nachrichten zu überbringen, die es dir ermöglichen, mit anderen Fraktionen zu kommunizieren.</DankPyon_CarrierBirds.description>
+  <DankPyon_LeatherTanning.label>Ledergerbung</DankPyon_LeatherTanning.label>
+  <DankPyon_LeatherTanning.description>Lernen Sie, wie Sie rohe Tierfelle zu Leder verarbeiten.</DankPyon_LeatherTanning.description>
+  <DankPyon_TextileSpinning.label>Textilspinnen</DankPyon_TextileSpinning.label>
+  <DankPyon_TextileSpinning.description>Lerne, wie man Baumwolle anpflanzt, erntet und verspinnt, um Kleidung zu schneidern.</DankPyon_TextileSpinning.description>
+
+  <DankPyon_Silk.label>Seide</DankPyon_Silk.label>
+  <DankPyon_Silk.description>Ernten von feinem Fadenmaterial von Seidenraupen</DankPyon_Silk.description>
+  <DankPyon_CandleMaking.label>Kerzenerstellung</DankPyon_CandleMaking.label>
+  <DankPyon_CandleMaking.description>Machen Sie Kerzen, um Ihre Kolonie zu erhellen und schöne Kronleuchter zu bauen</DankPyon_CandleMaking.description>
+  <DankPyon_Presser.label>Presser</DankPyon_Presser.label>
+  <DankPyon_Presser.description>Bauen Sie eine Pressmaschine, um die Säfte aus Früchten oder Molke aus Quark zu pressen.</DankPyon_Presser.description>
+  <DankPyon_Jewelry.label>Schmuck</DankPyon_Jewelry.label>
+  <DankPyon_Jewelry.description>Wertvolle Juwelen zu tragbaren Accessoires veredeln.</DankPyon_Jewelry.description>
+
+  <!-- Engineering -->
+  <DankPyon_Engineering.label>Ingenieurwesen</DankPyon_Engineering.label>
+  <DankPyon_Engineering.description>Erforsche, wie man grundlegende Komponenten herstellt, um komplexe Apparate zu bauen</DankPyon_Engineering.description>
+  <DankPyon_Mining.label>Bergbau</DankPyon_Mining.label>
+  <DankPyon_Mining.description>Lernen Sie Sicherheitsvorkehrungen und den richtigen Weg, um einen Minenschacht zu bauen, um Ressourcen und Steine abzubauen.</DankPyon_Mining.description>
+  <DankPyon_Windmill.label>Windmühle</DankPyon_Windmill.label>
+  <DankPyon_Windmill.description>Nutzen Sie die Kraft des Windes, um das Mahlen von weizenähnlichen Produkten zu automatisieren.</DankPyon_Windmill.description>
+  <DankPyon_Crossbow.label>Armbrust</DankPyon_Crossbow.label>
+  <DankPyon_Crossbow.description>Einen mechanisch kompakten Bogen herstellen. Erfordert weniger Geschick, aber langes Nachladen.</DankPyon_Crossbow.description>
+  <DankPyon_HeavyCrossbow.label>Arbalest</DankPyon_HeavyCrossbow.label>
+  <DankPyon_HeavyCrossbow.description>Stelle eine schwerere Version der Armbrust her, um deine Feinde zu dezimieren.</DankPyon_HeavyCrossbow.description>
+  <DankPyon_Ballista.label>Ballista</DankPyon_Ballista.label>
+  <DankPyon_Ballista.description>Erforsche, wie man eine riesige Ballista baut. Feuert riesige Ballista-Bolzen mit mittlerer Feuerrate ab.</DankPyon_Ballista.description>
+  <DankPyon_Trebuchet.label>Trebuchet</DankPyon_Trebuchet.label>
+  <DankPyon_Trebuchet.description>Erforsche, wie man ein riesiges Trebuchet (Katapult) baut. Mächtig und tödlich, aber das Nachladen dauert lange.</DankPyon_Trebuchet.description>
+  <DankPyon_RepeaterBallista.label>Ballista Rep.</DankPyon_RepeaterBallista.label>
+  <DankPyon_RepeaterBallista.description>Erforsche, wie man eine riesige Ballista Repeater baut. Feuert kraftvolle, tödliche Salven aber es dauert lange um nachzuladen.</DankPyon_RepeaterBallista.description>
+
+  <!-- Alchemy -->
+  <DankPyon_Alchemy.label>Alchemie</DankPyon_Alchemy.label>
+  <DankPyon_Alchemy.description>WIP. Forschung, um einen erweiterten Forschungstisch zu erhalten</DankPyon_Alchemy.description>
+  <DankPyon_Steel.label>Stahl</DankPyon_Steel.label>
+  <DankPyon_Steel.description>Entdecken Sie die Grundlagen der Metallurgie und stellen Sie Stahl her</DankPyon_Steel.description>
+  <DankPyon_Tar.label>Teer</DankPyon_Tar.label>
+  <DankPyon_Tar.description>Entdecke wie man Teer herstellt</DankPyon_Tar.description>
+  <DankPyon_Gunpowder.label>Schießpulver</DankPyon_Gunpowder.label>
+  <DankPyon_Gunpowder.description>Entdecken Sie die perfekte Formel für die Verwendung von Schießpulver in der Waffentechnik</DankPyon_Gunpowder.description>
+
+  <!-- Alcoholics -->
+  <!--
+  <DankPyon_Brewing.label>Rustikales Brauen</DankPyon_Brewing.label>
+  <DankPyon_Brewing.description>Erforsche die Grundlagen des Brauens und lerne, wie man einfache Alkoholika oder Gebräue herstellt.</DankPyon_Brewing.description>
+  <DankPyon_BrewingCider.label>Apfelwein</DankPyon_BrewingCider.label>
+  <DankPyon_BrewingCider.description>Fermentierter Apfelsaft, fruhitg und frisch.</DankPyon_BrewingCider.description>
+  <DankPyon_BrewingAle.label>Bier</DankPyon_BrewingAle.label>
+  <DankPyon_BrewingAle.description>Bier wird aus fermentierten gemälzten Körnern hergestellt. Verleiht einen fruchtigen und reichen Geschmack.</DankPyon_BrewingAle.description>
+  <DankPyon_BrewingWine.label>Wein</DankPyon_BrewingWine.label>
+  <DankPyon_BrewingWine.description>Wein wird aus vergorenen gepressten Trauben hergestellt. Ein Getränk, das Adel symbolisiert.</DankPyon_BrewingWine.description>
+  -->
+  <!-- Apparel -->
+  <DankPyon_Tailoring.label>Schneiderei</DankPyon_Tailoring.label>
+  <DankPyon_Tailoring.description>Erfahren Sie, wie Sie Alltagskleidung nähen, die für die Zivilbevölkerung geeignet ist.</DankPyon_Tailoring.description>
+  <DankPyon_ProtectiveClothing.label>Schutzkleidung</DankPyon_ProtectiveClothing.label>
+  <DankPyon_ProtectiveClothing.description>Erfahren Sie, wie Sie gepolsterte Kleidung nähen, um einen besseren Schutz vor physischen Bedrohungen zu gewährleisten.</DankPyon_ProtectiveClothing.description>
+  <DankPyon_ChainArmor.label>Kettenrüstung</DankPyon_ChainArmor.label>
+  <DankPyon_ChainArmor.description>Erlernen Sie die Techniken, kleine Kettenstücke zu verbinden, um beeindruckende Kettenhemd-Rüstungen zu schmieden.</DankPyon_ChainArmor.description>
+  
+  <!-- Ranged Weapons -->
+  <DankPyon_HuntingBow.label>Jagdbogen</DankPyon_HuntingBow.label>
+  <DankPyon_HuntingBow.description>Bauen Sie Jagdbögen, einen starken Bogen, der zur besseren Jagd von Wild verwendet wird.</DankPyon_HuntingBow.description>
+  <DankPyon_WarBow.label>Kriegsbogen</DankPyon_WarBow.label>
+  <DankPyon_WarBow.description>Stelle den ultimativen Langbogen her, der besonders auf große Distanz gefährlich ist</DankPyon_WarBow.description>
+  
+  <!-- Melee Weapons -->
+  <!--
+  <DankPyon_BasicSpears.label>Einfache Speere</DankPyon_BasicSpears.label>
+  <DankPyon_BasicSpears.description>Lerne, wie man einfache Speere herstellt.</DankPyon_BasicSpears.description>
+  <DankPyon_MilitarySpears.label>Militärische Speere</DankPyon_MilitarySpears.label>
+  <DankPyon_MilitarySpears.description>Lerne, wie man Speere für den Kampf herstellt.</DankPyon_MilitarySpears.description>
+  <DankPyon_NobleSpears.label>Edle Speere</DankPyon_NobleSpears.label>
+  <DankPyon_NobleSpears.description>Lernen Sie, stärkere und bessere Speere herzustellen, die auch für einen Adligen geeignet sind.</DankPyon_NobleSpears.description>
+  -->
+  <DankPyon_BasicPolearms.label>Einfache Stangenwaffen</DankPyon_BasicPolearms.label>
+  <DankPyon_BasicPolearms.description>Lerne, wie man einfache Stangenwaffen herstellt.</DankPyon_BasicPolearms.description>
+  <DankPyon_MilitaryPolearms.label>Militärische Stangenwaffen</DankPyon_MilitaryPolearms.label>
+  <DankPyon_MilitaryPolearms.description>Lerne, wie man militärische Stangenwaffen herstellt.</DankPyon_MilitaryPolearms.description>
+  <DankPyon_NoblePolearms.label>Edle Stangenwaffen</DankPyon_NoblePolearms.label>
+  <DankPyon_NoblePolearms.description>WIP. Lerne, wie man edle Stangenwaffen herstellt.</DankPyon_NoblePolearms.description>
+  <DankPyon_BasicMaces.label>Einfache Streitkolben</DankPyon_BasicMaces.label>
+  <DankPyon_BasicMaces.description>Lerne, wie man einfache Streitkolben herstellt</DankPyon_BasicMaces.description>
+  <DankPyon_MilitaryMaces.label>Militärische Streitkolben</DankPyon_MilitaryMaces.label>
+  <DankPyon_MilitaryMaces.description>Lerne, wie man Streitkolben herstellt, die für den Kampf entwickelt wurden</DankPyon_MilitaryMaces.description>
+  <DankPyon_NobleMaces.label>Edle Streitkolben</DankPyon_NobleMaces.label>
+  <DankPyon_NobleMaces.description>Erfahren Sie, wie Sie stärkere und bessere Streitkolben herstellen, die auch für einen Adligen geeignet sind.</DankPyon_NobleMaces.description>
+  <DankPyon_BasicBlades.label>Einfache Klingen</DankPyon_BasicBlades.label>
+  <DankPyon_BasicBlades.description>Lerne einfache Klingen herzustellen.</DankPyon_BasicBlades.description>
+  <DankPyon_MilitaryBlades.label>Militärklingen</DankPyon_MilitaryBlades.label>
+  <DankPyon_MilitaryBlades.description>Lerne Kampfschwerter herzustellen.</DankPyon_MilitaryBlades.description>
+  <!--
+  <DankPyon_BasicHammers.label>Einfache Hammer</DankPyon_BasicHammers.label>
+  <DankPyon_BasicHammers.description>Lerne, wie man einfache Hämmer herstellt</DankPyon_BasicHammers.description>
+  <DankPyon_MilitaryHammers.label>Militärische Hämmer</DankPyon_MilitaryHammers.label>
+  <DankPyon_MilitaryHammers.description>Erfahren Sie, wie man Militärhämmer schmiedet</DankPyon_MilitaryHammers.description>
+  <DankPyon_NobleHammers.label>Edle Hämmer</DankPyon_NobleHammers.label>
+  <DankPyon_NobleHammers.description>Lerne wie man bessere Hämmer herstellt, die auch für Adelige geeignet sind.</DankPyon_NobleHammers.description>
+  <DankPyon_BasicAxes.label>Einfache Äxte</DankPyon_BasicAxes.label>
+  <DankPyon_BasicAxes.description>Lerne, wie man einfache Äxte herstellt.</DankPyon_BasicAxes.description>
+  <DankPyon_MilitaryAxes.label>Militärische Äxte</DankPyon_MilitaryAxes.label>
+  <DankPyon_MilitaryAxes.description>Lerne, wie man Äxte für den Kampf herstellt.</DankPyon_MilitaryAxes.description>
+  <DankPyon_NobleAxes.label>Noble Äxte</DankPyon_NobleAxes.label>
+  <DankPyon_NobleAxes.description>Lernen Sie, stärkere und bessere Äxte herzustellen, die für einen Adligen geeignet sind.</DankPyon_NobleAxes.description>
+  <DankPyon_BasicCleavers.label>Einfache Faustkeile</DankPyon_BasicCleavers.label>
+  <DankPyon_BasicCleavers.description>WIP. Lerne, wie man grundlegende Faustkeile herstellt.</DankPyon_BasicCleavers.description>
+  <DankPyon_MilitaryCleavers.label>Militärische Faustkeile</DankPyon_MilitaryCleavers.label>
+  <DankPyon_MilitaryCleavers.description>WIP. Lerne, wie man militärische Faustkeile herstellt.</DankPyon_MilitaryCleavers.description>
+  <DankPyon_NobleCleavers.label>Edle Faustkeile</DankPyon_NobleCleavers.label>
+  <DankPyon_NobleCleavers.description>WIP. Lerne, wie man bessere Faustkeile herstellt.</DankPyon_NobleCleavers.description>
+  <DankPyon_BasicSwords.label>Einfache Schwerter</DankPyon_BasicSwords.label>
+  <DankPyon_BasicSwords.description>Lerne, wie man grundlegende Schwerter herstellt</DankPyon_BasicSwords.description>
+  <DankPyon_MilitarySwords.label>Militärische Schwerter</DankPyon_MilitarySwords.label>
+  <DankPyon_MilitarySwords.description>Lerne, wie man Schwerter für den Kampf herstellt</DankPyon_MilitarySwords.description>
+  <DankPyon_NobleSwords.label>Edle Schwerter</DankPyon_NobleSwords.label>
+  <DankPyon_NobleSwords.description>Lernen Sie, stärkere und bessere Schwerter herzustellen, die für einen Adligen geeignet sind.</DankPyon_NobleSwords.description>
+  -->
+  <!-- Agriculture -->
+  <!--
+  <DankPyon_FruitTreeSowing.label>Aussaat von Obstbäumen</DankPyon_FruitTreeSowing.label>
+  <DankPyon_FruitTreeSowing.description>Erforsche, wie man Obstbäume sät</DankPyon_FruitTreeSowing.description>
+  -->
+  <DankPyon_BasicAgriculture.label>Grundlegende Landwirtschaft</DankPyon_BasicAgriculture.label>
+  <DankPyon_BasicAgriculture.description>Erforsche, wie man einfache Pflanzen sät</DankPyon_BasicAgriculture.description>
+  <DankPyon_IntermediateAgriculture.label>Verbesserte Landwirtschaft</DankPyon_IntermediateAgriculture.label>
+  <DankPyon_IntermediateAgriculture.description>Erforsche, wie man bessere Pflanzen sät</DankPyon_IntermediateAgriculture.description>
+  <DankPyon_AdvancedAgriculture.label>Fortschrittliche Landwirtschaft</DankPyon_AdvancedAgriculture.label>
+  <DankPyon_AdvancedAgriculture.description>Erforsche, wie man fortschrittliche Pflanzen sät</DankPyon_AdvancedAgriculture.description>
+  <DankPyon_TreeGriffonBerry.label>Greifenbeeren</DankPyon_TreeGriffonBerry.label>
+  <DankPyon_TreeGriffonBerry.description>Eine seltene üppige Frucht, die auf kleinen Bäumen wächst. Die rote Frucht ist laut ihrem Vornamen eine Delikatesse für Greifen und wird normalerweise von ihnen bewacht.</DankPyon_TreeGriffonBerry.description>
+  
+  <!-- Cooking -->
+  <DankPyon_BasicCooking.label>Einfaches Kochen</DankPyon_BasicCooking.label>
+  <DankPyon_BasicCooking.description>Lernen Sie Grundrezepte von Gerichten zu kochen.</DankPyon_BasicCooking.description>
+  <DankPyon_IntermediateCooking.label>Besseres Kochen</DankPyon_IntermediateCooking.label>
+  <DankPyon_IntermediateCooking.description>Lerne bessere Gerichte zu kochen.</DankPyon_IntermediateCooking.description>
+  <DankPyon_AdvancedCooking.label>Fortschrittliches Kochen</DankPyon_AdvancedCooking.label>
+  <DankPyon_AdvancedCooking.description>Lerne fortschrittliche Gerichte zu meistern.</DankPyon_AdvancedCooking.description>
+  
+  <!-- Food Preservation -->
+  <DankPyon_Smoker.label>Räucherei</DankPyon_Smoker.label>
+  <DankPyon_Smoker.description>Erfahren Sie, wie Sie frisches Fleisch in getrocknete Dörrfleischscheiben räuchern, um die Haltbarkeit zu verlängern und den Mahlzeiten rustikale Aromen zu verleihen.</DankPyon_Smoker.description>
+
+  <!-- Food Production Tables -->
+  <DankPyon_Grill.label>Grill</DankPyon_Grill.label>
+  <DankPyon_Grill.description>Erfahren Sie, wie Sie Fleisch auf offener Flamme grillen, wie z. B. gegrillte Würstchen und gegrilltes Fleisch.</DankPyon_Grill.description>
+  <DankPyon_StewPot.label>Aufläufe</DankPyon_StewPot.label>
+  <DankPyon_StewPot.description>Erfahren Sie, wie Sie herzhafte und nahrhafte Eintöpfe wie Kürbis- und Linsensuppen zubereiten</DankPyon_StewPot.description>
+  <DankPyon_Oven.label>Backen</DankPyon_Oven.label>
+  <DankPyon_Oven.description>Lernen Sie, wie Sie Mahlzeiten wie Brot oder sogar luxuriöse Desserts wie Apfelkuchen backen.</DankPyon_Oven.description>
+  <DankPyon_AdornedArmor.label>Verzierte Rüstung</DankPyon_AdornedArmor.label>
+  <DankPyon_AdornedArmor.description>Verzierte Rüstung</DankPyon_AdornedArmor.description>
+
+  <!-- Für den Patch 20221212 benötigt -->
+  <LongBlades.label>Edle Klingen</LongBlades.label>
+  <LongBlades.description>Lerne wie man stärkere und bessere Klingen Schmiedet, die zu einem Edlen passen.</LongBlades.description>
+  <PlateArmor.label>Plattenrüstung</PlateArmor.label>
+  <PlateArmor.description>Lerne die Techniken wie man richtig Schmiedet und Metallplatten bearbeitet um teuere Plattenrüstungen herzustellen</PlateArmor.description>
+  <Stonecutting.label>Steinverarbeitung</Stonecutting.label>
+  <Stonecutting.description>Schneide Felsbrocken zu handlichen Steinblöcke und damit zu Bauen oder verziere damit einen Steinboden oder hässlichen Betonweg.</Stonecutting.description>
+  <Brewing.label>Brauen</Brewing.label>
+  <Brewing.description>Erforsche die Kunst des Brauen und wie man einfache alkoholische Getränke herstellt.</Brewing.description>
+  <RecurveBow.label>Recurvebogen</RecurveBow.label>
+  <RecurveBow.description>Baue den Recurvebogen, eine effektive und güstige Fernwaffe.</RecurveBow.description>
+  <Greatbow.label>Großbogen</Greatbow.label>
+  <Greatbow.description>Baue einen Großbogen um Feinde aus der Ferne zu Bekämpfen.</Greatbow.description>
+  <!--
+  <NobleApparel.label>Edle Kleidung</NobleApparel.label>
+  <NobleApparel.description>Schneidere Edle Gewänder wie Formalhemden und Edele Roben.</NobleApparel.description>
+  <RoyalApparel.label>Königliche Kleidung</RoyalApparel.label>
+  <RoyalApparel.description>Stelle Königliche Gewänder der höchsten Stufe her, wie etwa Königliche Roben und Kronen.</RoyalApparel.description>
+  <Harpsichord.label>Cembalo</Harpsichord.label>
+  <Harpsichord.description>Baue ein Cembalo, einem kleinen Flügel ähnliches Musikinstrument.</Harpsichord.description>
+  <Piano.label>Piano</Piano.label>
+  <Piano.description>Baue ein Piano, ein komplexes Musikinstrument.</Piano.description>
+  -->
+</LanguageData>

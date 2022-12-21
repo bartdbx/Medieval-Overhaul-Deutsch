@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_Shield.label>Rundschild</DankPyon_Shield.label>
+  <DankPyon_Shield.description>Ein runder Schild, der eine gute Deckung und Schutz gegen physische Schläge bietet.</DankPyon_Shield.description>
+  <DankPyon_ShieldKite.label>Drachenschild</DankPyon_ShieldKite.label>
+  <DankPyon_ShieldKite.description>Ein länglicher Schild, der einen großen Schutzbereich bietet. Etwas sperrig für den Nahkampf.</DankPyon_ShieldKite.description>
+  <DankPyon_ShieldHeater.label>Hitzeschild</DankPyon_ShieldHeater.label>
+  <DankPyon_ShieldHeater.description>Ein leichtes dreieckiges Holzschild.</DankPyon_ShieldHeater.description>
+  
+  <!-- Cant make the above as a parent because for some reason it inherits the offhand graphic data-->
+  <DankPyon_ShieldHeater_Amboise.label>Hitzeschild (Amboise)</DankPyon_ShieldHeater_Amboise.label>
+  <DankPyon_ShieldHeater_Soren.label>Hitzeschild (Soren)</DankPyon_ShieldHeater_Soren.label>
+  <DankPyon_ShieldHeater_Oswin.label>Hitzeschild (Oswin)</DankPyon_ShieldHeater_Oswin.label>
+  <DankPyon_ShieldHeater_Hesse.label>Hitzeschild (Hesse)</DankPyon_ShieldHeater_Hesse.label>
+  <DankPyon_ShieldLiving.label>Lebendes Schild</DankPyon_ShieldLiving.label>
+  <DankPyon_ShieldLiving.description>Ein Schild gefertigt aus einem lebenden Baum, Erlittener Schaden wächst langsam raus.</DankPyon_ShieldLiving.description>
+</LanguageData>

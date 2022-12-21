@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_Medieval_Peasant.label>Bauer</DankPyon_Medieval_Peasant.label>
+  <DankPyon_Medieval_Merchant.label>Händler</DankPyon_Medieval_Merchant.label>
+  <DankPyon_Medieval_Mercenary.label>Söldner</DankPyon_Medieval_Mercenary.label>
+  <DankPyon_Medieval_MercenaryHeavy.label>Söldner</DankPyon_Medieval_MercenaryHeavy.label>
+  <!-- DankPyon_Medieval_Footman.label>Lakai</DankPyon_Medieval_Footman.label -->
+  <DankPyon_Medieval_Billman.label>Vollzieher</DankPyon_Medieval_Billman.label>
+  <DankPyon_StandardAmboise.label>Standard Träger</DankPyon_StandardAmboise.label>
+  <DankPyon_Medieval_Bowman.label>Bogenschütze</DankPyon_Medieval_Bowman.label>
+  <DankPyon_Medieval_Arbalester.label>Armbrustschütze</DankPyon_Medieval_Arbalester.label>
+  <!-- DankPyon_Zweihander.label>Zweihänder</DankPyon_Zweihander.label -->
+  <!-- DankPyon_Medieval_Knight.label>Ritter</DankPyon_Medieval_Knight.label -->
+  <DankPyon_Medieval_Lord.label>Lord</DankPyon_Medieval_Lord.label>
+  <DankPyon_BrigandThug.label>Banditenschläger</DankPyon_BrigandThug.label>
+  <DankPyon_BrigandRaider.label>Banditenräuber</DankPyon_BrigandRaider.label>
+  <DankPyon_BrigandLeader.label>Banditenchef</DankPyon_BrigandLeader.label>
+  <DankPyon_BrigandMarksman.label>Bogenschütze</DankPyon_BrigandMarksman.label>
+ 
+</LanguageData>

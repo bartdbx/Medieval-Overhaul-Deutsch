@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Furnace -->
+  <DankPyon_ExtractMetalFromScrap.label>Schmelze Schrott ein</DankPyon_ExtractMetalFromScrap.label>
+  <DankPyon_ExtractMetalFromScrap.description>Benutze Hitze um aus Schrott Eisen zu gewinnen.</DankPyon_ExtractMetalFromScrap.description>
+  <DankPyon_ExtractMetalFromScrap.jobString>Schmitzt Schrott ein.</DankPyon_ExtractMetalFromScrap.jobString>
+  <DankPyon_Make_Tar.label>Teer aus Holz herstellen x5</DankPyon_Make_Tar.label>
+  <DankPyon_Make_Tar.description>Eine Ladung Teer durch Verbrennen von Holz herstellen.</DankPyon_Make_Tar.description>
+  <DankPyon_Make_Tar.jobString>10 Holz zu 5 Teer verbrennen.</DankPyon_Make_Tar.jobString>
+  <DankPyon_Make_TarBulk.label>Teer aus Holz x25 herstellen</DankPyon_Make_TarBulk.label>
+  <DankPyon_Make_TarBulk.description>Eine Ladung Teer durch Verbrennen von Holz herstellen.</DankPyon_Make_TarBulk.description>
+  <DankPyon_Make_TarBulk.jobString>50 Holz zu 25 Teer verbrennen.</DankPyon_Make_TarBulk.jobString>
+  <DankPyon_MakeChunk_Coal.label>Kohle aus Holz herstellen</DankPyon_MakeChunk_Coal.label>
+  <DankPyon_MakeChunk_Coal.description>Eine Partie Kohle durch Verbrennen von Holz herstellen.</DankPyon_MakeChunk_Coal.description>
+  <DankPyon_MakeChunk_Coal.jobString>Holz zu Kohle verbrennen.</DankPyon_MakeChunk_Coal.jobString>
+  <DankPyon_MakeIngots_Iron.label>Eisenbarren aus Eisenerz Schmelzen</DankPyon_MakeIngots_Iron.label>
+  <DankPyon_MakeIngots_Iron.jobString>Schmelzen eines Eisenerzes zu 1 Barren.</DankPyon_MakeIngots_Iron.jobString>
+  <DankPyon_MakeIngots_IronBulk.label>Eisenbarren aus Eisenerz x30 Schmelzen</DankPyon_MakeIngots_IronBulk.label>
+  <DankPyon_MakeIngots_IronBulk.jobString>Schmilzt Eisenerz zu 30 Barren</DankPyon_MakeIngots_IronBulk.jobString>
+  <DankPyon_MakeIngots_IronExtraBulk.label>Eisenbarren aus Eisenerz x60 Schmelzen</DankPyon_MakeIngots_IronExtraBulk.label>
+  <DankPyon_MakeIngots_IronExtraBulk.jobString>Schmilzt Eisenerz zu 60 Barren.</DankPyon_MakeIngots_IronExtraBulk.jobString>
+  <DankPyon_MakeIngots_Silver.label>Silbermünze aus Silbererz veredeln</DankPyon_MakeIngots_Silver.label>
+  <DankPyon_MakeIngots_Silver.jobString>Veredelt Silbererz zu einer Münze.</DankPyon_MakeIngots_Silver.jobString>
+  <DankPyon_MakeCoins_SilverBulk.label>Silberbarren aus Silbererz x30 verhütten</DankPyon_MakeCoins_SilverBulk.label>
+  <DankPyon_MakeCoins_SilverBulk.jobString>Schmilzt Silbererz zu 30 Münzen.</DankPyon_MakeCoins_SilverBulk.jobString>
+  <DankPyon_MakeCoin_SilverExtraBulk.label>Silberbarren aus Silbererz x60 verhütten</DankPyon_MakeCoin_SilverExtraBulk.label>
+  <DankPyon_MakeCoin_SilverExtraBulk.jobString>Schmilzt Silbererz zu 60 Münzen.</DankPyon_MakeCoin_SilverExtraBulk.jobString>
+  <DankPyon_MakeIngots_Gold.label>Goldbarren aus Golderz verhütten</DankPyon_MakeIngots_Gold.label>
+  <DankPyon_MakeIngots_Gold.jobString>Schmilzt Golderz zu 1 Barren.</DankPyon_MakeIngots_Gold.jobString>
+  <DankPyon_MakeIngots_GoldBulk.label>Goldbarren aus Golderz x30 verhütten</DankPyon_MakeIngots_GoldBulk.label>
+  <DankPyon_MakeIngots_GoldBulk.jobString>Schmilzt Golderz zu 30 Barren.</DankPyon_MakeIngots_GoldBulk.jobString>
+  <DankPyon_MakeIngots_GoldExtraBulk.label>Goldbarren aus Golderz x60 verhütten</DankPyon_MakeIngots_GoldExtraBulk.label>
+  <DankPyon_MakeIngots_GoldExtraBulk.jobString>Schmilzt Golderz zu 60 Barren.</DankPyon_MakeIngots_GoldExtraBulk.jobString>
+  <DankPyon_MakeIngots_Steel.label>Stahlbarren aus Eisenbarren veredeln</DankPyon_MakeIngots_Steel.label>
+  <DankPyon_MakeIngots_Steel.jobString>Veredelung von Eisenbarren zu 1 Stahlbarren.</DankPyon_MakeIngots_Steel.jobString>
+  <DankPyon_MakeIngots_SteelBulk.label>Stahlbarren aus Eisenbarren x30 veredeln</DankPyon_MakeIngots_SteelBulk.label>
+  <DankPyon_MakeIngots_SteelBulk.jobString>Veredelt Eisenbarren zu 30 Stahlblöcke.</DankPyon_MakeIngots_SteelBulk.jobString>
+  <DankPyon_MakeIngots_SteelExtraBulk.label>Stahlbarren aus Eisenbarren x60 veredeln</DankPyon_MakeIngots_SteelExtraBulk.label>
+  <DankPyon_MakeIngots_SteelExtraBulk.jobString>Veredelt Eisenbarren zu 60 Stahlblöcke.</DankPyon_MakeIngots_SteelExtraBulk.jobString>
+</LanguageData>

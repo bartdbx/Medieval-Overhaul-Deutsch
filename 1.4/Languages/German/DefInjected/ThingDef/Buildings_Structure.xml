@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- Doors -->
+  <DankPyon_RusticDoor.label>Rustikale Tür</DankPyon_RusticDoor.label>
+  <DankPyon_RusticDoor.description>Teilt Räume. Einfache Türen müssen manuell geöffnet werden, was die Menschen verlangsamt. Die Verlangsamung hängt davon ab, woraus die Tür besteht.</DankPyon_RusticDoor.description>
+  <DankPyon_LogGate.label>Palisaden Tor</DankPyon_LogGate.label>
+  <DankPyon_LogGate.description>Ein verstärktes Tor, das Räume teilt. Einfache Tore müssen manuell geöffnet werden, was die Menschen verlangsamt. Der Grad der Verlangsamung hängt davon ab, woraus das Tor besteht.</DankPyon_LogGate.description>
+  <DankPyon_Gate.label>Holztor</DankPyon_Gate.label>
+  <DankPyon_Gate.description>Ein verstärktes Tor, das Räume teilt. Einfache Tore müssen manuell geöffnet werden, was die Menschen verlangsamt. Der Grad der Verlangsamung hängt davon ab, woraus das Tor besteht.</DankPyon_Gate.description>
+  <DankPyon_SlabDoor.label>Plattentür</DankPyon_SlabDoor.label>
+  <DankPyon_SlabDoor.description>Ein Steinblock, der zu einer langsamen und schweren Tür umfunktioniert wurde. Einfache Türen müssen manuell geöffnet werden, was die Menschen verlangsamt. Der Grad der Verlangsamung hängt davon ab, woraus das Tor besteht.</DankPyon_SlabDoor.description>
+ 
+  <!-- Frames -->
+  <DankPyon_Frame_Log.label>Holzramen</DankPyon_Frame_Log.label>
+  <DankPyon_Frame_Log.description>Ein hölzerner Ramen um über eine Türöffnung zu platzieren.</DankPyon_Frame_Log.description>
+  
+  <!-- Walls -->
+  <DankPyon_LogWall.label>Rohwand</DankPyon_LogWall.label>
+  <DankPyon_LogWall.description>Eine unüberwindbare Mauer. Kann ein Dach tragen.</DankPyon_LogWall.description>
+  <DankPyon_HideTentWall.label>Häute Zelt</DankPyon_HideTentWall.label>
+  <DankPyon_HideTentWall.description>Ein Zelt aus hautstücke hergestellt. Schnell und einfach zu Bauen aber kann leicht zerstört werden.\n\nAbreißen gibt die Ressourcen zurück.</DankPyon_HideTentWall.description>
+  <DankPyon_TentWall.label>Zelt</DankPyon_TentWall.label>
+  <DankPyon_TentWall.description>Ein Zelt aus Stoff hergestellt. Schnell und einfach zu Bauen aber kann leicht zerstört werden.\n\nAbreißen gibt die Ressourcen zurück.</DankPyon_TentWall.description>
+  <DankPyon_Palisade.label>Palisaden</DankPyon_Palisade.label>
+  <DankPyon_Palisade.description>Eine unüberwindbare Mauer.</DankPyon_Palisade.description>
+  <DankPyon_EmbPalisade.label>Scharten Palisade</DankPyon_EmbPalisade.label>
+  <DankPyon_EmbPalisade.description>Eine unüberwindbare Mauer mit Schießscharten.</DankPyon_EmbPalisade.description>
+  <DankPyon_CavalrySpike.label>Holzspieße für die Kavallerie</DankPyon_CavalrySpike.label>
+  <DankPyon_CavalrySpike.description>Eine organisierte Ansammlung von Pfählen, die Eindringlinge fernhalten sollen. n/n/Wenn man durch die Pfähle läuft, können die Bauern verletzt werden..</DankPyon_CavalrySpike.description>
+  <DankPyon_CastleWall.label>Burgmauer</DankPyon_CastleWall.label>
+  <DankPyon_CastleWall.description>Eine unüberwindbare hohe Mauer. Stabil und in der Lage, ein Dach zu halten, aber Vorsicht, aufgrund ihrer Höhe ist sie bei einer Explosion schwach.</DankPyon_CastleWall.description>
+  <DankPyon_CastleWallEmbrasures.label>Scharten Burgmauer</DankPyon_CastleWallEmbrasures.label>
+
+  <!-- Trenches -->
+  <DankPyon_Trench.label>Graben</DankPyon_Trench.label>
+  <DankPyon_Trench.description>Ein einfacher Graben, unbefestigt aber verlangsamt Bewegeungen. Braucht zum Bau nur Arbeiter, kann einstürzen durch Schäden.</DankPyon_Trench.description>
+  <DankPyon_RTrench.label>Befestigter Graben</DankPyon_RTrench.label>
+  <DankPyon_RTrench.description>Ein befestigter Graben der Bewegungen aufhält. Sehr tief und nur schwer zu überqueren.</DankPyon_RTrench.description>
+
+  <!-- Column -->
+  <DankPyon_LogColumn.label>Rohholzsäule</DankPyon_LogColumn.label>
+  <DankPyon_LogColumn.description>Eine schöne Säule die ein Dach Tragen kann. Behindert nicht die Sicht oder Bewegungen.</DankPyon_LogColumn.description>
+  <DankPyon_RoyalColumn.label>Königliche Säule</DankPyon_RoyalColumn.label>
+  <DankPyon_RoyalColumn.description>Eine schöne, goldbeschlagene Säule, die ein Dach halten kann. Blockiert weder Sicht noch Bewegung und sieht ganz nett aus.</DankPyon_RoyalColumn.description>
+
+</LanguageData>

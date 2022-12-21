@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!--RecipeDef>
+		<Ice_Make_Ice.label>Eis herstellen</Ice_Make_Ice.label>
+		<Ice_Make_Ice.description>Eis herstellen aus Wasser.</Ice_Make_Ice.description>
+		<Ice_Make_Ice.jobString>Stellt Eis her.</Ice_Make_Ice.jobString>
+
+		<Ice_Cellar.label>Keller</Ice_Cellar.label>
+		<Ice_Cellar.description>Der Keller wurde erfunden um Wasser zu Kühlen und daraus Eis herzustellen.</Ice_Cellar.description>
+
+		<Ice_DoBillsMakeIce.label>Stelle Eis her</Ice_DoBillsMakeIce.label>
+		<Ice_DoBillsMakeIce.verb>Eis herstellen</Ice_DoBillsMakeIce.verb>
+		<Ice_DoBillsMakeIce.gerund>stellt Eis her im</Ice_DoBillsMakeIce.gerund>
+
+		<Ice_MedievalFridge.label>Mittelalt. Kühltruhe</Ice_MedievalFridge.label>
+		<Ice_MedievalFridge.description>Einfache Kühltruhe die dafür Eis benötigt.</Ice_MedievalFridge.description>
+	</ThingDef-->
+</LanguageData>

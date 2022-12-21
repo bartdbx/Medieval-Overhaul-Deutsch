@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Generic -->
+	
+	<IP_InsertFirstItemDesc>Einfügen</IP_InsertFirstItemDesc>
+	<IP_InsertSecondItemDesc>Einfügen</IP_InsertSecondItemDesc>
+	<IP_InsertThirdItemDesc>Einfügen</IP_InsertThirdItemDesc>
+	<IP_InsertVariable>Füge {0} ein</IP_InsertVariable>
+	<IP_InsertVariableSecond>Füge {0} in den 2. slot ein</IP_InsertVariableSecond>
+	<IP_InsertVariableThird>Füge {0} in den 3. slot ein</IP_InsertVariableThird>
+	<IP_CantFindThing>Keine Gegenstände dieser Art ({0}) gefunden auf der Karte</IP_CantFindThing>
+	<IP_BringIngredients>Bringe Zutaten</IP_BringIngredients>
+	<IP_BringIngredientsDesc>Bringe Zutaten um Anzufangen</IP_BringIngredientsDesc>
+	<IP_CancelIngredients>Bringe Zutaten Abbrechen</IP_CancelIngredients>
+	<IP_CancelIngredientsDesc>Bringe Zutaten zu diesem Gebäude Abbrechen</IP_CancelIngredientsDesc>	
+	<IP_NoIngredientFound>Keine Zutaten Gefunden auf der Karte</IP_NoIngredientFound>
+	<IP_ChooseIngredient>Wähle Zutaten</IP_ChooseIngredient>
+	<IP_ChooseIngredientSecond>Wähle 2. Zutat</IP_ChooseIngredientSecond>
+	<IP_ChooseIngredientThird>Wähle 3. Zutat</IP_ChooseIngredientThird>
+	<IP_IngredientImproperlyDefined>Einer der Zutaten wurde nicht definiert um mit dem processor zu Arbeiten, Bitte Kontaktieren sie den Mod Entwickler</IP_IngredientImproperlyDefined>
+	<IP_NoPowerDestroysWarning>{0} muss eingeschaltet werden um zu funktionieren</IP_NoPowerDestroysWarning>
+	<IP_NoFuelDestroysWarning>{0} muss betankt werden um zu funktionieren</IP_NoFuelDestroysWarning>
+	<IP_LightDestroysWarning>{0} braucht ausreichend licht um zu Funktionnieren</IP_LightDestroysWarning>
+	<IP_RainDestroysWarning>{0} darf nicht Regnen um zu Funktionnieren</IP_RainDestroysWarning>
+	<IP_TemperatureDestroysWarning>{0} braucht eine passende Temperatur ({1} - {2}) um zu Arbeiten</IP_TemperatureDestroysWarning>
+	<IP_NoPowerDestroysInitialWarning>Verdirbt als Resultat eines Stromfehlers im item prozessor</IP_NoPowerDestroysInitialWarning>
+	<IP_NoPowerDestroysMessage>Das Resultat verdirbt wegen eines Stromfehlers im item prozessor</IP_NoPowerDestroysMessage>
+	<IP_GenericProductFinished>Ein Produkt wurde fertiggestellt und ist bereit um Abgeholt zu werden</IP_GenericProductFinished>
+	<IP_IsEmpty>{0} ist leer</IP_IsEmpty>
+	<IP_FilledWith>{0} ist gefüllt mit {1}</IP_FilledWith>
+	<IP_FilledWithSecond>{0}'s 2. slot ist gefüllt mit {1}</IP_FilledWithSecond>
+	<IP_FilledWithThird>{0}'s 3. slot ist gefüllt mit {1}</IP_FilledWithThird>
+	<IP_IngredientPercentage> (gefüllt auf {0} von {1})</IP_IngredientPercentage>
+	<IP_ProcessorWorking>{0} Arbeitet: </IP_ProcessorWorking>
+	<IP_ProcessingInProgress>{0} Verarbeitet {1}. {2} wird fertig mit {3} Qualität in {4}</IP_ProcessingInProgress>
+	<IP_ProcessingInProgressNoQuality>{0} in bearbeitung {1}. {2} fertig in {3}</IP_ProcessingInProgressNoQuality>
+	<IP_RemoveProduct>Entferne {0} ({1})</IP_RemoveProduct>
+	<IP_RemoveProductDesc>Entferne {0} aus {1}. The product will be ready at the present quality level ({2})</IP_RemoveProductDesc>
+	<IP_ResetSemiautomatic>Rezept Voreinstellung</IP_ResetSemiautomatic>
+	<IP_ResetSemiautomaticDesc>Die Voreinstellung wird geladen nachdem die derzeitige Aufgabe beendet wurde.</IP_ResetSemiautomaticDesc>
+	<IP_NoCombination>Keine Kombination gefunden für diese Zutaten</IP_NoCombination>
+	<IP_SetAutoQuality>Stelle die Produktqualität ein. Falls das Produkt diese Qualitätsstufe erreicht, wird ein Kolonist es Automatisch zu einem Lager Transportieren falls verfügbar. Falls nichts Eingestellt wurde, werden die Produkte in zufälliger Qualität abgebaut.</IP_SetAutoQuality>
+	<IP_ChooseQualityAuto>Wähle Auto-Qualität</IP_ChooseQualityAuto>
+	<IP_QualityAutoIs>Auto-Qualität: {0}</IP_QualityAutoIs>
+	<IP_QualityAutoNot>Deaktiviere Auto-Qualität</IP_QualityAutoNot>
+	<IP_QualityAutoEstablished>Auto-Qualität, Produkt wird fertiggestellt in Qualität: {0}</IP_QualityAutoEstablished>
+	<IP_ToggleAuto>Auto Zutaten Erlangen</IP_ToggleAuto>
+	<IP_ToggleAutoDesc>Wenn aktiviert, wird diese Station automatisch Zutaten aus benachbarten Trichtern entnehmen, und automatisch erneut Produzieren wenn das Endprodukt entnommen wurde. Falls nicht aktiviert, werden Kolonisten die Zutaten zwar liefern, aber es muss manuell aktiviert werden nachdem es befüllt wurde.</IP_ToggleAutoDesc>
+	<IP_ProductWaiting>Wartet um eingesammelt zu werden</IP_ProductWaiting>
+	<IP_OutsideLightRange>Die Arbeit dieser Machine wurde angehalten wegen lichtmangel und die Produkte werden bald verderben</IP_OutsideLightRange>
+	<IP_SpoiledDueToLight>Das Produkt dieser Machine ist verdorben wegen lichtmangel</IP_SpoiledDueToLight>
+	<IP_ItRains>Die Arbeit dieser Machine wurde angehalten wegen Witterung und die Produkte werden bald verderben</IP_ItRains>
+	<IP_SpoiledDueToRain>Das Produkt dieser Machine ist verdorben wegen witterung</IP_SpoiledDueToRain>
+	<IP_WrongTemp>Die Arbeit dieser Machine wurde angehalten wegen falscher Temperatur und die Produkte werden bald verderben</IP_WrongTemp>
+	<IP_SpoiledDueToWrongTemp>Das Produkt dieser Machine ist verdorben wegen falscher Temperatur</IP_SpoiledDueToWrongTemp>
+	<IP_TempRangeInThisMachine>. Dieser Fermenter braucht eine Temperatur zwisschen {0} und {1} grad {2}</IP_TempRangeInThisMachine>
+
+
+
+</LanguageData>

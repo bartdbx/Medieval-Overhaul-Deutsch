@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+
+  <!-- Wood Logs -->
+  <DankPyon_WoodLogs1x1c.label>Holzstapel (S)</DankPyon_WoodLogs1x1c.label>
+  <DankPyon_WoodLogs1x1c.description>Holzstapel S(mall), gestapelte Stämme, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_WoodLogs1x1c.description>
+  <DankPyon_WoodLogs1x2c.label>Holzstapel (M)</DankPyon_WoodLogs1x2c.label>
+  <DankPyon_WoodLogs1x2c.description>Holzstapel M(edium), gestapelte Stämme, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_WoodLogs1x2c.description>
+  <DankPyon_WoodLogs2x2c.label>Holzstapel (L)</DankPyon_WoodLogs2x2c.label>
+  <DankPyon_WoodLogs2x2c.description>Holzstapel L(arge), gestapelte Stämme, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_WoodLogs2x2c.description>
+
+  <!-- Timber -->
+  <DankPyon_Timber1x1c.label>Bretterstapel (S)</DankPyon_Timber1x1c.label>
+  <DankPyon_Timber1x1c.description>Bretterstapel S(mall), Gestapelte Bretter, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Timber1x1c.description>
+  <DankPyon_Timber1x2c.label>Bretterstapel (M)</DankPyon_Timber1x2c.label>
+  <DankPyon_Timber1x2c.description>Bretterstapel M(edium), Gestapelte Bretter, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Timber1x2c.description>
+  <DankPyon_Timber2x2c.label>Bretterstapel (L)</DankPyon_Timber2x2c.label>
+  <DankPyon_Timber2x2c.description>Bretterstapel L(arge), Gestapelte Bretter, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Timber2x2c.description>
+  
+  <!-- Bricks -->
+  <DankPyon_Bricks1x1c.label>Ziegelstapel (S)</DankPyon_Bricks1x1c.label>
+  <DankPyon_Bricks1x1c.description>Ziegelstapel S(mall), Gestapelte Ziegel, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Bricks1x1c.description>
+  <DankPyon_Bricks1x2c.label>Ziegelstapel (M)</DankPyon_Bricks1x2c.label>
+  <DankPyon_Bricks1x2c.description>Ziegelstapel M(edium), Gestapelte Ziegel, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Bricks1x2c.description>
+  <DankPyon_Bricks2x2c.label>Ziegelstapel (L)</DankPyon_Bricks2x2c.label>
+  <DankPyon_Bricks2x2c.description>Ziegelstapel L(arge), Gestapelte Ziegel, eine Effiziente Lagermöglichkeit mit Platzersparnis.</DankPyon_Bricks2x2c.description>
+  
+  <!-- Cupboard -->
+  <DankPyon_RusticCupboardEmpty.label>Regal</DankPyon_RusticCupboardEmpty.label>
+  <DankPyon_RusticCupboardEmpty.description>Ein offenes Regal um Sachen Platzsparend aufzubewahren.</DankPyon_RusticCupboardEmpty.description>
+  <DankPyon_RusticCupboardBread.label>Brotregal</DankPyon_RusticCupboardBread.label>
+  <DankPyon_RusticCupboardBread.description>Ein offenes Brotregal um Sachen Platzsparend aufzubewahren.</DankPyon_RusticCupboardBread.description>
+  <DankPyon_RusticCupboardCheese.label>Käseregal</DankPyon_RusticCupboardCheese.label>
+  <DankPyon_RusticCupboardCheese.description>Ein offenes Käseregal um Sachen Platzsparend aufzubewahren.</DankPyon_RusticCupboardCheese.description>
+  <DankPyon_RusticCupboardWine.label>Weinregal</DankPyon_RusticCupboardWine.label>
+  <DankPyon_RusticCupboardWine.description>Ein offenes Weinregal um Sachen Platzsparend aufzubewahren.</DankPyon_RusticCupboardWine.description>
+  
+  <!-- Resource Barrel -->
+  <!-- Rustic Barrels -->
+  <DankPyon_RusticBarrelBigClosed.label>Fass (L)</DankPyon_RusticBarrelBigClosed.label>
+  <DankPyon_RusticBarrelBigClosed.description>Fass L(arge). Ein großes zylindrisches Fass zur allgemeinen Lagerung. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind..</DankPyon_RusticBarrelBigClosed.description>
+  <DankPyon_RusticBarrelBigGrape.label>Fass (L)</DankPyon_RusticBarrelBigGrape.label>
+  <DankPyon_RusticBarrelBigGrape.description>Fass L(arge). Ein großes zylindrisches Fass zur allgemeinen Lagerung. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RusticBarrelBigGrape.description>
+  <DankPyon_RusticBarrelBigClosedDown.label>Fass (L)</DankPyon_RusticBarrelBigClosedDown.label>
+  <DankPyon_RusticBarrelBigClosedDown.description>Fass L(arge). Ein großes zylindrisches Fass zur allgemeinen Lagerung. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RusticBarrelBigClosedDown.description>
+  <DankPyon_RusticBarrelStack.label>Fassregal (XL)</DankPyon_RusticBarrelStack.label>
+  <DankPyon_RusticBarrelStack.description>Ein großes Regal mit Fässer. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RusticBarrelStack.description>
+  <DankPyon_RusticBarrelClosed.label>Fass (M)</DankPyon_RusticBarrelClosed.label>
+  <DankPyon_RusticBarrelClosed.description>Fass (M)edium. Ein zylindrisches Fass zur allgemeinen Lagerung. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RusticBarrelClosed.description>
+  
+  <!-- Barrels -->
+  <DankPyon_BarrelWoodLog.label>Holzfass (M)</DankPyon_BarrelWoodLog.label>
+  <DankPyon_BarrelWoodLog.description>Ein zylindrisches Fass (M)edium, das platzsparend für Holzstapel reserviert ist. Kann bis zu 5 Holzstapel aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelWoodLog.description>
+  <DankPyon_BarrelIronOre.label>Eisenfass (M)</DankPyon_BarrelIronOre.label>
+  <DankPyon_BarrelIronOre.description>Ein zylindrisches Fass (M)edium, das für Eisenerz reserviert ist, um Platz zu sparen. Kann bis zu 5 Stapel Eisenerz aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelIronOre.description>
+  <DankPyon_BarrelSilverOre.label>Silberfass (M)</DankPyon_BarrelSilverOre.label>
+  <DankPyon_BarrelSilverOre.description>Ein zylindrisches Fass (M)edium für Silbererz, um Platz zu sparen. Es kann bis zu 5 Stapel Silbererz aufnehmen. Gegenstände, die darin gelagert werden, beeinträchtigen nicht die Schönheit des Raumes und verderben nicht, auch wenn sie draußen sind..</DankPyon_BarrelSilverOre.description>
+  <DankPyon_BarrelGoldOre.label>Goldfass (M)</DankPyon_BarrelGoldOre.label>
+  <DankPyon_BarrelGoldOre.description>Ein zylindrisches Fass (M)edium, das für Golderz reserviert ist, um Platz zu sparen. Kann bis zu 5 Stapel Golderz aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelGoldOre.description>
+  <DankPyon_BarrelCoalOre.label>Kohlefass (M)</DankPyon_BarrelCoalOre.label>
+  <DankPyon_BarrelCoalOre.description>Ein zylindrisches Fass (M)edium, das zur Platzersparnis für Kohleerze reserviert ist. Es kann bis zu 5 Stapel Kohleerze aufnehmen. Gegenstände, die darin gelagert werden, beeinträchtigen nicht die Schönheit des Raumes und verderben nicht, auch wenn sie draußen sind..</DankPyon_BarrelCoalOre.description>
+  <DankPyon_BarrelTextiles.label>Stofffass (M)</DankPyon_BarrelTextiles.label>
+  <DankPyon_BarrelTextiles.description>Ein zylindrisches Fass (M)edium, das platzsparend für Textilien reserviert ist. Kann bis zu 5 Stapel Textilien aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelTextiles.description>
+  <DankPyon_BarrelLeather.label>Lederfass (M)</DankPyon_BarrelLeather.label>
+  <DankPyon_BarrelLeather.description>Ein zylindrisches Fass (M)edium, das platzsparend für Leder reserviert ist. Kann bis zu 5 Stapel Leder aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelLeather.description>
+  <DankPyon_BarrelComponentBasic.label>Komponenten Fass (M)</DankPyon_BarrelComponentBasic.label>
+  <DankPyon_BarrelComponentBasic.description>Ein zylindrisches Fass (M)edium, das platzsparend für Basiskomponenten reserviert ist. Kann bis zu 5 Stapel von Basiskomponenten aufnehmen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelComponentBasic.description>
+  <DankPyon_BarrelGrape.label>Traubenfass (M)</DankPyon_BarrelGrape.label>
+  <DankPyon_BarrelGrape.description>Ein zylindrisches Fass(M)edium, das platzsparend für Weintrauben reserviert ist. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_BarrelGrape.description>
+  
+  <!-- Large Shelf -->
+  <DankPyon_LargeShelfEmpty.label>Palette</DankPyon_LargeShelfEmpty.label>
+  <DankPyon_LargeShelfEmpty.description>Eine große viereckige Plattform um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelfEmpty.description>
+  <DankPyon_LargeShelf_Bread.label>Brot Palette</DankPyon_LargeShelf_Bread.label>
+  <DankPyon_LargeShelf_Bread.description>Eine große viereckige Brotpalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Bread.description>
+  <DankPyon_LargeShelf_Grain.label>Weizen Palette</DankPyon_LargeShelf_Grain.label>
+  <DankPyon_LargeShelf_Grain.description>Eine große viereckige Getreidepalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Grain.description>
+  <DankPyon_LargeShelf_Meat.label>Fleisch Palette</DankPyon_LargeShelf_Meat.label>
+  <DankPyon_LargeShelf_Meat.description>Eine große viereckige Fleischpalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Meat.description>
+  <DankPyon_LargeShelf_Cheese.label>Käse Palette</DankPyon_LargeShelf_Cheese.label>
+  <DankPyon_LargeShelf_Cheese.description>Eine große viereckige Käsepalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Cheese.description>
+  <DankPyon_LargeShelf_Wine.label>Wein Palette</DankPyon_LargeShelf_Wine.label>
+  <DankPyon_LargeShelf_Wine.description>Eine große viereckige Weinpalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Wine.description>
+  <DankPyon_LargeShelf_Mead.label>Met Palette</DankPyon_LargeShelf_Mead.label>
+  <DankPyon_LargeShelf_Mead.description>Eine große viereckige Metpalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Mead.description>
+  <DankPyon_LargeShelf_Vegetables.label>Gemüse Palette</DankPyon_LargeShelf_Vegetables.label>
+  <DankPyon_LargeShelf_Vegetables.description>Eine große viereckige Gemüsepalette um Gegenstände sauber und trocken über den Boden zu Lagern.</DankPyon_LargeShelf_Vegetables.description>
+  
+  <!-- Sack -->
+  <DankPyon_SackClosed.label>Sack</DankPyon_SackClosed.label>
+  <DankPyon_SackClosed.description>Ein robuster Stoffbeutel um Gegenstände effizient aufzubewahren.</DankPyon_SackClosed.description>
+  <DankPyon_SackFlour.label>Mehlsack</DankPyon_SackFlour.label>
+  <DankPyon_SackFlour.description>Ein robuster Stoffbeutel um Gegenstände effizient aufzubewahren.</DankPyon_SackFlour.description>
+  <DankPyon_SackWheat.label>Weizensack</DankPyon_SackWheat.label>
+  <DankPyon_SackWheat.description>Ein robuster Stoffbeutel um Gegenstände effizient aufzubewahren.</DankPyon_SackWheat.description>
+  <DankPyon_SackPotato.label>Kartoffelsack</DankPyon_SackPotato.label>
+  <DankPyon_SackPotato.description>Ein robuster Stoffbeutel um Gegenstände effizient aufzubewahren.</DankPyon_SackPotato.description>
+  <DankPyon_SackApple.label>Apfelsack</DankPyon_SackApple.label>
+  <DankPyon_SackApple.description>Ein robuster Stoffbeutel um Gegenstände effizient aufzubewahren.</DankPyon_SackApple.description>
+
+  <!-- Crate -->
+  <DankPyon_Crate1x1c.label>Kiste (S)</DankPyon_Crate1x1c.label>
+  <DankPyon_Crate1x1c.description>Eine Holzkiste grösse (S)mall, aus Brettern zur Aufbewahrung von Ressourcen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_Crate1x1c.description>
+  <DankPyon_Crate1x2c.label>Kiste (M)</DankPyon_Crate1x2c.label>
+  <DankPyon_Crate1x2c.description>Eine Holzkiste grösse (M)edium,aus Brettern zur Aufbewahrung von Ressourcen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_Crate1x2c.description>
+  
+  <!-- Weapon Rack -->
+  <DankPyon_RackEmpty.label>Leeres Waffenregal</DankPyon_RackEmpty.label>
+  <DankPyon_RackEmpty.description>Ein Regal zum Aufbewahren von Waffen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RackEmpty.description>
+  <DankPyon_RackSword.label>Schwert Waffenregal</DankPyon_RackSword.label>
+  <DankPyon_RackSword.description>Ein Regal zum geordneten Aufbewahren von Schwertern. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RackSword.description>
+  <DankPyon_RackSpear.label>Speer Waffenregal</DankPyon_RackSpear.label>
+  <DankPyon_RackSpear.description>Ein Regal zum Aufbewahren von Speere. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RackSpear.description>
+  <DankPyon_RackMixed.label>Gemischt Waffenregal</DankPyon_RackMixed.label>
+  <DankPyon_RackMixed.description>Ein Regal zum Aufbewahren von Waffen. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_RackMixed.description>
+  
+  <!-- Shelf -->
+  <DankPyon_ShelfEmpty.label>Regal</DankPyon_ShelfEmpty.label>
+  <DankPyon_ShelfEmpty.description>Leeres Regal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfEmpty.description>
+  <DankPyon_ShelfFilled1c.label>Gem. Regal</DankPyon_ShelfFilled1c.label>
+  <DankPyon_ShelfFilled1c.description>Gemischtes Regal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilled1c.description>
+  <DankPyon_ShelfFilled2c.label>Gem. Regal</DankPyon_ShelfFilled2c.label>
+  <DankPyon_ShelfFilled2c.description>Gemischtes Ein Regal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilled2c.description>
+  <DankPyon_ShelfFilledEmerald.label>Smaragdregal</DankPyon_ShelfFilledEmerald.label>
+  <DankPyon_ShelfFilledEmerald.description>Smaragdregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledEmerald.description>
+  <DankPyon_ShelfFilledSapphire.label>Saphirregal</DankPyon_ShelfFilledSapphire.label>
+  <DankPyon_ShelfFilledSapphire.description>Saphirregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledSapphire.description>
+  <DankPyon_ShelfFilledRuby.label>Rubinregal</DankPyon_ShelfFilledRuby.label>
+  <DankPyon_ShelfFilledRuby.description>Rubinregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledRuby.description>
+  <DankPyon_ShelfFilledSilverware.label>Silberregal</DankPyon_ShelfFilledSilverware.label>
+  <DankPyon_ShelfFilledSilverware.description>Silberregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledSilverware.description>
+  <DankPyon_ShelfFilledGoldware.label>Goldregal</DankPyon_ShelfFilledGoldware.label>
+  <DankPyon_ShelfFilledGoldware.description>Goldregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledGoldware.description>
+  <DankPyon_ShelfFilledChaliceSilver.label>Kelchregal</DankPyon_ShelfFilledChaliceSilver.label>
+  <DankPyon_ShelfFilledChaliceSilver.description>Kelchregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledChaliceSilver.description>
+  <DankPyon_ShelfFilledChaliceGold.label>Goldregal</DankPyon_ShelfFilledChaliceGold.label>
+  <DankPyon_ShelfFilledChaliceGold.description>Goldregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledChaliceGold.description>
+  <DankPyon_ShelfFilledWine.label>Weinregal</DankPyon_ShelfFilledWine.label>
+  <DankPyon_ShelfFilledWine.description>Weinregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledWine.description>
+  <DankPyon_ShelfFilledFood.label>Nahrungregal</DankPyon_ShelfFilledFood.label>
+  <DankPyon_ShelfFilledFood.description>Nahrungregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledFood.description>
+  <DankPyon_ShelfFilledIngot.label>Barrenregal</DankPyon_ShelfFilledIngot.label>
+  <DankPyon_ShelfFilledIngot.description>Barrenregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledIngot.description>
+  <DankPyon_ShelfFilledBook.label>Bücherregal</DankPyon_ShelfFilledBook.label>
+  <DankPyon_ShelfFilledBook.description>Bücherregal zum Aufbewahren verschiedener Gegenstände. Gegenstände, die darin aufbewahrt werden, haben keinen Einfluss auf die Schönheit des Raumes und sie werden nicht verderben, selbst wenn sie draußen sind.</DankPyon_ShelfFilledBook.description>
+  <DankPyon_StrawPile.label>Strohballen</DankPyon_StrawPile.label>
+  <DankPyon_StrawPile.description>Ein Haufen trockener Halme von Getreidepflanzen wie Weizen, Reis, Hafer, Gerste und Roggen.</DankPyon_StrawPile.description>
+  
+  <!-- Carts -->
+  <DankPyon_Storage_Cart_Empty.label>Karren</DankPyon_Storage_Cart_Empty.label>
+  <DankPyon_Storage_Cart_Empty.description>Ein verlässlicher Karren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_Empty.description>
+  <DankPyon_Storage_Cart_Assorted.label>Karren Gem.</DankPyon_Storage_Cart_Assorted.label>
+  <DankPyon_Storage_Cart_Assorted.description>Ein gemischter Karren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_Assorted.description>
+  <DankPyon_Storage_Cart_Ore.label>Karren Erz</DankPyon_Storage_Cart_Ore.label>
+  <DankPyon_Storage_Cart_Ore.description>Ein Erzkarren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_Ore.description>
+  <DankPyon_Storage_Cart_PlantRaw.label>Karren Gemüse</DankPyon_Storage_Cart_PlantRaw.label>
+  <DankPyon_Storage_Cart_PlantRaw.description>Ein Gemüsekarren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_PlantRaw.description>
+  <DankPyon_Storage_Cart_Textiles.label>Karren Textilien</DankPyon_Storage_Cart_Textiles.label>
+  <DankPyon_Storage_Cart_Textiles.description>Ein Textilienkarren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_Textiles.description>
+  <DankPyon_Storage_Cart_RawWood.label>Karren Holz</DankPyon_Storage_Cart_RawWood.label>
+  <DankPyon_Storage_Cart_RawWood.description>Ein Holzkarren um Waren durch die gnadenlosen Lande zu Ziehen. Kann als Lager benutzt werden.</DankPyon_Storage_Cart_RawWood.description>
+
+</LanguageData>

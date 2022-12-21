@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chalice -->
+  <DankPyon_Building_ChaliceSilver.label>Kelch, silberner</DankPyon_Building_ChaliceSilver.label>
+  <DankPyon_Building_ChaliceGold.label>Antiker goldener Kelch</DankPyon_Building_ChaliceGold.label>
+  
+  <!-- Bowls -->
+  <DankPyon_Building_BowlSilver.label>Silberschale</DankPyon_Building_BowlSilver.label>
+  <DankPyon_Building_BowlGold.label>Goldschale</DankPyon_Building_BowlGold.label>
+  
+  <!-- Skull -->
+  <DankPyon_Building_SkullGold.label>Goldschädel</DankPyon_Building_SkullGold.label>
+  <DankPyon_Building_SkullEmerald.label>Smaragdschädel</DankPyon_Building_SkullEmerald.label>
+  <DankPyon_Building_SkullSapphire.label>Silberschädel</DankPyon_Building_SkullSapphire.label>
+  <DankPyon_Building_SkullRuby.label>Rubinschädel</DankPyon_Building_SkullRuby.label>
+  
+  <!-- Book -->
+  <DankPyon_Building_AncientCodex.label>Alter Kodex</DankPyon_Building_AncientCodex.label>
+  
+</LanguageData>

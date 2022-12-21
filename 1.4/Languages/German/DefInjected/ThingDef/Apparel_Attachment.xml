@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Hood Base -->
+  <DankPyon_Headgear_WolfTimber.label>Timberwolf Haube</DankPyon_Headgear_WolfTimber.label>
+  <DankPyon_Headgear_WolfTimber.description>Ein warmer Umhang aus Timberwolf Fell. Ihn zu Tragen demonstriert Stärke, es zeugt davon das man eigenhändig einen Wolf getötet hat als Trophäe.</DankPyon_Headgear_WolfTimber.description>
+  <DankPyon_Headgear_WolfArctic.label>Articwolf Haube</DankPyon_Headgear_WolfArctic.label>
+  <DankPyon_Headgear_BearGrizzly.label>Grizzlybär Haube</DankPyon_Headgear_BearGrizzly.label>
+  <DankPyon_Headgear_BearGrizzly.description>Ein warmer Umhang aus Grizzlybären Fell. Ihn zu Tragen demonstriert Stärke, es zeugt davon das man eigenhändig einen Bären getötet hat als Trophäe.</DankPyon_Headgear_BearGrizzly.description>
+  <DankPyon_Headgear_BearPolar.label>Polarbär Haube</DankPyon_Headgear_BearPolar.label>
+  
+  <!-- Armor Attachment Base-->
+  <DankPyon_Apparel_DirewolfPelt.label>Schattenwolf Pelz</DankPyon_Apparel_DirewolfPelt.label>
+  <DankPyon_Apparel_DirewolfPelt.description>Ein warmer, robuster Umhang aus Schattenwolf Fell. Ihn zu Tragen demonstriert Stärke, es zeugt davon das man eigenhändig einen Schattenwolf getötet hat als Trophäe. Das Tragen verleiht Stärke und Sicherheit im Kampf.</DankPyon_Apparel_DirewolfPelt.description>
+  <DankPyon_Apparel_HyenaPelt.label>Hyänen Pelz</DankPyon_Apparel_HyenaPelt.label>
+  <DankPyon_Apparel_HyenaPelt.description>Ein warmer Umhang aus Grizzlybären Fell. Ihn zu Tragen demonstriert Stärke, es zeugt davon das man eigenhändig einen Bären getötet hat als Trophäe. Das Tragen verleiht Stärke und Sicherheit im Kampf.</DankPyon_Apparel_HyenaPelt.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- =========================The Big Bad============================= -->
+  <DankPyon_DireBoar.label>Wildschwein</DankPyon_DireBoar.label>
+  <DankPyon_DireBoar.description>Ein bösartiger Allesfresser, der mit einem tödlichen Paar Hauer ausgestattet ist, die Bedrohungen zerfleischen können. Wildschweine ziehen regelmäßig in Herden umher und sind gefürchtet, wenn sie ihnen begegnen.\n\Der Kadaver eines Wildschweins enthält Hauer, die durch Schlachten wiedergewonnen werden können.</DankPyon_DireBoar.description>
+  
+  <DankPyon_DireBoar.tools.0.label>Stoßzähne</DankPyon_DireBoar.tools.0.label>
+  <DankPyon_DireBoar.tools.2.label>Hufe links</DankPyon_DireBoar.tools.2.label>
+  <DankPyon_DireBoar.tools.3.label>Hufe rechts</DankPyon_DireBoar.tools.3.label>
+  <DankPyon_DireBoar.tools.4.label>Kopf</DankPyon_DireBoar.tools.4.label>
+</LanguageData>

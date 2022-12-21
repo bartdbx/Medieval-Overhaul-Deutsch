@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <!-- ==================== Processed Resource ======================= -->  
+  <DankPyon_Fat.label>Fett</DankPyon_Fat.label>
+  <DankPyon_Fat.description>Fett ist ein reichlich vorhandener Stoff und erfüllt mehrere Zwecke. In der Nahrung verbessert zugesetztes Fett die Mahlzeiten und füllt den Darm eines Kolonisten länger, aber zu viel davon und der Kolonist wird eher krank. Im Überlebenskampf kann Fett den Flammen zugefügt werden, sei es in einer Fackel oder einem Lagerfeuer, um die Wärme länger zu erhalten. Und schließlich kann man aus ausgeschmolzenem Fett Kerzen, Seifen, Skulpturen und vieles mehr herstellen.</DankPyon_Fat.description>
+  <DankPyon_Tallow.label>Talg</DankPyon_Tallow.label>
+  <DankPyon_Tallow.description>Talg ist eine ausgeschmolzene Form von Fett, die bei Zimmertemperatur fest ist und daher über längere Zeit gelagert werden kann. Kann zu Kerzen verarbeitet werden.</DankPyon_Tallow.description>
+  <DankPyon_Flour.label>Mehl</DankPyon_Flour.label>
+  <DankPyon_Flour.description>Mehl wird für die Zubereitung vieler verschiedener Gerichte verwendet und ist sehr lange lagerfähig, kann aber nicht roh verzehrt werden. Aufgrund seiner Beschaffenheit kann es sehr effizient gelagert werden.</DankPyon_Flour.description>
+  <DankPyon_Straw.label>Stroh</DankPyon_Straw.label>
+  <DankPyon_Straw.description>Getrocknete Getreidestängel, die vor allem als Futtermittel verwendet werden, geerntet und für die Lagerung gepresst. Stroh ist ein gutes Tierfutter, aber für den Menschen ungenießbar.</DankPyon_Straw.description>
+  <DankPyon_Salt.label>Salz</DankPyon_Salt.label>
+  <DankPyon_Salt.description>Salz ist ein häufig vorkommendes Mineral, das in natürlichen Gesteinsablagerungen und in großer Menge im Meer vorkommt. Es wird häufig zur Konservierung von Lebensmitteln und zum Würzen von Mahlzeiten verwendet.</DankPyon_Salt.description>
+  <DankPyon_Sugar.label>Zucker</DankPyon_Sugar.label>
+  <DankPyon_Sugar.description>Eine süße, weiße, pulverförmige Substanz, die aus der Zuckerrohrpflanze gewonnen wird.</DankPyon_Sugar.description>
+  <DankPyon_Spices.label>Gewürze</DankPyon_Spices.label>
+  <DankPyon_Spices.description>Eine Mischung aus getrockneten und zerkleinerten Gewürzen, die ein wunderbares Aroma und einen angenehmen Geschmack bietet..</DankPyon_Spices.description>
+  <DankPyon_Sausages.label>Rohwurst</DankPyon_Sausages.label>
+  <DankPyon_Sausages.description>Hackfleisch gemischt mit Kräutern und Gewürzen.</DankPyon_Sausages.description>
+
+  </LanguageData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--======================= Shelf ==============================-->
+  <DankPyon_RuinedShelfEmpty.label>zerstörtes Regal</DankPyon_RuinedShelfEmpty.label>
+  <DankPyon_RuinedShelfEmpty.description>Ein zerstörtes Regal.</DankPyon_RuinedShelfEmpty.description>
+  
+  <!--======================= Lootable Shelf ==============================-->
+  <DankPyon_LootableShelf_ChaliceSilver.label>gefülltes Regal</DankPyon_LootableShelf_ChaliceSilver.label>
+  <DankPyon_LootableShelf_ChaliceSilver.description>Ein mit Gegenständen gefülltes Regal.</DankPyon_LootableShelf_ChaliceSilver.description>
+  
+  <!--======================= Lootable Rack ==============================-->
+  <DankPyon_Lootable_RackMix.label>Waffenständer</DankPyon_Lootable_RackMix.label>
+  <DankPyon_Lootable_RackMix.description>Regal zur geordneten Aufbewahrung von Schwertern.</DankPyon_Lootable_RackMix.description>
+  <DankPyon_Lootable_RackSword.label>Schwerterablage</DankPyon_Lootable_RackSword.label>
+  <DankPyon_Lootable_RackSword.description>Regal zur geordneten Aufbewahrung von Schwertern.</DankPyon_Lootable_RackSword.description>
+  <DankPyon_Lootable_RackSpear.label>Speerhalter</DankPyon_Lootable_RackSpear.label>
+  <DankPyon_Lootable_RackSpear.description>Ein Gestell zur geordneten Aufbewahrung von Speeren.</DankPyon_Lootable_RackSpear.description>
+  
+  <!--======================= Lootable Chest ==============================-->
+  <DankPyon_LootableChest_RusticChest.label>Truhe</DankPyon_LootableChest_RusticChest.label>
+  <DankPyon_LootableChest_RusticChest.description>Eine Truhe zur Aufbewahrung von Schätzen und Gerümpel.</DankPyon_LootableChest_RusticChest.description>
+  <DankPyon_LootableChest_RoyalChest.label>Königstruhe</DankPyon_LootableChest_RoyalChest.label>
+  <DankPyon_LootableChest_RoyalChest.description>Eine königliche Truhe zur Aufbewahrung königlicher Schätze und königlichen Gerümpel.</DankPyon_LootableChest_RoyalChest.description>
+  <DankPyon_Lootable_ArmorStatueNamed.label>Rüstungsstatue</DankPyon_Lootable_ArmorStatueNamed.label>
+  <DankPyon_Lootable_ArmorStatueNamed.description>Ein Ständer, der eine prestigeträchtige Rüstung zeigt, die von alten Königen und Champions getragen wurde.</DankPyon_Lootable_ArmorStatueNamed.description>
+
+</LanguageData>

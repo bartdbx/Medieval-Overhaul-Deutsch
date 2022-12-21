@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!--========== Necklace ==========-->
+  <DankPyon_Necklace_Citrine.label>Citrin-Halskette</DankPyon_Necklace_Citrine.label>
+  <DankPyon_Necklace_Citrine.description>Diese Halskette mit Citrin erhöht den Wohlstand von Männern und Frauen, die ihren sozialen Status verbessern wollen.</DankPyon_Necklace_Citrine.description>
+  <DankPyon_Necklace_Jade.label>Jade-Halskette</DankPyon_Necklace_Jade.label>
+  <DankPyon_Necklace_Jade.description>Diese Halskette, die so widerstandsfähig und schön wie ein Jade-Edelstein ist, bietet denjenigen, die es sich leisten können, mäßigen Reichtum..</DankPyon_Necklace_Jade.description>
+  <DankPyon_Necklace_Amber.label>Bernstein-Halskette</DankPyon_Necklace_Amber.label>
+  <DankPyon_Necklace_Amber.description>Dieses Bernsteincollier, das den natürlichen gelb-orangen Farbton des Edelsteins aufweist, ist aufgrund seiner natürlichen Schönheit sowohl bekannt als auch wertvoll..</DankPyon_Necklace_Amber.description>
+  <DankPyon_Necklace_Onyx.label>Onyx-Halskette</DankPyon_Necklace_Onyx.label>
+  <DankPyon_Necklace_Onyx.description>Diese Halskette, schwarz wie der Onyx selbst, zeugt von unglaublichem Reichtum, da der Edelstein im Inneren trotz seiner dunklen Farbe weiter glänzt.</DankPyon_Necklace_Onyx.description>
+  
+  <!--Gold and Above tier-->
+  <DankPyon_Necklace_Emerald.label>Smaragdhalskette</DankPyon_Necklace_Emerald.label>
+  <DankPyon_Necklace_Emerald.description>Diese goldene Halskette, in die ein makelloser Smaragd eingelassen ist, verschafft ihrem Träger einen beträchtlichen Zuwachs an Reichtum und wird häufig von Adligen und Kaufleuten getragen.</DankPyon_Necklace_Emerald.description>
+  <DankPyon_Necklace_Sapphire.label>Saphir-Halskette</DankPyon_Necklace_Sapphire.label>
+  <DankPyon_Necklace_Sapphire.description>Diese mit einem Saphir besetzte Halskette erstrahlt in ihrem gewohnten blauen Glanz und sorgt dafür, dass die Menschen um die Trägerin herum den wohlhabenden Mann oder die wohlhabende Frau, die unter ihnen wandelt, wahrnehmen.</DankPyon_Necklace_Sapphire.description>
+  <DankPyon_Necklace_Ruby.label>Rubinhalskette</DankPyon_Necklace_Ruby.label>
+  <DankPyon_Necklace_Ruby.description>Diese goldene Halskette, die mit mehreren tropfenförmigen Rubinen verziert ist, bietet großen Reichtum und impliziert große Macht, denn wer sich eine solche Halskette leisten oder stehlen kann, mit dem ist nicht zu spaßen.</DankPyon_Necklace_Ruby.description>
+  
+  <!--========== Rings ==========-->
+  <DankPyon_Ring_Citrine.label>Citrinring</DankPyon_Ring_Citrine.label>
+  <DankPyon_Ring_Citrine.description>Dieser Ring mit Zitrin erhöht den Wohlstand von Männern und Frauen, die ihren sozialen Status verbessern wollen, leicht..</DankPyon_Ring_Citrine.description>
+  <DankPyon_Ring_Jade.label>Jadering</DankPyon_Ring_Jade.label>
+  <DankPyon_Ring_Jade.description>Dieser Ring, der so widerstandsfähig und schön wie ein Jade-Edelstein ist, bietet denjenigen, die es sich leisten können, mäßigen Reichtum..</DankPyon_Ring_Jade.description>
+  <DankPyon_Ring_Amber.label>Bernsteinring</DankPyon_Ring_Amber.label>
+  <DankPyon_Ring_Amber.description>Dieser Bernsteinring, der den natürlichen gelb-orangen Farbton des Edelsteins aufweist, ist aufgrund seiner natürlichen Schönheit sowohl bekannt als auch wertvoll.</DankPyon_Ring_Amber.description>
+  <DankPyon_Ring_Onyx.label>Onyxring</DankPyon_Ring_Onyx.label>
+  <DankPyon_Ring_Onyx.description>Dieser Ring, schwarz wie der Onyx selbst, zeugt von einem unglaublichen Reichtum, der den durchschnittlichen Mann oder die durchschnittliche Frau übertrifft, da der Edelstein im Inneren trotz seiner dunklen Farbe weiter glänzt.</DankPyon_Ring_Onyx.description>
+  
+  <!--Gold and Above tier-->
+  <DankPyon_Ring_Emerald.label>Smaragd-Halskette</DankPyon_Ring_Emerald.label>
+  <DankPyon_Ring_Emerald.description>Dieser Goldring, in den ein makelloser Smaragd eingebettet ist, bringt seinem Träger einen beträchtlichen Zuwachs an Reichtum und wird häufig von Adligen und Kaufleuten getragen..</DankPyon_Ring_Emerald.description>
+  <DankPyon_Ring_Sapphire.label>Saphirring</DankPyon_Ring_Sapphire.label>
+  <DankPyon_Ring_Sapphire.description>Diese mit einem Saphir besetzte Halskette erstrahlt in ihrem gewohnten blauen Glanz und sorgt dafür, dass die Menschen in der Umgebung des Trägers den wohlhabenden Mann oder die wohlhabende Frau, die unter ihnen wandelt, zur Kenntnis nehmen..</DankPyon_Ring_Sapphire.description>
+  <DankPyon_Ring_Ruby.label>Rubinring</DankPyon_Ring_Ruby.label>
+  <DankPyon_Ring_Ruby.description>Diese goldene Halskette, die mit mehreren tränenförmigen Rubinen verziert ist, bietet großen Reichtum und impliziert große Macht, denn wer sich eine solche Halskette leisten oder stehlen kann, mit dem ist nicht zu spaßen.</DankPyon_Ring_Ruby.description>
+</LanguageData>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<LanguageData>
+  <DankPyon_MiningSpot.label>Salzbergbau Platz</DankPyon_MiningSpot.label>
+  <DankPyon_MiningSpot.description>Ein Ort für den Salzabbau. Die Produktion hier ist mangels Werkzeugen langsam.</DankPyon_MiningSpot.description>
+  <DankPyon_ResearchingSpot.label>Forschung Platz</DankPyon_ResearchingSpot.label>
+  <DankPyon_ResearchingSpot.description>Ein Ort für die Erforschung einfacher Konzepte. Die Recherche hier ist mangels Werkzeugen langsam.</DankPyon_ResearchingSpot.description>
+  <DankPyon_StonecuttingSpot.label>Steinbaustelle</DankPyon_StonecuttingSpot.label>
+  <DankPyon_StonecuttingSpot.description>Ein Ort, um Steine aufeinander zu schlagen. Die Produktion hier ist mangels Werkzeugen langsam.</DankPyon_StonecuttingSpot.description>
+  <DankPyon_ButchersBlock.label>Schlachtbank</DankPyon_ButchersBlock.label>
+  <DankPyon_ButchersBlock.description>Ein Holzstumpf zum Zerlegen toter Kreaturen in rohe Fleischstücke.</DankPyon_ButchersBlock.description>
+  <DankPyon_RusticCookingTable.label>Holzherd</DankPyon_RusticCookingTable.label>
+  <DankPyon_RusticCookingTable.description>Ein Holzofen mit angeschlossener Arbeitsplatte zum Zubereiten von Mahlzeiten.</DankPyon_RusticCookingTable.description>
+  <DankPyon_StoneOven.label>Backofen</DankPyon_StoneOven.label>
+  <DankPyon_StoneOven.description>Ein Arbeitstisch mit einem Steinofen zum Backen von Brote und Mahlzeiten.</DankPyon_StoneOven.description>
+  <DankPyon_StoneOvenLarge.label>Großer Backofen</DankPyon_StoneOvenLarge.label>
+  <DankPyon_StoneOvenLarge.description>Ein großer Steinofen zum Backen von Brote und Mahlzeiten.</DankPyon_StoneOvenLarge.description>
+  <DankPyon_Grill.label>Grill</DankPyon_Grill.label>
+  <DankPyon_Grill.description>Ein mit Holz betriebener Grill zum grillen von Mahlzeiten über offenem Feuer.</DankPyon_Grill.description>
+  <DankPyon_StewPot.label>Kochtopf</DankPyon_StewPot.label>
+  <DankPyon_StewPot.description>Ein großer Metallkessel, in dem man köstliche Suppen kochen kann.</DankPyon_StewPot.description>
+  <DankPyon_Millstone.label>Mühlstein</DankPyon_Millstone.label>
+  <DankPyon_Millstone.description>Ein kleiner runder Stein zum Mahlen von rohen Pflanzen.</DankPyon_Millstone.description>
+  <!--
+  <DankPyon_Dishwasher.label>Geschirrwascher</DankPyon_Dishwasher.label>
+  <DankPyon_Dishwasher.description>Ein Eimer voll Wasser zum Abwaschen des Schmutzgeschirrs.</DankPyon_Dishwasher.description>
+  -->
+  <DankPyon_AdvancedResearchBench.label>Fortschrittlich. Forschungs Tisch</DankPyon_AdvancedResearchBench.label>
+  <DankPyon_AdvancedResearchBench.description>Bessere Technologie erfordert größere Köpfe, und daher muss die einfache Forschungsbank aufgerüstet werden, um den Bedürfnissen innovativer Erfinder und versierter Forscher gerecht zu werden. Von der Ingenieurskunst bis zur Alchemie ermöglicht die fortschrittliche Forschungsbank einer Kolonie, ihre Technologie in eine neue Ära der fortschrittlichen Kriegsführung und Medizin zu katapultieren.</DankPyon_AdvancedResearchBench.description>
+  
+  <!-- Rack -->
+  <DankPyon_DryingRack.label>Trocken Gestell</DankPyon_DryingRack.label>
+  <DankPyon_DryingRack.description>Ein Holzregal zum Trocknen von Waren unter der Sonne, zur Konservierung und zur Haltbarmachung.</DankPyon_DryingRack.description>
+  
+  <!-- Hay Rack -->
+  <DankPyon_HayRack.label>Heuraufe</DankPyon_HayRack.label>
+  <DankPyon_HayRack.description>Ein Gestell um Heu in der Sonne zu trocknen. Durch das entfeuchten wird es Haltbarer und vielseitig nurzbarer.</DankPyon_HayRack.description>
+  
+  <!-- Gardening Box -->
+  <DankPyon_Post.label>Weinreben Pfosten</DankPyon_Post.label>
+  <DankPyon_Post.description>Ein Stützpfosten, um Weinpflanzen effektiv wachsen zu lassen</DankPyon_Post.description>
+  <DankPyon_Presser.label>Presse</DankPyon_Presser.label>
+  <DankPyon_Presser.description>Eine hölzerne Vorrichtung zum pressen ausgewählter Gegenstände. Entweder um den Saft herauszuholen oder Molke aus Quark.</DankPyon_Presser.description>
+  <DankPyon_Smoker.label>Räucherei</DankPyon_Smoker.label>
+  <DankPyon_Smoker.description>Rauch, der vom verbrannten Holz am Boden des Räucherofens erzeugt wird, umhüllt das Fleisch und sorgt für indirekte Hitze und einen reichen Rauchgeschmack. Dadurch entsteht eine Schutzschicht und das Räucherfleisch hält länger.</DankPyon_Smoker.description>
+  <DankPyon_Workbench.label>Werkbank</DankPyon_Workbench.label>
+  <DankPyon_Workbench.description>Ein Arbeitstisch mit Werkzeugen zum Herstellen und Gestalten von Gegenständen.</DankPyon_Workbench.description>
+  <DankPyon_JewelryBench.label>Juwelier Tisch</DankPyon_JewelryBench.label>
+  <DankPyon_JewelryBench.description>Ein Arbeitstisch mit Utensilien um Schmuck zu Designen.</DankPyon_JewelryBench.description>
+  <DankPyon_CleaningBench.label>Reinigungs Tisch</DankPyon_CleaningBench.label>
+  <DankPyon_CleaningBench.description>Ein Arbeitstisch um Beutegut zu Reinigen um sie danach Auszustellen.</DankPyon_CleaningBench.description>
+  <DankPyon_AlchemyBench.label>Alchemie Tisch</DankPyon_AlchemyBench.label>
+  <DankPyon_AlchemyBench.description>Ein schwerer Holztisch, gesichert mit einem dicken Lederfell. Gefüllt mit allen möglichen Krimmskrams, für einen Laien nutzlos aber perfekt für verbotene Künste. Es bedeutet alles für einen Alchemisten um Zutaten zu Mischen und daraus etwas zu Erzeugen.</DankPyon_AlchemyBench.description>
+  <DankPyon_SpinningWheel.label>Spinnrad</DankPyon_SpinningWheel.label>
+  <DankPyon_SpinningWheel.description>Eine drehende Vorrichtung, die Rohbaumwolle zu Stoffen verarbeitet.</DankPyon_SpinningWheel.description>
+  <DankPyon_TailorsBench.label>Nähtisch</DankPyon_TailorsBench.label>
+  <DankPyon_TailorsBench.description>Ein Holzarbeitstisch zum Vernähen von Stoffen zur Herstellung tragbarer Kleidung.</DankPyon_TailorsBench.description>
+  <DankPyon_Furnace.label>Schmelzofen</DankPyon_Furnace.label>
+  <DankPyon_Furnace.description>Ein großer Steinofen zum Schmelzen von Roherzen und Raffinieren von Ressourcen.</DankPyon_Furnace.description>
+  <DankPyon_Anvil.label>Amboss</DankPyon_Anvil.label>
+  <DankPyon_Anvil.description>Ein großes Metallbearbeitungswerkzeug mit abgeflachter Oberfläche, um Gegenstände wie Waffen und Rüstungen besser zu treffen.</DankPyon_Anvil.description>
+  
+  <!-- Mine Shaft -->
+  <DankPyon_MineShaft.label>Minenschacht</DankPyon_MineShaft.label>
+  <DankPyon_MineShaft.description>Eine robuste Plattform, die mit einem primitiven Aufzug ausgestattet ist, der auf einem vertikalen Tunnel gebaut wurde. Kann zum Abbau von Ressourcen und Brocken verwendet werden.</DankPyon_MineShaft.description>
+  <DankPyon_GardeningBox.label>Pflanzbox</DankPyon_GardeningBox.label>
+  <DankPyon_GardeningBox.description>Eine Kiste voller Erde, um Pflanzen zu züchten.</DankPyon_GardeningBox.description>
+  
+  <!-- Apiary -->
+  <DankPyon_Apiary.label>Bienenstock</DankPyon_Apiary.label>
+  <DankPyon_Apiary.description>Ein Holzkasten wo Bienen Honig und Wachs Produzieren.</DankPyon_Apiary.description>
+
+</LanguageData>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Stone Chunks -->
+  <DankPyon_MakeStoneChunks_Coal.description>Bergbau tief unter der Erde zur Gewinnung von Kohlebrocken.</DankPyon_MakeStoneChunks_Coal.description>		
+  <DankPyon_MakeStoneChunks_Coal.label>Kohlebrocken x25 abbauen</DankPyon_MakeStoneChunks_Coal.label>
+  <DankPyon_MakeStoneChunks_Coal.jobString>Baut Kohlebrocken ab (x25).</DankPyon_MakeStoneChunks_Coal.jobString>
+  <DankPyon_MakeStoneChunks_Sandstone.label>Sandsteinbrocken abbauen</DankPyon_MakeStoneChunks_Sandstone.label>
+  <DankPyon_MakeStoneChunks_Sandstone.jobString>Baut Sandsteinbrocken ab.</DankPyon_MakeStoneChunks_Sandstone.jobString>
+  <DankPyon_MakeStoneChunks_Granite.label>Granitbrocken abbauen</DankPyon_MakeStoneChunks_Granite.label>
+  <DankPyon_MakeStoneChunks_Granite.jobString>Baut Granitbrocken ab.</DankPyon_MakeStoneChunks_Granite.jobString>
+  <DankPyon_MakeStoneChunks_Limestone.label>Kalksteinbrocken abbauen</DankPyon_MakeStoneChunks_Limestone.label>
+  <DankPyon_MakeStoneChunks_Limestone.jobString>Baut Kalksteinbrocken ab.</DankPyon_MakeStoneChunks_Limestone.jobString>
+  <DankPyon_MakeStoneChunks_Slate.label>Schieferbrocken abbauen</DankPyon_MakeStoneChunks_Slate.label>
+  <DankPyon_MakeStoneChunks_Slate.jobString>Baut Schieferbrocken ab.</DankPyon_MakeStoneChunks_Slate.jobString>
+  <DankPyon_MakeStoneChunks_Marble.label>Marmorbrocken abbauen</DankPyon_MakeStoneChunks_Marble.label>
+  <DankPyon_MakeStoneChunks_Marble.jobString>Baut Marmorbrocken ab.</DankPyon_MakeStoneChunks_Marble.jobString>
+  
+  <!-- Salt -->
+  <DankPyon_MakeSalt.description>Bergwerk tief unter der Erde zur Salzgewinnung</DankPyon_MakeSalt.description>	
+  <DankPyon_MakeSalt.label>Salz abbauen</DankPyon_MakeSalt.label>
+  <DankPyon_MakeSalt.jobString>Baut Salz ab</DankPyon_MakeSalt.jobString>
+  <DankPyon_MakeSaltBulk.description>Bergwerk tief unter der Erde zur Salzgewinnung</DankPyon_MakeSaltBulk.description>
+  <DankPyon_MakeSaltBulk.label>Salz x10 abbauen</DankPyon_MakeSaltBulk.label>
+  <DankPyon_MakeSaltBulk.jobString>Baut Salz ab (x10)</DankPyon_MakeSaltBulk.jobString>
+  <!-- Tar -->
+  <DankPyon_MakeTar.description>Tief unter der Erde abbauen, um Teer zu gewinnen</DankPyon_MakeTar.description>
+  <DankPyon_MakeTar.label>Teer abbauen</DankPyon_MakeTar.label>
+  <DankPyon_MakeTar.jobString>baut Teer ab</DankPyon_MakeTar.jobString>
+  <DankPyon_MakeTarBulk.description>Tief unter der Erde abbauen, um Teer zu gewinnen</DankPyon_MakeTarBulk.description>
+  <DankPyon_MakeTarBulk.label>Teer x5 abbauen</DankPyon_MakeTarBulk.label>
+  <DankPyon_MakeTarBulk.jobString>baut Teer ab (x5)</DankPyon_MakeTarBulk.jobString>
+  <!-- Gunpowder -->
+  <DankPyon_MakeGunpowder.description>Tief unter der Erde abbauen, um Schießpulver zu gewinnen</DankPyon_MakeGunpowder.description>
+  <DankPyon_MakeGunpowder.label>Schießpulver abbauen</DankPyon_MakeGunpowder.label>
+  <DankPyon_MakeGunpowder.jobString>baut Schießpulver ab</DankPyon_MakeGunpowder.jobString>
+  <DankPyon_MakeGunpowderBulk.description>Tief unter der Erde abbauen, um Schießpulver zu gewinnen</DankPyon_MakeGunpowderBulk.description>
+  <DankPyon_MakeGunpowderBulk.label>Schießpulver x5 abbauen</DankPyon_MakeGunpowderBulk.label>
+  <DankPyon_MakeGunpowderBulk.jobString>baut Schießpulver ab (x5)</DankPyon_MakeGunpowderBulk.jobString>
+  <!-- Iron Ore -->
+  <DankPyon_MakeOre_IronOre.description>Tief unter der Erde abbauen, um Eisenerz zu gewinnen</DankPyon_MakeOre_IronOre.description>
+  <DankPyon_MakeOre_IronOre.label>Eisenerz abbauen</DankPyon_MakeOre_IronOre.label>
+  <DankPyon_MakeOre_IronOre.jobString>baut Eisenerz ab.</DankPyon_MakeOre_IronOre.jobString>
+  <DankPyon_MakeOre_IronOreBulk.description>Tief unter der Erde abbauen, um Eisenerz zu gewinnen</DankPyon_MakeOre_IronOreBulk.description>
+  <DankPyon_MakeOre_IronOreBulk.label>Eisenerz x5 abbauen</DankPyon_MakeOre_IronOreBulk.label>
+  <DankPyon_MakeOre_IronOreBulk.jobString>baut Eisenerz ab (x5).</DankPyon_MakeOre_IronOreBulk.jobString>
+  <!-- Silver Ore -->
+  <DankPyon_MakeOre_SilverOre.description>Tief unter der Erde abbauen, um Silbererze zu gewinnen</DankPyon_MakeOre_SilverOre.description>
+  <DankPyon_MakeOre_SilverOre.label>Silbererz abbauen</DankPyon_MakeOre_SilverOre.label>
+  <DankPyon_MakeOre_SilverOre.jobString>baut Silbererz ab.</DankPyon_MakeOre_SilverOre.jobString>
+  <DankPyon_MakeOre_SilverOreBulk.description>Tief unter der Erde abbauen, um Silbererze zu gewinnen</DankPyon_MakeOre_SilverOreBulk.description>
+  <DankPyon_MakeOre_SilverOreBulk.label>Silbererz x5 abbauen</DankPyon_MakeOre_SilverOreBulk.label>
+  <DankPyon_MakeOre_SilverOreBulk.jobString>baut Silbererz ab (x5).</DankPyon_MakeOre_SilverOreBulk.jobString>
+</LanguageData>

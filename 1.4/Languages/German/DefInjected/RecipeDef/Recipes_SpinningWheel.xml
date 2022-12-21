@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Cloth -->
+  <DankPyon_MakeCloth.label>Baumwolle spinnen</DankPyon_MakeCloth.label>
+  <DankPyon_MakeCloth.description>Rohe Baumwolle zu Stoff verspinnen.</DankPyon_MakeCloth.description>
+  <DankPyon_MakeCloth.jobString>Spinnt Baumwolle.</DankPyon_MakeCloth.jobString>
+  <DankPyon_MakeClothBulk.label>Baumwolle x50 spinnen</DankPyon_MakeClothBulk.label>
+  <DankPyon_MakeClothBulk.description>Rohe Baumwolle Stoff verspinnen (x50).</DankPyon_MakeClothBulk.description>
+  <DankPyon_MakeClothBulk.jobString>Spinnt Baumwolle (x50).</DankPyon_MakeClothBulk.jobString>
+  <!-- Linen -->
+  <DankPyon_MakeLinen.jobString>Spinnt Flachs zu Leinen.</DankPyon_MakeLinen.jobString>
+  <DankPyon_MakeLinen.label>Leinen spinnen</DankPyon_MakeLinen.label>
+  <DankPyon_MakeLinen.description>Spinnen von Rohflachs zu Leinenstoff.</DankPyon_MakeLinen.description>
+  <DankPyon_MakeLinenBulk.jobString>Spinnt Flachs zu Leinen (x50).</DankPyon_MakeLinenBulk.jobString>
+  <DankPyon_MakeLinenBulk.label>Leinen x50 spinnen</DankPyon_MakeLinenBulk.label>
+  <DankPyon_MakeLinenBulk.description>Spinnen von Rohflachs zu Leinenstoffen (x50).</DankPyon_MakeLinenBulk.description>
+  <!-- Cloth from wool -->
+  <DankPyon_MakeClothFromWool.label>Wolle spinnen</DankPyon_MakeClothFromWool.label>
+  <DankPyon_MakeClothFromWool.description>Spinnen von Rohwolle zu Stoffen.</DankPyon_MakeClothFromWool.description>
+  <DankPyon_MakeClothFromWool.jobString>Spinnt Wolle zu Stoff.</DankPyon_MakeClothFromWool.jobString>
+  <DankPyon_Make50ClothFromWool.label>Wolle x50 spinnen</DankPyon_Make50ClothFromWool.label>
+  <DankPyon_Make50ClothFromWool.description>Spinnen von Rohwolle zu Stoff (x50).</DankPyon_Make50ClothFromWool.description>
+  <DankPyon_Make50ClothFromWool.jobString>Spinnt Wolle zu Stoff (x50).</DankPyon_Make50ClothFromWool.jobString>
+</LanguageData>

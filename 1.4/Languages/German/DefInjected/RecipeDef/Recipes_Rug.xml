@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Patched Rug -->
+  <DankPyon_MakeRugPatched1x1c.label>Flickenteppich nähen S</DankPyon_MakeRugPatched1x1c.label>
+  <DankPyon_MakeRugPatched1x1c.description>Flickenteppich nähen (S)mall</DankPyon_MakeRugPatched1x1c.description>
+  
+  <DankPyon_MakeRugPatched2x2c.label>Flickenteppich nähen M</DankPyon_MakeRugPatched2x2c.label>
+  <DankPyon_MakeRugPatched2x2c.description>Flickenteppich nähen (M)edium</DankPyon_MakeRugPatched2x2c.description>
+  
+  <DankPyon_MakeRugPatched3x3c.label>Flickenteppich nähen L</DankPyon_MakeRugPatched3x3c.label>
+  <DankPyon_MakeRugPatched3x3c.description>Flickenteppich nähen (L)arge</DankPyon_MakeRugPatched3x3c.description>
+  
+  <!-- Hyena Rug -->
+  <DankPyon_MakeHyenaRug.label>Hyänenteppich nähen</DankPyon_MakeHyenaRug.label>
+  <DankPyon_MakeHyenaRug.description>Verarbeiten Sie eine rohe Hyänenhaut zu einem weichen und schönen Teppich.</DankPyon_MakeHyenaRug.description>
+  <DankPyon_MakeHyenaRug.jobString>Stellt Hyänenteppich her.</DankPyon_MakeHyenaRug.jobString>
+  <!-- Timberwolf Rug -->
+  <DankPyon_MakeWolfTimberRug.label>Timberwolfteppich nähen</DankPyon_MakeWolfTimberRug.label>
+  <DankPyon_MakeWolfTimberRug.description>Verarbeiten Sie eine rohe Timberwolffell zu einem weichen und schönen Teppich.</DankPyon_MakeWolfTimberRug.description>
+  <DankPyon_MakeWolfTimberRug.jobString>Stellt Timberwolfteppich her.</DankPyon_MakeWolfTimberRug.jobString>
+  <!-- Arctic wolf Rug -->
+  <DankPyon_MakeWolfArcticRug.label>Eiswolfteppich nähen</DankPyon_MakeWolfArcticRug.label>
+  <DankPyon_MakeWolfArcticRug.description>Verarbeiten Sie ein rohes Eiswolfsfell zu einem weichen und schönen Teppich.</DankPyon_MakeWolfArcticRug.description>
+  <DankPyon_MakeWolfArcticRug.jobString>Stellt Eiswolfteppich her.</DankPyon_MakeWolfArcticRug.jobString>
+  <!-- Cougar Rug -->
+  <DankPyon_MakeCougarRug.label>Pumateppich nähen</DankPyon_MakeCougarRug.label>
+  <DankPyon_MakeCougarRug.description>Verarbeiten Sie ein rohes Pumafell zu einem weichen und schönen Teppich.</DankPyon_MakeCougarRug.description>
+  <DankPyon_MakeCougarRug.jobString>Stellt Pumateppich her.</DankPyon_MakeCougarRug.jobString>
+  <!-- Panther Rug -->
+  <DankPyon_MakePantherRug.label>Pantherteppich nähen</DankPyon_MakePantherRug.label>
+  <DankPyon_MakePantherRug.description>Verarbeiten Sie ein rohes Pantherfell zu einem weichen und schönen Teppich.</DankPyon_MakePantherRug.description>
+  <DankPyon_MakePantherRug.jobString>Stellt Pantherteppich her.</DankPyon_MakePantherRug.jobString>
+  <!-- Grizzly Rug -->
+  <DankPyon_MakeBearGrizzlyRug.label>Grizzlybärteppich nähen</DankPyon_MakeBearGrizzlyRug.label>
+  <DankPyon_MakeBearGrizzlyRug.description>Verarbeiten Sie ein rohes Grizzlybärenfell zu einem weichen und schönen Teppich.</DankPyon_MakeBearGrizzlyRug.description>
+  <DankPyon_MakeBearGrizzlyRug.jobString>Stellt Grizzlybärteppich her.</DankPyon_MakeBearGrizzlyRug.jobString>
+  <!-- Polar bear Rug -->
+  <DankPyon_MakeBearPolarRug.label>Polarbärenteppich nähen</DankPyon_MakeBearPolarRug.label>
+  <DankPyon_MakeBearPolarRug.description>Verarbeiten Sie ein rohes Polarbärenfell zu einem weichen und schönen Teppich.</DankPyon_MakeBearPolarRug.description>
+  <DankPyon_MakeBearPolarRug.jobString>Stellt Polarbärenteppich her.</DankPyon_MakeBearPolarRug.jobString>
+  <!-- Thrumbo Rug -->
+  <DankPyon_MakeThrumboRug.label>Trumboteppich nähen</DankPyon_MakeThrumboRug.label>
+  <DankPyon_MakeThrumboRug.description>Verarbeiten Sie ein rohes Trumbofell zu einem weichen und schönen Teppich.</DankPyon_MakeThrumboRug.description>
+  <DankPyon_MakeThrumboRug.jobString>Stellt Trumboteppich her.</DankPyon_MakeThrumboRug.jobString>
+  <!-- Daer Rug -->
+  <DankPyon_MakeDaerRug.label>Daerteppich nähen</DankPyon_MakeDaerRug.label>
+  <DankPyon_MakeDaerRug.description>Verwandeln Sie ein rohes Daerfell in einen weichen und schönen Teppich.</DankPyon_MakeDaerRug.description>
+  <DankPyon_MakeDaerRug.jobString>Stellt Daerteppich her.</DankPyon_MakeDaerRug.jobString>
+
+</LanguageData>

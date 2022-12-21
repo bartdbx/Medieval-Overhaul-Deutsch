@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Presser -->
+	<DankPyon_InsertResourceDesc>Füge Ressourcen ein in die Presse.</DankPyon_InsertResourceDesc>
+	<DankPyon_InsertResource>Füge Ressourcen ein</DankPyon_InsertResource>
+	<DankPyon_InsertResourceVariable>Einfügen {0}</DankPyon_InsertResourceVariable>
+	<DankPyon_NoResourcesFound>Keine pressbaren Ressourcen gefunden auf der Karte.</DankPyon_NoResourcesFound>
+	<DankPyon_SelectResource>Wähle einen Ressourcentyp der Gepresst werden soll.</DankPyon_SelectResource>
+	<DankPyon_StartInsertionResource>Bringe Ressourcen</DankPyon_StartInsertionResource>
+	<DankPyon_StartInsertionResourceDesc>Bringe Ressourcen zur Presse um anzufangen</DankPyon_StartInsertionResourceDesc>
+	<DankPyon_RemoveResource>Entferne Ressourcen</DankPyon_RemoveResource>
+	<DankPyon_RemoveResourceDesc>Entferne Ressourcen aus der Presse. Das Geht nur bevor du Anfängst zu Pressen.</DankPyon_RemoveResourceDesc>	
+	<DankPyon_CancelBringingResource>Ressourcen Bringen Abbrechen</DankPyon_CancelBringingResource>
+	<DankPyon_CancelBringingResourceDesc>Ressourcen zu Presse Bringen Abbrechen.</DankPyon_CancelBringingResourceDesc>
+	<DankPyon_WaitTillJobsEndResource>Warte bis die Ressourcen zur Presse gebracht wurden, oder breche den Auftrag ab.</DankPyon_WaitTillJobsEndResource>
+	<DankPyon_EngageResource>Presse zu Produkt</DankPyon_EngageResource>
+	<DankPyon_EngageResourceDesc>Starte die Presse. Dieser Vorgang dauert 5 Tage und kann nicht unterbrochen werden, ohne das die Ressource zerstört wird.</DankPyon_EngageResourceDesc>
+	<DankPyon_ResourceFinished>Ein Produkt wurde fertiggstellt in der Presse</DankPyon_ResourceFinished>
+	<DankPyon_ResourceInProgress>Ein {0} wird gepresst. Fertig in {1}</DankPyon_ResourceInProgress>
+	<DankPyon_ResourceReady>Ein Produkt wurde fertiggstellt in der Presse und wartet um eingesammelt zu werden</DankPyon_ResourceReady>
+	<DankPyon_ResourceImproperlyDefined>Diese Ressource wurde nicht richtig definiert um mit der Presse Funktionieren zu können, Kontaktieren sie den mod's Author dieser Ressource</DankPyon_ResourceImproperlyDefined>
+	<DankPyon_RemoveProduct>Entnehme Produkt ({0})</DankPyon_RemoveProduct>
+	<DankPyon_RemoveProductDesc>Entnehme Produkt aus der Presse.</DankPyon_RemoveProductDesc>
+	
+	<DankPyon_PressEmpty>Die Presse ist momentan leer</DankPyon_PressEmpty>
+	<DankPyon_PressFilled>Die Presse ist befüllt mit {0}</DankPyon_PressFilled>
+	<DankPyon_PressWorking>Die Presse Arbeitet:</DankPyon_PressWorking>
+	<DankPyon_ResourcePercentage>befüllt mit ({0}) von ({1})</DankPyon_ResourcePercentage>
+
+	<!-- Smoker -->
+	<DankPyon_InsertMeatDesc>Füge Fleisch ein zum Räuchern.</DankPyon_InsertMeatDesc>
+	<DankPyon_InsertMeat>Fleisch Einfügen</DankPyon_InsertMeat>
+	<DankPyon_InsertMeatVariable>Füge {0} ein</DankPyon_InsertMeatVariable>
+	<DankPyon_NoMeatsFound>Kein Fleisch gefunden auf der Karte.</DankPyon_NoMeatsFound>
+	<DankPyon_SelectMeat>Wähle ein Fleischtyp der geräuchert werden soll</DankPyon_SelectMeat>
+	<DankPyon_StartInsertionMeat>Bring Fleisch</DankPyon_StartInsertionMeat>
+	<DankPyon_StartInsertionMeatDesc>Bringe Fleisch zum Räucherofen um Anzufangen</DankPyon_StartInsertionMeatDesc>
+	<DankPyon_RemoveMeat>Entferne Fleisch</DankPyon_RemoveMeat>
+	<DankPyon_RemoveMeatDesc>Entferne Fleisch aus dem Räucherofen. Das Geht nur bevor sie angefangen haben zu räuchern.</DankPyon_RemoveMeatDesc>	
+	<DankPyon_CancelBringingMeat>Fleisch Bringen Abbrechen</DankPyon_CancelBringingMeat>
+	<DankPyon_CancelBringingMeatDesc>Fleisch zum Räucherofen Bringen Abbrechen.</DankPyon_CancelBringingMeatDesc>
+	<DankPyon_WaitTillJobsEndMeat>Warten sie bis das Fleisch zum Ofen gebracht wurde oder brechen sie den Auftrag ab.</DankPyon_WaitTillJobsEndMeat>
+	<DankPyon_EngageMeat>Räuchere zu geräuchertes Fleisch</DankPyon_EngageMeat>
+	<DankPyon_EngageMeatDesc>Starte Räucherprozess. Dieser Vorgang kann nicht abgebrochen werden, ohne das Produkt zu zerstören.</DankPyon_EngageMeatDesc>
+	<DankPyon_SmokedMeatFinished>Geräuchertes Fleisch wurde fertiggestellt im Räucherofen</DankPyon_SmokedMeatFinished>
+	<DankPyon_SmokedMeatInProgress>Ein {0} wird geräuchert. Fertig in {1}</DankPyon_SmokedMeatInProgress>
+	<DankPyon_SmokedMeatReady>Fleisch wurde fertiggestellt im Räucherofen und wartet um eingesammelt zu werden</DankPyon_SmokedMeatReady>
+	<DankPyon_MeatImproperlyDefined>Diese Ressource wurde nicht richtig definiert um mit dem Räucherofen zu Funktionieren, Kontaktieren sie den mod's Author dieser Ressource</DankPyon_MeatImproperlyDefined>
+	<DankPyon_RemoveSmokedMeat>Entnehme ({0}) geräuchertes Fleisch</DankPyon_RemoveSmokedMeat>
+	
+	<DankPyon_SmokerEmpty>Räucherofen ist momentan leer</DankPyon_SmokerEmpty>
+	<DankPyon_SmokerFilled>Räucherofen befüllt mit {0}</DankPyon_SmokerFilled>
+	<DankPyon_SmokerWorking>Räucherofen Arbeitet:</DankPyon_SmokerWorking>
+
+	<!-- Drying Rack Meat -->
+	<DankPyon_InsertMeatRackDesc>Füge Fleisch ein zum trocknen.</DankPyon_InsertMeatRackDesc>
+	<DankPyon_InsertRackMeat>Fleisch Einfügen</DankPyon_InsertRackMeat>
+	<DankPyon_InsertMeatRackVariable>Füge {0} ein</DankPyon_InsertMeatRackVariable>
+	<DankPyon_StartInsertionMeatRackDesc>Bringe Fleisch zum Trockenreck um Anzufangen</DankPyon_StartInsertionMeatRackDesc>
+	<DankPyon_RemoveMeatRackDesc>Entferne Fleisch aus dem Trockenreck. Das Geht nur bevor sie angefangen haben zu Trocknen.</DankPyon_RemoveMeatRackDesc>	
+	<DankPyon_CancelBringingMeatRackDesc>Fleisch zum Trockenreck Bringen Abbrechen.</DankPyon_CancelBringingMeatRackDesc>
+	<DankPyon_WaitTillJobsEndMeatRack>Warten sie bis das Fleisch zum Trockenreck gebracht wurde oder brechen sie den Auftrag ab.</DankPyon_WaitTillJobsEndMeatRack>
+	<DankPyon_EngageMeatRack>Trockne zu Dörrfleisch</DankPyon_EngageMeatRack>
+	<DankPyon_EngageMeatRackDesc>Starte Trockenprozess. Dieser Vorgang kann nicht abgebrochen werden, ohne das Produkt zu zerstören.</DankPyon_EngageMeatRackDesc>
+	<DankPyon_DriedMeatFinished>Dörrfleisch wurde fertiggestellt am Trockenreck.</DankPyon_DriedMeatFinished>
+	<DankPyon_DriedMeatInProgress>Ein {0} wird getrocknet. Fertig in {1}</DankPyon_DriedMeatInProgress>
+	<DankPyon_DriedMeatRackReady>Fleisch wurde fertiggestellt am Trockenreck und wartet um eingesammelt zu werden</DankPyon_DriedMeatRackReady>
+	<DankPyon_MeatRackImproperlyDefined>Diese Ressource wurde nicht richtig definiert um mit dem Trockenreck zu Funktionieren, Kontaktieren sie den mod's Author dieser Ressource</DankPyon_MeatRackImproperlyDefined>
+	<DankPyon_RemoveDriedMeat>Entnehme ({0}) Dörrfleisch</DankPyon_RemoveDriedMeat>
+	
+	<DankPyon_DryingRackEmpty>Trockenreck ist momentan leer</DankPyon_DryingRackEmpty>
+	<DankPyon_DryingRackFilled>Trockenreck befüllt mit {0}</DankPyon_DryingRackFilled>
+	<DankPyon_DryingRackWorking>Trockenreck Arbeitet:</DankPyon_DryingRackWorking>
+
+	<!-- Hay Rack -->
+	<DankPyon_InsertHayDesc>Füge Heu ein zum trocknen.</DankPyon_InsertHayDesc>
+	<DankPyon_InsertHay>Heu Einfügen</DankPyon_InsertHay>
+	<DankPyon_InsertHayVariable>Füge {0} ein</DankPyon_InsertHayVariable>
+	<DankPyon_NoHayFound>Kein Heu gefunden auf der Karte.</DankPyon_NoHayFound>
+	<DankPyon_SelectHay>Wähle Heu das getrocknet werden soll</DankPyon_SelectHay>
+	<DankPyon_StartInsertionHay>Bring Heu</DankPyon_StartInsertionHay>
+	<DankPyon_StartInsertionHayDesc>Bringe Heu zur Heuraufe um Anzufangen</DankPyon_StartInsertionHayDesc>
+	<DankPyon_RemoveHay>Entferne Heu</DankPyon_RemoveHay>
+	<DankPyon_RemoveHayDesc>Entferne Heu aus der Raufe. Das Geht nur bevor sie angefangen haben zu Trocknen.</DankPyon_RemoveHayDesc>	
+	<DankPyon_CancelBringingHay>Heu Bringen Abbrechen</DankPyon_CancelBringingHay>
+	<DankPyon_CancelBringingHayDesc>Heu zur Raufe Bringen Abbrechen.</DankPyon_CancelBringingHayDesc>
+	<DankPyon_WaitTillJobsEndHay>Warten sie bis das Heu zur Raufe gebracht wurde oder brechen sie den Auftrag ab.</DankPyon_WaitTillJobsEndHay>
+	<DankPyon_EngageHay>Trockne zu Stroh</DankPyon_EngageHay>
+	<DankPyon_EngageHayDesc>Starte trockenvorgang. Dieser Vorgang dauert 3 Tage und kann nicht unterbrochen werden, ohne das die Ressource zerstört wird.</DankPyon_EngageHayDesc>
+	<DankPyon_StrawFinished>Stroh wurde fertiggestellt an der Heuraufe</DankPyon_StrawFinished>
+	<DankPyon_StrawInProgress>Ein {0} wird getrocknet. Fertig in in {1}</DankPyon_StrawInProgress>
+	<DankPyon_StrawReady>Stroh wurde fertiggestellt an der Heuraufe und wartet um eingesammelt zu werden</DankPyon_StrawReady>
+	<DankPyon_RemoveStraw>Entnehme ({0}) Stroh</DankPyon_RemoveStraw>
+	
+	<!-- Ale -->
+	<DankPyon_InsertAleOrMustDesc>Es muss Met oder Most eingefüllt werden</DankPyon_InsertAleOrMustDesc>
+	<DankPyon_StartInsertionAleOrMust>Bringe Met oder Most</DankPyon_StartInsertionAleOrMust>
+	<DankPyon_StartInsertionAleOrMustDesc>Bringe Met oder Most zum Fermenter um anzufangen</DankPyon_StartInsertionAleOrMustDesc>
+	<DankPyon_CancelBringingAleOrMust>Zutaten bringen Abbrechen</DankPyon_CancelBringingAleOrMust>
+	<DankPyon_CancelBringingAleOrMustDesc>Zutaten zum Fermenter bringen Abbrechen.</DankPyon_CancelBringingAleOrMustDesc>
+
+	<DankPyon_JuiceAppleMaturing>Apfelsaft ist am Reifen</DankPyon_JuiceAppleMaturing>
+	<DankPyon_JuiceAppleCurrentlyFrozen>Dieser unfermentierter Apfelsaft ist gefroren und wird nicht zu Apfelmost Reifen</DankPyon_JuiceAppleCurrentlyFrozen>
+	<DankPyon_JuiceAppleCurrentlyRefrigerated>Dieser unfermentierter Apfelsaft ist zu kalt und wird nicht so schnell zu Apfelmost Reifen als erwartet (Reif in {0})</DankPyon_JuiceAppleCurrentlyRefrigerated>
+	<DankPyon_JuiceAppleMaturingCorrectly>Dieser unfermentierter Apfelsaft Reift vorzüglich (Reif in {0})</DankPyon_JuiceAppleMaturingCorrectly>
+	
+	<MO.EnableMultiTileMeleeAttacks>Schalte mehrfelder-Nahkampf-Attacken ein</MO.EnableMultiTileMeleeAttacks>
+
+	<!-- UI -->
+	<DankPyon_GizmoSearch>Suche nach Beutegut</DankPyon_GizmoSearch>
+</LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_DaerPasses.label>Seltene Daers</DankPyon_DaerPasses.label>
+  <DankPyon_DaerPasses.letterLabel>{0} Ziehen ein</DankPyon_DaerPasses.letterLabel>
+  <DankPyon_DaerPasses.letterText>Eine Herde von {1} ziehen ins Gebiet ein und werden eine Weile bleiben. Vorsicht {1} sind sehr Gefährlich aber sehr begehrt bei Sammler ihrer Hörner.</DankPyon_DaerPasses.letterText>	<!-- {0} is the number, {1} is the pawn kind label  -->
+  <DankPyon_LindwurmPasses.label>Seltene Lindwürmer</DankPyon_LindwurmPasses.label>
+  <DankPyon_LindwurmPasses.letterLabel>{0} Ziehen ein</DankPyon_LindwurmPasses.letterLabel>
+  <DankPyon_LindwurmPasses.letterText>Eine Herde von {1} ziehen ins Gebiet ein und werden eine Weile bleiben. Vorsicht {1} sind sehr Gefährlich aber sehr begehrt bei Sammler ihrer Hörner.</DankPyon_LindwurmPasses.letterText>	<!-- {0} is the number, {1} is the pawn kind label  -->
+</LanguageData>

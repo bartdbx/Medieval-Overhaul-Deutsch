@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeTanningLiquorFromWood.label>Gerblauge aus Holz herstellen</MakeTanningLiquorFromWood.label>
+  <MakeTanningLiquorFromWood.description>Machen Sie einen Schwung Gerbflüssigkeit aus der Rinde und dem Holz von Baumstämmen.</MakeTanningLiquorFromWood.description>
+  <DankPyon_MakeTanningLiquorFromFood.label>Gerblauge aus Pflanzen herstellen</DankPyon_MakeTanningLiquorFromFood.label>
+  <DankPyon_MakeTanningLiquorFromFood.description>Stellen Sie einen Schwung Gerbungslauge her, indem Sie alle organischen Zutaten verwenden, von denen bekannt ist, dass sie Tannine enthalten.</DankPyon_MakeTanningLiquorFromFood.description>
+  <DankPyon_MakeTanningLiquorFromFood.jobString>Kocht Gerblauge aus Pflanzen.</DankPyon_MakeTanningLiquorFromFood.jobString>
+  <DankPyon_MakeTanningLiquorFromMeat.label>Gerblauge aus Fleisch herstellen</DankPyon_MakeTanningLiquorFromMeat.label>
+  <DankPyon_MakeTanningLiquorFromMeat.description>Stellen Sie einen Schwung Gerbungslauge her, indem Sie alle organischen Zutaten verwenden, von denen bekannt ist, dass sie Tannine enthalten.</DankPyon_MakeTanningLiquorFromMeat.description>
+  <DankPyon_MakeTanningLiquorFromMeat.jobString>Kocht Gerbungslauge aus Fleisch.</DankPyon_MakeTanningLiquorFromMeat.jobString>
+  <MakeTanningLiquorFromWood10X.label>Gerblauge aus Holz x10 herstellen</MakeTanningLiquorFromWood10X.label>
+  <MakeTanningLiquorFromWood10X.description>Stellt einen Schwung Gerbflüssigkeit her aus Holz (10x).</MakeTanningLiquorFromWood10X.description>
+  <MakeTanningLiquorFromWood10X.jobString>Kocht Gerblaugen aus Holz (x10)</MakeTanningLiquorFromWood10X.jobString>
+  <DankPyon_MakeTanningLiquorFromFood10X.label>Gerblauge aus Pflanzen x10 herstellen</DankPyon_MakeTanningLiquorFromFood10X.label>
+  <DankPyon_MakeTanningLiquorFromFood10X.description>Stellt einen Schwung Gerbflüssigkeit her aus Pflanzenrohstoffe die Tannine enthalten (10x).</DankPyon_MakeTanningLiquorFromFood10X.description>
+  <DankPyon_MakeTanningLiquorFromFood10X.jobString>Kocht Gerblaugen aus Pflanzen (x10)</DankPyon_MakeTanningLiquorFromFood10X.jobString>
+  <DankPyon_MakeTanningLiquorFromMeat10X.label>Gerblauge aus Fleisch x10 herstellen</DankPyon_MakeTanningLiquorFromMeat10X.label>
+  <DankPyon_MakeTanningLiquorFromMeat10X.description>Stellt einen Schwung Gerbflüssigkeit her aus Fleischstücke die Tannine enthalten (10x).</DankPyon_MakeTanningLiquorFromMeat10X.description>
+  <DankPyon_MakeTanningLiquorFromMeat10X.jobString>Kocht Gerbungslauge aus Fleisch (x10)</DankPyon_MakeTanningLiquorFromMeat10X.jobString>
+
+</LanguageData>

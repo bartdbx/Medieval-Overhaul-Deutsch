@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Coal Chunks -->
+  <DankPyon_Gather_Coal.label>Kohle x5 abbauen</DankPyon_Gather_Coal.label>
+  <DankPyon_Gather_Coal.jobString>Baut Kohle ab (x5).</DankPyon_Gather_Coal.jobString>
+  <!-- Salt Chunks -->
+  <DankPyon_Gather_Salt.description>Baue tief unter der Erde Salz ab</DankPyon_Gather_Salt.description>
+  <DankPyon_Gather_Salt.label>Salz x5 abbauen</DankPyon_Gather_Salt.label>
+  <DankPyon_Gather_Salt.jobString>Baut Salz ab (x5).</DankPyon_Gather_Salt.jobString>
+
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <DankPyon_PlowedSoil.label>Gepflügte Erde</DankPyon_PlowedSoil.label>
+	<DankPyon_PlowedSoil.description>Pflüge Erde um die Fruchtbarkeit zu erhöhen.</DankPyon_PlowedSoil.description>
+
+<!--==================== Ice ====================-->
+<!--TerrainDef>
+    <DankPyon_TrenchTerrain.label>Graben</DankPyon_TrenchTerrain.label>
+</TerrainDef-->
+
+<!--TerrainDef ParentName="Ice">
+    <Ice_IceShallow.label>flaches Eis</Ice_IceShallow.label>
+</TerrainDef>
+
+<TerrainDef>
+    <Ice_FrozenMarsh.label>gefrorener Sumpf</Ice_FrozenMarsh.label>
+</TerrainDef-->
+  
+</LanguageData>

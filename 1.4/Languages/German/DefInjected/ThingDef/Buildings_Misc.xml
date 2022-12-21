@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!--============================== Linkables ==============================-->
+  <DankPyon_ToolRack.label>Werkzeug Regal</DankPyon_ToolRack.label>
+  <DankPyon_ToolRack.description>Eine Sammlung von Schmiedewerkzeugen. Erhöht die Arbeitsgeschwindigkeit in der Nähe mittelalterlicher Werkbänke.</DankPyon_ToolRack.description>
+  <DankPyon_QuenchingBucket.label>Abschreck Eimer</DankPyon_QuenchingBucket.label>
+  <DankPyon_QuenchingBucket.description>Ein Eimer voller Öl zum Abschrecken von glimmenden Metallen. Erhöht die Arbeitsgeschwindigkeit in der Nähe mittelalterlicher Werkbänke.</DankPyon_QuenchingBucket.description>
+  <DankPyon_Grinder.label>Wetzstein</DankPyon_Grinder.label>
+  <DankPyon_Grinder.description>Wird zum Schärfen von Waffen verwendet. Erhöht die Arbeitsgeschwindigkeit in der Nähe mittelalterlicher Werkbänke.</DankPyon_Grinder.description>
+  <DankPyon_Bellows.label>Blasebalg</DankPyon_Bellows.label>
+  <DankPyon_Bellows.description>Wird verwendet, um einen starken Luftstoß zu erzeugen. Erhöht die Arbeitsgeschwindigkeit in der Nähe mittelalterlicher Werkbänke.</DankPyon_Bellows.description>
+  <!-- DankPyon_RusticCupboard.label>Geschirr Regal</DankPyon_RusticCupboard.label -->
+  <!-- DankPyon_RusticCupboard.description>Ein Regal um Geschirr zu Lagern. Increases Cook speed when placed near rustic cooking table.</DankPyon_RusticCupboard.description -->
+  <DankPyon_RusticCookingTools.label>Koch utensilien</DankPyon_RusticCookingTools.label>
+  <DankPyon_RusticCookingTools.description>Ein Tisch voller nützlicher Kochutensilien. Erhöht die Arbeitsgeschwindigkeit in der Nähe eines rustikalen Kochtisches.</DankPyon_RusticCookingTools.description>
+  <DankPyon_TableBaking.label>Back utensilien</DankPyon_TableBaking.label>
+  <DankPyon_TableBaking.description>Ein Tisch voller nützlicher Kochutensilien. Erhöht die Arbeitsgeschwindigkeit in der Nähe eines Ofens.</DankPyon_TableBaking.description>
+  
+  <!--============== Medieval Comms ===============-->
+  <DankPyon_BirdPost.label>Brieftauben</DankPyon_BirdPost.label>
+  <DankPyon_BirdPost.description>Einige Vögel können, wenn sie von erfahrenen Trainern unterrichtet werden, zu einem bestimmten Ort fliegen, bevor sie zu ihrem Heimatquartier zurückkehren. Dies ermöglicht die Kommunikation mit benachbarten Fraktionen, vorausgesetzt, man kann sich die kostspieligen Anforderungen an die Beschaffung und Ausbildung des Vogels sowie die Fütterung der Tiere mit Fleisch leisten. Benötigt den Schreibtisch für die Korrespondenz.</DankPyon_BirdPost.description>
+  <DankPyon_ScribeTable.label>Schreibtisch</DankPyon_ScribeTable.label>
+  <DankPyon_ScribeTable.description>Ein Tisch mit Wachstafeln, die Aufzeichnungen und Quittungen enthalten. Neben den Tafeln liegen Pergamente, ein Siegel, Federn und Tinte für die Korrespondenz. Neben den Brieftauben verwendet, können die geschriebenen Briefe schneller in ferne Länder gelangen als mit einem Boten. Man kann Verbündete zu Festessen, Rivalen zu einer Herausforderung oder neutrale Fraktionen zum Handel einladen.</DankPyon_ScribeTable.description>
+  <DankPyon_Cart.label>Wagen</DankPyon_Cart.label>
+  <DankPyon_Cart.description>Ein treuer Wagen, mit dem man Neuheiten, Artefakte und Waren durch die unbarmherzigen Länder des Rands transportieren kann. n/n/Erforderlich für den Fernhandel, man kann nur Waren an andere Fraktionen verkaufen, wenn sie sich in der Nähe eines Wagens befinden.</DankPyon_Cart.description>
+
+</LanguageData>

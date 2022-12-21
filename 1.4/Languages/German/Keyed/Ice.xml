@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	<Ice.Dig>Eis Schaufeln</Ice.Dig>
+	<Ice.DigDesc>Grabe Löcher um Eisblöcke herzustellen</Ice.DigDesc>
+	<Ice.MustBeIce>Gelände muss Eis sein</Ice.MustBeIce>
+	<Ice.MustBeOnSoil>Gelände muss Erde sein</Ice.MustBeOnSoil>
+</LanguageData>

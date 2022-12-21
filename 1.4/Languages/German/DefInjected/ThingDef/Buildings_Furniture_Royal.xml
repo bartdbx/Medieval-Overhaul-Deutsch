@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--======================= Royal Furniture ==============================-->
+  <DankPyon_RoyalCloset.label>Königlicher Wandschrank</DankPyon_RoyalCloset.label>
+  <DankPyon_RoyalCloset.description>Ein Schrank, um Kleidung effizient und schön aufzubewahren. Platziere ihn in der Nähe von Betten für einen leichten Komfortbonus</DankPyon_RoyalCloset.description>
+  
+  <!--Bookshelf -->
+  <DankPyon_RoyalBookshelf.label>Königliches Bücherregal</DankPyon_RoyalBookshelf.label>
+  <DankPyon_RoyalBookshelf.description>Erhöht die Forschungsgeschwindigkeit, wenn er in der Nähe des Forschungstisches platziert wird. Jede Forschungsbank kann zwei Bücherregale verwenden.</DankPyon_RoyalBookshelf.description>
+  
+  <!-- Royal Chair -->
+  <DankPyon_RoyalArmchair.label>Königlicher Armstuhl</DankPyon_RoyalArmchair.label>
+  <DankPyon_RoyalArmchair.description>Ein luxuriöser und attraktiver Stuhl. Kann an Tischen, Arbeitsplätzen und anderswo verwendet werden.</DankPyon_RoyalArmchair.description>
+  
+  <!-- Royal Tables -->
+  <DankPyon_RoyalTable2x2c.label>Königlicher Tisch (M)</DankPyon_RoyalTable2x2c.label>
+  <DankPyon_RoyalTable2x2c.description>Königlicher Tisch Grösse (M)edium (2x2)</DankPyon_RoyalTable2x2c.description>
+  <DankPyon_RoyalTable2x4c.label>Königlicher Tisch (L)</DankPyon_RoyalTable2x4c.label>
+  <DankPyon_RoyalTable2x4c.description>Königlicher Tisch Grösse (L)arge (2x4)</DankPyon_RoyalTable2x4c.description>
+  
+  <!-- Royal End Table -->
+  <DankPyon_RoyalEndTable.label>Königlicher Nachttisch</DankPyon_RoyalEndTable.label>
+  <DankPyon_RoyalEndTable.description>Ein kleiner luxuriöser Nachttisch, der nahegelegene Betten etwas bequemer macht. Muss direkt neben dem Kopfende des Bettes platziert werden. Das Aufstellen von mehr als einem Beistelltisch in der Nähe desselben Bettes hat keine Auswirkung.</DankPyon_RoyalEndTable.description>
+  
+  <!-- Royal Dresser -->
+  <DankPyon_RoyalDresser.label>Königliche Kommode</DankPyon_RoyalDresser.label>
+  <DankPyon_RoyalDresser.description>Eine elegante Kommode. Verleiht allen Betten in der Nähe einen kleinen Komfortbonus. Das Aufstellen von mehr als einer Kommode neben dem gleichen Bett hat keine Auswirkung.</DankPyon_RoyalDresser.description>
+  
+  <!-- Royal Tudor Bed -->
+  <DankPyon_RoyalTudorBed.label>Königliches Himmelbett</DankPyon_RoyalTudorBed.label>
+  <DankPyon_RoyalTudorBed.description>Ein luxuriöses Bett mit einem Himmel</DankPyon_RoyalTudorBed.description>
+</LanguageData>

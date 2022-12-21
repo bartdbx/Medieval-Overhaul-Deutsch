@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- Crushing/Catching -->
+
+	<ESCP_Tools_Catching_Failed>{0} konnte nichts Fangen.</ESCP_Tools_Catching_Failed>
+	<ESCP_Tools_Catching_Special>{0} gefangen {1}!</ESCP_Tools_Catching_Special>
+
+	<ESCP_Tools_Crushing_Failed>{0} konnte nichts Finden.</ESCP_Tools_Crushing_Failed>
+	<ESCP_Tools_Crushing_Special>{0} gefunden {1}!</ESCP_Tools_Crushing_Special>
+	
+	<!-- Fuel stuff -->
+	<ESCP_Tools_FuelExtension_CurrentFuel>Momentaner Brennstofftyp: {0}</ESCP_Tools_FuelExtension_CurrentFuel>
+	
+	<!-- Thing producer -->
+	<ESCP_Tools_ThingProducer_Progress>{0} Fortschritt bis nächste Produktion</ESCP_Tools_ThingProducer_Progress>
+	<ESCP_Tools_ThingProducer_Message>{0} hat Ressourcen Produziert!</ESCP_Tools_ThingProducer_Message>
+	<ESCP_Tools_ThingProducer_Paused>Fortschritt wurde angehalten wegen: {0}</ESCP_Tools_ThingProducer_Paused>
+	<ESCP_Tools_ThingProducer_Reason_time>nachts Ruhen</ESCP_Tools_ThingProducer_Reason_time>
+	<ESCP_Tools_ThingProducer_Reason_weather>ungünstiges Wetter</ESCP_Tools_ThingProducer_Reason_weather>
+	<ESCP_Tools_ThingProducer_Reason_temperature>ungünstige Temperatur</ESCP_Tools_ThingProducer_Reason_temperature>
+	<ESCP_Tools_ThingProducer_Reason_roofed>weil überdacht</ESCP_Tools_ThingProducer_Reason_roofed>
+	<ESCP_Tools_ThingProducer_Reason_fuel>kein Brennstoff</ESCP_Tools_ThingProducer_Reason_fuel>
+	<ESCP_Tools_ThingProducer_Reason_power>kein Strom</ESCP_Tools_ThingProducer_Reason_power>
+	
+</LanguageData>

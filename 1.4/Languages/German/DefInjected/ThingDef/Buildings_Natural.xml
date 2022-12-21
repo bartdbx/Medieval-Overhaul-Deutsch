@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Coal Ore -->
+  <DankPyon_MineableCoal.label>Kohle Erze</DankPyon_MineableCoal.label>
+  <DankPyon_MineableCoal.description>Gestein mit Kohlebrocken.</DankPyon_MineableCoal.description>
+  <DankPyon_MineableSalt.label>Salz Erze</DankPyon_MineableSalt.label>
+  <DankPyon_MineableSalt.description>Gestein mit Salzbrocken.</DankPyon_MineableSalt.description>
+  
+  <!-- Resource rocks -->
+  <DankPyon_MineableGold.label>Gold Erze</DankPyon_MineableGold.label>
+  <DankPyon_MineableGold.description>Gestein mit Goldstücken.</DankPyon_MineableGold.description>
+  <DankPyon_MineableIron.label>Eisen Erze</DankPyon_MineableIron.label>
+  <DankPyon_MineableIron.description>Eisenhaltiges Gestein.</DankPyon_MineableIron.description>
+  
+  <!-- Gemstone -->
+  <DankPyon_MineableCitrine.label>Citrin-Lagerstätte</DankPyon_MineableCitrine.label>
+  <DankPyon_MineableCitrine.description>Stein, der Citrinstücke enthält.</DankPyon_MineableCitrine.description>
+  <DankPyon_MineableAmber.label>Bernsteindepot</DankPyon_MineableAmber.label>
+  <DankPyon_MineableAmber.description>Felsen mit Bernsteinstücken.</DankPyon_MineableAmber.description>
+  <DankPyon_MineableOnyx.label>Onyxlagerstätte</DankPyon_MineableOnyx.label>
+  <DankPyon_MineableOnyx.description>Felsen mit Onyxstücken.</DankPyon_MineableOnyx.description>
+  <DankPyon_MineableEmerald.label>Smaragdvorkommen</DankPyon_MineableEmerald.label>
+  <DankPyon_MineableEmerald.description>Felsen mit Smaragdstücken.</DankPyon_MineableEmerald.description>
+  <DankPyon_MineableSapphire.label>Saphir-Lagerstätte</DankPyon_MineableSapphire.label>
+  <DankPyon_MineableSapphire.description>Felsen, die Saphirstücke enthalten.</DankPyon_MineableSapphire.description>
+  <DankPyon_MineableRuby.label>Rubinlagerstätte</DankPyon_MineableRuby.label>
+  <DankPyon_MineableRuby.description>Stein, der Rubinstücke enthält.</DankPyon_MineableRuby.description>
+  
+  <!-- Buildings -->
+  <DankPyon_TarPit.label>Teergrube</DankPyon_TarPit.label>
+  <DankPyon_TarPit.description>Eine natürliche Quelle für Teer. \n\nAufbauen, um Ressourcen zu ernten.</DankPyon_TarPit.description>
+  <DankPyon_BeeHive.label>Bienenstock</DankPyon_BeeHive.label>
+  <DankPyon_BeeHive.description>Ein Bienenstock. \n\nZerlegen um daraus eine Bienenkönigin zu bekommen.</DankPyon_BeeHive.description>
+  <DankPyon_HornetNest.label>Hornissennest</DankPyon_HornetNest.label>
+  <DankPyon_HornetNest.description>Ein Hornissennest mit riesengroße Insecten. Wenn aktiviert, wird es nach und nach weitere Insekten und Nester Generieren und ebenso wertvollen Hornissenhonig.</DankPyon_HornetNest.description>
+
+</LanguageData>

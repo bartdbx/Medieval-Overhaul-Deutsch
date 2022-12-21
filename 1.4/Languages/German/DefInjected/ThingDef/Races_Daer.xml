@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- =========================The Big Bad============================= -->
+  <DankPyon_Daer.label>Daer</DankPyon_Daer.label>
+  <DankPyon_Daer.description>Eine sagenumwobene Legende unter dem gemeinen Volk, ein gigantischer Hirsch mit dem Körper eines Bären... oder war es ein Bär mit den Hörnern eines Hirsches, wie auch immer, seine Mäuler machen keinen Unterschied, wenn die Bestie nach Beute hungert.\n\n Der Kadaver eines Hirsches enthält ein majestätisches Geweih, das durch Schlachten wiedergewonnen werden kann, sowie Fleisch, das einen Stimmungsbonus gibt.</DankPyon_Daer.description>
+
+  <DankPyon_Daer.tools.1.label>Hufe Links</DankPyon_Daer.tools.1.label>
+  <DankPyon_Daer.tools.2.label>Hufe Rechts</DankPyon_Daer.tools.2.label>
+  <DankPyon_Daer.tools.3.label>Kopf</DankPyon_Daer.tools.3.label>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<!--TerrainDef Name="DankPyon_BridgeBase">
+    <DankPyon_Bridge_BlocksSandstone.label>Sandsteinbrücke</DankPyon_Bridge_BlocksSandstone.label>
+    <DankPyon_Bridge_BlocksSandstone.description>Eine flache Steinstruktur auf Stützen die über Wasser gebaut werden kann. Sie können mittelgroße Strukturen darauf Bauen, aber Vorsicht - Brücken können einstürzen. Wenn eine Brücke fällt, fallen auch die darauf errichteten Bauten.</DankPyon_Bridge_BlocksSandstone.description>
+    <DankPyon_Bridge_BlocksGranite.label>Granitsteinbrücke</DankPyon_Bridge_BlocksGranite.label>
+</TerrainDef-->
+
+</LanguageData>

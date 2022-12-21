@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_Apparel_Hose.label>Hose</DankPyon_Apparel_Hose.label>
+  <DankPyon_Apparel_Hose.description>Ein Standardkleidungsstück für Bürger und Adlige gleichermaßen.</DankPyon_Apparel_Hose.description>
+  <DankPyon_Apparel_Trousers.label>Hosen</DankPyon_Apparel_Trousers.label>
+  <DankPyon_Apparel_Trousers.description>Ein Standardkleidungsstück für Bürger und Adlige gleichermaßen.</DankPyon_Apparel_Trousers.description>
+  <DankPyon_Apparel_Braies.label>Braies</DankPyon_Apparel_Braies.label>
+  <DankPyon_Apparel_Braies.description>Braies sind Unterhosen, in der Regel aus Leinen, obwohl sie in einigen Kulturen auch als Oberbekleidung dienen.</DankPyon_Apparel_Braies.description>
+  
+  <!--====================Leg Outer====================-->
+  <!--==========Protective Leg Base==========-->
+  <DankPyon_Apparel_ChaussesPadded.label>Gepolsterte Hose</DankPyon_Apparel_ChaussesPadded.label>
+  <DankPyon_Apparel_ChaussesPadded.description>Gesteppte Schutzhose aus gepolsterten Gewebe.</DankPyon_Apparel_ChaussesPadded.description>
+  <DankPyon_Apparel_ChaussesSplinted.label>Geschiente Hose</DankPyon_Apparel_ChaussesSplinted.label>
+  <DankPyon_Apparel_ChaussesSplinted.description>Geschiente Schutzhose mit genieteten Metallplatten. Cunningly crafted to allow the wearer almost complete freedom of mobility.</DankPyon_Apparel_ChaussesSplinted.description>
+  <DankPyon_Apparel_ChaussesPlate.label>Platten Hose</DankPyon_Apparel_ChaussesPlate.label>
+  <DankPyon_Apparel_ChaussesPlate.description>Bein-Schutzhose mit maßgeschneiderten Platten für extra Schutz. Durch die maßgeschneiderten, genieteten platten und genaue Passform verleiht es sehr gute Beweglichkeit.</DankPyon_Apparel_ChaussesPlate.description>
+</LanguageData>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Scorpio -->
+  <DankPyon_Turret_Scorpio.label>Scorpio</DankPyon_Turret_Scorpio.label>
+  <DankPyon_Turret_Scorpio.description>Entwickelt in alten Zeiten. Der Scorpio ist ein kraftvolles Bolzengeschütz auf Räder. Sehr wirkungsvoll sowohl offensiv,-und defensiv, Gegnr fürchten diese Waffe, muss aber nach jedem Schuss neu geladen werden.</DankPyon_Turret_Scorpio.description>
+  <DankPyon_Bullet_Scorpio.label>Scorpio Bolzen</DankPyon_Bullet_Scorpio.label>
+  <DankPyon_Gun_ScorpioTurret.label>Scorpio Turret</DankPyon_Gun_ScorpioTurret.label>
+  <DankPyon_Gun_ScorpioTurret.description>Eine Uraltes Pfeilgeschütz ähnlich einer großen Armbrust auf einem Holzgestell.</DankPyon_Gun_ScorpioTurret.description>
+
+  <!-- Ballista -->
+  <DankPyon_Turret_Ballista.label>Ballista</DankPyon_Turret_Ballista.label>
+  <DankPyon_Turret_Ballista.description>Die Ballista wurde in der Antike entwickelt und ist eine mächtige Fernwaffe, die große Pfeile über große Entfernungen abfeuern kann. Das präzise Design ist sowohl bei Belagerungen als auch bei der Verteidigung effektiv und macht den Feinden Angst, muss aber nach jedem abgefeuerten Bolzen mühevoll nachgeladen werden.</DankPyon_Turret_Ballista.description>
+  <DankPyon_Bullet_Ballista.label>Ballista-Bolzen</DankPyon_Bullet_Ballista.label>
+  <DankPyon_Gun_BallistaTurret.label>Ballista</DankPyon_Gun_BallistaTurret.label>
+  <DankPyon_Gun_BallistaTurret.description>Eine alte militärische Belagerungswaffe in Form einer Armbrust, die auf einem Holzkonstrukt montiert ist.</DankPyon_Gun_BallistaTurret.description>
+  
+  <!-- Trebuchet -->
+  <DankPyon_Turret_Trebuchet.label>Trebuchet</DankPyon_Turret_Trebuchet.label>
+  <DankPyon_Turret_Trebuchet.description>Das Trebuchet nutzt eine starke Torsion, um Steine über eine große Entfernung zu schleudern und mit einer solchen Kraft Mauern zu zerstören. Das macht das Trebuchet zu einer furchterregenden Belagerungswaffe, die Verteidigungsanlagen verwüsten kann. Wo Belagerungsangreifer früher Palisaden unter feindlichen Raketen erklimmen mussten, können sie jetzt Öffnungen schaffen, bevor die Schlacht überhaupt beginnt. Wenn die Verteidiger sehen, dass das große Trebuchet auf den Feldern eingesetzt wird, sollten sie versuchen, es schnell zu zerstören.</DankPyon_Turret_Trebuchet.description>
+  <DankPyon_Artillery_Trebuchet.label>Trebuchet Mörser</DankPyon_Artillery_Trebuchet.label>
+  <DankPyon_Artillery_Trebuchet.description>Trebuchet Mörser, kann Bomben über eine große Entfernung schleudern, aber ist sehr ungenau. .</DankPyon_Artillery_Trebuchet.description>
+  
+  <!-- Ballista Repeater -->
+  <DankPyon_Turret_RepeaterBallista.label>Ballista Repeater</DankPyon_Turret_RepeaterBallista.label>
+  <DankPyon_Turret_RepeaterBallista.description>Die Ballista wurde in der Antike entwickelt und ist eine mächtige Fernwaffe, die große Pfeile über große Entfernungen abfeuern kann. Das präzise Design ist sowohl bei Belagerungen als auch bei der Verteidigung effektiv und macht den Feinden Angst, muss aber nach jedem abgefeuerten Bolzen mühevoll nachgeladen werden.</DankPyon_Turret_RepeaterBallista.description>
+  <DankPyon_Gun_RepeaterBallistaTurret.label>Ballista Repeater Turret</DankPyon_Gun_RepeaterBallistaTurret.label>
+  <DankPyon_Gun_RepeaterBallistaTurret.description>Eine alte militärische Belagerungswaffe in Form einer Armbrust, die auf einem Holzkonstrukt montiert ist.</DankPyon_Gun_RepeaterBallistaTurret.description>
+
+</LanguageData>

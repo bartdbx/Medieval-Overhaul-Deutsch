@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!--=========================== Basic Agriculture ==============================-->
+  <DankPyon_Plant_Garlic.label>Knoblauch</DankPyon_Plant_Garlic.label>
+  <DankPyon_Plant_Garlic.description>Blattgrüne Stängel, deren Basis aus einer segmentierten, cremefarbenen Zwiebel besteht. Knoblauch ist eine gute Würze und Zutat für viele Mahlzeiten, entweder gehackt und sautiert als Zutat oder pulverisiert und als Gewürz verwendet.</DankPyon_Plant_Garlic.description>
+  <DankPyon_Plant_Onions.label>Zwiebel</DankPyon_Plant_Onions.label>
+  <DankPyon_Plant_Onions.description>Strähnige grüne Stiele, die einer bauchigen, duftenden Spitze weichen, die in einer papierartigen Haut enthalten ist. Die Zwiebel ist eine vielseitige Zutat, die eine gute Basis für Gemüsegerichte sowie eine köstliche Beilage zu Fleischgerichten ist.</DankPyon_Plant_Onions.description>
+  <DankPyon_Plant_Lentils.label>Linsen</DankPyon_Plant_Lentils.label>
+  <DankPyon_Plant_Lentils.description>Eine zierliche, belaubte Linguine, die zahlreichen kleinen Sprossen Platz macht. Linsennahrung ist überraschend nahrhaft und soll Körper und Seele gut tun.</DankPyon_Plant_Lentils.description>
+  <DankPyon_Plant_Mushrooms.label>Pilze</DankPyon_Plant_Mushrooms.label>
+  <DankPyon_Plant_Mushrooms.description>Mehrere Pilzarten wurden vom Menschen für Freizeit-, medizinische oder kulinarische Zwecke kultiviert. Diese Stängel sind sicher zu verdauen und sorgen für einen charakteristisch erdigen Snack und eine reichhaltige Ergänzung zu jeder Mahlzeit.</DankPyon_Plant_Mushrooms.description>
+  
+  <!--=========================== Intermediate Agriculture ==============================-->
+  <DankPyon_Plant_Wheat.label>Weizen</DankPyon_Plant_Wheat.label>
+  <DankPyon_Plant_Wheat.description>Eine dünne, zerbrechliche Kornpflanze, die kleine gelbe Samen produziert. Das Wachstum dauert relativ lange und liefert viel Nahrung, erfordert jedoch eine weitere Verarbeitung, um essbar zu sein. Braucht fruchtbaren Boden, um gut zu wachsen.</DankPyon_Plant_Wheat.description>
+  <DankPyon_Plant_Flax.label>Flachs</DankPyon_Plant_Flax.label>
+  <DankPyon_Plant_Flax.description>Eine faserige, weizenähnliche Pflanze. Ihre vielseitige Faser kann wegen ihrer faserigen Eigenschaften genutzt werden und eignet sich gut für die Herstellung von Stoffen.</DankPyon_Plant_Flax.description>
+  <DankPyon_Plant_Sugarcane.label>Zuckerrohr</DankPyon_Plant_Sugarcane.label>
+  <DankPyon_Plant_Sugarcane.description>Süße, kräftige Stängel mit faserigem Pflanzenwachstum. Obwohl sie für sich genommen praktisch ungenießbar sind, werden sie zu Zucker für die Verwendung in zahlreichen Mahlzeiten verarbeitet.</DankPyon_Plant_Sugarcane.description>
+  <DankPyon_Plant_Carrots.label>Karotten</DankPyon_Plant_Carrots.label>
+  <DankPyon_Plant_Carrots.description>Buschige, kurze Stängel, deren Wurzel aus einer leuchtend orangefarbenen Knolle besteht. Sie sind für sich allein schon gesunde, wenn nicht sogar schmackhafte, Snacks aber auch eine gute Ergänzung zu jeder Mahlzeit, wenn sie gekocht, gedünstet oder gebraten werden.</DankPyon_Plant_Carrots.description>
+  <DankPyon_Plant_Herb.label>Kräuter</DankPyon_Plant_Herb.label>
+  <DankPyon_Plant_Herb.description>Eine duftende, grünblättrige Pflanze, die in der Lebensmittelzubereitung als Geschmacksverstärker viele Verwendungsmöglichkeiten hat, aber für sich genommen praktisch ungenießbar ist.</DankPyon_Plant_Herb.description>
+  
+  <!--=========================== Advanced Agriculture ==============================-->
+  <DankPyon_Plant_Grape.label>Trauben</DankPyon_Plant_Grape.label>
+  <DankPyon_Plant_Grape.description>Eine mittelgroße Rebe, die bei der Ernte Trauben hervorbringt - eine wesentliche Zutat bei der Herstellung von Wein, der auch roh verzehrt schmeckt. Das anfängliche Wachstum dauert lange, kann aber in einem einzigen Leben wiederholt geerntet werden.</DankPyon_Plant_Grape.description>
+  <DankPyon_Plant_Tomatoes.label>Tomaten</DankPyon_Plant_Tomatoes.label>
+  <DankPyon_Plant_Tomatoes.description>Eine dicke, grüne Rebe, die viele große, knollige rote Früchte hervorbringt. Obwohl es als Obst oder Gemüse ein heiß diskutiertes Thema ist, ist bekannt, dass die daraus entstehenden Tomaten saftig und lecker sind.</DankPyon_Plant_Tomatoes.description>
+  <DankPyon_Plant_Cabbages.label>Kohl</DankPyon_Plant_Cabbages.label>
+  <DankPyon_Plant_Cabbages.description>Grüne Kohlköpfe. Ein Gemüse, das aus vielen übereinander gestapelten Blättern besteht. Kohl eignet sich besonders gut als Zutat in Salaten und Suppen.</DankPyon_Plant_Cabbages.description>
+  <DankPyon_Plant_Pumpkins.label>Kürbis</DankPyon_Plant_Pumpkins.label>
+  <DankPyon_Plant_Pumpkins.description>Eine dünne, grüne Ranke, die einem charakteristisch massiven orangefarbenen Gemüse weicht, eine gute Visualisierung von "Große Dinge kommen in kleinen Paketen". Für sich genommen nicht besonders lecker, aber für eine Vielzahl von herzhaften saisonalen Gerichten geeignet.</DankPyon_Plant_Pumpkins.description>
+  
+  <!--=========================== Fruit Trees ==============================-->
+  <DankPyon_Tree_Apple.label>Apfelbaum</DankPyon_Tree_Apple.label>
+  <DankPyon_Tree_Apple.description>Ein Hartholzbaum, der für seine wunderbar süßen, leuchtend roten Früchte bekannt ist, die sowohl pur als auch in einer Vielzahl von Desserts gut schmecken.</DankPyon_Tree_Apple.description>
+  <DankPyon_Tree_Lemon.label>Zitronenbaum</DankPyon_Tree_Lemon.label>
+  <DankPyon_Tree_Lemon.description>Ein kleiner Hartholzbaum, der bitter schmeckenden gelben Zitrusfrüchten weicht. Zitronen werden oft wegen ihres diätetischen Nutzens und zur Vorbeugung von Krankheiten wie Skorbut konsumiert und oft als Zutat oder Glasur für viele verschiedene Desserts verwendet.</DankPyon_Tree_Lemon.description>
+  <DankPyon_Tree_Mulberry.label>Maulbeerbaum</DankPyon_Tree_Mulberry.label>
+  <DankPyon_Tree_Mulberry.description>Ein kleiner schnellwachsender Baum der Maulbeeren Produziert. Bekanntlich beherbergen sie Seidenraupen woraus Seide hergestellt werden kann.</DankPyon_Tree_Mulberry.description>
+  
+  <!--=========================== Griffon Berry ==============================-->
+  <DankPyon_Tree_GriffonBerry.label>Greifbeerenbusch</DankPyon_Tree_GriffonBerry.label>
+  <DankPyon_Tree_GriffonBerry.description>Eine seltene üppige Frucht, die auf kleinen Bäumen wächst. Die rote Frucht ist laut ihrem Vornamen eine Delikatesse für Greifen und wird normalerweise von ihnen bewacht.</DankPyon_Tree_GriffonBerry.description>
+  <DankPyon_MacciPlant.label>Maccipflanze</DankPyon_MacciPlant.label>
+  <DankPyon_MacciPlant.description>Eine hohe Getreidepflanze, die Ähren mit weichen, essbaren Samen produziert. Der Anbau von Macci dauert zwar lange, aber im Vergleich zu anderen Pflanzen liefert er viel Nahrung. Geernteter Macci braucht lange, um zu verderben.</DankPyon_MacciPlant.description>
+</LanguageData>

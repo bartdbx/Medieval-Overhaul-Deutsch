@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DankPyon_TableMarket_Meat.label>Fleischstand</DankPyon_TableMarket_Meat.label>
+  <DankPyon_TableMarket_Meat.description>Ein Tisch gefüllt mit Fleisch zum anschauen.</DankPyon_TableMarket_Meat.description>
+  <DankPyon_TableMarket_Dairy.label>Milchstand</DankPyon_TableMarket_Dairy.label>
+  <DankPyon_TableMarket_Dairy.description>Ein Tisch gefüllt mit Milcherzeugnissen.</DankPyon_TableMarket_Dairy.description>
+  <DankPyon_TableMarket_Bread.label>Brotstand</DankPyon_TableMarket_Bread.label>
+  <DankPyon_TableMarket_Bread.description>Ein Tisch mit Brotleiben.</DankPyon_TableMarket_Bread.description>
+  
+  <!-- Market Tent -->
+  <DankPyon_MarketTent_1c.label>Zeltlager</DankPyon_MarketTent_1c.label>
+  <DankPyon_MarketTent_1c.description>Ein Zelt das Waren vor dem Sonnenlicht schützt.</DankPyon_MarketTent_1c.description>
+  <DankPyon_MarketTent_2c.label>Zeltlager (Blau)</DankPyon_MarketTent_2c.label>
+  <DankPyon_MarketTent_2c.description>Ein Zelt das Waren vor dem Sonnenlicht schützt (Blau).</DankPyon_MarketTent_2c.description>
+  <DankPyon_MarketTent_3c.label>Zeltlager (Grün)</DankPyon_MarketTent_3c.label>
+  <DankPyon_MarketTent_3c.description>Ein Zelt das Waren vor dem Sonnenlicht schützt (Grün).</DankPyon_MarketTent_3c.description>
+  
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!--==================== Body Armor ====================-->
+  <DankPyon_Apparel_AdornedMailShirt.label>Schwerer Hauberk (Verziert)</DankPyon_Apparel_AdornedMailShirt.label>
+  <DankPyon_Apparel_AdornedMailShirt.description>Ein dicker, robuster hauberk, mit einem feinem gestepptem innenfutter. Diese 2 Schichten bieten dem Träger ausreichend wärme. Im ganzem, ein eindrucksvolles Rüstungsteil. Dekoriert mit Trophäen und heiligen Symbolen.</DankPyon_Apparel_AdornedMailShirt.description>
+  <DankPyon_Apparel_AdornedWarriorArmor.label>Kriegerrüstung (Verziert)</DankPyon_Apparel_AdornedWarriorArmor.label>
+  <DankPyon_Apparel_AdornedWarriorArmor.description>Ein robustes Kettenhemd, mit einem feinem gestepptem innenfutter. Diese 2 Schichten bieten dem Träger ausreichend wärme. Im ganzem, ein eindrucksvolles Rüstungsteil. Dekoriert mit Trophäen und heiligen Symbolen.</DankPyon_Apparel_AdornedWarriorArmor.description>
+  <DankPyon_Apparel_AdornedHeavyPlate.label>Plattenrüstung (Verziert)</DankPyon_Apparel_AdornedHeavyPlate.label>
+  <DankPyon_Apparel_AdornedHeavyPlate.description>Eine schwere Plattenrüstung, darunter eine genietete Jacke mit verstärkten Unterarmschienen. Diese 2 Schichten bieten dem Träger ausreichend wärme. Meist getragen von Vereidigte, die Elite der Eidträger, Dekoriert mit Trophäen und heiligen Symbolen.</DankPyon_Apparel_AdornedHeavyPlate.description>
+  
+  <!--==================== Headgear ====================-->
+  <DankPyon_Adorned_HeavyMailCoif.label>Schwere Schuppenhaube (Verziert)</DankPyon_Adorned_HeavyMailCoif.label>
+  <DankPyon_Adorned_HeavyMailCoif.description>Eine schwere Haube, geschmiedet aus Metallketten und eingefügtem Nasenplatte, damit das Gesicht fast vollkommen Geschützt ist. Es engt die Sicht erheblich ein, aber bietet ausreichend Schutz vor Schnittverletzungen.</DankPyon_Adorned_HeavyMailCoif.description>
+  <DankPyon_Adorned_FlatTop.label>Kettenhelm (Verziert)</DankPyon_Adorned_FlatTop.label>
+  <DankPyon_Adorned_FlatTop.description>Ein früher Entwurf eines Full-Face-Helms, bestehend aus einem Flat-top-Helm mit zusätzlicher Gesichtsplatte und einem Kettenkragen. Bietet dem Kopf einen Perfekten Schutz, aber behindert die Sicht und Atmung.</DankPyon_Adorned_FlatTop.description>
+  <DankPyon_Adorned_GreatHelm.label>Wappenhelm (Verziert)</DankPyon_Adorned_GreatHelm.label>
+  <DankPyon_Adorned_GreatHelm.description>Ein großartig verzierter integraler Topfhelm, oft getragen für Turniere, von heraldische Titelträgern, namhaften Figuren von angesehenen Häusern im Krieg. Zeugt vom noblen Status während es im Kampf guten Schutz bietet. \n\nDieser Topfhelm hat die Farben des Hauses Amboise.</DankPyon_Adorned_GreatHelm.description>
+</LanguageData>

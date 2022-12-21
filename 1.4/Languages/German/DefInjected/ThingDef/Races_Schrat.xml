@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <DankPyon_Schrat.label>Schrat</DankPyon_Schrat.label>
+    <DankPyon_Schrat.description>Ein knorriges Gewirr aus Ästen, Wurzeln und Schlamm, das grob die Form eines Menschen hat. Mit einem verdrehten, unheimlichen Willen ausgestattet, schlurfen die Schraten langsam durch das Unterholz auf der Suche nach Lebenden. Es heißt, dass Waldschrate sich am Blut von aufdringlichen Holzfällern und übereifrigen Jägern laben.</DankPyon_Schrat.description>
+	<DankPyon_Schrat.tools.0.label>linke Faust</DankPyon_Schrat.tools.0.label>
+	<DankPyon_Schrat.tools.1.label>rechte Faust</DankPyon_Schrat.tools.1.label>
+	<!-- DankPyon_Schrat_Dark.label>Dunkler Schrat</DankPyon_Schrat_Dark.label -->
+    <!-- DankPyon_Schrat_Plain.label>Schrat</DankPyon_Schrat_Plain.label -->
+</LanguageData>

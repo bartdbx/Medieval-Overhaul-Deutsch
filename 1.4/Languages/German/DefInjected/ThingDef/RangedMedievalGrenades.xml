@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <!-- PotFire -->
+  <DankPyon_Weapon_PotFire.label>Feuertöpfe</DankPyon_Weapon_PotFire.label>
+  <DankPyon_Weapon_PotFire.description>Ein explosiver Tontopf, der mit seinem ölgefüllten Gehäuse ein Gebiet in Brand setzen kann.</DankPyon_Weapon_PotFire.description>
+  <DankPyon_Proj_PotFire.label>Feuertopf</DankPyon_Proj_PotFire.label>
+  
+  <!-- Flash Pot -->
+  <DankPyon_Weapon_PotFlash.label>Blitzkessel</DankPyon_Weapon_PotFlash.label>
+  <DankPyon_Weapon_PotFlash.description>Ein explosiver Tontopf, der die Opfer mit einem hellen Blitz und einem lauten, scharfen Geräusch verwirren soll.</DankPyon_Weapon_PotFlash.description>
+  <DankPyon_Proj_PotFlash.label>Blitzkessel</DankPyon_Proj_PotFlash.label>
+  
+  <!-- Smoke Pot -->
+  <DankPyon_Weapon_PotFlashSmoke.label>Rauchkessel</DankPyon_Weapon_PotFlashSmoke.label>
+  <DankPyon_Weapon_PotFlashSmoke.description>Ein explosiver Tontopf, der eine Rauchwolke erzeugt, die als Sichtschutz dient.</DankPyon_Weapon_PotFlashSmoke.description>
+  <DankPyon_Proj_PotSmoke.label>Rauchkessel</DankPyon_Proj_PotSmoke.label>
+
+</LanguageData>

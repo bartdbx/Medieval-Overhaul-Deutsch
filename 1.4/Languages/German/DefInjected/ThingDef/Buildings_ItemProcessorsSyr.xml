@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <DankPyon_DryRack.label>Trockenreck (Felle)</DankPyon_DryRack.label>
+  <DankPyon_DryRack.description>Ein Gestell zum Trocknen von Tierhäute.</DankPyon_DryRack.description>
+  
+  <!-- Tanning Rack -->
+  <DankPyon_TanningRack.label>Gerbergestell</DankPyon_TanningRack.label>
+  <DankPyon_TanningRack.description>Stehendes Gestell für die Behandlung roher Häute zu brauchbaren Ledern.</DankPyon_TanningRack.description>
+
+  <!-- ===== Silk bed ===== -->
+  <DankPyon_SilkBed.label>Seiden-Beet</DankPyon_SilkBed.label>
+  <DankPyon_SilkBed.description>Ein Holzgestell das dazu dient Seidenwürmer zu beheimaten, während ihrer Kokonphase, um später Seide daraus zu Spinnen.</DankPyon_SilkBed.description>
+
+  <!-- ===== Smelter ===== -->
+  <DankPyon_Smelter.label>Schmelze</DankPyon_Smelter.label>
+  <DankPyon_Smelter.description>Ein großer Steinofen zum Schmelzen von Roherzen, Schrott und Raffinieren von Ressourcen. Kann ebenfalls Leichen Verbrennen.</DankPyon_Smelter.description>
+
+  <DankPyon_RusticFermentingBarrel.label>Gärfass</DankPyon_RusticFermentingBarrel.label>
+  <DankPyon_RusticFermentingBarrel.description>Ein Fass für die Gärung von Rohwürze zu Ale. Ein alkoholisches Getränk mit einem fruchtigen, bitteren und reichen Geschmack.</DankPyon_RusticFermentingBarrel.description>
+
+  <!-- Windmill -->
+  <DankPyon_WindMill.label>Windmühle</DankPyon_WindMill.label>
+  <DankPyon_WindMill.description>Eine windbetriebene Mühle zum automatischen Mahlen von Produkten. Erfordert einen großen Freiraum vor und hinter der Mühle für einen optimalen Luftstrom.</DankPyon_WindMill.description>
+</LanguageData>
