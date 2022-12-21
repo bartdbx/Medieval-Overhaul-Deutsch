@@ -9,6 +9,6 @@
         <li>DankPyon.Medieval.Overhaul</li>
     </loadAfter>
     <showCrossPromotions>false</showCrossPromotions>
-    <manifestUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/master/About/Manifest.xml</manifestUri>
-    <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest/</downloadUri>
+    <manifestUri>https://raw.githubusercontent.com/bartdbx/Medieval-Overhaul-Deutsch/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest</downloadUri>
 </Manifest>
