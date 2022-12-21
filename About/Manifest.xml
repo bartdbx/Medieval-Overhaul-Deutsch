@@ -4,9 +4,7 @@
     <version>0.1.0.2</version>
     <dependencies>
         <li>DankPyon.Medieval.Overhaul</li>
-		<displayName>Medieval Overhaul</displayName>
 	</dependencies>
-    </loadBefore>
     <loadAfter>
         <li>DankPyon.Medieval.Overhaul</li>
     </loadAfter>
