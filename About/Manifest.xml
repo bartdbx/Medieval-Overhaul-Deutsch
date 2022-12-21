@@ -4,19 +4,13 @@
     <version>0.1.0.2</version>
     <dependencies>
         <li>DankPyon.Medieval.Overhaul</li>
-       </dependencies>
-    <incompatibleWith>
-        <li></li>
-    </incompatibleWith>
-    <loadBefore>
-        <li></li>
+		<displayName>Medieval Overhaul</displayName>
+	</dependencies>
     </loadBefore>
     <loadAfter>
         <li>DankPyon.Medieval.Overhaul</li>
     </loadAfter>
-    <suggests>
-    </suggests>
     <showCrossPromotions>false</showCrossPromotions>
-    <manifestUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/blob/master/About/Manifest.xml</manifestUri>
+    <manifestUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/master/About/Manifest.xml</manifestUri>
     <downloadUri>https://github.com/bartdbx/Medieval-Overhaul-Deutsch/releases/latest</downloadUri>
 </Manifest>
