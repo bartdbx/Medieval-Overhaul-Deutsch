@@ -21,6 +21,9 @@
   <DankPyon_StewPot.description>Ein großer Metallkessel, in dem man köstliche Suppen kochen kann.</DankPyon_StewPot.description>
   <DankPyon_Millstone.label>Mühlstein</DankPyon_Millstone.label>
   <DankPyon_Millstone.description>Ein kleiner runder Stein zum Mahlen von rohen Pflanzen.</DankPyon_Millstone.description>
+  <DankPyon_Trestle.label>Sägetisch</DankPyon_Trestle.label>
+  <DankPyon_Trestle.description>Eine Plattform um Rohholz in Brettern zu Sägen.</DankPyon_Trestle.description>
+
   <!--
   <DankPyon_Dishwasher.label>Geschirrwascher</DankPyon_Dishwasher.label>
   <DankPyon_Dishwasher.description>Ein Eimer voll Wasser zum Abwaschen des Schmutzgeschirrs.</DankPyon_Dishwasher.description>
