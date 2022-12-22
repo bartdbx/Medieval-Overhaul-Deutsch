@@ -30,6 +30,7 @@
   <DankPyon_CastleWall.label>Burgmauer</DankPyon_CastleWall.label>
   <DankPyon_CastleWall.description>Eine unüberwindbare hohe Mauer. Stabil und in der Lage, ein Dach zu halten, aber Vorsicht, aufgrund ihrer Höhe ist sie bei einer Explosion schwach.</DankPyon_CastleWall.description>
   <DankPyon_CastleWallEmbrasures.label>Scharten Burgmauer</DankPyon_CastleWallEmbrasures.label>
+  <DankPyon_CastleWallEmbrasures.description>Eine unüberwindbare hohe Mauer mit Schießscharten. Stabil und in der Lage, ein Dach zu halten, aber Vorsicht, aufgrund ihrer Höhe ist sie bei einer Explosion schwach.</DankPyon_CastleWallEmbrasures.description>
 
   <!-- Trenches -->
   <DankPyon_Trench.label>Graben</DankPyon_Trench.label>
