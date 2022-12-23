@@ -7,5 +7,8 @@
   <DankPyon_Wine_Mulberry.label>Maulbeerwein</DankPyon_Wine_Mulberry.label>
   <DankPyon_Wine_Mulberry.description>Wein aus Maulbeeren hergestellt.</DankPyon_Wine_Mulberry.description>
   <DankPyon_MustWine_Mulberry.label>Maulbeermost</DankPyon_MustWine_Mulberry.label>
+  <DankPyon_MustWine_Mulberry.description>Zerquetschte Maulbeeren. Muss noch Fermentiert werden um daraus Wein herzustellen</DankPyon_MustWine_Mulberry.description>
+  <DankPyon_MustWine.label>Trauben Most</DankPyon_MustWine.label>
+  <DankPyon_MustWine.description>Zerquetschte Trauben. Muss noch Fermentiert werden um daraus Wein herzustellen.</DankPyon_MustWine.description>
 
 </LanguageData>

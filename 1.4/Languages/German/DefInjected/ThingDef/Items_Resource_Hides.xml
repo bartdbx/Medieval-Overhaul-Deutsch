@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
   <!--===== Hide =====-->
+  <DankPyon_HideBase.description>Diese rohen Häute und Felle wurden Kreaturen entnommen, und mit den richtigen Werkzeugen, könnte daraus gegerbtes Leder Entstehen.</DankPyon_HideBase.description>
+  <DankPyon_Hide_HideGeneric.label>Haut</DankPyon_Hide_HideGeneric.label>
+  <DankPyon_Hide_HideGeneric.description>Diese rohen Häute und Felle wurden Kreaturen entnommen, und mit den richtigen Werkzeugen, könnte daraus gegerbtes Leder Entstehen.</DankPyon_Hide_HideGeneric.description>
+
   <!--===== Market Value = 2 =====-->
   <DankPyon_Hide_HideTiny.label>winzige Haut</DankPyon_Hide_HideTiny.label>
   <DankPyon_Hide_HideSmall.label>kleine Haut</DankPyon_Hide_HideSmall.label>

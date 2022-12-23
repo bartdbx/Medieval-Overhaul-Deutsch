@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
+
   <DankPyon_RawWood.label>Rohholz</DankPyon_RawWood.label>
   <DankPyon_RawWood.description>Rohholz aus Bäume. Nutzbar für den Bau von Waffen und Strukturen. Es ist auch nutzbar als Brennmaterial für Feuer und Generatoren. Kann zu Flüssigen Brennstoff verarbeitet werden. Kurz gesagt, ein stück Holz könnte eine Waffe oder ein Beinersatz sein.</DankPyon_RawWood.description>
+  <DankPyon_RawWood.stuffProps.stuffAdjective>Rohholz</DankPyon_RawWood.stuffProps.stuffAdjective>
   <DankPyon_RawDarkWood.label>Dunkles Holz</DankPyon_RawDarkWood.label>
   <DankPyon_RawDarkWood.description>Eine alte Art dunkles hartholz das die Zeiten überdauert hat. Nutzbar für den Bau von Waffen und Strukturen. Es ist auch nutzbar als Brennmaterial für Lagerfeuer.</DankPyon_RawDarkWood.description>
   
@@ -9,18 +11,27 @@
   <!-- Dark Wood -->
   <DankPyon_DarkWoodLog.label>Dunkelholz</DankPyon_DarkWoodLog.label>
   <DankPyon_DarkWoodLog.description>Eine dunkle, harte und alte Holzart, die den Test der Zeit überstanden hat. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_DarkWoodLog.description>
-  
+  <DankPyon_DarkWoodLog.tools.0.label>Brett</DankPyon_DarkWoodLog.tools.0.label>
+  <DankPyon_DarkWoodLog.stuffProps.stuffAdjective>Dunkelholz</DankPyon_DarkWoodLog.stuffProps.stuffAdjective>
+
   <!-- Elven Wood -->
   <DankPyon_ElvenWoodLog.label>Elfenholz</DankPyon_ElvenWoodLog.label>
   <DankPyon_ElvenWoodLog.description>Flink, aber widerstandsfähig, sehr begehrt wegen seiner Schönheit und Stärke. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_ElvenWoodLog.description>
-  
+  <DankPyon_ElvenWoodLog.tools.0.label>Brett</DankPyon_ElvenWoodLog.tools.0.label>
+  <DankPyon_ElvenWoodLog.stuffProps.stuffAdjective>Elfenholz</DankPyon_ElvenWoodLog.stuffProps.stuffAdjective>
+
   <!-- Dryad Wood -->
   <DankPyon_DryadWoodLog.label>Dryadenholz</DankPyon_DryadWoodLog.label>
   <DankPyon_DryadWoodLog.description>Flink, aber widerstandsfähig, sehr begehrt wegen seiner Schönheit und Stärke. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_DryadWoodLog.description>
+  <DankPyon_DryadWoodLog.tools.0.label>Brett</DankPyon_DryadWoodLog.tools.0.label>
+  <DankPyon_DryadWoodLog.stuffProps.stuffAdjective>Dryadenholz</DankPyon_DryadWoodLog.stuffProps.stuffAdjective>
   
   <!-- Ancient Wood -->
   <DankPyon_AncientWoodLog.label>Altholz</DankPyon_AncientWoodLog.label>
   <DankPyon_AncientWoodLog.description>PLATZHALTER. Nützlich für den Bau von Strukturen und Waffen. Es ist ein guter Brennstoff für Lagerfeuer.</DankPyon_AncientWoodLog.description>
+  <DankPyon_AncientWoodLog.tools.0.label>Brett</DankPyon_AncientWoodLog.tools.0.label>
+  <DankPyon_AncientWoodLog.stuffProps.stuffAdjective>Altholz</DankPyon_AncientWoodLog.stuffProps.stuffAdjective>
+
   <DankPyon_Coal.label>Kohle-Brocken</DankPyon_Coal.label>
   <DankPyon_Coal.description>Kohle ist ein schwarzer, brennbarer Gesteinsbrocken, der hauptsächlich aus Kohlenstoff besteht. Eine gute Brennstoffquelle für Öfen und Schornsteine.</DankPyon_Coal.description>
   
@@ -44,7 +55,8 @@
   <DankPyon_IronOre.description>Roheisenerz, das in einer Schmelze zu Blöcken verarbeitet werden muss, um verwendbar zu sein.</DankPyon_IronOre.description>
   <DankPyon_IronIngot.label>Eisenbarren</DankPyon_IronIngot.label>
   <DankPyon_IronIngot.description>Ein Eisenbarren. Bereit für die Verwendung in Handwerk und Konstruktion.</DankPyon_IronIngot.description>
-  
+  <DankPyon_IronIngot.stuffProps.stuffAdjective>Eisen</DankPyon_IronIngot.stuffProps.stuffAdjective>
+ 
   <!--=============== Silver ====================-->
   <DankPyon_SilverOre.label>Silbererz</DankPyon_SilverOre.label>
   <DankPyon_SilverOre.description>Ein rohes Silbererz, das in einer Schmelze zu Barren verarbeitet werden muss, um verwendbar zu sein.</DankPyon_SilverOre.description>
@@ -60,7 +72,8 @@
   <!--=============== Bone ====================-->
   <DankPyon_Bone.label>Knochen</DankPyon_Bone.label>
   <DankPyon_Bone.description>Knochen von Tieren, einschließlich Menschen, können als allgemeines Material verwendet werden. Waffen und Rüstungen aus Knochen bieten eine geringe Haltbarkeit, aber einen zugänglichen Schutz. Gebäude und Kunstwerke mit Knocheneinlagen sind eine Zierde für ansonsten schlechte oder stumpfe Materialien. Obwohl sie leicht zu beschaffen sind, ist bei der Verwendung von Knochen für ganze Strukturen, wie etwa eine Wand oder eine Tür, Vorsicht geboten. Die beste Verwendung von Knochen, ob für Rüstungen oder Kunst, sollte darin bestehen, andere Materialien aufzuwerten.</DankPyon_Bone.description>
-  
+  <DankPyon_Bone.stuffProps.stuffAdjective>Knochen</DankPyon_Bone.stuffProps.stuffAdjective>
+ 
   <!--============================== Fabric ==============================-->
   <DankPyon_Linen.label>Leinen</DankPyon_Linen.label>
   <DankPyon_Linen.description>Ein elastischer Stoff aus getrockneten Flachsfasern.</DankPyon_Linen.description>
@@ -81,7 +94,7 @@
   <DankPyon_Onyx.description>Dieses schwarz-weiße Mineral wechselt seine Farben in parallelen Bändern ab, manchmal in Harmonie und manchmal in Unordnung. Die chaotischen Farben werten diesen Edelstein jedoch nicht ab, sondern erhöhen seinen Reichtum, vor allem bei Schnitzereien und Schmuckstücken.</DankPyon_Onyx.description>
   
   <!--=============== Emerald ====================-->
-  <DankPyon_Emerald.label>Emerald</DankPyon_Emerald.label>
+  <DankPyon_Emerald.label>Smaragd</DankPyon_Emerald.label>
   <DankPyon_Emerald.description>Ein widerstandsfähiger Edelstein mit überwiegend grünem Farbton. Der Wert, den dieser Kristall mit sich bringt, wertet jedes Ornament auf, sei es ein Edelstein auf einem Schwertgriff oder eine Verzierung in einem Ring.</DankPyon_Emerald.description>
   
   <!--=============== Sapphire ====================-->
